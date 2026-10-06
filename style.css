@@ -27,3 +27,5 @@ html{scroll-padding-top:16px}header{height:auto;min-height:100px;flex-wrap:wrap;
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 .trail-coverage{padding:12px;border:1px solid #88a98a44;border-radius:6px;color:#d8d6b0!important;font-size:14px!important;line-height:1.6!important;background:#12241e}.trail-coverage small{display:block;margin-top:6px;font-size:12px;color:#acbdac}
 footer{flex-wrap:wrap}.trade-table button{overflow-wrap:anywhere;min-width:0}.teacher-list>div{min-width:0}.teacher-list>div>div{min-width:0}.spell-facts dd,.server-facts dd{overflow-wrap:anywhere}@media(max-width:380px){.catalog-grid,.spell-facts{grid-template-columns:minmax(0,1fr)}.catalog-card-top{flex-direction:row;align-items:center}.trade-table>div{flex-wrap:wrap}.trade-table span{flex-basis:100%;order:3}.server-card{padding:18px}}
+
+.calc-tabs{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:24px}.calc-tabs button{min-height:44px}.calc-tabs [aria-pressed="true"]{border-color:var(--gold)}.calc-note{color:var(--muted);font-size:14px;line-height:1.7}.fields label{min-width:0}.result p{line-height:1.7}

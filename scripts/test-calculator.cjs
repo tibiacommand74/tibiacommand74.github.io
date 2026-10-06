@@ -1,0 +1,14 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const nodes=new Map();const node=id=>{if(!nodes.has(id))nodes.set(id,{value:'',innerHTML:'',querySelectorAll(){return[]}});return nodes.get(id)};
+const env={title:()=>'',fmt:n=>Math.round(n).toLocaleString('pt-BR'),esc:String,$:node,console};vm.createContext(env);vm.runInContext(fs.readFileSync('public/calculator.js','utf8'),env);const run=s=>vm.runInContext(s,env);
+const calc=o=>run('progressionNeed('+JSON.stringify(o)+')');const base={vocation:'Knight',skill:2,current:10,target:11,progress:0,rate:1};
+assert.equal(calc(base),50);assert.equal(calc({...base,target:12}),105);assert.equal(calc({...base,target:12,progress:50}),80);assert.equal(calc({...base,rate:2}),25);
+assert.equal(calc({...base,vocation:'Paladin',skill:4}),30);assert.equal(calc({...base,skill:5}),100);assert.equal(calc({...base,skill:6}),20);
+assert(calc({...base,current:50,target:51,vocation:'Sorcerer'})>calc({...base,current:50,target:51,vocation:'Druid'}));assert(calc({...base,current:50,target:51,vocation:'Druid'})>calc({...base,current:50,target:51}));
+const magic={...base,magic:true,current:0,target:1};assert.equal(calc(magic),400);assert.equal(calc({...magic,target:2}),1600);assert.equal(calc({...magic,target:2,rate:2,progress:50}),700);assert.equal(calc({...magic,vocation:'Druid',current:1,target:2}),440);
+for(const change of [{target:10},{current:9},{progress:100},{rate:0},{rate:NaN},{vocation:'bad'},{skill:9}])assert.throws(()=>calc({...base,...change}));
+const panel={innerHTML:'',querySelectorAll:()=>[]};run("calculatorMode='skills'");env.renderCalculator(panel);assert(node('#calculator-panel').innerHTML.includes('Sword fighting'));assert(node('#calculator-panel').innerHTML.includes('train-rate'));
+for(const [id,value] of Object.entries({'train-vocation':'Knight','train-skill':'2','train-current':'10','train-target':'12','train-progress':'50','train-rate':'1','train-hour':'1800'}))node('#'+id).value=value;
+assert.equal(env.calculateTraining().units,80);assert.equal(env.calculateTraining().minutes,3);node('#train-target').value='10';assert.equal(env.calculateTraining(),null);assert(node('#training-result').innerHTML.includes('error'));
+run("calculatorMode='magic'");env.renderCalculator(panel);assert(!node('#calculator-panel').innerHTML.includes('id="train-skill"'));assert(node('#calculator-panel').innerHTML.includes('Mana gasta'));
+console.log('PASS: skills por vocação, mana base 7.4, progressos, rates, limites e painéis separados');
