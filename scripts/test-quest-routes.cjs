@@ -3,7 +3,7 @@ const nodes=new Map(),ctx=new Proxy({},{get:(o,k)=>o[k]??(()=>{}),set:(o,k,v)=>(
 function node(id){if(!nodes.has(id))nodes.set(id,{value:'',hidden:false,checked:false,innerHTML:'',textContent:'',parentElement:{clientWidth:800,clientHeight:600},querySelectorAll:()=>[],close(){},addEventListener(){},getContext:()=>ctx});return nodes.get(id);}
 const env={window:{},document:{querySelector:node,querySelectorAll:()=>[]},localStorage:{getItem:()=>null,setItem(){}},Image:class{complete=false},ResizeObserver:class{observe(){}disconnect(){}},location:{hash:''},URL,console,setTimeout,clearTimeout};vm.createContext(env);
 for(const name of ['data.js','catalog-data.js','catalog.js','adventures.js','quest-catalog.js','quest-route-data.js','quest-map-guides.js','route-review.js','reports.js','quest-routes.js','hunt-data.js','hunt-paths.js','hunts.js'])vm.runInContext(fs.readFileSync('public/'+name,'utf8'),env);
-vm.runInContext(fs.readFileSync('public/app.js','utf8').split("\ndocument.querySelectorAll('nav button')")[0],env);
+vm.runInContext(fs.readFileSync('public/app.js','utf8').split("\ndocument.querySelectorAll('nav button[data-page]')")[0],env);
 const run=s=>vm.runInContext(s,env);
 assert.equal(Object.keys(env.window.QUEST_ROUTES).length,98);
 for(const route of Object.values(env.window.QUEST_ROUTES))for(const step of route.stages){assert(step.points.length);assert(step.floor>=0&&step.floor<=15);for(const p of step.points)assert.equal(p[2],step.floor);}
