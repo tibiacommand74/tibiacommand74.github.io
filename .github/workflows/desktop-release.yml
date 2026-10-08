@@ -32,6 +32,11 @@ jobs:
           $hash = (Get-FileHash source/Tibia-Command-Source-0.35.4.zip -Algorithm SHA256).Hash.ToLower()
           if ($hash -ne "afc937be8ab44f3292a3b19e813a04623b8978488c6515f034438ec6e865897f") { throw "Source integrity mismatch" }
           Expand-Archive source/Tibia-Command-Source-0.35.4.zip -DestinationPath source
+          $testFile = "source/Tibia-Command-VSCode/tests/desktop.test.cjs"
+          $testSource = Get-Content $testFile -Raw
+          $testSource = $testSource.Replace("assert.equal(spawned.options.env.TIBIA_DATA_DIR,'/local/TibiaCommand')", "assert.equal(spawned.options.env.TIBIA_DATA_DIR,path.join('/local','TibiaCommand'))")
+          Set-Content $testFile $testSource -Encoding utf8
+          Compress-Archive source/Tibia-Command-VSCode -DestinationPath source/Tibia-Command-Source-0.35.4.zip -Force
       - name: Install locked dependencies
         working-directory: source/Tibia-Command-VSCode
         run: |
@@ -85,7 +90,7 @@ jobs:
           GH_REPO: ${{ github.repository }}
         working-directory: source/Tibia-Command-VSCode
         run: |
-          gh release upload v0.35.4 dist-desktop/Tibia-Command-Desktop-Setup-0.35.4.exe dist-desktop/SHA256SUMS.txt
+          gh release upload v0.35.4 dist-desktop/Tibia-Command-Desktop-Setup-0.35.4.exe dist-desktop/SHA256SUMS.txt ../Tibia-Command-Source-0.35.4.zip --clobber
           if ($LASTEXITCODE -ne 0) { throw "Release upload failed" }
           gh release edit v0.35.4 --draft=false --latest
           if ($LASTEXITCODE -ne 0) { throw "Release publication failed" }
