@@ -6,9 +6,9 @@ for(const name of ['data.js','catalog-data.js','catalog.js','adventures.js','que
 vm.runInContext(fs.readFileSync('public/app.js','utf8').split("\ndocument.querySelectorAll('nav button[data-page]')")[0],env);
 const run=s=>vm.runInContext(s,env);
 assert.equal(Object.keys(env.window.QUEST_ROUTES).length,98);
-assert.equal(run("QUESTS.filter(q=>q.historicalStatus==='documentada').length"),62);
-run("questHistory='confirmed'");assert.equal(run('questRows().length'),62);assert(run("questRows().every(q=>q.introducedVersion&&q.category!=='respawn')"));
-run("questHistory='review'");assert.equal(run('questRows().length'),36);
+assert.equal(run("QUESTS.filter(q=>q.historicalStatus==='documentada').length"),63);
+run("questHistory='confirmed'");assert.equal(run('questRows().length'),63);assert(run("questRows().every(q=>(q.introducedVersion||q.documentedByVersion)&&q.category!=='respawn')"));
+run("questHistory='review'");assert.equal(run('questRows().length'),35);
 run("questHistory='respawn'");assert.equal(run('questRows().length'),2);
 assert.equal(run("QUESTS.find(q=>q.id==='serpentine-tower').city"),'Ankrahmun');
 run("questHistory='all'");
