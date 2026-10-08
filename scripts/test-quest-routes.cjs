@@ -6,6 +6,12 @@ for(const name of ['data.js','catalog-data.js','catalog.js','adventures.js','que
 vm.runInContext(fs.readFileSync('public/app.js','utf8').split("\ndocument.querySelectorAll('nav button[data-page]')")[0],env);
 const run=s=>vm.runInContext(s,env);
 assert.equal(Object.keys(env.window.QUEST_ROUTES).length,98);
+assert.equal(run("QUESTS.filter(q=>q.historicalStatus==='documentada').length"),62);
+run("questHistory='confirmed'");assert.equal(run('questRows().length'),62);assert(run("questRows().every(q=>q.introducedVersion&&q.category!=='respawn')"));
+run("questHistory='review'");assert.equal(run('questRows().length'),36);
+run("questHistory='respawn'");assert.equal(run('questRows().length'),2);
+assert.equal(run("QUESTS.find(q=>q.id==='serpentine-tower').city"),'Ankrahmun');
+run("questHistory='all'");
 for(const route of Object.values(env.window.QUEST_ROUTES))for(const step of route.stages){assert(step.points.length);assert(step.floor>=0&&step.floor<=15);for(const p of step.points)assert.equal(p[2],step.floor);}
 run("openQuestRoute('fibula');bindMap()");assert.equal(run('mapState.z'),7);assert.equal(node('#quest-trail').hidden,false);assert(node('#quest-trail').innerHTML.includes('Etapa 1'));
 const count=run("window.QUEST_ROUTES.fibula.stages.length");run(`questRouteFocus(${count-1})`);assert.equal(run('mapState.z'),10);assert.equal(node('#floor').value,'10');assert(node('#quest-trail').innerHTML.includes('Teleport de saída'));
