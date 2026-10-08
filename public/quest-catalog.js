@@ -641,17 +641,19 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "note": "Referência do clássico: nível de porta não é recomendação de combate. Servidores podem alterar recipientes, requisitos e recompensas.",
     "sources": [
+      "https://tibicam.com/video/fuwapiwu-tibia-73-40ea53c1",
       "https://tibia.fandom.com/index.php?oldid=63276",
       "https://tibia.fandom.com/index.php?oldid=40697",
       "https://tibia.fandom.com/wiki/Crusader_Helmet_Quest/Spoiler"
     ],
     "aliases": "Crusader Helmet Quest ",
     "category": "exploração",
-    "historicalStatus": "incerta",
+    "historicalStatus": "documentada",
     "region": "mainland",
     "introducedVersion": null,
-    "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
-    "reviewedAt": "2026-10-08"
+    "historicalNote": "Presença documentada em uma gravação arquivada do Tibia 7.3. A versão exata de introdução continua desconhecida.",
+    "reviewedAt": "2026-10-08",
+    "documentedByVersion": "7.3"
   },
   {
     "id": "crystal-wand",
