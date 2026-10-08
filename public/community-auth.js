@@ -10,6 +10,9 @@
  async function token(){await ready();if(!client)return null;const {data,error}=await client.auth.getSession();if(error)throw Error(errorText(error));return data.session?.access_token||null;}
  const redirectTo=()=>location.origin===API?API+'/classificados.html':'https://tibiacommand74.github.io/#classificados';
  window.CommunityAuth={ready,token,isRecovery:()=>recovery,
+  async feedbackUser(){const c=await requireClient();const {data,error}=await c.auth.getUser();if(error)return null;return data.user?{alias:data.user.user_metadata?.communityProfile?.alias||''}:null;},
+  async feedbackList(category='',page=0){const c=await requireClient();let q=c.from('community_feedback').select('id,alias,category,rating,message,created_at',{count:'exact'}).order('created_at',{ascending:false}).range(page*20,page*20+19);if(category)q=q.eq('category',category);const {data,count,error}=await q;if(error)throw Error('Não foi possível carregar os comentários. Tente novamente.');return {rows:data||[],total:count||0};},
+  async feedbackSend(entry){const c=await requireClient();const {error}=await c.from('community_feedback').insert(entry);if(error)throw Error(/Aguarde|limite/.test(error.message)?error.message:'Não foi possível publicar. Confira sua conta e tente novamente.');},
   async signIn(email,password){const c=await requireClient();const {error}=await c.auth.signInWithPassword({email,password});if(error)throw Error(errorText(error));},
   async signUp(email,password,profile){const c=await requireClient();const {data,error}=await c.auth.signUp({email,password,options:{emailRedirectTo:redirectTo(),data:{communityProfile:profile}}});if(error)throw Error(errorText(error));return {signedIn:!!data.session};},
   async recover(email){const c=await requireClient();const {error}=await c.auth.resetPasswordForEmail(email,{redirectTo:redirectTo()});if(error)throw Error(errorText(error));},
