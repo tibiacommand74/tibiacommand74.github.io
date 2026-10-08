@@ -25,6 +25,7 @@ jobs:
         run: |
           node scripts/test-visits.cjs
           node scripts/test-downloads.cjs
+          node scripts/test-catalog.cjs
           node scripts/test-calculator.cjs
           node scripts/test-launch-pages.cjs
           node scripts/test-quest-routes.cjs
