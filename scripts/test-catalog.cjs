@@ -16,4 +16,8 @@ run("catalogVocation='';detailSpell('Antidote')");assert(node('#detail-body').in
 for(const s of d.spells.filter(s=>s.runeId&&d.items.some(i=>i.id===s.runeId)))assert.equal(s.image,d.items.find(i=>i.id===s.runeId)?.image);
 for(const [id,target]of Object.entries(d.itemAliases))assert(d.items.some(i=>String(i.id)===String(target)),id);
 for(const f of ['catalog.js','catalog-data.js','index.html'])assert.equal(fs.readFileSync(f,'utf8'),fs.readFileSync('public/'+f,'utf8'));
+assert(d.items.every(i=>i.image),'Todos os itens exibidos devem ter imagem');
+assert(!d.items.some(i=>['bear paw','wolf paw','sniper gloves','cough syrup','holy tible','juice squeezer'].includes(i.name)));
+for(const n of d.npcs)for(const f of ['buy','sell'])assert(!n[f].some(o=>['bear paw','wolf paw','sniper gloves','cough syrup','holy tible','juice squeezer'].includes(o.item)));
+assert.equal(d.itemAliases['ref-rat'],2813);assert.equal(d.itemAliases['ref-waterhose'],2031);
 console.log('PASS: biblioteca sem aba Serviços, 7 conjurações com imagens, aliases, preços e imagens de runas');
