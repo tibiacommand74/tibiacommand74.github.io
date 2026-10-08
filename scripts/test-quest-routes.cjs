@@ -14,6 +14,11 @@ assert.equal(run("QUESTS.find(q=>q.id==='serpentine-tower').city"),'Ankrahmun');
 run("questHistory='all'");
 for(const route of Object.values(env.window.QUEST_ROUTES))for(const step of route.stages){assert(step.points.length);assert(step.floor>=0&&step.floor<=15);for(const p of step.points)assert.equal(p[2],step.floor);}
 run("openQuestRoute('fibula');bindMap()");assert.equal(run('mapState.z'),7);assert.equal(node('#quest-trail').hidden,false);assert(node('#quest-trail').innerHTML.includes('Etapa 1'));
+for(let floor=8;floor<=15;floor++){node('#floor-down').onclick();assert.equal(run('mapState.z'),floor);assert.equal(node('#floor').value,String(floor));}
+assert.equal(node('#floor-down').disabled,true);node('#floor-down').onclick();assert.equal(run('mapState.z'),15);
+for(let floor=14;floor>=0;floor--){node('#floor-up').onclick();assert.equal(run('mapState.z'),floor);}
+assert.equal(node('#floor-up').disabled,true);node('#floor-up').onclick();assert.equal(run('mapState.z'),0);
+node('#floor').onchange({target:{value:'7'}});assert.equal(run('mapState.z'),7);
 const count=run("window.QUEST_ROUTES.fibula.stages.length");run(`questRouteFocus(${count-1})`);assert.equal(run('mapState.z'),10);assert.equal(node('#floor').value,'10');assert(node('#quest-trail').innerHTML.includes('Teleport de saída'));
 node('#trail-prev').onclick();assert.equal(run('questRouteIndex'),count-2);node('#trail-next').onclick();assert.equal(run('questRouteIndex'),count-1);
 run('questRouteFocus(999)');assert.equal(run('questRouteIndex'),count-1);run('questRouteFocus(-5)');assert.equal(run('questRouteIndex'),0);
