@@ -1,0 +1,91 @@
+name: Build Tibia Command Desktop
+on:
+  push:
+    paths:
+      - '.github/workflows/desktop-release.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: desktop-release-0354
+  cancel-in-progress: false
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.23.0'
+      - name: Download reviewed source
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh release download v0.35.4 --pattern Tibia-Command-Source-0.35.4.zip --dir source
+          if ($LASTEXITCODE -ne 0) { throw "Source download failed" }
+          $hash = (Get-FileHash source/Tibia-Command-Source-0.35.4.zip -Algorithm SHA256).Hash.ToLower()
+          if ($hash -ne "afc937be8ab44f3292a3b19e813a04623b8978488c6515f034438ec6e865897f") { throw "Source integrity mismatch" }
+          Expand-Archive source/Tibia-Command-Source-0.35.4.zip -DestinationPath source
+      - name: Install locked dependencies
+        working-directory: source/Tibia-Command-VSCode
+        run: |
+          npm ci
+          if ($LASTEXITCODE -ne 0) { throw "Dependency install failed" }
+      - name: Validate application
+        working-directory: source/Tibia-Command-VSCode
+        run: |
+          npm run check
+          if ($LASTEXITCODE -ne 0) { throw "Syntax checks failed" }
+          npm test
+          if ($LASTEXITCODE -ne 0) { throw "Application tests failed" }
+      - name: Build Windows installer
+        working-directory: source/Tibia-Command-VSCode
+        run: |
+          npm run dist:win
+          if ($LASTEXITCODE -ne 0) { throw "Installer build failed" }
+          $setup = Get-Item dist-desktop/Tibia-Command-Desktop-Setup-0.35.4.exe
+          if ($setup.Length -lt 50000000) { throw "Installer unexpectedly small" }
+          $quests = Get-Content dist-desktop/win-unpacked/resources/program/src/quests.js -Raw
+          if (-not $quests.Contains("documentedByVersion")) { throw "Reviewed catalog missing" }
+          if (-not (Test-Path dist-desktop/win-unpacked/resources/runtime/node.exe)) { throw "Windows runtime missing" }
+          $hash = (Get-FileHash $setup -Algorithm SHA256).Hash.ToLower()
+          "$hash  Tibia-Command-Desktop-Setup-0.35.4.exe" | Set-Content dist-desktop/SHA256SUMS.txt
+      - name: Smoke test installed desktop on Windows
+        working-directory: source/Tibia-Command-VSCode
+        run: |
+          $installDir = Join-Path $env:RUNNER_TEMP "TibiaCommandSmoke"
+          $setup = Resolve-Path dist-desktop/Tibia-Command-Desktop-Setup-0.35.4.exe
+          $installer = Start-Process -FilePath $setup -ArgumentList "/S", "/D=$installDir" -Wait -PassThru
+          if ($installer.ExitCode -ne 0) { throw "Silent installation failed" }
+          $exe = Join-Path $installDir "Tibia Command.exe"
+          if (-not (Test-Path $exe)) { throw "Installed desktop executable missing" }
+          $desktop = Start-Process -FilePath $exe -PassThru
+          try {
+            $ready = $false
+            for ($i=0; $i -lt 30; $i++) {
+              Start-Sleep -Seconds 1
+              try {
+                $health = Invoke-RestMethod http://127.0.0.1:7474/api/health -TimeoutSec 2
+                if ($health.app -eq "tibia-command") { $ready = $true; break }
+              } catch {}
+            }
+            if (-not $ready) { throw "Installed application did not start its backend" }
+          } finally {
+            taskkill /PID $desktop.Id /T /F
+          }
+      - name: Publish verified installer
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        working-directory: source/Tibia-Command-VSCode
+        run: |
+          gh release upload v0.35.4 dist-desktop/Tibia-Command-Desktop-Setup-0.35.4.exe dist-desktop/SHA256SUMS.txt
+          if ($LASTEXITCODE -ne 0) { throw "Release upload failed" }
+          gh release edit v0.35.4 --draft=false --latest
+          if ($LASTEXITCODE -ne 0) { throw "Release publication failed" }
