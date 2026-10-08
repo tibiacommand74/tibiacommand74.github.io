@@ -1,0 +1,272 @@
+{
+  "imagesRecovered": [
+    {
+      "id": "ref-barrel",
+      "name": "barrel",
+      "clientItemId": 1770
+    },
+    {
+      "id": "ref-beer",
+      "name": "beer",
+      "clientItemId": 2006
+    },
+    {
+      "id": "ref-bigtable",
+      "name": "big table",
+      "clientItemId": 1602
+    },
+    {
+      "id": "ref-birdcage",
+      "name": "birdcage",
+      "clientItemId": 2094
+    },
+    {
+      "id": "ref-coalbasin",
+      "name": "coal basin",
+      "clientItemId": 1481
+    },
+    {
+      "id": 2369,
+      "name": "cornucopia",
+      "clientItemId": 2369
+    },
+    {
+      "id": "ref-drawer",
+      "name": "drawer",
+      "clientItemId": 1714
+    },
+    {
+      "id": "ref-dresser",
+      "name": "dresser",
+      "clientItemId": 1724
+    },
+    {
+      "id": "ref-football",
+      "name": "football",
+      "clientItemId": 2109
+    },
+    {
+      "id": "ref-globe",
+      "name": "globe",
+      "clientItemId": 2098
+    },
+    {
+      "id": "ref-goblinstatue",
+      "name": "goblin statue",
+      "clientItemId": 1447
+    },
+    {
+      "id": "ref-greencushionedchair",
+      "name": "green cushioned chair",
+      "clientItemId": 1670
+    },
+    {
+      "id": "ref-harp",
+      "name": "harp",
+      "clientItemId": 2084
+    },
+    {
+      "id": "ref-indoorplant",
+      "name": "indoor plant",
+      "clientItemId": 2101
+    },
+    {
+      "id": "ref-knightstatue",
+      "name": "knight statue",
+      "clientItemId": 1444
+    },
+    {
+      "id": "ref-largeamphora",
+      "name": "large amphora",
+      "clientItemId": 2034
+    },
+    {
+      "id": "ref-lemonade",
+      "name": "lemonade",
+      "clientItemId": 2006
+    },
+    {
+      "id": "ref-lifefluid",
+      "name": "life fluid",
+      "clientItemId": 2006
+    },
+    {
+      "id": "ref-locker",
+      "name": "locker",
+      "clientItemId": 1732
+    },
+    {
+      "id": "ref-manafluid",
+      "name": "mana fluid",
+      "clientItemId": 2006
+    },
+    {
+      "id": "ref-milk",
+      "name": "milk",
+      "clientItemId": 2006
+    },
+    {
+      "id": "ref-minotaurstatue",
+      "name": "minotaur statue",
+      "clientItemId": 1446
+    },
+    {
+      "id": "ref-oil",
+      "name": "oil",
+      "clientItemId": 2006
+    },
+    {
+      "id": "ref-pendulumclock",
+      "name": "pendulum clock",
+      "clientItemId": 1728
+    },
+    {
+      "id": "ref-piano",
+      "name": "piano",
+      "clientItemId": 2080
+    },
+    {
+      "id": "ref-rat",
+      "name": "rat",
+      "clientItemId": 2813
+    },
+    {
+      "id": "ref-redcushionedchair",
+      "name": "red cushioned chair",
+      "clientItemId": 1666
+    },
+    {
+      "id": "ref-rockingchair",
+      "name": "rocking chair",
+      "clientItemId": 1674
+    },
+    {
+      "id": "ref-rockinghorse",
+      "name": "rocking horse",
+      "clientItemId": 2116
+    },
+    {
+      "id": "ref-roundtable",
+      "name": "round table",
+      "clientItemId": 1616
+    },
+    {
+      "id": "ref-smalltable",
+      "name": "small table",
+      "clientItemId": 1619
+    },
+    {
+      "id": "ref-sofachair",
+      "name": "sofa chair",
+      "clientItemId": 1658
+    },
+    {
+      "id": "ref-squaretable",
+      "name": "square table",
+      "clientItemId": 1615
+    },
+    {
+      "id": "ref-tablelamp",
+      "name": "table lamp",
+      "clientItemId": 2064
+    },
+    {
+      "id": "ref-telescope",
+      "name": "telescope",
+      "clientItemId": 2581
+    },
+    {
+      "id": "ref-trough",
+      "name": "trough",
+      "clientItemId": 1775
+    },
+    {
+      "id": "ref-trunk",
+      "name": "trunk",
+      "clientItemId": 1750
+    },
+    {
+      "id": "ref-water",
+      "name": "water",
+      "clientItemId": 2006
+    },
+    {
+      "id": "ref-waterhose",
+      "name": "water hose",
+      "clientItemId": 2031
+    },
+    {
+      "id": "ref-wheat",
+      "name": "wheat",
+      "clientItemId": 2737
+    },
+    {
+      "id": "ref-wine",
+      "name": "wine",
+      "clientItemId": 2006
+    },
+    {
+      "id": "ref-woodenchair",
+      "name": "wooden chair",
+      "clientItemId": 1650
+    }
+  ],
+  "excludedReferences": [
+    {
+      "id": "ref-bearpaw",
+      "name": "bear paw",
+      "reason": "Introduzido após 7.4",
+      "introducedVersion": "7.8",
+      "source": "https://www.tibiawiki.com.br/wiki/Bear_Paw"
+    },
+    {
+      "id": "ref-coughsyrup",
+      "name": "cough syrup",
+      "reason": "Introduzido após 7.4",
+      "introducedVersion": "7.6",
+      "source": "https://www.tibiawiki.com.br/wiki/Flask_of_Cough_Syrup"
+    },
+    {
+      "id": "ref-holytible",
+      "name": "holy tible",
+      "reason": "Introduzido após 7.4",
+      "introducedVersion": "7.9",
+      "source": "https://www.tibiawiki.com.br/wiki/The_Holy_Tible"
+    },
+    {
+      "id": "ref-juicesqueezer",
+      "name": "juice squeezer",
+      "reason": "Sem correspondência comprovada na base 7.4; retirado da lista clássica até confirmação"
+    },
+    {
+      "id": "ref-snipergloves",
+      "name": "sniper gloves",
+      "reason": "Introduzido após 7.4",
+      "introducedVersion": "7.8",
+      "source": "https://www.tibiawiki.com.br/wiki/Sniper_Gloves"
+    },
+    {
+      "id": "ref-wolfpaw",
+      "name": "wolf paw",
+      "reason": "Introduzido após 7.4",
+      "introducedVersion": "7.8",
+      "source": "https://www.tibiawiki.com.br/wiki/Wolf_Paw"
+    }
+  ],
+  "sources": [
+    "https://github.com/Inconcessus/html5-tibia-client",
+    "https://github.com/Inconcessus/html5-tibia-engine"
+  ],
+  "pendingImages": [],
+  "items": 679,
+  "mergedDuplicates": [
+    {
+      "alias": "rat",
+      "itemId": 2813
+    },
+    {
+      "alias": "water hose",
+      "itemId": 2031
+    }
+  ]
+}
