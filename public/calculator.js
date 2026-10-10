@@ -17,7 +17,7 @@ function progressionNeed({vocation,skill,current,target,progress,rate,magic=fals
 }
 function calcHours(minutes){return `${fmt(Math.floor(minutes/60))}h ${minutes%60}min`;}
 function renderCalculator(el){
- el.innerHTML=title('Calculadora de evolução','Planeje seu level, skills e magic level.')+`<div class="calc-tabs" role="group" aria-label="Tipo de cálculo">${[['level','Level / XP'],['skills','Skills'],['magic','Magic Level']].map(([id,label])=>`<button type="button" class="action ${calculatorMode===id?'':'secondary'}" data-calculator="${id}" aria-pressed="${calculatorMode===id}">${label}</button>`).join('')}</div><div id="calculator-panel"></div>`;
+ el.innerHTML=title('Calculadora de evolução','Planeje seu level, skills e magic level.')+`<div class="tc-links"><a href="#mana">Mana e produção de runas</a><a href="#equipamentos">Comparador de equipamentos</a></div><div class="calc-tabs" role="group" aria-label="Tipo de cálculo">${[['level','Level / XP'],['skills','Skills'],['magic','Magic Level']].map(([id,label])=>`<button type="button" class="action ${calculatorMode===id?'':'secondary'}" data-calculator="${id}" aria-pressed="${calculatorMode===id}">${label}</button>`).join('')}</div><div id="calculator-panel"></div>`;
  el.querySelectorAll('[data-calculator]').forEach(button=>button.onclick=()=>{saveCalculatorValues();calculatorMode=button.dataset.calculator;renderCalculator(el);});
  const panel=$('#calculator-panel');
  if(calculatorMode==='level'){
