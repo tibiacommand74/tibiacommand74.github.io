@@ -1,0 +1,39 @@
+name: Publish community minimaps
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/minimap-release.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: minimap-release-20261010
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate map packages
+        run: |
+          unzip -t public/assets/downloads/minimap-tibia74.zip
+          unzip -t public/assets/downloads/minimapa-hunts-quests-tibia74.zip
+      - name: Publish the existing ZIPs with download statistics
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          tag=minimapas-20261010
+          if ! gh release view "$tag" >/dev/null 2>&1; then
+            gh release create "$tag" --target "$GITHUB_SHA" --title "Minimapas Tibia Command 7.4" --notes "Dois pacotes: minimapa completo e minimapa com 14 hunts e 60 entradas de quests. Instruções no site e no pacote com marcações. Guarde um backup antes de substituir arquivos do Mythera." --latest=false
+          fi
+          for name in minimap-tibia74.zip minimapa-hunts-quests-tibia74.zip; do
+            if ! gh release view "$tag" --json assets --jq '.assets[].name' | grep -Fxq "$name"; then
+              gh release upload "$tag" "public/assets/downloads/$name"
+            fi
+          done
