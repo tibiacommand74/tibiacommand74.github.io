@@ -8,6 +8,6 @@
  document.addEventListener('click',event=>{if(!event.target.closest('header'))window.closeSiteMenu();});
  document.addEventListener('keydown',event=>{if(event.key!=='Escape')return;const active=groups.find(group=>group.open);if(active){active.open=false;active.querySelector('summary').focus();}else if(toggle.getAttribute('aria-expanded')==='true'){window.closeSiteMenu();toggle.focus();}});
  document.querySelector('.program-nav-link')?.addEventListener('click',()=>window.closeSiteMenu());
- window.updateNavigation=p=>{groups.forEach(group=>{const active=[...group.querySelectorAll('[data-page]')].some(button=>button.dataset.page===p);group.querySelector('summary').classList.toggle('active',active);group.querySelectorAll('[data-catalog-target]').forEach(button=>button.classList.toggle('active',p==='biblioteca'&&button.dataset.catalogTarget===catalogTab));});document.querySelector('.program-nav-link')?.classList.toggle('active',p==='programa');};
+ window.updateNavigation=p=>{groups.forEach(group=>{const active=[...group.querySelectorAll('[data-page]')].some(button=>button.dataset.page===p);group.querySelector('summary').classList.toggle('active',active);group.querySelectorAll('[data-catalog-target]').forEach(button=>button.classList.toggle('active',p==='biblioteca'&&button.dataset.catalogTarget===catalogTab));});document.querySelector('.program-nav-link')?.classList.toggle('active',p==='downloads');};
  window.addEventListener('resize',()=>{if(window.innerWidth>1050)window.closeSiteMenu();});
 })();
