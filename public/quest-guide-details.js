@@ -15,7 +15,8 @@
     [tombs]: wiki + 'The_Ancient_Tombs_Quest'
   };
   const patch = (id, i, data) => Object.assign(routes[id].stages[i], data);
-  const talk = (id, i, commands, data = {}) => patch(id, i, { commands, ...data });
+  const postSpeakers={0:'Kevin',1:'Captain Bluebear',2:'Uzon',3:'Captain Seahorse',4:'Brodrosch',5:'Kevin',7:'Kevin',8:'A Strange Fellow',9:'Kevin',10:'Dermot',11:'Kevin',12:'Hugo',13:'Kevin',14:'Talphion',15:'Kevin',16:'Queen Eloise',17:'Kevin',18:'Noodles',19:'Kevin',20:'Hugo',21:'Kevin',22:'Benjamin',23:'Liane',24:'Olrik',25:'Lokur',26:'Kroox',27:'Dove',28:'Chrystal',29:'Kevin',31:'Kevin',33:'Kevin',34:'Markwin',35:'Kevin'};
+  const talk = (id, i, commands, data = {}) => patch(id, i, { commands, speaker:id===post?postSpeakers[i]:routes[id].stages[i].label.split('·')[0].trim(), ...data });
   for (const [id, url] of Object.entries(source)) {
     routes[id].detailReviewedAt = '12/10/2026';
     routes[id].sources = [...new Set([url, ...(routes[id].sources || [])])];
@@ -96,7 +97,7 @@
     ['Rahemos','Ancient Rune','Helmet Piece','Alavancas, paredes falsas e lava; acompanhe as imagens dos mecanismos.']
   ];
   parts.forEach(([boss,item,part,puzzle],i) => patch(tombs,i,{action:puzzle,objective:item+' → '+part,detailSource:source[tombs]+'#'+boss,visualRequired:[0,1,4,5,6].includes(i)}));
-  talk(tombs,1,['hi'],{commandNote:'À estátua de cobra, depois dos mecanismos e enquanto estiver envenenado.'});
+  talk(tombs,1,['hi'],{speaker:'Estátua de cobra',commandNote:'À estátua de cobra, depois dos mecanismos e enquanto estiver envenenado.'});
   patch(tombs,7,{action:'Reúna as sete peças na mesa, um jogador por vez; entre e saia do piso especial.',detailSource:source[tombs]+'#The_Helmet_of_the_Ancients'});
   // Desert: configuração de quatro vocações da referência 7.4.
   [[1,'Spellbook',32679,32089],[2,'Apple',32667,32089],[3,'Crossbow',32673,32083],[4,'Sword',32673,32094]].forEach(([i,item,x,y]) => patch(desert,i,{action:'Coloque '+item+' no altar '+x+', '+y+', 8. O personagem fica no piso indicado pelo marcador.'}));
@@ -107,7 +108,7 @@
   const floor = z => z===7?'Superfície':z>7?'Subsolo '+(z-7):'Acima +'+(7-z);
   window.questStageExtras = function (id,i) {
     const s=routes[id]?.stages[i]; if(!s)return '';
-    return `${s.warning?`<p class="guide-warning"><b>Atenção:</b> ${safe(s.warning)}</p>`:''}${s.before?`<p><b>Antes de sair:</b> ${safe(s.before)}</p>`:''}${s.arrival?`<p><b>Como chegar:</b> ${safe(s.arrival)}</p>`:''}${s.action?`<p><b>O que fazer:</b> ${safe(s.action)}</p>`:''}${s.objective?`<p class="guide-objective"><b>Item de passagem e peça:</b> ${safe(s.objective)}</p>`:''}${s.commands?.length?`<div class="guide-dialogue"><b>O que falar · uma mensagem por vez</b>${s.commandNote?`<p>${safe(s.commandNote)}</p>`:''}<ol>${s.commands.map((c,n)=>`<li><code>${safe(c)}</code><button type="button" data-copy-quest-command="${safe(c)}" aria-label="Copiar fala ${n+1}: ${safe(c)}">Copiar</button></li>`).join('')}</ol><small>Espere a resposta do NPC antes da próxima fala. Confirme que a missão anterior foi entregue.</small><p class="guide-copy-status" role="status" aria-live="polite"></p></div>`:''}${s.detailSource?`<a class="guide-source" href="${safe(s.detailSource)}" target="_blank" rel="noopener noreferrer">${s.visualRequired?'Ver sequência e imagens do mecanismo ↗':'Consultar referência desta etapa ↗'}</a>`:''}`;
+    return `${s.warning?`<p class="guide-warning"><b>Atenção:</b> ${safe(s.warning)}</p>`:''}${s.before?`<p><b>Antes de sair:</b> ${safe(s.before)}</p>`:''}${s.arrival?`<p><b>Como chegar:</b> ${safe(s.arrival)}</p>`:''}${s.action?`<p><b>O que fazer:</b> ${safe(s.action)}</p>`:''}${s.objective?`<p class="guide-objective"><b>Item de passagem e peça:</b> ${safe(s.objective)}</p>`:''}${s.commands?.length?`<div class="guide-dialogue"><b class="guide-dialogue-title">${s.speaker?'Fale com '+safe(s.speaker):'Falas do NPC'}</b><small class="guide-dialogue-hint">Envie uma fala por vez.</small>${s.commandNote?`<p>${safe(s.commandNote)}</p>`:''}<ol role="list">${s.commands.map((c,n)=>`<li><span class="guide-command-number" aria-hidden="true">${n+1}</span><code>${safe(c)}</code><button type="button" data-copy-quest-command="${safe(c)}" aria-label="Copiar fala ${n+1}: ${safe(c)}">Copiar</button></li>`).join('')}</ol><small>Espere o NPC responder antes de continuar.</small><p class="guide-copy-status" role="status" aria-live="polite"></p></div>`:''}${s.detailSource?`<a class="guide-source" href="${safe(s.detailSource)}" target="_blank" rel="noopener noreferrer">${s.visualRequired?'Ver sequência e imagens do mecanismo ↗':'Consultar referência desta etapa ↗'}</a>`:''}`;
   };
   window.questDetailedGuide = function(id) {
     const guide=routes[id];if(!guide?.stages.length||guide.coverage==='area')return '';
