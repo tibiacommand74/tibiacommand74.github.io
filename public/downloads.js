@@ -3,9 +3,10 @@
  const API='https://api.github.com/repos/tibiacommand74/tibiacommand74.github.io/releases';
  let cached=null,lastUpdated=0,pending=null;
  async function load(){
+  if(window.loadDownloadTotals){try{const data=await window.loadDownloadTotals();cached=data.program;lastUpdated=Date.now();return cached;}catch{}}
   let total=0;
   for(let page=1;page<=10;page++){
-   const response=await fetch(`${API}?per_page=100&page=${page}`,{headers:{Accept:'application/vnd.github+json'},cache:'no-store',signal:AbortSignal.timeout(15000)});
+   const response=await fetch(`${API}?per_page=100&page=${page}`,{headers:{Accept:'application/vnd.github+json'},cache:'default',signal:AbortSignal.timeout(15000)});
    if(!response.ok)throw Error('Consulta indisponível');
    const releases=await response.json();
    if(!Array.isArray(releases))throw Error('Resposta inválida');
@@ -51,7 +52,8 @@
  const names=['minimap-tibia74.zip','minimapa-hunts-quests-tibia74.zip'];
  let cached=null,lastUpdated=0,pending=null;
  async function load(){
-  const response=await fetch(API,{headers:{Accept:'application/vnd.github+json'},cache:'no-store',signal:AbortSignal.timeout(15000)});
+  if(window.loadDownloadTotals){try{const data=await window.loadDownloadTotals();cached=data.maps;lastUpdated=Date.now();return cached;}catch{}}
+  const response=await fetch(API,{headers:{Accept:'application/vnd.github+json'},cache:'default',signal:AbortSignal.timeout(15000)});
   if(!response.ok)throw Error('Consulta indisponível');
   const release=await response.json();
   if(release.draft||!Array.isArray(release.assets))throw Error('Resposta inválida');
@@ -89,3 +91,4 @@
   }
  };
 })();
+
