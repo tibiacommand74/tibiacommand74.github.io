@@ -54,9 +54,9 @@
   talk(green,4,['hi','prison','ankrahmun','supplies']);
   talk(green,5,["DJANNI'HAH",'mission','yes','partos']);
   [6,9,10,13].forEach(i => talk(green,i,["DJANNI'HAH",'mission','yes']));
-  patch(green,3,{action:'Adquira uma Waterpipe com Shauna em Carlin; guarde-a para trocar pela Tear of Daraman.',detailSource:wiki+'Shauna'});
+  talk(green,3,['hi','waterpipe','prisoner'],{action:'Pergunte a Shauna pelo antigo prisioneiro e siga a pista até Thais.',detailSource:wiki+'Shauna'});
   patch(green,7,{arrival:'Suba a rampa 33178, 32557, 7; vá oeste, desça e entre pelo sul.',warning:'Entrada secreta: a torre rival contém inimigos.'});
-  patch(green,8,{action:'Use a Waterpipe na fonte para obter a Tear of Daraman.'});
+  patch(green,8,{action:'Use a fonte ao norte e recolha a Tear of Daraman que aparece no chão.'});
   patch(green,12,{action:'Use a Gemmed Lamp na lâmpada do quarto de Gabel e volte a Malor.'});
   talk(blue,1,["DJANNI'HAH",'passage','yes','yes'],{warning:'Escolha permanente: você se alia aos Blue Djinns.'});
   talk(blue,2,['hi','mission','yes']);
