@@ -30,6 +30,7 @@ jobs:
           node scripts/test-quest-version-policy.cjs
           node scripts/test-quest-history-review.cjs
           node scripts/test-visits.cjs
+          node scripts/test-analytics.cjs
           node scripts/test-downloads.cjs
           node scripts/test-map-downloads.cjs
           node scripts/test-catalog.cjs

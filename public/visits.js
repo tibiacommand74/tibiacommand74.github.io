@@ -42,9 +42,10 @@
   try{
    excluded=!excluded;localStorage.setItem(EXCLUDED,excluded?'1':'0');
    if(!excluded){session=null;localStorage.removeItem(SESSION);}
-   await refresh();
+   await refresh();window.dispatchEvent(new Event('tc74-visit-preference'));
   }catch{storage=false;excluded=true;preference();}
  };
  window.addEventListener('storage',e=>{if(e.key===EXCLUDED){excluded=e.newValue==='1';if(!busy)refresh();}});
  refresh();
 })();
+

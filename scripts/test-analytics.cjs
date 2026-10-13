@@ -1,0 +1,14 @@
+'use strict';
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
+function setup(values={},url='https://tibiacommand74.com/?utm_source=instagram&utm_medium=social&utm_campaign=bio&email=private@example.com#inicio'){
+ const store=new Map(Object.entries(values)),events={},scripts=[],body=[],buttons={},head=[];const element=tag=>({tag,append(n){(tag==='script'?scripts:body).push(n)},remove(){},setAttribute(){},querySelector(sel){return buttons[sel]||(buttons[sel]={})}});
+ const doc={title:'Tibia Command 7.4',referrer:'https://www.google.com/search?q=private',cookie:'',head:{append(n){head.push(n);if(n.tag==='script')scripts.push(n)}},body:{append(n){body.push(n)}},createElement:element,querySelector:()=>null,addEventListener:(k,fn)=>events[k]=fn};
+ const window={addEventListener:(k,fn)=>events[k]=fn};const e={window,document:doc,location:new URL(url),localStorage:{getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v)},URL,Date,setTimeout:fn=>fn()};vm.createContext(e);vm.runInContext(fs.readFileSync('public/analytics.js','utf8'),e);return{e,store,events,scripts,body,buttons};
+}
+let s=setup();assert.equal(s.scripts.length,0);s.buttons['[data-analytics-decline]'].onclick();assert.equal(s.scripts.length,0);
+s=setup({'tc74-analytics-consent':'accepted','tc74-exclude-visits':'1'});assert.equal(s.scripts.length,0);
+s=setup({'tc74-analytics-consent':'accepted'});assert.equal(s.scripts.length,1);const calls=()=>s.e.window.dataLayer.map(x=>Array.from(x));assert.equal(calls().filter(x=>x[1]==='page_view').length,1);const first=calls().find(x=>x[1]==='page_view')[2];assert(!first.page_location.includes('email='));assert(first.page_location.includes('utm_source=instagram'));assert.equal(first.page_referrer,'https://www.google.com');s.events.hashchange();assert.equal(calls().filter(x=>x[1]==='page_view').length,1);s.e.location.hash='#quests';s.events.hashchange();assert.equal(calls().filter(x=>x[1]==='page_view').length,2);
+s.events.click({target:{closest:()=>({href:'https://github.com/tibiacommand74/releases/download/v1/setup.exe?token=secret'})}});const download=calls().find(x=>x[1]==='file_download');assert(download);assert(!download[2].link_url.includes('token'));s.store.set('tc74-exclude-visits','1');s.events['tc74-visit-preference']();assert.equal(s.e.window['ga-disable-G-1KZLJG32S3'],true);let count=calls().length;s.e.location.hash='#hunts';s.events.hashchange();assert.equal(calls().length,count);
+s=setup({'tc74-analytics-consent':'accepted'},'https://tibiacommand74.com/?interno=1');assert.equal(s.scripts.length,0);
+for(const p of ['public/index.html','public/quests/torch/index.html','public/npcs/dermot/index.html'])assert(fs.readFileSync(p,'utf8').includes('analytics.js'));
+console.log('PASS: consent before Google loads, internal exclusion, clean campaigns/referrers, no duplicate pages, hash navigation, download clicks and static coverage');
