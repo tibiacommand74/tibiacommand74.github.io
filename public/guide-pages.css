@@ -3,3 +3,5 @@
 .community-instagram{display:inline-flex;align-items:center;padding:10px;color:var(--gold)}.instagram-icon{flex-shrink:0}
 
 .standalone-guide .quest-checklist label{flex-direction:row;align-items:center;text-align:left;justify-content:flex-start}.standalone-guide .quest-checklist input{width:auto;margin:0;flex-shrink:0}
+
+.standalone-guide a{color:var(--gold);overflow-wrap:anywhere}.standalone-guide .detail-title h1{overflow-wrap:anywhere}.standalone-guide .trade-table>div,.standalone-guide .teacher-list>div{min-width:0}.standalone-guide .trade-table a{min-width:0}.standalone-guide .catalog-links{display:flex;flex-wrap:wrap;gap:8px}.standalone-guide .trade-table{overflow-x:auto}@media(max-width:600px){.standalone-guide .trade-table>div{flex-wrap:wrap;gap:8px}.standalone-guide .detail-title h1{font-size:26px}}
