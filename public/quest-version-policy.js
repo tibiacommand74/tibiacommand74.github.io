@@ -1,0 +1,76 @@
+/* Strict publication policy: a reviewed allowlist, never a guessed version. */
+(()=>{
+'use strict';
+const approved=new Set([
+  "alawar-s-vault",
+  "annihilator",
+  "barbarian-axe",
+  "bear-room",
+  "behemoth",
+  "berserker-treasure",
+  "black-knight",
+  "blood-herb",
+  "combat-knife",
+  "crusader-helmet",
+  "dark-armor",
+  "fibula",
+  "demon-helmet",
+  "devil-helmet",
+  "double-hero",
+  "draconia",
+  "dragon-corpse",
+  "dragon-tower",
+  "edron-goblin",
+  "emperor-s-cookies",
+  "fire-axe",
+  "ghoul-room",
+  "giant-smithhammer",
+  "iron-hammer",
+  "katana",
+  "present-box",
+  "mad-mage-room",
+  "medusa-shield",
+  "minotaur-hell",
+  "orc-fortress",
+  "ornamented-shield",
+  "panpipe",
+  "parchment-room",
+  "plate-armor",
+  "poison-daggers",
+  "postman-missions",
+  "rapier",
+  "ring",
+  "shaman-treasure",
+  "amber-s-notebook",
+  "silver-amulet",
+  "skull-of-ratha",
+  "stealth-ring",
+  "steel-helmet",
+  "honey-flower",
+  "banana",
+  "thais-lighthouse",
+  "the-ancient-tombs",
+  "the-desert-dungeon",
+  "the-djinn-war-efreet-faction",
+  "the-djinn-war-marid-faction",
+  "the-outlaw-camp",
+  "the-paradox-tower",
+  "the-queen-of-the-banshees",
+  "the-white-raven-monastery",
+  "time-ring",
+  "triple-uh-rune",
+  "troll-cave",
+  "vampire-shield",
+  "voodoo-doll",
+  "wedding-ring",
+  "serpentine-tower"
+]);
+// Versions are release labels: 7.24 precedes 7.4; 7.41 does not.
+const atMost74=value=>{const versions=String(value||'').match(/\d+\.\d+/g);return Boolean(versions?.length)&&versions.every(v=>{const [major,minor]=v.split('.');const sequence=Number(minor.padEnd(2,'0'));return Number(major)<7||(Number(major)===7&&sequence<=40);});};
+const allowed=q=>approved.has(q.id)&&q.historicalStatus==='documentada'&&atMost74(q.introducedVersion||q.documentedByVersion);
+const withdrawn=QUESTS.filter(q=>!allowed(q)).map(q=>({id:q.id,name:q.name,reason:q.id==='explorer-brooch'?'A recompensa Explorer Brooch está documentada na versão 7.6; a referência 6.1 conflita com essa informação.':'A presença desta entrada no Tibia 7.4 original ainda não tem comprovação histórica suficiente neste projeto.'}));
+QUESTS.splice(0,QUESTS.length,...QUESTS.filter(allowed));
+const visible=new Set(QUESTS.map(q=>q.id));
+for(const id of Object.keys(window.QUEST_ROUTES||{}))if(!visible.has(id))delete window.QUEST_ROUTES[id];
+window.QUEST_VERSION_POLICY=Object.freeze({reviewedAt:'13/10/2026',approvedIds:Object.freeze([...visible]),withdrawn:Object.freeze(withdrawn),atMost74});
+})();

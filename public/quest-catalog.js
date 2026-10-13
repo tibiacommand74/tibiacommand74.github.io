@@ -1302,17 +1302,19 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "note": "Referência do clássico: nível de porta não é recomendação de combate. Servidores podem alterar recipientes, requisitos e recompensas.",
     "sources": [
+      "https://www.tibiawiki.com.br/wiki/Explorer_Brooch",
+      "https://tibia.fandom.com/wiki/Explorer_Brooch",
       "https://tibia.fandom.com/wiki/Explorer_Brooch_Quest/Spoiler",
       "https://tibia.fandom.com/index.php?oldid=68474",
       "https://tibia.fandom.com/index.php?oldid=64350"
     ],
     "aliases": "Explorer Brooch Quest ",
     "category": "exploração",
-    "historicalStatus": "documentada",
+    "historicalStatus": "posterior",
     "region": "mainland",
-    "introducedVersion": "6.1",
-    "historicalNote": "Introdução documentada na versão 6.1. Esta data confirma a existência, não todos os detalhes atuais do guia.",
-    "reviewedAt": "2026-10-08"
+    "introducedVersion": "7.6",
+    "historicalNote": "Retirada do catálogo 7.4: a recompensa Explorer Brooch é documentada no 7.6, em conflito com a data 6.1 anteriormente usada.",
+    "reviewedAt": "2026-10-13"
   },
   {
     "id": "fanfare",
@@ -4013,3 +4015,4 @@ QUESTS.sort((a,b)=>a.name.localeCompare(b.name));
 
 const QUEST_OLD_NAMES={"alawar-s-vault":"Dark Helmet Quest Alawars Vault","antidote-rune":"The Pan Quest","crystal-wand":"Double SD Quest","circle-room":"Dwarf Hell Dwarven Quest","the-white-raven-monastery":"Family Brooch Island of Kings Ghostlands","the-outlaw-camp":"Bright Sword Quest","noble-armor":"DTD Quest Skjaar","steel-helmet":"Minotaur Tower Iron Helmet Kazordoon","triple-uh-rune":"Adorned UH Rune","the-desert-dungeon":"Vocation Quest 10k Quest","the-ancient-tombs":"Helmet of the Ancients Pharaohs Quest"};
 for(const q of QUESTS)q.aliases+=(" "+(QUEST_OLD_NAMES[q.id]||""));
+

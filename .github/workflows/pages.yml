@@ -25,6 +25,7 @@ jobs:
         run: |
           node scripts/build-guide-pages.cjs
           node scripts/test-guide-pages.cjs
+          node scripts/test-quest-version-policy.cjs
           node scripts/test-visits.cjs
           node scripts/test-downloads.cjs
           node scripts/test-map-downloads.cjs

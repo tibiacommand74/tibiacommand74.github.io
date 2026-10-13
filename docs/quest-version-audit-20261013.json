@@ -1,0 +1,1241 @@
+{
+  "reviewedAt": "2026-10-13",
+  "reviewed": 98,
+  "published": 62,
+  "withdrawn": 36,
+  "entries": [
+    {
+      "id": "alawar-s-vault",
+      "name": "Alawar's Vault",
+      "decision": "published",
+      "version": "6.5",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Alawar%27s_Vault_Quest",
+        "https://tibia.fandom.com/index.php?oldid=42078",
+        "https://tibia.fandom.com/index.php?oldid=59159",
+        "https://tibia.fandom.com/wiki/Alawar%27s_Vault_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "annihilator",
+      "name": "Annihilator",
+      "decision": "published",
+      "version": "7.24",
+      "sources": [
+        "https://tibia.fandom.com/wiki/The_Annihilator_Quest",
+        "https://tibia.fandom.com/wiki/The_Annihilator_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=10342",
+        "https://tibia.fandom.com/index.php?oldid=10419",
+        "https://tibia.fandom.com/index.php?oldid=55815"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "antidote-rune",
+      "name": "Antidote Rune",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/wiki/Small_Health_Potion_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=21044",
+        "https://tibia.fandom.com/index.php?oldid=53359",
+        "https://tibiantis.life/"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "barbarian-axe",
+      "name": "Barbarian Axe",
+      "decision": "published",
+      "version": "6.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Barbarian_Axe_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=23978",
+        "https://tibia.fandom.com/wiki/Berserker_Treasure_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "battle-axe",
+      "name": "Battle Axe",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=70616",
+        "https://tibia.fandom.com/index.php?oldid=29946",
+        "https://tibia.fandom.com/wiki/Battle_Axe_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "bear-room",
+      "name": "Bear Room",
+      "decision": "published",
+      "version": "5.2",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Bear_Room_Quest",
+        "https://tibia.fandom.com/wiki/Bear_Room_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=64348",
+        "https://tibia.fandom.com/index.php?oldid=30071",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "behemoth",
+      "name": "Behemoth",
+      "decision": "published",
+      "version": "7.2",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Behemoth_Quest",
+        "https://tibia.fandom.com/wiki/Behemoth_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=21249",
+        "https://tibia.fandom.com/index.php?oldid=57509",
+        "https://tibia.fandom.com/index.php?oldid=70206"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "berserker-treasure",
+      "name": "Berserker Treasure",
+      "decision": "published",
+      "version": "6.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Berserker_Treasure_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=23978",
+        "https://tibia.fandom.com/wiki/Barbarian_Axe_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "black-knight",
+      "name": "Black Knight",
+      "decision": "published",
+      "version": "7.1",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Black_Knight_Quest",
+        "https://tibia.fandom.com/index.php?oldid=70179",
+        "https://tibia.fandom.com/index.php?oldid=70176",
+        "https://tibia.fandom.com/wiki/Black_Knight_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "blood-herb",
+      "name": "Blood Herb",
+      "decision": "published",
+      "version": "6.1",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Blood_Herb_Quest",
+        "https://tibia.fandom.com/index.php?oldid=70614",
+        "https://tibia.fandom.com/wiki/Blood_Herb_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "captain-iglues-treasure",
+      "name": "Captain Iglues Treasure",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/wiki/Captain_Iglues_Treasure_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=42633",
+        "https://tibiantis.info/library/quests",
+        "https://tibiantis.life/"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "circle-room",
+      "name": "Circle Room",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=57512",
+        "https://tibia.fandom.com/index.php?oldid=29951"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "combat-knife",
+      "name": "Combat Knife",
+      "decision": "published",
+      "version": "5.2",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Combat_Knife_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=23964",
+        "https://tibiantis.life/"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "crusader-helmet",
+      "name": "Crusader Helmet",
+      "decision": "published",
+      "version": "7.3",
+      "sources": [
+        "https://tibicam.com/video/fuwapiwu-tibia-73-40ea53c1",
+        "https://tibia.fandom.com/index.php?oldid=63276",
+        "https://tibia.fandom.com/index.php?oldid=40697",
+        "https://tibia.fandom.com/wiki/Crusader_Helmet_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "crystal-wand",
+      "name": "Crystal Wand",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=43217",
+        "https://tibia.fandom.com/index.php?oldid=34471",
+        "https://tibia.fandom.com/wiki/Crystal_Wand_Quest/Spoiler"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "dark-armor",
+      "name": "Dark Armor",
+      "decision": "published",
+      "version": "6.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Dark_Armor_Quest",
+        "https://tibia.fandom.com/index.php?oldid=23978",
+        "https://tibia.fandom.com/wiki/Barbarian_Axe_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Berserker_Treasure_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "dead-archer",
+      "name": "Dead Archer",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=73645",
+        "https://tibia.fandom.com/index.php?oldid=29954",
+        "https://tibia.fandom.com/wiki/Dead_Archer_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "fibula",
+      "name": "Deeper Fibula",
+      "decision": "published",
+      "version": "5.0",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Deeper_Fibula_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=55209",
+        "https://tibia.fandom.com/index.php?oldid=29955",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "demon-helmet",
+      "name": "Demon Helmet",
+      "decision": "published",
+      "version": "6.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Demon_Helmet_Quest",
+        "https://tibia.fandom.com/wiki/Demon_Helmet_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=57772",
+        "https://tibia.fandom.com/index.php?oldid=70429",
+        "https://tibia.fandom.com/index.php?oldid=38655"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "demona-ring",
+      "name": "Demona Ring",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/wiki/Demona_Ring_Quest/Spoiler"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "devil-helmet",
+      "name": "Devil Helmet",
+      "decision": "published",
+      "version": "5.01",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Devil_Helmet_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=60158",
+        "https://tibia.fandom.com/index.php?oldid=29957",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "double-hero",
+      "name": "Double Hero",
+      "decision": "published",
+      "version": "6.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Double_Hero_Quest",
+        "https://tibia.fandom.com/index.php?oldid=59244",
+        "https://tibia.fandom.com/index.php?oldid=32239",
+        "https://tibia.fandom.com/wiki/Double_Hero_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "doublet",
+      "name": "Doublet",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/wiki/Doublet_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=58445",
+        "https://tibia.fandom.com/index.php?oldid=61509",
+        "https://tibiantis.life/"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "draconia",
+      "name": "Draconia",
+      "decision": "published",
+      "version": "6.2",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Draconia_Quest",
+        "https://tibia.fandom.com/index.php?oldid=63102",
+        "https://tibia.fandom.com/index.php?oldid=45121",
+        "https://tibia.fandom.com/index.php?oldid=66086",
+        "https://tibia.fandom.com/wiki/Draconia_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "dragon-corpse",
+      "name": "Dragon Corpse",
+      "decision": "published",
+      "version": "5.2",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Dragon_Corpse_Quest",
+        "https://tibia.fandom.com/wiki/Dragon_Corpse_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=63733",
+        "https://tibiantis.life/"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "dragon-tower",
+      "name": "Dragon Tower",
+      "decision": "published",
+      "version": "7.1",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Dragon_Tower_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=65460",
+        "https://tibia.fandom.com/index.php?oldid=65017"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "edron-goblin",
+      "name": "Edron Goblin",
+      "decision": "published",
+      "version": "6.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Edron_Goblin_Quest",
+        "https://tibia.fandom.com/index.php?oldid=23973",
+        "https://tibia.fandom.com/wiki/Edron_Goblin_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "elvenbane",
+      "name": "Elvenbane",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=69151",
+        "https://tibia.fandom.com/index.php?oldid=42604"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "emperor-s-cookies",
+      "name": "Emperor's Cookies",
+      "decision": "published",
+      "version": "6.1",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Emperor%27s_Cookies_Quest",
+        "https://tibia.fandom.com/index.php?oldid=72569",
+        "https://tibia.fandom.com/index.php?oldid=45235"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "explorer-brooch",
+      "name": "Explorer Brooch",
+      "decision": "withheld",
+      "version": "7.6",
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Explorer_Brooch",
+        "https://tibia.fandom.com/wiki/Explorer_Brooch"
+      ],
+      "reason": "Reward introduced in 7.6; conflicts with the quest table that says 6.1."
+    },
+    {
+      "id": "fanfare",
+      "name": "Fanfare",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=23969",
+        "https://tibia.fandom.com/index.php?oldid=29966",
+        "https://tibia.fandom.com/wiki/Fanfare_Quest/Spoiler"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "fire-axe",
+      "name": "Fire Axe",
+      "decision": "published",
+      "version": "6.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Fire_Axe_Quest",
+        "https://tibia.fandom.com/index.php?oldid=56723",
+        "https://tibia.fandom.com/index.php?oldid=30010",
+        "https://tibia.fandom.com/wiki/Fire_Axe_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "geomancer",
+      "name": "Geomancer",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=65209",
+        "https://tibia.fandom.com/index.php?oldid=29967",
+        "https://tibia.fandom.com/wiki/Geomancer_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "ghoul-room",
+      "name": "Ghoul Room",
+      "decision": "published",
+      "version": "5.01",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Ghoul_Room_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=24026",
+        "https://tibia.fandom.com/index.php?oldid=29968",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "giant-smithhammer",
+      "name": "Giant Smithhammer",
+      "decision": "published",
+      "version": "7.24",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Giant_Smithhammer_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=34890",
+        "https://tibia.fandom.com/index.php?oldid=34008",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "goblin-temple",
+      "name": "Goblin Temple",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/wiki/Goblin_Temple_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=57028",
+        "https://tibiantis.life/"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "griffin-shield",
+      "name": "Griffin Shield",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=71210",
+        "https://tibia.fandom.com/index.php?oldid=43219",
+        "https://tibia.fandom.com/wiki/Griffin_Shield_Quest/Spoiler"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "heaven-blossom",
+      "name": "Heaven Blossom",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/wiki/Heaven_Blossom_Quest/Spoiler"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "iron-hammer",
+      "name": "Iron Hammer",
+      "decision": "published",
+      "version": "6.61-6.97",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Iron_Hammer_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=24172",
+        "https://tibia.fandom.com/index.php?oldid=64526"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "iron-helmet",
+      "name": "Iron Helmet",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=44102",
+        "https://tibia.fandom.com/index.php?oldid=38856",
+        "https://tibia.fandom.com/wiki/Iron_Helmet_Quest/Spoiler"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "isle-of-the-mists",
+      "name": "Isle of the Mists",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=43081",
+        "https://tibia.fandom.com/wiki/Isle_of_the_Mists_Quest/Spoiler"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "katana",
+      "name": "Katana",
+      "decision": "published",
+      "version": "5.2",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Katana_Quest",
+        "https://tibia.fandom.com/wiki/Katana_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=48802",
+        "https://tibia.fandom.com/index.php?oldid=53356",
+        "https://tibiantis.life/"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "kingdom-of-kormarak",
+      "name": "Kingdom of Kormarak",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=62130",
+        "https://tibia.fandom.com/wiki/Kingdom_of_Kormarak_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "present-box",
+      "name": "Legion Helmet (Present Box)",
+      "decision": "published",
+      "version": "5.2",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Present_Quest",
+        "https://tibia.fandom.com/wiki/Present_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=30884",
+        "https://tibia.fandom.com/index.php?oldid=51824",
+        "https://tibiantis.life/"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "life-ring",
+      "name": "Life Ring",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=58720",
+        "https://tibia.fandom.com/index.php?oldid=35324",
+        "https://tibia.fandom.com/wiki/Life_Ring_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "longsword",
+      "name": "Longsword",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=53539",
+        "https://tibia.fandom.com/index.php?oldid=64626"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "mad-mage-room",
+      "name": "Mad Mage Room",
+      "decision": "published",
+      "version": "7.24",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Mad_Mage_Room_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=64426",
+        "https://tibia.fandom.com/index.php?oldid=41066",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "medusa-shield",
+      "name": "Medusa Shield",
+      "decision": "published",
+      "version": "7.3",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Medusa_Shield_Quest",
+        "https://tibia.fandom.com/index.php?oldid=61332",
+        "https://tibia.fandom.com/index.php?oldid=66825",
+        "https://tibia.fandom.com/wiki/Medusa_Shield_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "minotaur-hell",
+      "name": "Minotaur Hell",
+      "decision": "published",
+      "version": "5.2",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Minotaur_Hell_Quest",
+        "https://tibia.fandom.com/wiki/Minotaur_Hell_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=66981",
+        "https://tibiantis.life/"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "mintwallin-cyclops",
+      "name": "Mintwallin Cyclops",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=24200",
+        "https://tibia.fandom.com/index.php?oldid=29977",
+        "https://tibia.fandom.com/wiki/Mintwallin_Cyclops_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "naginata",
+      "name": "Naginata",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=55796",
+        "https://tibia.fandom.com/index.php?oldid=38904",
+        "https://tibia.fandom.com/wiki/Naginata_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "noble-armor",
+      "name": "Noble Armor",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=73459",
+        "https://tibia.fandom.com/index.php?oldid=33323",
+        "https://tibia.fandom.com/wiki/Noble_Armor_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "orc-fortress",
+      "name": "Orc Fortress",
+      "decision": "published",
+      "version": "6.1",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Orc_Fortress_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=38820",
+        "https://tibia.fandom.com/index.php?oldid=49459"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "orc-shaman",
+      "name": "Orc Shaman",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=24076",
+        "https://tibia.fandom.com/wiki/Orc_Shaman_Quest/Spoiler"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "ornamented-shield",
+      "name": "Ornamented Shield",
+      "decision": "published",
+      "version": "5.1",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Ornamented_Shield_Quest",
+        "https://tibia.fandom.com/index.php?oldid=53190",
+        "https://tibia.fandom.com/index.php?oldid=43513",
+        "https://tibia.fandom.com/wiki/Ornamented_Shield_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "panpipe",
+      "name": "Panpipe",
+      "decision": "published",
+      "version": "6.1",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Panpipe_Quest",
+        "https://tibia.fandom.com/index.php?oldid=23951",
+        "https://tibia.fandom.com/wiki/Panpipe_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "parchment-room",
+      "name": "Parchment Room",
+      "decision": "published",
+      "version": "7.2",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Parchment_Room_Quest",
+        "https://tibia.fandom.com/wiki/Parchment_Room_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=66537",
+        "https://tibia.fandom.com/index.php?oldid=51239",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "small-axe",
+      "name": "Pick (Small Axe)",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/wiki/Pick_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=39940",
+        "https://tibiantis.life/"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "plate-armor",
+      "name": "Plate Armor",
+      "decision": "published",
+      "version": "6.61-6.97",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Plate_Armor_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=24797"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "poison-daggers",
+      "name": "Poison Daggers",
+      "decision": "published",
+      "version": "6.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Poison_Daggers_Quest",
+        "https://tibia.fandom.com/index.php?oldid=23978",
+        "https://tibia.fandom.com/wiki/Barbarian_Axe_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Berserker_Treasure_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "postman-missions",
+      "name": "Postman Missions",
+      "decision": "published",
+      "version": "7.24",
+      "sources": [
+        "https://tibia.fandom.com/wiki/The_Postman_Missions_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=73449",
+        "https://tibia.fandom.com/index.php?oldid=72821",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "power-bolts",
+      "name": "Power Bolts",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=43300",
+        "https://tibia.fandom.com/wiki/Power_Bolts_Quest/Spoiler"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "power-ring",
+      "name": "Power Ring",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=66277",
+        "https://tibia.fandom.com/index.php?oldid=66278"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "purple-tome",
+      "name": "Purple Tome",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/wiki/Purple_Tome_Quest/Spoiler"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "rapier",
+      "name": "Rapier",
+      "decision": "published",
+      "version": "5.2",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Rapier_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=24209",
+        "https://tibiantis.life/"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "ring",
+      "name": "Ring",
+      "decision": "published",
+      "version": "7.1",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Ring_Quest",
+        "https://tibia.fandom.com/wiki/Ring_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "scale-armor",
+      "name": "Scale Armor",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=24179",
+        "https://tibia.fandom.com/index.php?oldid=56731",
+        "https://tibia.fandom.com/wiki/Scale_Armor_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "shaman-treasure",
+      "name": "Shaman Treasure",
+      "decision": "published",
+      "version": "6.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Shaman_Treasure_Quest",
+        "https://tibia.fandom.com/index.php?oldid=23978",
+        "https://tibia.fandom.com/wiki/Barbarian_Axe_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Berserker_Treasure_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "amber-s-notebook",
+      "name": "Short Sword (Amber’s Notebook)",
+      "decision": "published",
+      "version": "5.2",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Short_Sword_Quest",
+        "https://tibia.fandom.com/wiki/Short_Sword_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=29268",
+        "https://tibiantis.life/"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "silver-amulet",
+      "name": "Silver Amulet",
+      "decision": "published",
+      "version": "5.2",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Silver_Amulet_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Silver_Amulet_Quest",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "silver-brooch",
+      "name": "Silver Brooch",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=73566",
+        "https://tibia.fandom.com/wiki/Silver_Brooch_Quest/Spoiler"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "six-rubies",
+      "name": "Six Rubies",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=71251",
+        "https://tibia.fandom.com/index.php?oldid=71427",
+        "https://tibia.fandom.com/wiki/Six_Rubies_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "skull-of-ratha",
+      "name": "Skull of Ratha",
+      "decision": "published",
+      "version": "7.24",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Skull_of_Ratha_Quest",
+        "https://tibia.fandom.com/index.php?oldid=61958",
+        "https://tibia.fandom.com/index.php?oldid=64839",
+        "https://tibia.fandom.com/wiki/Skull_of_Ratha_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "small-ruby",
+      "name": "Small Ruby",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/wiki/Small_Ruby_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Small_Ruby_Quest",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "spike-sword",
+      "name": "Spike Sword",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=67742",
+        "https://tibia.fandom.com/index.php?oldid=67142",
+        "https://tibia.fandom.com/wiki/Spike_Sword_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "stealth-ring",
+      "name": "Stealth Ring",
+      "decision": "published",
+      "version": "6.61-6.97",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Stealth_Ring_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=36335"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "steel-helmet",
+      "name": "Steel Helmet",
+      "decision": "published",
+      "version": "6.61-6.97",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Steel_Helmet_Quest",
+        "https://tibia.fandom.com/index.php?oldid=56432",
+        "https://tibia.fandom.com/index.php?oldid=43499"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "honey-flower",
+      "name": "Studded Legs (Honey Flower)",
+      "decision": "published",
+      "version": "7.11 (2)",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Studded_Legs_Quest",
+        "https://tibia.fandom.com/wiki/Studded_Legs_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=24204",
+        "https://tibiantis.life/"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "banana",
+      "name": "Studded Shield (Banana)",
+      "decision": "published",
+      "version": "6.0",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Studded_Shield_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=30400",
+        "https://tibiantis.life/"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "thais-lighthouse",
+      "name": "Thais Lighthouse",
+      "decision": "published",
+      "version": "3.0",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Thais_Lighthouse_Quest",
+        "https://tibia.fandom.com/index.php?oldid=61618",
+        "https://tibia.fandom.com/index.php?oldid=61619",
+        "https://tibia.fandom.com/wiki/Thais_Lighthouse_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "the-ancient-tombs",
+      "name": "The Ancient Tombs",
+      "decision": "published",
+      "version": "7.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/The_Ancient_Tombs_Quest",
+        "https://tibia.fandom.com/index.php?oldid=60368",
+        "https://tibia.fandom.com/index.php?oldid=34030",
+        "https://tibia.fandom.com/wiki/The_Ancient_Tombs_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "the-desert-dungeon",
+      "name": "The Desert Dungeon",
+      "decision": "published",
+      "version": "6.1",
+      "sources": [
+        "https://tibia.fandom.com/wiki/The_Desert_Dungeon_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=67986",
+        "https://tibia.fandom.com/index.php?oldid=63223"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "the-djinn-war-efreet-faction",
+      "name": "The Djinn War - Efreet Faction",
+      "decision": "published",
+      "version": "7.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/The_Djinn_War_-_Efreet_Faction",
+        "https://tibia.fandom.com/index.php?oldid=38846",
+        "https://tibia.fandom.com/index.php?oldid=38847",
+        "https://tibia.fandom.com/wiki/The_Djinn_War_-_Efreet_Faction/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "the-djinn-war-marid-faction",
+      "name": "The Djinn War - Marid Faction",
+      "decision": "published",
+      "version": "7.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/The_Djinn_War_-_Marid_Faction",
+        "https://tibia.fandom.com/index.php?oldid=72061",
+        "https://tibia.fandom.com/index.php?oldid=71556",
+        "https://tibia.fandom.com/wiki/The_Djinn_War_-_Marid_Faction/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "the-outlaw-camp",
+      "name": "The Outlaw Camp",
+      "decision": "published",
+      "version": "6.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/The_Outlaw_Camp_Quest",
+        "https://tibia.fandom.com/index.php?oldid=66655",
+        "https://tibia.fandom.com/index.php?oldid=29950",
+        "https://tibia.fandom.com/wiki/The_Outlaw_Camp_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "the-paradox-tower",
+      "name": "The Paradox Tower",
+      "decision": "published",
+      "version": "6.61-6.97",
+      "sources": [
+        "https://tibia.fandom.com/wiki/The_Paradox_Tower_Quest",
+        "https://tibia.fandom.com/index.php?oldid=73165",
+        "https://tibia.fandom.com/index.php?oldid=73465",
+        "https://tibia.fandom.com/index.php?oldid=14595",
+        "https://tibia.fandom.com/index.php?oldid=56289"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "the-queen-of-the-banshees",
+      "name": "The Queen of the Banshees",
+      "decision": "published",
+      "version": "7.2",
+      "sources": [
+        "https://tibia.fandom.com/wiki/The_Queen_of_the_Banshees_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=71882",
+        "https://tibia.fandom.com/index.php?oldid=71869"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "the-white-raven-monastery",
+      "name": "The White Raven Monastery",
+      "decision": "published",
+      "version": "7.24",
+      "sources": [
+        "https://tibia.fandom.com/wiki/The_White_Raven_Monastery_Quest",
+        "https://tibia.fandom.com/index.php?oldid=47837",
+        "https://tibia.fandom.com/index.php?oldid=29965",
+        "https://tibia.fandom.com/index.php?oldid=41202",
+        "https://tibia.fandom.com/index.php?oldid=45182"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "throwing-star",
+      "name": "Throwing Star",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=24062",
+        "https://tibia.fandom.com/index.php?oldid=34977",
+        "https://tibia.fandom.com/wiki/Throwing_Star_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "time-ring",
+      "name": "Time Ring",
+      "decision": "published",
+      "version": "7.1",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Time_Ring_Quest",
+        "https://tibia.fandom.com/index.php?oldid=71065",
+        "https://tibia.fandom.com/wiki/Time_Ring_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "torch",
+      "name": "Torch",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/wiki/Torch_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=20870",
+        "https://tibiantis.life/"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "triangle-tower",
+      "name": "Triangle Tower",
+      "decision": "withheld",
+      "version": null,
+      "sources": [
+        "https://tibia.fandom.com/index.php?oldid=60152",
+        "https://tibia.fandom.com/index.php?oldid=29994",
+        "https://tibia.fandom.com/wiki/Triangle_Tower_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "No sufficiently dated evidence; not claimed to be absent, withheld pending proof."
+    },
+    {
+      "id": "triple-uh-rune",
+      "name": "Triple UH Rune",
+      "decision": "published",
+      "version": "6.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Adorned_UH_Rune_Quest",
+        "https://tibia.fandom.com/index.php?oldid=54428",
+        "https://tibia.fandom.com/index.php?oldid=40228",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "troll-cave",
+      "name": "Troll Cave",
+      "decision": "published",
+      "version": "6.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Troll_Cave_Quest",
+        "https://tibia.fandom.com/index.php?oldid=24006",
+        "https://tibia.fandom.com/wiki/Troll_Cave_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "vampire-shield",
+      "name": "Vampire Shield",
+      "decision": "published",
+      "version": "6.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Vampire_Shield_Quest",
+        "https://tibia.fandom.com/wiki/Vampire_Shield_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=42285",
+        "https://tibia.fandom.com/index.php?oldid=38798",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "voodoo-doll",
+      "name": "Voodoo Doll",
+      "decision": "published",
+      "version": "7.24",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Voodoo_Doll_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=38903"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "wedding-ring",
+      "name": "Wedding Ring",
+      "decision": "published",
+      "version": "6.4",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Wedding_Ring_Quest",
+        "https://tibia.fandom.com/wiki/Wedding_Ring_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=73682",
+        "https://tibiantis.info/library/quests"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    },
+    {
+      "id": "serpentine-tower",
+      "name": "White Pearl (Serpentine Tower)",
+      "decision": "published",
+      "version": "7.3",
+      "sources": [
+        "https://tibia.fandom.com/wiki/Serpentine_Tower_Quest",
+        "https://tibia.fandom.com/index.php?oldid=36597",
+        "https://tibia.fandom.com/index.php?oldid=62614",
+        "https://tibia.fandom.com/wiki/Serpentine_Tower_Quest/Spoiler"
+      ],
+      "reason": "Pre-7.4 version or dated historical recording recorded in the existing curated inventory."
+    }
+  ]
+}
