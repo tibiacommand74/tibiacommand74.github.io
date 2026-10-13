@@ -27,6 +27,13 @@ assert(!JSON.parse(storage.get('tc74-explorer-journal-v1'))['quest:fibula'].extr
 const markup=env.window.guideJournalMarkup('quest','fibula');assert(markup.includes('&lt;img'));assert(!markup.includes('<img src=x'));assert(markup.includes('Continuar no mapa'));
 assert(!api.saveRecord('quest','not-a-quest',{favorite:true}));
 assert(api.journalRows().some(r=>r.id==='fibula'));
+// Progress controls must update immediately without replacing the note editor.
+const progress={hidden:true},select={value:'in-progress'},saveStatus={textContent:''};
+const box={dataset:{journalType:'quest',journalId:'fibula'},querySelector:s=>({'[data-journal-status]':select,'[data-journal-progress]':progress,'.explorer-save-status':saveStatus}[s]||null)};
+env.window.bindGuideJournal({querySelectorAll:s=>s==='[data-journal-type]'?[box]:[]});
+select.onchange();assert.equal(progress.hidden,false);assert.equal(api.getRecord('quest','fibula').status,'in-progress');
+select.value='done';select.onchange();assert.equal(progress.hidden,true);assert.equal(api.getRecord('quest','fibula').status,'done');
+assert(env.window.guideJournalMarkup('quest','fibula').includes('data-journal-progress hidden'));
 blocked=true;assert.equal(api.saveRecord('quest','fibula',{note:'temporário'}),false);assert.equal(api.getRecord('quest','fibula').note,'temporário');
 vm.runInContext(fs.readFileSync('public/app.js','utf8').split("\ndocument.querySelectorAll('nav button[data-page]')")[0],env);
 run("detailQuest('fibula')");assert(node('#detail-body').innerHTML.includes('data-journal-status'));assert(node('#detail-body').innerHTML.includes('data-record-quest-stage'));
