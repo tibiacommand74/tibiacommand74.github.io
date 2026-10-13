@@ -23,6 +23,8 @@ jobs:
           node-version: '22'
       - name: Verify guides and forms
         run: |
+          node scripts/build-guide-pages.cjs
+          node scripts/test-guide-pages.cjs
           node scripts/test-visits.cjs
           node scripts/test-downloads.cjs
           node scripts/test-map-downloads.cjs
