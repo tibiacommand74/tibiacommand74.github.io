@@ -13,4 +13,4 @@ const audit=JSON.parse(fs.readFileSync('docs/quest-history-expanded-20261013.jso
 const contemporary={'torch':'2005-02-24','goblin-temple':'2005-02-24','doublet':'2005-04-10','naginata':'2004-01-01','griffin-shield':'2005-01-17','circle-room':'2005-02-09'};for(const [id,date] of Object.entries(contemporary)){const v=q(id);assert(v,id);assert.equal(v.introducedVersion,null);assert.equal(v.documentedByVersion,'7.4');assert.equal(v.historicalEvidence.date,date);assert(v.sources.includes(v.historicalEvidence.source));const page=fs.readFileSync('public/quests/'+id+'/index.html','utf8');assert(!page.includes('noindex,follow'));assert(page.includes('static-map'));assert.equal(audit.entries.find(q=>q.id===id).historicalEvidence.date,date);}
 console.log('PASS: six dated contemporary records, introduction unknown, complete 98-entry audit and published map guides');
 
-assert(!/alavanca|mecanismo/i.test(e.window.QUEST_ROUTES.torch.stages[0].label+' '+e.window.QUEST_ROUTES.torch.stages[0].action));
+assert(!/alavanca|mecanismo/i.test(e.window.QUEST_ROUTES.torch.stages[0].label+' '+e.window.QUEST_ROUTES.torch.stages[0].action+' '+e.window.QUEST_ROUTES.torch.stages[0].text));
