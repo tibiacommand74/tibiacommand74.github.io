@@ -29,7 +29,7 @@ function download(text,name){const a=document.createElement('a'),url=URL.createO
 const field=(name,label,value,min=0,max=100000,step=1)=>`<label>${label}<input name="${name}" type="number" value="${value}" min="${min}" max="${max}" step="${step}" required></label>`;
 const options=(values,current)=>values.map(([value,label])=>`<option value="${escape(value)}" ${String(value)===String(current)?'selected':''}>${escape(label)}</option>`).join('');
 const metric=(label,value,note='')=>`<div class="tc-metric"><span>${label}</span><strong>${value}</strong>${note?`<small>${note}</small>`:''}</div>`;
-const heading=(eyebrow,title,description)=>`<div class="tc-heading"><p class="eyebrow">${eyebrow}</p><h2>${title}</h2><p>${description}</p><div class="tc-links"><a href="#calculadora">XP, skills e magic level</a><a href="#mana">Mana e runas</a><a href="#equipamentos">Comparar equipamentos</a></div></div>`;
+const heading=(eyebrow,title,description)=>`<div class="tc-heading"><p class="eyebrow">${eyebrow}</p><h2>${title}</h2><p>${description}</p><div class="tc-links"><a href="#explorador/food">Planejar comida</a><a href="#calculadora">XP, skills e magic level</a><a href="#mana">Mana e runas</a><a href="#equipamentos">Comparar equipamentos</a></div></div>`;
 window.renderManaRunes=function(el){
 const defaults={vocation:'Master Sorcerer',server:'mythera',verify:false,ml:25,premium:true,rune:'Sudden Death',mode:'goal',unit:'items',quantity:20,hours:2,current:0,capacity:1000,manaTarget:220,custom:false,tick:1,interval:4,active:true,extra:0,extraInterval:3,extraMinutes:20,blank:10,sale:0,foodCost:0,bonusCost:0};
 const stored=read('tc74-mana-v1',{}),state={...defaults,...stored};
@@ -102,10 +102,19 @@ el.querySelectorAll('[name]').forEach(input=>input.addEventListener('input',()=>
 el.querySelectorAll('[data-side]').forEach(select=>select.onchange=()=>{const side=select.dataset.side,slot=select.dataset.slot;state[side][slot]=select.value;delete state.prices[side][slot];el.querySelector(`[data-price-side="${side}"][data-price-slot="${slot}"]`).value='';update();});
 el.querySelectorAll('[data-price-side]').forEach(input=>input.oninput=()=>{state.prices[input.dataset.priceSide][input.dataset.priceSlot]=input.value;update();});
 el.querySelectorAll('[data-search]').forEach(input=>input.oninput=()=>{const query=input.value.toLowerCase().trim();el.querySelectorAll(`[data-side="${input.dataset.search}"]`).forEach(select=>{for(const option of select.options)option.hidden=!!option.value&&option.value!==select.value&&!option.textContent.toLowerCase().includes(query);});});
-el.querySelectorAll('[data-preset]').forEach(select=>select.onchange=()=>{const preset=presets[select.value];if(!preset)return;const side=select.dataset.preset;state[side]=empty();for(const [slot,name]of Object.entries(preset))state[side][slot]=String(items.find(i=>i.name===name)?.id||'');state.prices[side]={};save('tc74-equipment-v1',state);window.renderEquipmentComparator(el);});
-el.querySelector('#tc-copy').onclick=()=>{state.b={...state.a};state.prices.b={...state.prices.a};save('tc74-equipment-v1',state);window.renderEquipmentComparator(el);};el.querySelector('#tc-swap').onclick=()=>{[state.a,state.b]=[state.b,state.a];[state.prices.a,state.prices.b]=[state.prices.b,state.prices.a];save('tc74-equipment-v1',state);window.renderEquipmentComparator(el);};el.querySelector('#tc-clear').onclick=()=>{state.a=empty();state.b=empty();state.prices={a:{},b:{}};save('tc74-equipment-v1',state);window.renderEquipmentComparator(el);};el.querySelector('#tc-equipment-export').onclick=()=>{if(report)download(report,'tibia-command-equipamentos.txt');};update();
+el.querySelectorAll('[data-preset]').forEach(select=>select.onchange=()=>{const preset=presets[select.value];if(!preset)return;const side=select.dataset.preset;state[side]=empty();for(const [slot,name]of Object.entries(preset))state[side][slot]=String(items.find(i=>i.name===name)?.id||'');state.prices[side]={};save('tc74-equipment-v1',state);window.renderEquipmentSets(el);});
+el.querySelector('#tc-copy').onclick=()=>{state.b={...state.a};state.prices.b={...state.prices.a};save('tc74-equipment-v1',state);window.renderEquipmentSets(el);};el.querySelector('#tc-swap').onclick=()=>{[state.a,state.b]=[state.b,state.a];[state.prices.a,state.prices.b]=[state.prices.b,state.prices.a];save('tc74-equipment-v1',state);window.renderEquipmentSets(el);};el.querySelector('#tc-clear').onclick=()=>{state.a=empty();state.b=empty();state.prices={a:{},b:{}};save('tc74-equipment-v1',state);window.renderEquipmentSets(el);};el.querySelector('#tc-equipment-export').onclick=()=>{if(report)download(report,'tibia-command-equipamentos.txt');};update();
 };
 const renderSets=window.renderEquipmentComparator;
+window.renderEquipmentSets=renderSets;
+window.openClassicEquipmentSet=function(el,set){
+ renderSets(el);
+ const selected={};
+ const categorySlots={'Capacetes':'head','Armaduras':'body','Calças':'legs','Botas':'boots','Espadas':'weapon','Machados':'weapon','Clavas':'weapon','Distância':'weapon','Escudos':'shield','Amuletos':'amulet','Anéis':'ring'};
+ for(const name of set.pieces){const item=items.find(i=>i.name===name);if(!item)continue;const slot=['arrow','bolt','power bolt','poison arrow','burst arrow'].includes(name)?'ammo':categorySlots[item.category];if(slot)selected[slot]=String(item.id);}
+ el.querySelectorAll('[data-side="a"]').forEach(select=>{select.value=selected[select.dataset.slot]||'';select.onchange();});
+ const back=document.createElement('a');back.className='action secondary';back.href='#explorador/sets';back.textContent='← Voltar aos sets clássicos';el.querySelector('.tc-heading').append(back);
+};
 window.renderEquipmentComparator=function(el){
 const categories=['Espadas','Machados','Clavas','Distância','Capacetes','Armaduras','Calças','Botas','Escudos','Amuletos','Anéis','Recipientes'];
 const defaults={category:'Espadas',a:'2392',b:'2393'},state={...defaults,...read('tc74-items-v1',{})};
@@ -130,3 +139,4 @@ render();
 };
 
 })();
+

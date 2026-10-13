@@ -1,0 +1,38 @@
+'use strict';
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const storage=new Map(),nodes=new Map();let blocked=false;
+function node(id){if(!nodes.has(id))nodes.set(id,{innerHTML:'',value:'',hidden:false,textContent:'',open:false,addEventListener(){},querySelectorAll:()=>[],querySelector:()=>null,showModal(){this.open=true;},close(){this.open=false;}});return nodes.get(id);}
+const env={reportButton:()=>'',bindContextReports(){},window:{},document:{querySelector:node,querySelectorAll:()=>[]},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>{if(blocked)throw Error('blocked');storage.set(k,v);}},location:{hash:'#explorador/search'},URL,console,setTimeout,clearTimeout};vm.createContext(env);
+for(const f of ['data','catalog-data','catalog','adventures','quest-catalog','quest-route-data','quest-map-guides','quest-guide-details','quest-wiki-review','route-review','quest-route-audit','hunt-data','hunt-paths','hunts','community-tools','classic-resources-data','classic-resources'])vm.runInContext(fs.readFileSync('public/'+f+'.js','utf8'),env);
+const run=s=>vm.runInContext(s,env),api=env.window.ClassicExplorer,data=env.window.CLASSIC_RESOURCES;
+assert.equal(data.keys.length,34);assert.equal(new Set(data.keys.map(k=>k.number)).size,34);
+for(const k of data.keys){assert(run(`QUESTS.some(q=>q.id===${JSON.stringify(k.questId)})`));assert(k.sources.length>=2);assert(k.sources.every(u=>u.startsWith('https://')));if(k.introducedVersion)assert(Number(k.introducedVersion)<=7.4);}
+assert(api.search('4503').some(r=>r.type==='key'&&r.id==='4503'));
+assert(api.search('exura','spell').every(r=>r.type==='spell'));
+assert(api.search('crown armor','item').some(r=>r.name==='crown armor'));
+assert.equal(api.search('xyz-inexistente-921').length,0);assert.equal(api.search(' ').length,0);
+assert(api.cityRows('Thais').npcs.every(n=>n.city==='Thais'));
+assert(api.cityRows('Thais').quests.every(q=>q.city==='Thais'));
+assert(api.plannerRows(30,false).every(q=>!q.premium&&q.level<=30&&q.historicalStatus==='documentada'));
+assert(!api.plannerRows(30,false).some(q=>q.id==='annihilator'));
+assert(api.plannerNeeds(['fibula']).some(n=>n.includes('3980')));
+assert.deepEqual(JSON.parse(JSON.stringify(api.foodPlan(60,2789))),{quantity:14,weight:2.8,seconds:3696});
+assert.equal(api.foodPlan(60,2671).quantity,10);assert.equal(data.foods.find(f=>f.id===2696).stackable,false);for(const f of data.foods)assert.equal(run(`C.items.find(i=>i.id===${f.id}).stats.weight`),f.weight);assert.equal(api.foodPlan(0,2671),null);assert.equal(api.foodPlan(2000,2671),null);
+for(const set of api.setExamples)for(const name of set.pieces)assert(run(`C.items.some(i=>i.name===${JSON.stringify(name)})`),name);
+assert.equal(api.keyStage(data.keys.find(k=>k.number==='4501')),null,'Disputed coordinates must not be presented as verified');
+const stage=api.keyStage(data.keys.find(k=>k.number==='4503'));assert.equal(env.window.QUEST_ROUTES['alawar-s-vault'].stages[stage].label,'Key 4503');
+assert(api.saveRecord('quest','fibula',{favorite:true,status:'in-progress',stage:999,note:'<img src=x onerror=evil()>',extra:'discard'}));
+assert.equal(api.getRecord('quest','fibula').stage,env.window.QUEST_ROUTES.fibula.stages.length-1);
+assert(!JSON.parse(storage.get('tc74-explorer-journal-v1'))['quest:fibula'].extra);
+const markup=env.window.guideJournalMarkup('quest','fibula');assert(markup.includes('&lt;img'));assert(!markup.includes('<img src=x'));assert(markup.includes('Continuar no mapa'));
+assert(!api.saveRecord('quest','not-a-quest',{favorite:true}));
+assert(api.journalRows().some(r=>r.id==='fibula'));
+blocked=true;assert.equal(api.saveRecord('quest','fibula',{note:'temporário'}),false);assert.equal(api.getRecord('quest','fibula').note,'temporário');
+vm.runInContext(fs.readFileSync('public/app.js','utf8').split("\ndocument.querySelectorAll('nav button[data-page]')")[0],env);
+run("detailQuest('fibula')");assert(node('#detail-body').innerHTML.includes('data-journal-status'));assert(node('#detail-body').innerHTML.includes('data-record-quest-stage'));
+run("detailItem(2666)");assert(node('#detail-body').innerHTML.includes('data-journal-type="item"'));
+run("detailSpell('Light Healing')");assert(node('#detail-body').innerHTML.includes('data-journal-type="spell"'));
+run("detailNpc('Dermot')");assert(node('#detail-body').innerHTML.includes('data-journal-type="npc"'));
+run("detailHunt('troll-thais')");assert(node('#detail-body').innerHTML.includes('data-journal-type="hunt"'));
+assert(fs.readFileSync('public/index.html','utf8').indexOf('classic-resources.js')<fs.readFileSync('public/index.html','utf8').indexOf('app.js'));
+console.log('PASS: 34 chaves, busca geral, cidades, planejamento clássico, comida, sets, diário sanitizado, falha de armazenamento e integração das fichas');
