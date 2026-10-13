@@ -63,7 +63,10 @@ const approved=new Set([
   "vampire-shield",
   "voodoo-doll",
   "wedding-ring",
-  "serpentine-tower"
+  "serpentine-tower",
+  "triangle-tower",
+  "noble-armor",
+  "iron-helmet"
 ]);
 // Versions are release labels: 7.24 precedes 7.4; 7.41 does not.
 const atMost74=value=>{const versions=String(value||'').match(/\d+\.\d+/g);return Boolean(versions?.length)&&versions.every(v=>{const [major,minor]=v.split('.');const sequence=Number(minor.padEnd(2,'0'));return Number(major)<7||(Number(major)===7&&sequence<=40);});};

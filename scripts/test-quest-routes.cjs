@@ -6,10 +6,10 @@ for(const name of ['data.js','catalog-data.js','catalog.js','adventures.js','que
 vm.runInContext(fs.readFileSync('public/app.js','utf8').split("\ndocument.querySelectorAll('nav button[data-page]')")[0],env);
 const run=s=>vm.runInContext(s,env);
 assert.equal(Object.keys(env.window.QUEST_ROUTES).length,98);
-assert.equal(run("QUESTS.filter(q=>q.historicalStatus==='documentada').length"),62);
-run("questHistory='confirmed'");assert.equal(run('questRows().length'),62);assert(run("questRows().every(q=>(q.introducedVersion||q.documentedByVersion)&&q.category!=='respawn')"));
-run("questHistory='review'");assert.equal(run('questRows().length'),35);
-run("questHistory='respawn'");assert.equal(run('questRows().length'),2);
+assert.equal(run("QUESTS.filter(q=>q.historicalStatus==='documentada').length"),65);
+run("questHistory='confirmed'");assert.equal(run('questRows().length'),64);assert(run("questRows().every(q=>(q.introducedVersion||q.documentedByVersion)&&q.category!=='respawn')"));
+run("questHistory='review'");assert.equal(run('questRows().length'),32);
+run("questHistory='respawn'");assert.equal(run('questRows().length'),3);
 assert.equal(run("QUESTS.find(q=>q.id==='serpentine-tower').city"),'Ankrahmun');
 run("questHistory='all'");
 for(const route of Object.values(env.window.QUEST_ROUTES))for(const step of route.stages){assert(step.points.length);assert(step.floor>=0&&step.floor<=15);for(const p of step.points)assert.equal(p[2],step.floor);}
@@ -56,7 +56,7 @@ console.log('PASS: guia detalhado, falas por etapa, acesso direto e reutilizaÃ§Ã
 })().catch(e=>{console.error(e);process.exitCode=1});
 
 assert.equal(Object.keys(env.window.QUEST_WIKI_REVIEW).length,98);
-assert(run("QUESTS.every(q=>q.steps.length>=3 && q.reviewedAt==='12/10/2026')"));
+assert(run("QUESTS.every(q=>q.steps.length>=3 && ['12/10/2026','13/10/2026'].includes(q.reviewedAt))"));
 for(const [id,r] of Object.entries(env.window.QUEST_WIKI_REVIEW)) {assert(r.source.startsWith('https://'));if(env.window.QUEST_ROUTES[id].coverage!=='area')assert(env.window.questDetailedGuide(id).includes('data-guide-stage'),id);}
 assert(env.window.questStageExtras('the-paradox-tower',13).includes('Melon'));
 assert(run("QUESTS.find(q=>q.id==='alawar-s-vault').rewards.length")===2);

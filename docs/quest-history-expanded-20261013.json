@@ -1,0 +1,1576 @@
+{
+  "reviewedAt": "2026-10-13",
+  "reviewedEntries": 98,
+  "publishedEntries": 65,
+  "oneTimeQuestGuides": 64,
+  "renewableCollections": 1,
+  "withheldEntries": 33,
+  "currentWikiResponses": 88,
+  "distinctCurrentWikiPages": 64,
+  "recovered": [
+    "triangle-tower",
+    "noble-armor",
+    "iron-helmet"
+  ],
+  "scope": "Historical admission, comparison with available current walkthroughs and explicit corrections. Not in-game route or mechanism validation.",
+  "entries": [
+    {
+      "id": "alawar-s-vault",
+      "name": "Alawar's Vault",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.5",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.5. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Alawar's_Vault_Quest",
+        "httpStatus": "200",
+        "title": "Alawar's Vault Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 6.5 ( 19 de dezembro de 2001 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Alawar's_Vault_Quest",
+        "https://tibia.fandom.com/wiki/Alawar%27s_Vault_Quest",
+        "https://tibia.fandom.com/index.php?oldid=42078",
+        "https://tibia.fandom.com/index.php?oldid=59159",
+        "https://tibia.fandom.com/wiki/Alawar%27s_Vault_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "annihilator",
+      "name": "Annihilator",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.24",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.24. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Annihilator_Quest",
+        "httpStatus": "200",
+        "title": "The Annihilator Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Annihilator_Quest",
+        "https://tibia.fandom.com/wiki/The_Annihilator_Quest",
+        "https://tibia.fandom.com/wiki/The_Annihilator_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=10342",
+        "https://tibia.fandom.com/index.php?oldid=10419",
+        "https://tibia.fandom.com/index.php?oldid=55815",
+        "https://www.tibiawiki.com.br/wiki/Annihilation_Bear"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "barbarian-axe",
+      "name": "Barbarian Axe",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Barbarian_Axe_Quest",
+        "httpStatus": "200",
+        "title": "Against the Spider Cult Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 8.1 ( 11 de dezembro de 2007 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Against_the_Spider_Cult_Quest",
+        "https://tibia.fandom.com/wiki/Barbarian_Axe_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=23978",
+        "https://tibia.fandom.com/wiki/Berserker_Treasure_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "bear-room",
+      "name": "Bear Room",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "5.2",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 5.2. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Bear_Room_Quest",
+        "httpStatus": "200",
+        "title": "Bear Room Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Bear_Room_Quest",
+        "https://tibia.fandom.com/wiki/Bear_Room_Quest",
+        "https://tibia.fandom.com/wiki/Bear_Room_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=64348",
+        "https://tibia.fandom.com/index.php?oldid=30071",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "behemoth",
+      "name": "Behemoth",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.2",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.2. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Behemoth_Quest",
+        "httpStatus": "200",
+        "title": "Behemoth Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 7.2 ( 16 de dezembro de 2003 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Behemoth_Quest",
+        "https://tibia.fandom.com/wiki/Behemoth_Quest",
+        "https://tibia.fandom.com/wiki/Behemoth_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=21249",
+        "https://tibia.fandom.com/index.php?oldid=57509",
+        "https://tibia.fandom.com/index.php?oldid=70206",
+        "https://tibiastories.com.br/2022/03/quests-esquecidas-pelo-tempo/"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "berserker-treasure",
+      "name": "Berserker Treasure",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Berserker_Treasure_Quest",
+        "httpStatus": "200",
+        "title": "Against the Spider Cult Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 8.1 ( 11 de dezembro de 2007 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Against_the_Spider_Cult_Quest",
+        "https://tibia.fandom.com/wiki/Berserker_Treasure_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=23978",
+        "https://tibia.fandom.com/wiki/Barbarian_Axe_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "black-knight",
+      "name": "Black Knight",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.1",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.1. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Black_Knight_Quest",
+        "httpStatus": "200",
+        "title": "Black Knight Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 7.1 ( 17 de dezembro de 2002 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Black_Knight_Quest",
+        "https://tibia.fandom.com/wiki/Black_Knight_Quest",
+        "https://tibia.fandom.com/index.php?oldid=70179",
+        "https://tibia.fandom.com/index.php?oldid=70176",
+        "https://tibia.fandom.com/wiki/Black_Knight_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "blood-herb",
+      "name": "Blood Herb",
+      "decision": "published",
+      "category": "troca",
+      "introducedVersion": "6.1",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.1. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Blood_Herb_Quest",
+        "httpStatus": "200",
+        "title": "Blood Herb Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Blood_Herb_Quest",
+        "https://tibia.fandom.com/wiki/Blood_Herb_Quest",
+        "https://tibia.fandom.com/index.php?oldid=70614",
+        "https://tibia.fandom.com/wiki/Blood_Herb_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "combat-knife",
+      "name": "Combat Knife",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "5.2",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 5.2. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Combat_Knife_Quest",
+        "httpStatus": "200",
+        "title": "Combat Knife Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Combat_Knife_Quest",
+        "https://tibia.fandom.com/wiki/Combat_Knife_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=23964",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "crusader-helmet",
+      "name": "Crusader Helmet",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": "7.3",
+      "historicalNote": "Presença documentada em uma gravação arquivada do Tibia 7.3. A versão exata de introdução continua desconhecida.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Crusader_Helmet_Quest",
+        "httpStatus": "200",
+        "title": "Crusader Helmet Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Crusader_Helmet_Quest",
+        "https://tibicam.com/video/fuwapiwu-tibia-73-40ea53c1",
+        "https://tibia.fandom.com/index.php?oldid=63276",
+        "https://tibia.fandom.com/index.php?oldid=40697",
+        "https://tibia.fandom.com/wiki/Crusader_Helmet_Quest/Spoiler",
+        "https://tibiastories.com.br/2022/03/quests-esquecidas-pelo-tempo/"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "dark-armor",
+      "name": "Dark Armor",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Dark_Armor_Quest",
+        "httpStatus": "200",
+        "title": "Against the Spider Cult Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 8.1 ( 11 de dezembro de 2007 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Against_the_Spider_Cult_Quest",
+        "https://tibia.fandom.com/wiki/Dark_Armor_Quest",
+        "https://tibia.fandom.com/index.php?oldid=23978",
+        "https://tibia.fandom.com/wiki/Barbarian_Axe_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Berserker_Treasure_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "fibula",
+      "name": "Deeper Fibula",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "5.0",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 5.0. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Deeper_Fibula_Quest",
+        "httpStatus": "200",
+        "title": "Deeper Fibula Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Deeper_Fibula_Quest",
+        "https://tibia.fandom.com/wiki/Deeper_Fibula_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=55209",
+        "https://tibia.fandom.com/index.php?oldid=29955",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "demon-helmet",
+      "name": "Demon Helmet",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Demon_Helmet_Quest",
+        "httpStatus": "200",
+        "title": "The Demon Helmet Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 6.4 ( 02 de novembro de 2001 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Demon_Helmet_Quest",
+        "https://tibia.fandom.com/wiki/Demon_Helmet_Quest",
+        "https://tibia.fandom.com/wiki/Demon_Helmet_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=57772",
+        "https://tibia.fandom.com/index.php?oldid=70429",
+        "https://tibia.fandom.com/index.php?oldid=38655"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "devil-helmet",
+      "name": "Devil Helmet",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "5.01",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 5.01. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Devil_Helmet_Quest",
+        "httpStatus": "200",
+        "title": "Mintwallin Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão Pré-6.0 ( 07 de janeiro de 1997 - 03 de novembro de 2000 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Mintwallin_Quest",
+        "https://tibia.fandom.com/wiki/Devil_Helmet_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=60158",
+        "https://tibia.fandom.com/index.php?oldid=29957",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "double-hero",
+      "name": "Double Hero",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Double_Hero_Quest",
+        "httpStatus": "200",
+        "title": "The Hero Cave Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 6.4 ( 02 de novembro de 2001 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Hero_Cave_Quest",
+        "https://tibia.fandom.com/wiki/Double_Hero_Quest",
+        "https://tibia.fandom.com/index.php?oldid=59244",
+        "https://tibia.fandom.com/index.php?oldid=32239",
+        "https://tibia.fandom.com/wiki/Double_Hero_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "draconia",
+      "name": "Draconia",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.2",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.2. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Draconia_Quest",
+        "httpStatus": "200",
+        "title": "Draconia Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 6.2 ( 10 de junho de 2001 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Draconia_Quest",
+        "https://tibia.fandom.com/wiki/Draconia_Quest",
+        "https://tibia.fandom.com/index.php?oldid=63102",
+        "https://tibia.fandom.com/index.php?oldid=45121",
+        "https://tibia.fandom.com/index.php?oldid=66086",
+        "https://tibia.fandom.com/wiki/Draconia_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "dragon-corpse",
+      "name": "Dragon Corpse",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "5.2",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 5.2. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Dragon_Corpse_Quest",
+        "httpStatus": "200",
+        "title": "Dragon Corpse Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Corpse_Quest",
+        "https://tibia.fandom.com/wiki/Dragon_Corpse_Quest",
+        "https://tibia.fandom.com/wiki/Dragon_Corpse_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=63733",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "dragon-tower",
+      "name": "Dragon Tower",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.1",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.1. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Dragon_Tower_Quest",
+        "httpStatus": "200",
+        "title": "Shadowthorn Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 7.1 ( 17 de dezembro de 2002 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Shadowthorn_Quest",
+        "https://tibia.fandom.com/wiki/Dragon_Tower_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=65460",
+        "https://tibia.fandom.com/index.php?oldid=65017"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "edron-goblin",
+      "name": "Edron Goblin",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Edron_Goblin_Quest",
+        "httpStatus": "200",
+        "title": "Edron Goblin Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Goblin_Quest",
+        "https://tibia.fandom.com/wiki/Edron_Goblin_Quest",
+        "https://tibia.fandom.com/index.php?oldid=23973",
+        "https://tibia.fandom.com/wiki/Edron_Goblin_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "emperor-s-cookies",
+      "name": "Emperor's Cookies",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.1",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.1. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Emperor's_Cookies_Quest",
+        "httpStatus": "200",
+        "title": "Emperor's Cookies Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 6.1 ( 23 de dezembro de 2000 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Emperor's_Cookies_Quest",
+        "https://tibia.fandom.com/wiki/Emperor%27s_Cookies_Quest",
+        "https://tibia.fandom.com/index.php?oldid=72569",
+        "https://tibia.fandom.com/index.php?oldid=45235"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "fire-axe",
+      "name": "Fire Axe",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Fire_Axe_Quest",
+        "httpStatus": "200",
+        "title": "Fire Axe Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 6.4 ( 02 de novembro de 2001 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Fire_Axe_Quest",
+        "https://tibia.fandom.com/wiki/Fire_Axe_Quest",
+        "https://tibia.fandom.com/index.php?oldid=56723",
+        "https://tibia.fandom.com/index.php?oldid=30010",
+        "https://tibia.fandom.com/wiki/Fire_Axe_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "ghoul-room",
+      "name": "Ghoul Room",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "5.01",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 5.01. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Ghoul_Room_Quest",
+        "httpStatus": "200",
+        "title": "Mintwallin Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão Pré-6.0 ( 07 de janeiro de 1997 - 03 de novembro de 2000 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Mintwallin_Quest",
+        "https://tibia.fandom.com/wiki/Ghoul_Room_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=24026",
+        "https://tibia.fandom.com/index.php?oldid=29968",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "giant-smithhammer",
+      "name": "Giant Smithhammer",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.24",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.24. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Giant_Smithhammer_Quest",
+        "httpStatus": "200",
+        "title": "The Explorer Society Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 7.6 ( 12 de dezembro de 2005 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Explorer_Society_Quest",
+        "https://tibia.fandom.com/wiki/Giant_Smithhammer_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=34890",
+        "https://tibia.fandom.com/index.php?oldid=34008",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "iron-hammer",
+      "name": "Iron Hammer",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.61-6.97",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.61-6.97. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Iron_Hammer_Quest",
+        "httpStatus": "200",
+        "title": "Iron Hammer Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Iron_Hammer_Quest",
+        "https://tibia.fandom.com/wiki/Iron_Hammer_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=24172",
+        "https://tibia.fandom.com/index.php?oldid=64526"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "iron-helmet",
+      "name": "Iron Helmet",
+      "decision": "published",
+      "category": "respawn",
+      "introducedVersion": "5.2",
+      "documentedByVersion": null,
+      "historicalNote": "A referência própria registra a coleta na versão 5.2. Trata-se de um recipiente de respawn, não de uma quest com recompensa única por personagem. A renovação e os itens disponíveis dependem do servidor.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Iron_Helmet_Quest",
+        "httpStatus": "200",
+        "title": "Iron Helmet Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 5.2 ( 17 de março de 2000 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Iron_Helmet_Quest",
+        "https://tibia.fandom.com/index.php?oldid=44102",
+        "https://tibia.fandom.com/index.php?oldid=38856",
+        "https://tibia.fandom.com/wiki/Iron_Helmet_Quest/Spoiler"
+      ],
+      "previousDecision": "withheld"
+    },
+    {
+      "id": "katana",
+      "name": "Katana",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "5.2",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 5.2. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Katana_Quest",
+        "httpStatus": "200",
+        "title": "Katana Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Katana_Quest",
+        "https://tibia.fandom.com/wiki/Katana_Quest",
+        "https://tibia.fandom.com/wiki/Katana_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=48802",
+        "https://tibia.fandom.com/index.php?oldid=53356",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "present-box",
+      "name": "Legion Helmet (Present Box)",
+      "decision": "published",
+      "category": "troca",
+      "introducedVersion": "5.2",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 5.2. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Present_Quest",
+        "httpStatus": "200",
+        "title": "Present Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Present_Quest",
+        "https://tibia.fandom.com/wiki/Present_Quest",
+        "https://tibia.fandom.com/wiki/Present_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=30884",
+        "https://tibia.fandom.com/index.php?oldid=51824",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "mad-mage-room",
+      "name": "Mad Mage Room",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.24",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.24. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Mad_Mage_Room_Quest",
+        "httpStatus": "200",
+        "title": "Mintwallin Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão Pré-6.0 ( 07 de janeiro de 1997 - 03 de novembro de 2000 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Mintwallin_Quest",
+        "https://tibia.fandom.com/wiki/Mad_Mage_Room_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=64426",
+        "https://tibia.fandom.com/index.php?oldid=41066",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "medusa-shield",
+      "name": "Medusa Shield",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.3",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.3. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Medusa_Shield_Quest",
+        "httpStatus": "200",
+        "title": "Medusa Shield Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 7.3 ( 11 de agosto de 2004 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Medusa_Shield_Quest",
+        "https://tibia.fandom.com/wiki/Medusa_Shield_Quest",
+        "https://tibia.fandom.com/index.php?oldid=61332",
+        "https://tibia.fandom.com/index.php?oldid=66825",
+        "https://tibia.fandom.com/wiki/Medusa_Shield_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "minotaur-hell",
+      "name": "Minotaur Hell",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "5.2",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 5.2. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Minotaur_Hell_Quest",
+        "httpStatus": "200",
+        "title": "Minotaur Hell Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Minotaur_Hell_Quest",
+        "https://tibia.fandom.com/wiki/Minotaur_Hell_Quest",
+        "https://tibia.fandom.com/wiki/Minotaur_Hell_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=66981",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "noble-armor",
+      "name": "Noble Armor",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": "7.2",
+      "historicalNote": "Presença documentada por uma gravação de Zver em Nova no cliente 7.2, catalogada pelo TibiCam. Isso não estabelece a versão de introdução. Os dois prêmios registrados são Noble Armor e Crown Helmet.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Noble_Armor_Quest",
+        "httpStatus": "200",
+        "title": "Thais Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 5.1 ( 23 de dezembro de 1999 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Thais_Quest",
+        "https://tibicam.com/video/zver-tibia-72-ae60ca78",
+        "https://tibia.fandom.com/index.php?oldid=73459",
+        "https://tibia.fandom.com/index.php?oldid=33323",
+        "https://tibia.fandom.com/wiki/Noble_Armor_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "withheld"
+    },
+    {
+      "id": "orc-fortress",
+      "name": "Orc Fortress",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.1",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.1. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Orc_Fortress_Quest",
+        "httpStatus": "200",
+        "title": "Orc Fortress Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 6.1 ( 23 de dezembro de 2000 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Orc_Fortress_Quest",
+        "https://tibia.fandom.com/wiki/Orc_Fortress_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=38820",
+        "https://tibia.fandom.com/index.php?oldid=49459"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "ornamented-shield",
+      "name": "Ornamented Shield",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "5.1",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 5.1. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Ornamented_Shield_Quest",
+        "httpStatus": "200",
+        "title": "Ornamented Shield Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Ornamented_Shield_Quest",
+        "https://tibia.fandom.com/wiki/Ornamented_Shield_Quest",
+        "https://tibia.fandom.com/index.php?oldid=53190",
+        "https://tibia.fandom.com/index.php?oldid=43513",
+        "https://tibia.fandom.com/wiki/Ornamented_Shield_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "panpipe",
+      "name": "Panpipe",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.1",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.1. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Panpipe_Quest",
+        "httpStatus": "200",
+        "title": "Panpipe Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 6.1 ( 23 de dezembro de 2000 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Panpipe_Quest",
+        "https://tibia.fandom.com/wiki/Panpipe_Quest",
+        "https://tibia.fandom.com/index.php?oldid=23951",
+        "https://tibia.fandom.com/wiki/Panpipe_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "parchment-room",
+      "name": "Parchment Room",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.2",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.2. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Parchment_Room_Quest",
+        "httpStatus": "200",
+        "title": "The Demon Helmet Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 6.4 ( 02 de novembro de 2001 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Demon_Helmet_Quest",
+        "https://tibia.fandom.com/wiki/Parchment_Room_Quest",
+        "https://tibia.fandom.com/wiki/Parchment_Room_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=66537",
+        "https://tibia.fandom.com/index.php?oldid=51239",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "plate-armor",
+      "name": "Plate Armor",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.61-6.97",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.61-6.97. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Plate_Armor_Quest",
+        "httpStatus": "200",
+        "title": "Plate Armor Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Plate_Armor_Quest",
+        "https://tibia.fandom.com/wiki/Plate_Armor_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=24797"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "poison-daggers",
+      "name": "Poison Daggers",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Poison_Daggers_Quest",
+        "httpStatus": "200",
+        "title": "Against the Spider Cult Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 8.1 ( 11 de dezembro de 2007 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Against_the_Spider_Cult_Quest",
+        "https://tibia.fandom.com/wiki/Poison_Daggers_Quest",
+        "https://tibia.fandom.com/index.php?oldid=23978",
+        "https://tibia.fandom.com/wiki/Barbarian_Axe_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Berserker_Treasure_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "postman-missions",
+      "name": "Postman Missions",
+      "decision": "published",
+      "category": "missão",
+      "introducedVersion": "7.24",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.24. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Postman_Missions_Quest",
+        "httpStatus": "200",
+        "title": "The Postman Missions Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 7.24 ( 14 de março de 2004 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Postman_Missions_Quest",
+        "https://tibia.fandom.com/wiki/The_Postman_Missions_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=73449",
+        "https://tibia.fandom.com/index.php?oldid=72821",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "rapier",
+      "name": "Rapier",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "5.2",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 5.2. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Rapier_Quest",
+        "httpStatus": "200",
+        "title": "Rapier Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Rapier_Quest",
+        "https://tibia.fandom.com/wiki/Rapier_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=24209",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "ring",
+      "name": "Ring",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.1",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.1. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Ring_Quest",
+        "httpStatus": "200",
+        "title": "The Hero Cave Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 6.4 ( 02 de novembro de 2001 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Hero_Cave_Quest",
+        "https://tibia.fandom.com/wiki/Ring_Quest",
+        "https://tibia.fandom.com/wiki/Ring_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "shaman-treasure",
+      "name": "Shaman Treasure",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Shaman_Treasure_Quest",
+        "httpStatus": "200",
+        "title": "Against the Spider Cult Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 8.1 ( 11 de dezembro de 2007 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Against_the_Spider_Cult_Quest",
+        "https://tibia.fandom.com/wiki/Shaman_Treasure_Quest",
+        "https://tibia.fandom.com/index.php?oldid=23978",
+        "https://tibia.fandom.com/wiki/Barbarian_Axe_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Berserker_Treasure_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "amber-s-notebook",
+      "name": "Short Sword (Amber’s Notebook)",
+      "decision": "published",
+      "category": "troca",
+      "introducedVersion": "5.2",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 5.2. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Short_Sword_Quest",
+        "httpStatus": "200",
+        "title": "Short Sword Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Short_Sword_Quest",
+        "https://tibia.fandom.com/wiki/Short_Sword_Quest",
+        "https://tibia.fandom.com/wiki/Short_Sword_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=29268",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "silver-amulet",
+      "name": "Silver Amulet",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "5.2",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 5.2. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Silver_Amulet_Quest",
+        "httpStatus": "404",
+        "title": "Silver Amulet Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": false
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Silver_Amulet",
+        "https://tibia.fandom.com/wiki/Silver_Amulet_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Silver_Amulet_Quest",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "skull-of-ratha",
+      "name": "Skull of Ratha",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.24",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.24. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Skull_of_Ratha_Quest",
+        "httpStatus": "200",
+        "title": "The Explorer Society Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 7.6 ( 12 de dezembro de 2005 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Explorer_Society_Quest",
+        "https://tibia.fandom.com/wiki/Skull_of_Ratha_Quest",
+        "https://tibia.fandom.com/index.php?oldid=61958",
+        "https://tibia.fandom.com/index.php?oldid=64839",
+        "https://tibia.fandom.com/wiki/Skull_of_Ratha_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "stealth-ring",
+      "name": "Stealth Ring",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.61-6.97",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.61-6.97. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Stealth_Ring_Quest",
+        "httpStatus": "404",
+        "title": "Stealth Ring Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": false
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Dark_Pyramid_Quest",
+        "https://tibia.fandom.com/wiki/Stealth_Ring_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=36335"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "steel-helmet",
+      "name": "Steel Helmet",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.61-6.97",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.61-6.97. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Steel_Helmet_Quest",
+        "httpStatus": "200",
+        "title": "Steel Helmet Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Steel_Helmet_Quest",
+        "https://tibia.fandom.com/wiki/Steel_Helmet_Quest",
+        "https://tibia.fandom.com/index.php?oldid=56432",
+        "https://tibia.fandom.com/index.php?oldid=43499"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "honey-flower",
+      "name": "Studded Legs (Honey Flower)",
+      "decision": "published",
+      "category": "troca",
+      "introducedVersion": "7.11 (2)",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.11 (2). Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Studded_Legs_Quest",
+        "httpStatus": "200",
+        "title": "Studded Legs Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Studded_Legs_Quest",
+        "https://tibia.fandom.com/wiki/Studded_Legs_Quest",
+        "https://tibia.fandom.com/wiki/Studded_Legs_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=24204",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "banana",
+      "name": "Studded Shield (Banana)",
+      "decision": "published",
+      "category": "troca",
+      "introducedVersion": "6.0",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.0. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Studded_Shield_Quest",
+        "httpStatus": "200",
+        "title": "Studded Shield Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 6.0 ( 03 de novembro de 2000 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Studded_Shield_Quest",
+        "https://tibia.fandom.com/wiki/Studded_Shield_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=30400",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "thais-lighthouse",
+      "name": "Thais Lighthouse",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "3.0",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 3.0. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Thais_Lighthouse_Quest",
+        "httpStatus": "200",
+        "title": "Thais Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 5.1 ( 23 de dezembro de 1999 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Thais_Quest",
+        "https://tibia.fandom.com/wiki/Thais_Lighthouse_Quest",
+        "https://tibia.fandom.com/index.php?oldid=61618",
+        "https://tibia.fandom.com/index.php?oldid=61619",
+        "https://tibia.fandom.com/wiki/Thais_Lighthouse_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "the-ancient-tombs",
+      "name": "The Ancient Tombs",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "httpStatus": "200",
+        "title": "The Ancient Tombs Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 7.4 ( 14 de dezembro de 2004 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://tibia.fandom.com/wiki/The_Ancient_Tombs_Quest",
+        "https://tibia.fandom.com/index.php?oldid=60368",
+        "https://tibia.fandom.com/index.php?oldid=34030",
+        "https://tibia.fandom.com/wiki/The_Ancient_Tombs_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "the-desert-dungeon",
+      "name": "The Desert Dungeon",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.1",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.1. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/The_Desert_Dungeon_Quest",
+        "httpStatus": "200",
+        "title": "The Desert Dungeon Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Desert_Dungeon_Quest",
+        "https://tibia.fandom.com/wiki/The_Desert_Dungeon_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=67986",
+        "https://tibia.fandom.com/index.php?oldid=63223"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "the-djinn-war-efreet-faction",
+      "name": "The Djinn War - Efreet Faction",
+      "decision": "published",
+      "category": "missão",
+      "introducedVersion": "7.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/The_Djinn_War_Quest",
+        "httpStatus": "200",
+        "title": "The Djinn War Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 7.4 ( 14 de dezembro de 2004 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Djinn_War_Quest",
+        "https://tibia.fandom.com/wiki/The_Djinn_War_-_Efreet_Faction",
+        "https://tibia.fandom.com/index.php?oldid=38846",
+        "https://tibia.fandom.com/index.php?oldid=38847",
+        "https://tibia.fandom.com/wiki/The_Djinn_War_-_Efreet_Faction/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "the-djinn-war-marid-faction",
+      "name": "The Djinn War - Marid Faction",
+      "decision": "published",
+      "category": "missão",
+      "introducedVersion": "7.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/The_Djinn_War_Quest",
+        "httpStatus": "200",
+        "title": "The Djinn War Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 7.4 ( 14 de dezembro de 2004 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Djinn_War_Quest",
+        "https://tibia.fandom.com/wiki/The_Djinn_War_-_Marid_Faction",
+        "https://tibia.fandom.com/index.php?oldid=72061",
+        "https://tibia.fandom.com/index.php?oldid=71556",
+        "https://tibia.fandom.com/wiki/The_Djinn_War_-_Marid_Faction/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "the-outlaw-camp",
+      "name": "The Outlaw Camp",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/The_Outlaw_Camp_Quest",
+        "httpStatus": "200",
+        "title": "The Outlaw Camp Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Outlaw_Camp_Quest",
+        "https://tibia.fandom.com/wiki/The_Outlaw_Camp_Quest",
+        "https://tibia.fandom.com/index.php?oldid=66655",
+        "https://tibia.fandom.com/index.php?oldid=29950",
+        "https://tibia.fandom.com/wiki/The_Outlaw_Camp_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "the-paradox-tower",
+      "name": "The Paradox Tower",
+      "decision": "published",
+      "category": "missão",
+      "introducedVersion": "6.61-6.97",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.61-6.97. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/The_Paradox_Tower_Quest",
+        "httpStatus": "200",
+        "title": "The Paradox Tower Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Paradox_Tower_Quest",
+        "https://tibia.fandom.com/wiki/The_Paradox_Tower_Quest",
+        "https://tibia.fandom.com/index.php?oldid=73165",
+        "https://tibia.fandom.com/index.php?oldid=73465",
+        "https://tibia.fandom.com/index.php?oldid=14595",
+        "https://tibia.fandom.com/index.php?oldid=56289"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "the-queen-of-the-banshees",
+      "name": "The Queen of the Banshees",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.2",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.2. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/The_Queen_of_the_Banshees_Quest",
+        "httpStatus": "200",
+        "title": "The Queen of the Banshees Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 7.2 ( 16 de dezembro de 2003 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Queen_of_the_Banshees_Quest",
+        "https://tibia.fandom.com/wiki/The_Queen_of_the_Banshees_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=71882",
+        "https://tibia.fandom.com/index.php?oldid=71869"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "the-white-raven-monastery",
+      "name": "The White Raven Monastery",
+      "decision": "published",
+      "category": "missão",
+      "introducedVersion": "7.24",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.24. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/The_White_Raven_Monastery_Quest",
+        "httpStatus": "200",
+        "title": "The White Raven Monastery Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_White_Raven_Monastery_Quest",
+        "https://tibia.fandom.com/wiki/The_White_Raven_Monastery_Quest",
+        "https://tibia.fandom.com/index.php?oldid=47837",
+        "https://tibia.fandom.com/index.php?oldid=29965",
+        "https://tibia.fandom.com/index.php?oldid=41202",
+        "https://tibia.fandom.com/index.php?oldid=45182"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "time-ring",
+      "name": "Time Ring",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.1",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.1. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Time_Ring_Quest",
+        "httpStatus": "200",
+        "title": "Shadowthorn Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 7.1 ( 17 de dezembro de 2002 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Shadowthorn_Quest",
+        "https://tibia.fandom.com/wiki/Time_Ring_Quest",
+        "https://tibia.fandom.com/index.php?oldid=71065",
+        "https://tibia.fandom.com/wiki/Time_Ring_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "triangle-tower",
+      "name": "Triangle Tower",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.4",
+      "documentedByVersion": null,
+      "historicalNote": "A página própria da Triangle Tower Quest registra a adição em 7.4 (14/12/2004). Essa data confirma a presença histórica; o mapa continua sendo uma referência por marcos.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Triangle_Tower_Quest",
+        "httpStatus": "200",
+        "title": "Triangle Tower Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 7.4 ( 14 de dezembro de 2004 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Triangle_Tower_Quest",
+        "https://tibia.fandom.com/index.php?oldid=60152",
+        "https://tibia.fandom.com/index.php?oldid=29994",
+        "https://tibia.fandom.com/wiki/Triangle_Tower_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "withheld"
+    },
+    {
+      "id": "triple-uh-rune",
+      "name": "Triple UH Rune",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Triple_UH_Rune_Quest",
+        "httpStatus": "200",
+        "title": "The Hero Cave Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 6.4 ( 02 de novembro de 2001 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Hero_Cave_Quest",
+        "https://tibia.fandom.com/wiki/Adorned_UH_Rune_Quest",
+        "https://tibia.fandom.com/index.php?oldid=54428",
+        "https://tibia.fandom.com/index.php?oldid=40228",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "troll-cave",
+      "name": "Troll Cave",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Troll_Cave_Quest",
+        "httpStatus": "200",
+        "title": "Troll Cave Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Troll_Cave_Quest",
+        "https://tibia.fandom.com/wiki/Troll_Cave_Quest",
+        "https://tibia.fandom.com/index.php?oldid=24006",
+        "https://tibia.fandom.com/wiki/Troll_Cave_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "vampire-shield",
+      "name": "Vampire Shield",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Vampire_Shield_Quest",
+        "httpStatus": "200",
+        "title": "The Hero Cave Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 6.4 ( 02 de novembro de 2001 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Hero_Cave_Quest",
+        "https://tibia.fandom.com/wiki/Vampire_Shield_Quest",
+        "https://tibia.fandom.com/wiki/Vampire_Shield_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=42285",
+        "https://tibia.fandom.com/index.php?oldid=38798",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "voodoo-doll",
+      "name": "Voodoo Doll",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.24",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.24. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Voodoo_Doll_Quest",
+        "httpStatus": "200",
+        "title": "Voodoo Doll Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Voodoo_Doll_Quest",
+        "https://tibia.fandom.com/wiki/Voodoo_Doll_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=38903"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "wedding-ring",
+      "name": "Wedding Ring",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "6.4",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 6.4. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Wedding_Ring_Quest",
+        "httpStatus": "200",
+        "title": "The Hero Cave Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": "Adicionado: Versão 6.4 ( 02 de novembro de 2001 )",
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Hero_Cave_Quest",
+        "https://tibia.fandom.com/wiki/Wedding_Ring_Quest",
+        "https://tibia.fandom.com/wiki/Wedding_Ring_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=73682",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "published"
+    },
+    {
+      "id": "serpentine-tower",
+      "name": "White Pearl (Serpentine Tower)",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": "7.3",
+      "documentedByVersion": null,
+      "historicalNote": "Introdução documentada na versão 7.3. Esta data confirma a existência, não todos os detalhes atuais do guia.",
+      "wikiResponse": {
+        "url": "https://www.tibiawiki.com.br/wiki/Serpentine_Tower",
+        "httpStatus": "200",
+        "title": "Serpentine Tower Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "reportedVersion": null,
+        "bodyUnchanged": true
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Serpentine_Tower_Quest",
+        "https://tibia.fandom.com/wiki/Serpentine_Tower_Quest",
+        "https://tibia.fandom.com/index.php?oldid=36597",
+        "https://tibia.fandom.com/index.php?oldid=62614",
+        "https://tibia.fandom.com/wiki/Serpentine_Tower_Quest/Spoiler"
+      ],
+      "previousDecision": "published"
+    }
+  ]
+}

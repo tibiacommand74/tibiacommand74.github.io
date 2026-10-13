@@ -43,3 +43,27 @@ const original=window.questStageExtras;
 const escape=t=>String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 window.questStageExtras=(id,i)=>{const s=routes[id]?.stages[i];return original(id,i)+(s?.pathNote?`<p class="guide-path-note">${escape(s.pathNote)}</p>`:'');};
 })();
+
+/* Historical follow-up: individual evidence and collection semantics, 13/10/2026. */
+(()=>{
+const q=id=>QUESTS.find(x=>x.id===id),routes=window.QUEST_ROUTES;
+const triangle=q('triangle-tower');triangle.needs=[...new Set([...triangle.needs,'Stealth Ring ou invisibilidade como opção; não substitui cura e cuidado com criaturas que enxergam invisíveis'])];
+Object.assign(routes['triangle-tower'].stages[1],{floor:7,points:[[32574,32121,7]],marker:[32574,32121,7],source:'wiki-coordinate-reference',detailSource:'https://www.tibiawiki.com.br/wiki/Triangle_Tower_Quest'});
+const noble=q('noble-armor');noble.rewardNote='Noble Armor e Crown Helmet; recolha os dois recipientes depois das portas de nível 35 e da Key 3142.';
+noble.guideReviewNote='Presença histórica comprovada no cliente 7.2. Skjaar cobra 1.000 gp pela Key 3142; responda redips, 7 e black, aguardando cada pergunta. Se a porta já estiver aberta, não é necessário comprar a chave.';
+const iron=q('iron-helmet');iron.rewardNote='Coleta renovável em corpo escondido; não garante prêmio individual. Iron Helmet e runa SD são os principais registros; as referências também citam Leather Armor, Longsword, carta e botas.';
+iron.steps=['Localize a árvore a oeste do acampamento de Cyclops e Minotaurs em Plains of Havoc. O Wiki atual indica 32769, 32225, 7; o mapa clássico deste projeto indica a região por um marco aproximado.','Procure o corpo parcialmente escondido e examine seu conteúdo. Se estiver vazio, não pressupõe quest já concluída: outro jogador pode ter recolhido os itens.','Esta é uma coleta de respawn. Tenha cuidado com criaturas trazidas do acampamento e confirme a renovação e o conteúdo no servidor.'];
+iron.guideReviewNote='Coleta histórica de respawn, separada das quests de conclusão única. A referência de versão não valida cada objeto ou o tempo de renovação.';
+const behemoth=q('behemoth');behemoth.rewardNote='3 Small Diamonds e 4 Small Sapphires; porta final de nível 80 na referência 7.4. O nível 60 pertence a registros anteriores ou adaptações de servidores.';
+behemoth.sources=[...new Set([...behemoth.sources,'https://tibia.fandom.com/wiki/Behemoth_Quest/Spoiler','https://tibiastories.com.br/2022/03/quests-esquecidas-pelo-tempo/'])];
+const annihilator=q('annihilator');annihilator.rewardNote='Escolha apenas um: Magic Sword, Demon Armor, Stonecutter Axe ou Present Box com Annihilation Bear. Os quatro baús são alternativas, não prêmios cumulativos.';
+annihilator.sources=[...new Set([...annihilator.sources,'https://www.tibiawiki.com.br/wiki/Annihilation_Bear'])];
+triangle.mobs=['skeleton','ghoul','demon skeleton','stalker','dwarf geomancer','monk','witch','beholder'];
+noble.mobs=['cyclops','ghoul','skeleton'];
+behemoth.mobs=['cyclops','dwarf soldier','dwarf guard','fire elemental','dragon','dragon lord','behemoth','priestess'];
+behemoth.steps[2]='Passe pela porta final de nível 80. Na referência histórica, prepare a sala com quatro Behemoths, dois Dragons e duas Priestesses; Cyclops Smiths da página atual são posteriores.';
+const crusader=q('crusader-helmet');crusader.mobs=['dwarf','dwarf soldier','dwarf guard','giant spider'];
+crusader.steps[3]='Retorne pelo caminho da mina. As barreiras quebráveis da página atual foram acrescentadas em 7.8, e a extensão ligada a Sam’s Old Backpack é posterior ao 7.4; elas não são requisitos deste guia clássico.';
+crusader.sources=[...new Set([...crusader.sources,'https://tibiastories.com.br/2022/03/quests-esquecidas-pelo-tempo/','https://tibicam.com/video/fuwapiwu-tibia-73-40ea53c1'])];
+for(const id of ['triangle-tower','noble-armor','iron-helmet','behemoth','annihilator','crusader-helmet'])q(id).reviewedAt='13/10/2026';
+})();

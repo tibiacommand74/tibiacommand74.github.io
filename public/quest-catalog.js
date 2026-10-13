@@ -343,7 +343,7 @@ window.CLASSIC_QUEST_CATALOG=[
       "small diamond",
       "small sapphire"
     ],
-    "rewardNote": "3 Small Diamonds e 4 Small Sapphires; nível 60 ou 80 conforme época/servidor",
+    "rewardNote": "3 Small Diamonds e 4 Small Sapphires; porta final de nível 80 na referência 7.4. O nível 60 pertence a registros anteriores ou adaptações de servidores.",
     "choice": false,
     "rewardChoices": null,
     "needs": [
@@ -1744,17 +1744,18 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "note": "Referência do clássico: nível de porta não é recomendação de combate. Servidores podem alterar recipientes, requisitos e recompensas.",
     "sources": [
+      "https://www.tibiawiki.com.br/wiki/Iron_Helmet_Quest",
       "https://tibia.fandom.com/index.php?oldid=44102",
       "https://tibia.fandom.com/index.php?oldid=38856",
       "https://tibia.fandom.com/wiki/Iron_Helmet_Quest/Spoiler"
     ],
     "aliases": "Iron Helmet Quest (Muriel's Letter) ",
-    "category": "exploração",
-    "historicalStatus": "incerta",
+    "category": "respawn",
+    "historicalStatus": "documentada",
     "region": "mainland",
-    "introducedVersion": null,
-    "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
-    "reviewedAt": "2026-10-08"
+    "introducedVersion": "5.2",
+    "historicalNote": "A referência própria registra a coleta na versão 5.2. Trata-se de um recipiente de respawn, não de uma quest com recompensa única por personagem. A renovação e os itens disponíveis dependem do servidor.",
+    "reviewedAt": "13/10/2026"
   },
   {
     "id": "isle-of-the-mists",
@@ -2197,6 +2198,7 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "note": "Referência do clássico: nível de porta não é recomendação de combate. Servidores podem alterar recipientes, requisitos e recompensas.",
     "sources": [
+      "https://tibicam.com/video/zver-tibia-72-ae60ca78",
       "https://tibia.fandom.com/index.php?oldid=73459",
       "https://tibia.fandom.com/index.php?oldid=33323",
       "https://tibia.fandom.com/wiki/Noble_Armor_Quest/Spoiler",
@@ -2204,11 +2206,12 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "aliases": "Noble Armor Quest (Skjaar/DTD) DTD Quest Skjaar",
     "category": "exploração",
-    "historicalStatus": "incerta",
+    "historicalStatus": "documentada",
     "region": "mainland",
     "introducedVersion": null,
-    "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
-    "reviewedAt": "2026-10-08"
+    "historicalNote": "Presença documentada por uma gravação de Zver em Nova no cliente 7.2, catalogada pelo TibiCam. Isso não estabelece a versão de introdução. Os dois prêmios registrados são Noble Armor e Crown Helmet.",
+    "reviewedAt": "13/10/2026",
+    "documentedByVersion": "7.2"
   },
   {
     "id": "orc-fortress",
@@ -3795,6 +3798,7 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "note": "Referência do clássico: nível de porta não é recomendação de combate. Servidores podem alterar recipientes, requisitos e recompensas.",
     "sources": [
+      "https://www.tibiawiki.com.br/wiki/Triangle_Tower_Quest",
       "https://tibia.fandom.com/index.php?oldid=60152",
       "https://tibia.fandom.com/index.php?oldid=29994",
       "https://tibia.fandom.com/wiki/Triangle_Tower_Quest/Spoiler",
@@ -3802,11 +3806,11 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "aliases": "Triangle Tower Quest ",
     "category": "exploração",
-    "historicalStatus": "incerta",
+    "historicalStatus": "documentada",
     "region": "mainland",
-    "introducedVersion": null,
-    "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
-    "reviewedAt": "2026-10-08"
+    "introducedVersion": "7.4",
+    "historicalNote": "A página própria da Triangle Tower Quest registra a adição em 7.4 (14/12/2004). Essa data confirma a presença histórica; o mapa continua sendo uma referência por marcos.",
+    "reviewedAt": "13/10/2026"
   },
   {
     "id": "triple-uh-rune",
