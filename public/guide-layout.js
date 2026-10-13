@@ -14,7 +14,7 @@ window.applyGuideLayout=(root,kind)=>{
  }else nav.innerHTML='<p class="eyebrow">GUIAS CLÁSSICOS</p>'+[['iniciantes','Iniciantes'],['hunts','Hunts'],['quests','Quests']].map(([id,name])=>`<a href="#${id}" ${kind===id?'aria-current="page"':''}>${name}<span aria-hidden="true">›</span></a>`).join('');sidebar.append(nav);
  const panel=document.createElement('section');panel.className='guide-hub-panel';
  const filter=root.querySelector(library?(kind==='criaturas'?'.toolbar':'.catalog-toolbar'):kind==='quests'?'.quest-filter-panel':kind==='hunts'?'.hunt-toolbar':'.beginner-nav');
- if(filter){const block=document.createElement('div');block.className='guide-hub-filters';const label=document.createElement('h3');label.textContent=library?'Filtrar biblioteca':kind==='iniciantes'?'Sua jornada':'Encontre seu guia';block.append(label,filter);sidebar.append(block);
+ if(filter){filter.querySelectorAll('label.sr-only').forEach(label=>label.remove());const block=document.createElement('div');block.className='guide-hub-filters';const label=document.createElement('h3');label.textContent=library?'Filtrar biblioteca':kind==='iniciantes'?'Sua jornada':'Encontre seu guia';block.append(label,filter);sidebar.append(block);
   if(kind!=='iniciantes')filter.querySelectorAll('input,select').forEach(control=>{const text=control.getAttribute('aria-label')||({'search':'Buscar criatura ou loot','catalog-search':'Buscar na biblioteca'}[control.id]);if(!text)return;const label=document.createElement('label');label.className='guide-filter-label';const span=document.createElement('span');span.textContent=text;control.before(label);label.append(span,control);});
  }
  for(const child of [...root.children])if(child!==heading)panel.append(child);
