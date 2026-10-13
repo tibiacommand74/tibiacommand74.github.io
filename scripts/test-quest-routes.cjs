@@ -2,7 +2,7 @@ const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/st
 const nodes=new Map(),ctx=new Proxy({},{get:(o,k)=>o[k]??(()=>{}),set:(o,k,v)=>(o[k]=v,true)});
 function node(id){if(!nodes.has(id))nodes.set(id,{value:'',hidden:false,checked:false,innerHTML:'',textContent:'',parentElement:{clientWidth:800,clientHeight:600},querySelectorAll:()=>[],close(){},showModal(){},addEventListener(){},getContext:()=>ctx});return nodes.get(id);}
 const env={window:{},document:{querySelector:node,querySelectorAll:()=>[]},localStorage:{getItem:()=>null,setItem(){}},Image:class{complete=false},ResizeObserver:class{observe(){}disconnect(){}},location:{hash:''},URL,console,setTimeout,clearTimeout};vm.createContext(env);
-for(const name of ['data.js','catalog-data.js','catalog.js','adventures.js','quest-catalog.js','quest-route-data.js','quest-map-guides.js','quest-guide-details.js','route-review.js','reports.js','quest-routes.js','hunt-data.js','hunt-paths.js','hunts.js'])vm.runInContext(fs.readFileSync('public/'+name,'utf8'),env);
+for(const name of ['data.js','catalog-data.js','catalog.js','adventures.js','quest-catalog.js','quest-route-data.js','quest-map-guides.js','quest-guide-details.js','quest-wiki-review.js','route-review.js','reports.js','quest-routes.js','hunt-data.js','hunt-paths.js','hunts.js'])vm.runInContext(fs.readFileSync('public/'+name,'utf8'),env);
 vm.runInContext(fs.readFileSync('public/app.js','utf8').split("\ndocument.querySelectorAll('nav button[data-page]')")[0],env);
 const run=s=>vm.runInContext(s,env);
 assert.equal(Object.keys(env.window.QUEST_ROUTES).length,98);
@@ -54,3 +54,10 @@ console.log('PASS: guia detalhado, falas por etapa, acesso direto e reutilizaç�
  await button.onclick();assert(messages.textContent.includes('manualmente'));assert(!messages.textContent.includes('Copiado'));
  console.log('PASS: cópia individual e mensagem útil quando a área de transferência falha');
 })().catch(e=>{console.error(e);process.exitCode=1});
+
+assert.equal(Object.keys(env.window.QUEST_WIKI_REVIEW).length,98);
+assert(run("QUESTS.every(q=>q.steps.length>=3 && q.reviewedAt==='13/10/2026')"));
+for(const [id,r] of Object.entries(env.window.QUEST_WIKI_REVIEW)) {assert(r.source.startsWith('https://'));if(env.window.QUEST_ROUTES[id].coverage!=='area')assert(env.window.questDetailedGuide(id).includes('data-guide-stage'),id);}
+assert(env.window.questStageExtras('the-paradox-tower',13).includes('Melon'));
+assert(run("QUESTS.find(q=>q.id==='alawar-s-vault').rewards.length")===2);
+console.log('PASS: 98 roteiros revisados, fontes, enigmas e recompensas separadas');
