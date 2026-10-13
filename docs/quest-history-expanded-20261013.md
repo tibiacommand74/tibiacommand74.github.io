@@ -1,6 +1,6 @@
 # Expanded historical quest review — 13 October 2026
 
-The research covers the 98 candidate entries. The published result contains 64 quest guides and one separately labelled renewable collection. 33 candidates remain withheld; this does not assert that they were all absent from original 7.4.
+The research covers the 98 candidate entries. The published result contains 70 quest guides and one separately labelled renewable collection. 27 candidates remain withheld; this does not assert that they were all absent from original 7.4.
 
 ## Research and evidence limits
 
@@ -46,4 +46,21 @@ Additional sources:
 - https://tibia-wiki.com/7.4/en/quests/Behemoth_Quest
 - https://gamefaqs.gamespot.com/webonly/916616-tibia/faqs/31099
 
-The accompanying JSON records every candidate, its decision, page availability, grouped title, reported version and evidence links. Existing approximate routes and unknown passages are not promoted to game-validated navigation. The sitemap now contains 1,256 URLs, including the three recovered entries and the previously published library pages.
+The accompanying JSON records every candidate, its decision, page availability, grouped title, reported version and evidence links. Existing approximate routes and unknown passages are not promoted to game-validated navigation. The sitemap now contains 1,262 URLs, including the three recovered entries and the previously published library pages.
+
+## Contemporary evidence follow-up
+
+Six additional entries were admitted using actual post dates, not author registration dates. These dates establish presence by 7.4, not an exact introduction version; all six introduction values remain null. Historical presence does not independently validate every modern walkthrough detail.
+
+| Entry | Publication date | Primary record |
+| --- | --- | --- |
+| Torch | 2005-02-24 | https://tawerna.rpg.pl/forum/viewtopic.php?t=272 |
+| Goblin Temple | 2005-02-24 | https://tawerna.rpg.pl/forum/viewtopic.php?t=272 |
+| Doublet | 2005-04-10 | https://forum.tibia.pl/showthread.php?s=979cdcc8df79983cc963daf83d63d9ce&t=31887 |
+| Naginata | 2004-01-01 | https://forum.tibia.pl/showthread.php?t=922 |
+| Griffin Shield | 2005-01-17 | https://forum.tibia.pl/showthread.php?t=23439 |
+| Circle Room | 2005-02-09 | https://forum.tibia.pl/showthread.php?t=25548 |
+
+Torch instructions now follow the academy basement and chest after Rats without an unsupported mechanism. Naginata includes Dragon Lords. Griffin Shield distinguishes its maze reward area from the deeper Warlock sector. Circle Room distinguishes contemporary Dwarven Axe evidence from supplemental War Hammer and route references. Doublet specifies the loose board rather than a chest. Goblin Temple distinguishes contemporary reward names from supplemental quantities.
+
+Fanfare index snippets, inaccessible Silver Brooch discussion bodies, proposed imaginary quests and later revisions of an old GameFAQs guide were insufficient for admission. The remaining 27 candidates are withheld pending individual evidence, not declared absent.

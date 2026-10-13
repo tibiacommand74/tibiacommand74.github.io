@@ -67,3 +67,15 @@ crusader.steps[3]='Retorne pelo caminho da mina. As barreiras quebráveis da pá
 crusader.sources=[...new Set([...crusader.sources,'https://tibiastories.com.br/2022/03/quests-esquecidas-pelo-tempo/','https://tibicam.com/video/fuwapiwu-tibia-73-40ea53c1'])];
 for(const id of ['triangle-tower','noble-armor','iron-helmet','behemoth','annihilator','crusader-helmet'])q(id).reviewedAt='13/10/2026';
 })();
+
+/* Further historical recovery from contemporary 2004–2005 publications. */
+(()=>{
+ const byId=id=>QUESTS.find(q=>q.id===id),routes=window.QUEST_ROUTES;
+ const torch=byId('torch');torch.mobs=['rat'];torch.steps=['Desça ao porão da academia de Rookgaard e siga para o norte pelo corredor.','Abra as portas e procure o baú depois da área dos Rats. Use o recipiente para recolher a Torch. Nenhuma fala de NPC está registrada para esta coleta.','Retorne pelas escadas da academia. A coleta é descrita em fevereiro de 2005; a página atual do Wiki é histórica e o servidor precisa manter o recipiente.'];torch.guideReviewNote='Presença e acesso geral confirmados em relato de 24/02/2005. As coordenadas do atlas são referências; não foi desenhada uma caminhada nova entre os marcos.';
+ const goblin=byId('goblin-temple');goblin.guideReviewNote='Presença contemporânea confirmada sob o nome Goblinhalator [PACC], com ponte dos Goblins e prêmio de Sandals e Snowballs. Quantidades e demais objetos vêm da referência editorial; o relato não confirma todo o conteúdo de cada baú.';
+ const circle=byId('circle-room');circle.guideReviewNote='Dwarv Hell e a porta de nível 32 aparecem no registro de 09/02/2005. O relato confirma a presença e Dwarven Axe; a rota e o War Hammer são descritos nas demais referências do guia.';
+ const naginata=byId('naginata');naginata.mobs=['dragon','dragon lord'];naginata.guideReviewNote='Obtenção da Naginata por quest já era discutida em 01/01/2004. A referência de porta 40 e as instruções detalhadas são cruzadas com o roteiro clássico; não inclui Hatchlings posteriores.';
+ const griffin=byId('griffin-shield');griffin.mobs=['troll','orc spearman','orc warrior','orc berserker','cyclops','minotaur guard','minotaur archer','minotaur mage','dwarf guard','stone golem','elf arcanist'];griffin.rewardNote='Griffin Shield, Dwarven Axe e Obsidian Lance. A discussão de 09/02/2005 confirma Dwarven Axe e menciona a porta 30 de Demona; não é a porta 60 do setor profundo de Warlocks.';griffin.guideReviewNote='Presença confirmada por relato de 17/01/2005 e discussão de 09/02/2005. Os três prêmios ficam nos Gates of Demona; esta coleta não exige completar Crystal Wand, Purple Tome ou o setor profundo de Warlocks.';
+ const doublet=byId('doublet');doublet.guideReviewNote='A Doublet Quest é mencionada explicitamente em 10/04/2005. A coleta na tábua solta do estábulo foi cruzada com a referência própria; não confunda o recipiente com um baú.';
+ for(const id of ['torch','goblin-temple','doublet','naginata','griffin-shield','circle-room']){byId(id).reviewedAt='13/10/2026';routes[id].detailReviewedAt='13/10/2026';}
+})();

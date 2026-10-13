@@ -1,16 +1,22 @@
 {
   "reviewedAt": "2026-10-13",
   "reviewedEntries": 98,
-  "publishedEntries": 65,
-  "oneTimeQuestGuides": 64,
+  "publishedEntries": 71,
+  "oneTimeQuestGuides": 70,
   "renewableCollections": 1,
-  "withheldEntries": 33,
+  "withheldEntries": 27,
   "currentWikiResponses": 88,
   "distinctCurrentWikiPages": 64,
   "recovered": [
     "triangle-tower",
     "noble-armor",
-    "iron-helmet"
+    "iron-helmet",
+    "torch",
+    "goblin-temple",
+    "doublet",
+    "naginata",
+    "griffin-shield",
+    "circle-room"
   ],
   "scope": "Historical admission, comparison with available current walkthroughs and explicit corrections. Not in-game route or mechanism validation.",
   "entries": [
@@ -36,7 +42,8 @@
         "https://tibia.fandom.com/index.php?oldid=59159",
         "https://tibia.fandom.com/wiki/Alawar%27s_Vault_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "annihilator",
@@ -62,7 +69,33 @@
         "https://tibia.fandom.com/index.php?oldid=55815",
         "https://www.tibiawiki.com.br/wiki/Annihilation_Bear"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "antidote-rune",
+      "name": "Antidote Rune",
+      "decision": "withheld",
+      "category": "troca",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "antidote-rune",
+        "url": "https://www.tibiawiki.com.br/wiki/Small_Health_Potion_Quest",
+        "status": "200",
+        "title": "Small Health Potion Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 2565
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Small_Health_Potion_Quest",
+        "https://tibia.fandom.com/wiki/Small_Health_Potion_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=21044",
+        "https://tibia.fandom.com/index.php?oldid=53359",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "barbarian-axe",
@@ -86,7 +119,33 @@
         "https://tibia.fandom.com/wiki/Berserker_Treasure_Quest/Spoiler",
         "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "battle-axe",
+      "name": "Battle Axe",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "battle-axe",
+        "url": "https://www.tibiawiki.com.br/wiki/Battle_Axe_Quest",
+        "status": "404",
+        "title": "Battle Axe Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 910
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/index.php?stableid=331303&title=Thais_Quest",
+        "https://tibia.fandom.com/index.php?oldid=70616",
+        "https://tibia.fandom.com/index.php?oldid=29946",
+        "https://tibia.fandom.com/wiki/Battle_Axe_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "bear-room",
@@ -111,7 +170,8 @@
         "https://tibia.fandom.com/index.php?oldid=30071",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "behemoth",
@@ -137,7 +197,8 @@
         "https://tibia.fandom.com/index.php?oldid=70206",
         "https://tibiastories.com.br/2022/03/quests-esquecidas-pelo-tempo/"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "berserker-treasure",
@@ -161,7 +222,8 @@
         "https://tibia.fandom.com/wiki/Barbarian_Axe_Quest/Spoiler",
         "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "black-knight",
@@ -186,7 +248,8 @@
         "https://tibia.fandom.com/wiki/Black_Knight_Quest/Spoiler",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "blood-herb",
@@ -209,7 +272,63 @@
         "https://tibia.fandom.com/index.php?oldid=70614",
         "https://tibia.fandom.com/wiki/Blood_Herb_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "captain-iglues-treasure",
+      "name": "Captain Iglues Treasure",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "captain-iglues-treasure",
+        "url": "https://www.tibiawiki.com.br/wiki/Captain_Iglue's_Treasure_Quest",
+        "status": "404",
+        "title": "Captain Iglue's Treasure Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 938
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Captain_Iglues_Treasure_Quest",
+        "https://tibia.fandom.com/wiki/Captain_Iglues_Treasure_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=42633",
+        "https://tibiantis.info/library/quests",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "withheld"
+    },
+    {
+      "id": "circle-room",
+      "name": "Circle Room",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": "7.4",
+      "historicalNote": "Presença documentada em registro contemporâneo de Raimel, 09/02/2005, 17:10. A cronologia confirma presença até o 7.4; a versão exata de introdução permanece desconhecida. A discussão registra Dwarv Hell, porta de nível 32 e Dwarven Axe; esses dados identificam a Circle Room Quest. O percurso continua uma referência, sem validação no jogo.",
+      "historicalEvidence": {
+        "date": "2005-02-09",
+        "source": "https://forum.tibia.pl/showthread.php?t=25548",
+        "kind": "contemporary-discussion",
+        "post": "Raimel, 09/02/2005, 17:10",
+        "claim": "A discussão registra Dwarv Hell, porta de nível 32 e Dwarven Axe; esses dados identificam a Circle Room Quest."
+      },
+      "wikiResponse": {
+        "id": "circle-room",
+        "url": "https://www.tibiawiki.com.br/wiki/Circle_Room_Quest",
+        "status": "200",
+        "title": "Circle Room Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 2398
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Circle_Room_Quest",
+        "https://forum.tibia.pl/showthread.php?t=25548",
+        "https://tibia.fandom.com/index.php?oldid=57512",
+        "https://tibia.fandom.com/index.php?oldid=29951"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "combat-knife",
@@ -232,7 +351,8 @@
         "https://tibia.fandom.com/index.php?oldid=23964",
         "https://tibiantis.life/"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "crusader-helmet",
@@ -257,7 +377,32 @@
         "https://tibia.fandom.com/wiki/Crusader_Helmet_Quest/Spoiler",
         "https://tibiastories.com.br/2022/03/quests-esquecidas-pelo-tempo/"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "crystal-wand",
+      "name": "Crystal Wand",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "crystal-wand",
+        "url": "https://www.tibiawiki.com.br/wiki/Crystal_Wand_Quest",
+        "status": "200",
+        "title": "Demona Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 5912
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Demona_Quest",
+        "https://tibia.fandom.com/index.php?oldid=43217",
+        "https://tibia.fandom.com/index.php?oldid=34471",
+        "https://tibia.fandom.com/wiki/Crystal_Wand_Quest/Spoiler"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "dark-armor",
@@ -282,7 +427,33 @@
         "https://tibia.fandom.com/wiki/Berserker_Treasure_Quest/Spoiler",
         "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "dead-archer",
+      "name": "Dead Archer",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "dead-archer",
+        "url": "https://www.tibiawiki.com.br/wiki/Dead_Archer_Quest",
+        "status": "200",
+        "title": "Thais Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 9100
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Thais_Quest",
+        "https://tibia.fandom.com/index.php?oldid=73645",
+        "https://tibia.fandom.com/index.php?oldid=29954",
+        "https://tibia.fandom.com/wiki/Dead_Archer_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "fibula",
@@ -306,7 +477,8 @@
         "https://tibia.fandom.com/index.php?oldid=29955",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "demon-helmet",
@@ -331,7 +503,30 @@
         "https://tibia.fandom.com/index.php?oldid=70429",
         "https://tibia.fandom.com/index.php?oldid=38655"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "demona-ring",
+      "name": "Demona Ring",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "demona-ring",
+        "url": "https://www.tibiawiki.com.br/wiki/Demona_Ring_Quest",
+        "status": "404",
+        "title": "Demona Ring Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 912
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Demona_Quest#Missão_03:_Wand_of_Might_Hall",
+        "https://tibia.fandom.com/wiki/Demona_Ring_Quest/Spoiler"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "devil-helmet",
@@ -355,7 +550,8 @@
         "https://tibia.fandom.com/index.php?oldid=29957",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "double-hero",
@@ -379,7 +575,40 @@
         "https://tibia.fandom.com/index.php?oldid=32239",
         "https://tibia.fandom.com/wiki/Double_Hero_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "doublet",
+      "name": "Doublet",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": "7.4",
+      "historicalNote": "Presença documentada em registro contemporâneo de Shinjix, 10/04/2005, 22:05. A cronologia confirma presença até o 7.4; a versão exata de introdução permanece desconhecida. Uma estratégia contemporânea de Rookgaard menciona explicitamente fazer as quests de Rapier e Doublet. O percurso continua uma referência, sem validação no jogo.",
+      "historicalEvidence": {
+        "date": "2005-04-10",
+        "source": "https://forum.tibia.pl/showthread.php?s=979cdcc8df79983cc963daf83d63d9ce&t=31887",
+        "kind": "contemporary-discussion",
+        "post": "Shinjix, 10/04/2005, 22:05",
+        "claim": "Uma estratégia contemporânea de Rookgaard menciona explicitamente fazer as quests de Rapier e Doublet."
+      },
+      "wikiResponse": {
+        "id": "doublet",
+        "url": "https://www.tibiawiki.com.br/wiki/Doublet_Quest",
+        "status": "200",
+        "title": "Doublet Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 844
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Doublet_Quest",
+        "https://forum.tibia.pl/showthread.php?s=979cdcc8df79983cc963daf83d63d9ce&t=31887",
+        "https://tibia.fandom.com/wiki/Doublet_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=58445",
+        "https://tibia.fandom.com/index.php?oldid=61509",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "draconia",
@@ -404,7 +633,8 @@
         "https://tibia.fandom.com/index.php?oldid=66086",
         "https://tibia.fandom.com/wiki/Draconia_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "dragon-corpse",
@@ -428,7 +658,8 @@
         "https://tibia.fandom.com/index.php?oldid=63733",
         "https://tibiantis.life/"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "dragon-tower",
@@ -451,7 +682,8 @@
         "https://tibia.fandom.com/index.php?oldid=65460",
         "https://tibia.fandom.com/index.php?oldid=65017"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "edron-goblin",
@@ -474,7 +706,31 @@
         "https://tibia.fandom.com/index.php?oldid=23973",
         "https://tibia.fandom.com/wiki/Edron_Goblin_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "elvenbane",
+      "name": "Elvenbane",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "elvenbane",
+        "url": "https://www.tibiawiki.com.br/wiki/Elvenbane_Quest",
+        "status": "200",
+        "title": "To Blind the Enemy Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 3906
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/To_Blind_the_Enemy_Quest",
+        "https://tibia.fandom.com/index.php?oldid=69151",
+        "https://tibia.fandom.com/index.php?oldid=42604"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "emperor-s-cookies",
@@ -497,7 +753,58 @@
         "https://tibia.fandom.com/index.php?oldid=72569",
         "https://tibia.fandom.com/index.php?oldid=45235"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "explorer-brooch",
+      "name": "Explorer Brooch",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": "7.6",
+      "documentedByVersion": null,
+      "historicalNote": "Retirada do catálogo 7.4: a recompensa Explorer Brooch é documentada no 7.6, em conflito com a data 6.1 anteriormente usada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "explorer-brooch",
+        "url": "https://www.tibiawiki.com.br/wiki/Explorer_Brooch_Quest",
+        "status": "200",
+        "title": "The Explorer Society Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 58757
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/The_Explorer_Society_Quest",
+        "https://www.tibiawiki.com.br/wiki/Explorer_Brooch",
+        "https://tibia.fandom.com/wiki/Explorer_Brooch",
+        "https://tibia.fandom.com/wiki/Explorer_Brooch_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=68474",
+        "https://tibia.fandom.com/index.php?oldid=64350"
+      ],
+      "previousDecision": "withheld"
+    },
+    {
+      "id": "fanfare",
+      "name": "Fanfare",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "fanfare",
+        "url": "https://www.tibiawiki.com.br/wiki/Fanfare_Quest",
+        "status": "200",
+        "title": "Fanfare Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 1176
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Fanfare_Quest",
+        "https://tibia.fandom.com/index.php?oldid=23969",
+        "https://tibia.fandom.com/index.php?oldid=29966",
+        "https://tibia.fandom.com/wiki/Fanfare_Quest/Spoiler"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "fire-axe",
@@ -522,7 +829,33 @@
         "https://tibia.fandom.com/wiki/Fire_Axe_Quest/Spoiler",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "geomancer",
+      "name": "Geomancer",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "geomancer",
+        "url": "https://www.tibiawiki.com.br/wiki/Geomancer_Quest",
+        "status": "200",
+        "title": "Thais Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 9100
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Thais_Quest",
+        "https://tibia.fandom.com/index.php?oldid=65209",
+        "https://tibia.fandom.com/index.php?oldid=29967",
+        "https://tibia.fandom.com/wiki/Geomancer_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "ghoul-room",
@@ -546,7 +879,8 @@
         "https://tibia.fandom.com/index.php?oldid=29968",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "giant-smithhammer",
@@ -570,7 +904,93 @@
         "https://tibia.fandom.com/index.php?oldid=34008",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "goblin-temple",
+      "name": "Goblin Temple",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": "7.4",
+      "historicalNote": "Presença documentada em registro contemporâneo de Dzaba, 24/02/2005, 19:31. A cronologia confirma presença até o 7.4; a versão exata de introdução permanece desconhecida. O relato chama a caverna Premium de Goblinhalator e descreve ponte, Goblins, baú, Sandals e Snowballs; a identificação foi cruzada com Goblin Temple. O percurso continua uma referência, sem validação no jogo.",
+      "historicalEvidence": {
+        "date": "2005-02-24",
+        "source": "https://tawerna.rpg.pl/forum/viewtopic.php?t=272",
+        "kind": "contemporary-walkthrough",
+        "post": "Dzaba, 24/02/2005, 19:31",
+        "claim": "O relato chama a caverna Premium de Goblinhalator e descreve ponte, Goblins, baú, Sandals e Snowballs; a identificação foi cruzada com Goblin Temple."
+      },
+      "wikiResponse": {
+        "id": "goblin-temple",
+        "url": "https://www.tibiawiki.com.br/wiki/Goblin_Temple_Quest",
+        "status": "200",
+        "title": "Goblin Temple Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 2430
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Goblin_Temple_Quest",
+        "https://tawerna.rpg.pl/forum/viewtopic.php?t=272",
+        "https://tibia.fandom.com/wiki/Goblin_Temple_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=57028",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "withheld"
+    },
+    {
+      "id": "griffin-shield",
+      "name": "Griffin Shield",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": "7.4",
+      "historicalNote": "Presença documentada em registro contemporâneo de SzPiLa_ThoRn, 17/01/2005, 21:23. A cronologia confirma presença até o 7.4; a versão exata de introdução permanece desconhecida. O participante relata ter acabado de fazer Griffin Shield Quest. Outro tópico de 09/02/2005 confirma Dwarven Axe como prêmio da mesma quest. O percurso continua uma referência, sem validação no jogo.",
+      "historicalEvidence": {
+        "date": "2005-01-17",
+        "source": "https://forum.tibia.pl/showthread.php?t=23439",
+        "kind": "contemporary-player-report",
+        "post": "SzPiLa_ThoRn, 17/01/2005, 21:23",
+        "claim": "O participante relata ter acabado de fazer Griffin Shield Quest. Outro tópico de 09/02/2005 confirma Dwarven Axe como prêmio da mesma quest."
+      },
+      "wikiResponse": {
+        "id": "griffin-shield",
+        "url": "https://www.tibiawiki.com.br/wiki/Griffin_Shield_Quest",
+        "status": "200",
+        "title": "Demona Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 5912
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Demona_Quest",
+        "https://forum.tibia.pl/showthread.php?t=23439",
+        "https://forum.tibia.pl/showthread.php?t=25548",
+        "https://tibia.fandom.com/index.php?oldid=71210",
+        "https://tibia.fandom.com/index.php?oldid=43219",
+        "https://tibia.fandom.com/wiki/Griffin_Shield_Quest/Spoiler"
+      ],
+      "previousDecision": "withheld"
+    },
+    {
+      "id": "heaven-blossom",
+      "name": "Heaven Blossom",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "heaven-blossom",
+        "url": "https://www.tibiawiki.com.br/wiki/Heaven_Blossom_Quest",
+        "status": "404",
+        "title": "Heaven Blossom Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 918
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Heaven_Blossom",
+        "https://tibia.fandom.com/wiki/Heaven_Blossom_Quest/Spoiler"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "iron-hammer",
@@ -593,7 +1013,8 @@
         "https://tibia.fandom.com/index.php?oldid=24172",
         "https://tibia.fandom.com/index.php?oldid=64526"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "iron-helmet",
@@ -615,6 +1036,30 @@
         "https://tibia.fandom.com/index.php?oldid=44102",
         "https://tibia.fandom.com/index.php?oldid=38856",
         "https://tibia.fandom.com/wiki/Iron_Helmet_Quest/Spoiler"
+      ],
+      "previousDecision": "withheld",
+      "historicalEvidence": null
+    },
+    {
+      "id": "isle-of-the-mists",
+      "name": "Isle of the Mists",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "isle-of-the-mists",
+        "url": "https://www.tibiawiki.com.br/wiki/Isle_of_the_Mists_Quest",
+        "status": "200",
+        "title": "Isle of the Mists Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 1438
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Isle_of_the_Mists_Quest",
+        "https://tibia.fandom.com/index.php?oldid=43081",
+        "https://tibia.fandom.com/wiki/Isle_of_the_Mists_Quest/Spoiler"
       ],
       "previousDecision": "withheld"
     },
@@ -641,7 +1086,32 @@
         "https://tibia.fandom.com/index.php?oldid=53356",
         "https://tibiantis.life/"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "kingdom-of-kormarak",
+      "name": "Kingdom of Kormarak",
+      "decision": "withheld",
+      "category": "respawn",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada. Coleta renovável; não é uma quest de conclusão única.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "kingdom-of-kormarak",
+        "url": "https://www.tibiawiki.com.br/wiki/Kingdom_of_Kormarak_Quest",
+        "status": "200",
+        "title": "Mintwallin Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 14253
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Mintwallin_Quest",
+        "https://tibia.fandom.com/index.php?oldid=62130",
+        "https://tibia.fandom.com/wiki/Kingdom_of_Kormarak_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "present-box",
@@ -666,7 +1136,56 @@
         "https://tibia.fandom.com/index.php?oldid=51824",
         "https://tibiantis.life/"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "life-ring",
+      "name": "Life Ring",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "life-ring",
+        "url": "https://www.tibiawiki.com.br/wiki/Life_Ring_Quest",
+        "status": "200",
+        "title": "Thais Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 9100
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Thais_Quest",
+        "https://tibia.fandom.com/index.php?oldid=58720",
+        "https://tibia.fandom.com/index.php?oldid=35324",
+        "https://tibia.fandom.com/wiki/Life_Ring_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "withheld"
+    },
+    {
+      "id": "longsword",
+      "name": "Longsword",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "longsword",
+        "url": "https://www.tibiawiki.com.br/wiki/Longsword_Quest",
+        "status": "200",
+        "title": "Longsword Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 1275
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Longsword_Quest",
+        "https://tibia.fandom.com/index.php?oldid=53539",
+        "https://tibia.fandom.com/index.php?oldid=64626"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "mad-mage-room",
@@ -690,7 +1209,8 @@
         "https://tibia.fandom.com/index.php?oldid=41066",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "medusa-shield",
@@ -714,7 +1234,8 @@
         "https://tibia.fandom.com/index.php?oldid=66825",
         "https://tibia.fandom.com/wiki/Medusa_Shield_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "minotaur-hell",
@@ -738,7 +1259,65 @@
         "https://tibia.fandom.com/index.php?oldid=66981",
         "https://tibiantis.life/"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "mintwallin-cyclops",
+      "name": "Mintwallin Cyclops",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "mintwallin-cyclops",
+        "url": "https://www.tibiawiki.com.br/wiki/Mintwallin_Cyclops_Quest",
+        "status": "200",
+        "title": "Mintwallin Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 14253
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Mintwallin_Quest",
+        "https://tibia.fandom.com/index.php?oldid=24200",
+        "https://tibia.fandom.com/index.php?oldid=29977",
+        "https://tibia.fandom.com/wiki/Mintwallin_Cyclops_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "withheld"
+    },
+    {
+      "id": "naginata",
+      "name": "Naginata",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": "7.4",
+      "historicalNote": "Presença documentada em registro contemporâneo de Gimlos, 01/01/2004, 21:45. A cronologia confirma presença até o 7.4; a versão exata de introdução permanece desconhecida. A discussão contemporânea sobre Bright Sword compara a obtenção da Naginata por quest. O percurso continua uma referência, sem validação no jogo.",
+      "historicalEvidence": {
+        "date": "2004-01-01",
+        "source": "https://forum.tibia.pl/showthread.php?t=922",
+        "kind": "contemporary-discussion",
+        "post": "Gimlos, 01/01/2004, 21:45",
+        "claim": "A discussão contemporânea sobre Bright Sword compara a obtenção da Naginata por quest."
+      },
+      "wikiResponse": {
+        "id": "naginata",
+        "url": "https://www.tibiawiki.com.br/wiki/Naginata_Quest",
+        "status": "200",
+        "title": "Thais Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 9100
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Thais_Quest",
+        "https://forum.tibia.pl/showthread.php?t=922",
+        "https://tibia.fandom.com/index.php?oldid=55796",
+        "https://tibia.fandom.com/index.php?oldid=38904",
+        "https://tibia.fandom.com/wiki/Naginata_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "noble-armor",
@@ -763,7 +1342,8 @@
         "https://tibia.fandom.com/wiki/Noble_Armor_Quest/Spoiler",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "withheld"
+      "previousDecision": "withheld",
+      "historicalEvidence": null
     },
     {
       "id": "orc-fortress",
@@ -786,7 +1366,31 @@
         "https://tibia.fandom.com/index.php?oldid=38820",
         "https://tibia.fandom.com/index.php?oldid=49459"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "orc-shaman",
+      "name": "Orc Shaman",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "orc-shaman",
+        "url": "https://www.tibiawiki.com.br/wiki/Orc_Shaman_Quest",
+        "status": "200",
+        "title": "Orc Shaman Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 1134
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Orc_Shaman_Quest",
+        "https://tibia.fandom.com/index.php?oldid=24076",
+        "https://tibia.fandom.com/wiki/Orc_Shaman_Quest/Spoiler"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "ornamented-shield",
@@ -811,7 +1415,8 @@
         "https://tibia.fandom.com/wiki/Ornamented_Shield_Quest/Spoiler",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "panpipe",
@@ -834,7 +1439,8 @@
         "https://tibia.fandom.com/index.php?oldid=23951",
         "https://tibia.fandom.com/wiki/Panpipe_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "parchment-room",
@@ -859,7 +1465,32 @@
         "https://tibia.fandom.com/index.php?oldid=51239",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "small-axe",
+      "name": "Pick (Small Axe)",
+      "decision": "withheld",
+      "category": "troca",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "small-axe",
+        "url": "https://www.tibiawiki.com.br/wiki/Pick_Quest",
+        "status": "200",
+        "title": "Pick Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 3992
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Pick_Quest",
+        "https://tibia.fandom.com/wiki/Pick_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=39940",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "plate-armor",
@@ -881,7 +1512,8 @@
         "https://tibia.fandom.com/wiki/Plate_Armor_Quest/Spoiler",
         "https://tibia.fandom.com/index.php?oldid=24797"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "poison-daggers",
@@ -906,7 +1538,8 @@
         "https://tibia.fandom.com/wiki/Berserker_Treasure_Quest/Spoiler",
         "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "postman-missions",
@@ -930,7 +1563,76 @@
         "https://tibia.fandom.com/index.php?oldid=72821",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "power-bolts",
+      "name": "Power Bolts",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "power-bolts",
+        "url": "https://www.tibiawiki.com.br/wiki/Power_Bolts_Quest",
+        "status": "200",
+        "title": "Power Bolts Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 1141
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Power_Bolts_Quest",
+        "https://tibia.fandom.com/index.php?oldid=43300",
+        "https://tibia.fandom.com/wiki/Power_Bolts_Quest/Spoiler"
+      ],
+      "previousDecision": "withheld"
+    },
+    {
+      "id": "power-ring",
+      "name": "Power Ring",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "power-ring",
+        "url": "https://www.tibiawiki.com.br/wiki/Power_Ring_Quest",
+        "status": "200",
+        "title": "Power Ring Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 1311
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Power_Ring_Quest",
+        "https://tibia.fandom.com/index.php?oldid=66277",
+        "https://tibia.fandom.com/index.php?oldid=66278"
+      ],
+      "previousDecision": "withheld"
+    },
+    {
+      "id": "purple-tome",
+      "name": "Purple Tome",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "purple-tome",
+        "url": "https://www.tibiawiki.com.br/wiki/Purple_Tome_Quest",
+        "status": "200",
+        "title": "Demona Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 5912
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Demona_Quest",
+        "https://tibia.fandom.com/wiki/Purple_Tome_Quest/Spoiler"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "rapier",
@@ -953,7 +1655,8 @@
         "https://tibia.fandom.com/index.php?oldid=24209",
         "https://tibiantis.life/"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "ring",
@@ -976,7 +1679,33 @@
         "https://tibia.fandom.com/wiki/Ring_Quest/Spoiler",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "scale-armor",
+      "name": "Scale Armor",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "scale-armor",
+        "url": "https://www.tibiawiki.com.br/wiki/Scale_Armor_Quest",
+        "status": "404",
+        "title": "Scale Armor Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 912
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Scale_Armor",
+        "https://tibia.fandom.com/index.php?oldid=24179",
+        "https://tibia.fandom.com/index.php?oldid=56731",
+        "https://tibia.fandom.com/wiki/Scale_Armor_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "shaman-treasure",
@@ -1001,7 +1730,8 @@
         "https://tibia.fandom.com/wiki/Berserker_Treasure_Quest/Spoiler",
         "https://tibia.fandom.com/wiki/Poison_Daggers_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "amber-s-notebook",
@@ -1025,7 +1755,8 @@
         "https://tibia.fandom.com/index.php?oldid=29268",
         "https://tibiantis.life/"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "silver-amulet",
@@ -1048,7 +1779,56 @@
         "https://tibia.fandom.com/wiki/Silver_Amulet_Quest",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "silver-brooch",
+      "name": "Silver Brooch",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "silver-brooch",
+        "url": "https://www.tibiawiki.com.br/wiki/Silver_Brooch_Quest",
+        "status": "200",
+        "title": "Silver Brooch Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 1439
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Silver_Brooch_Quest",
+        "https://tibia.fandom.com/index.php?oldid=73566",
+        "https://tibia.fandom.com/wiki/Silver_Brooch_Quest/Spoiler"
+      ],
+      "previousDecision": "withheld"
+    },
+    {
+      "id": "six-rubies",
+      "name": "Six Rubies",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "six-rubies",
+        "url": "https://www.tibiawiki.com.br/wiki/Six_Rubies_Quest",
+        "status": "404",
+        "title": "Six Rubies Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 910
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/index.php?stableid=330614&title=Thais_Quest",
+        "https://tibia.fandom.com/index.php?oldid=71251",
+        "https://tibia.fandom.com/index.php?oldid=71427",
+        "https://tibia.fandom.com/wiki/Six_Rubies_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "skull-of-ratha",
@@ -1072,7 +1852,56 @@
         "https://tibia.fandom.com/index.php?oldid=64839",
         "https://tibia.fandom.com/wiki/Skull_of_Ratha_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "small-ruby",
+      "name": "Small Ruby",
+      "decision": "withheld",
+      "category": "respawn",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada. Coleta renovável; não é uma quest de conclusão única.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "small-ruby",
+        "url": "https://www.tibiawiki.com.br/wiki/Small_Ruby_Quest",
+        "status": "404",
+        "title": "Small Ruby Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 910
+      },
+      "individualEvidence": [
+        "https://tibia.fandom.com/wiki/Small_Ruby_Quest/Spoiler",
+        "https://tibia.fandom.com/wiki/Small_Ruby_Quest",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "withheld"
+    },
+    {
+      "id": "spike-sword",
+      "name": "Spike Sword",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "spike-sword",
+        "url": "https://www.tibiawiki.com.br/wiki/Spike_Sword_Quest",
+        "status": "200",
+        "title": "Spike Sword Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 1267
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Spike_Sword_Quest",
+        "https://tibia.fandom.com/index.php?oldid=67742",
+        "https://tibia.fandom.com/index.php?oldid=67142",
+        "https://tibia.fandom.com/wiki/Spike_Sword_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "stealth-ring",
@@ -1094,7 +1923,8 @@
         "https://tibia.fandom.com/wiki/Stealth_Ring_Quest/Spoiler",
         "https://tibia.fandom.com/index.php?oldid=36335"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "steel-helmet",
@@ -1117,7 +1947,8 @@
         "https://tibia.fandom.com/index.php?oldid=56432",
         "https://tibia.fandom.com/index.php?oldid=43499"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "honey-flower",
@@ -1141,7 +1972,8 @@
         "https://tibia.fandom.com/index.php?oldid=24204",
         "https://tibiantis.life/"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "banana",
@@ -1164,7 +1996,8 @@
         "https://tibia.fandom.com/index.php?oldid=30400",
         "https://tibiantis.life/"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "thais-lighthouse",
@@ -1189,7 +2022,8 @@
         "https://tibia.fandom.com/wiki/Thais_Lighthouse_Quest/Spoiler",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "the-ancient-tombs",
@@ -1213,7 +2047,8 @@
         "https://tibia.fandom.com/index.php?oldid=34030",
         "https://tibia.fandom.com/wiki/The_Ancient_Tombs_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "the-desert-dungeon",
@@ -1236,7 +2071,8 @@
         "https://tibia.fandom.com/index.php?oldid=67986",
         "https://tibia.fandom.com/index.php?oldid=63223"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "the-djinn-war-efreet-faction",
@@ -1260,7 +2096,8 @@
         "https://tibia.fandom.com/index.php?oldid=38847",
         "https://tibia.fandom.com/wiki/The_Djinn_War_-_Efreet_Faction/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "the-djinn-war-marid-faction",
@@ -1284,7 +2121,8 @@
         "https://tibia.fandom.com/index.php?oldid=71556",
         "https://tibia.fandom.com/wiki/The_Djinn_War_-_Marid_Faction/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "the-outlaw-camp",
@@ -1308,7 +2146,8 @@
         "https://tibia.fandom.com/index.php?oldid=29950",
         "https://tibia.fandom.com/wiki/The_Outlaw_Camp_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "the-paradox-tower",
@@ -1333,7 +2172,8 @@
         "https://tibia.fandom.com/index.php?oldid=14595",
         "https://tibia.fandom.com/index.php?oldid=56289"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "the-queen-of-the-banshees",
@@ -1356,7 +2196,8 @@
         "https://tibia.fandom.com/index.php?oldid=71882",
         "https://tibia.fandom.com/index.php?oldid=71869"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "the-white-raven-monastery",
@@ -1381,7 +2222,32 @@
         "https://tibia.fandom.com/index.php?oldid=41202",
         "https://tibia.fandom.com/index.php?oldid=45182"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "throwing-star",
+      "name": "Throwing Star",
+      "decision": "withheld",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": null,
+      "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
+      "historicalEvidence": null,
+      "wikiResponse": {
+        "id": "throwing-star",
+        "url": "https://www.tibiawiki.com.br/wiki/Throwing_Star_Quest",
+        "status": "404",
+        "title": "Throwing Star Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 916
+      },
+      "individualEvidence": [
+        "https://tibia.fandom.com/index.php?oldid=24062",
+        "https://tibia.fandom.com/index.php?oldid=34977",
+        "https://tibia.fandom.com/wiki/Throwing_Star_Quest/Spoiler",
+        "https://tibiantis.info/library/quests"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "time-ring",
@@ -1404,7 +2270,39 @@
         "https://tibia.fandom.com/index.php?oldid=71065",
         "https://tibia.fandom.com/wiki/Time_Ring_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
+    },
+    {
+      "id": "torch",
+      "name": "Torch",
+      "decision": "published",
+      "category": "exploração",
+      "introducedVersion": null,
+      "documentedByVersion": "7.4",
+      "historicalNote": "Presença documentada em registro contemporâneo de Dzaba, 24/02/2005, 19:31. A cronologia confirma presença até o 7.4; a versão exata de introdução permanece desconhecida. O relato contemporâneo descreve a Torch Quest no porão da academia, com baú após os Rats. O percurso continua uma referência, sem validação no jogo.",
+      "historicalEvidence": {
+        "date": "2005-02-24",
+        "source": "https://tawerna.rpg.pl/forum/viewtopic.php?t=272",
+        "kind": "contemporary-walkthrough",
+        "post": "Dzaba, 24/02/2005, 19:31",
+        "claim": "O relato contemporâneo descreve a Torch Quest no porão da academia, com baú após os Rats."
+      },
+      "wikiResponse": {
+        "id": "torch",
+        "url": "https://www.tibiawiki.com.br/wiki/Torch_Quest",
+        "status": "200",
+        "title": "Torch Quest - Tibia Wiki - A Enciclopédia do Tibia",
+        "chars": 945
+      },
+      "individualEvidence": [
+        "https://www.tibiawiki.com.br/wiki/Torch_Quest",
+        "https://tawerna.rpg.pl/forum/viewtopic.php?t=272",
+        "https://tibia.fandom.com/wiki/Torch_Quest/Spoiler",
+        "https://tibia.fandom.com/index.php?oldid=20870",
+        "https://tibiantis.life/"
+      ],
+      "previousDecision": "withheld"
     },
     {
       "id": "triangle-tower",
@@ -1428,7 +2326,8 @@
         "https://tibia.fandom.com/wiki/Triangle_Tower_Quest/Spoiler",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "withheld"
+      "previousDecision": "withheld",
+      "historicalEvidence": null
     },
     {
       "id": "triple-uh-rune",
@@ -1452,7 +2351,8 @@
         "https://tibia.fandom.com/index.php?oldid=40228",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "troll-cave",
@@ -1475,7 +2375,8 @@
         "https://tibia.fandom.com/index.php?oldid=24006",
         "https://tibia.fandom.com/wiki/Troll_Cave_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "vampire-shield",
@@ -1500,7 +2401,8 @@
         "https://tibia.fandom.com/index.php?oldid=38798",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "voodoo-doll",
@@ -1522,7 +2424,8 @@
         "https://tibia.fandom.com/wiki/Voodoo_Doll_Quest/Spoiler",
         "https://tibia.fandom.com/index.php?oldid=38903"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "wedding-ring",
@@ -1546,7 +2449,8 @@
         "https://tibia.fandom.com/index.php?oldid=73682",
         "https://tibiantis.info/library/quests"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     },
     {
       "id": "serpentine-tower",
@@ -1570,7 +2474,8 @@
         "https://tibia.fandom.com/index.php?oldid=62614",
         "https://tibia.fandom.com/wiki/Serpentine_Tower_Quest/Spoiler"
       ],
-      "previousDecision": "published"
+      "previousDecision": "published",
+      "historicalEvidence": null
     }
   ]
 }

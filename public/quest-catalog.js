@@ -565,16 +565,25 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "note": "Referência do clássico: nível de porta não é recomendação de combate. Servidores podem alterar recipientes, requisitos e recompensas.",
     "sources": [
+      "https://forum.tibia.pl/showthread.php?t=25548",
       "https://tibia.fandom.com/index.php?oldid=57512",
       "https://tibia.fandom.com/index.php?oldid=29951"
     ],
     "aliases": "Circle Room Quest (Dwarven Quest / Dwarf Hell Quest) Dwarf Hell Dwarven Quest",
     "category": "exploração",
-    "historicalStatus": "incerta",
+    "historicalStatus": "documentada",
     "region": "mainland",
     "introducedVersion": null,
-    "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
-    "reviewedAt": "2026-10-08"
+    "historicalNote": "Presença documentada em registro contemporâneo de Raimel, 09/02/2005, 17:10. A cronologia confirma presença até o 7.4; a versão exata de introdução permanece desconhecida. A discussão registra Dwarv Hell, porta de nível 32 e Dwarven Axe; esses dados identificam a Circle Room Quest. O percurso continua uma referência, sem validação no jogo.",
+    "reviewedAt": "13/10/2026",
+    "documentedByVersion": "7.4",
+    "historicalEvidence": {
+      "date": "2005-02-09",
+      "source": "https://forum.tibia.pl/showthread.php?t=25548",
+      "kind": "contemporary-discussion",
+      "post": "Raimel, 09/02/2005, 17:10",
+      "claim": "A discussão registra Dwarv Hell, porta de nível 32 e Dwarven Axe; esses dados identificam a Circle Room Quest."
+    }
   },
   {
     "id": "combat-knife",
@@ -1017,6 +1026,7 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "note": "Referência do clássico: nível de porta não é recomendação de combate. Servidores podem alterar recipientes, requisitos e recompensas.",
     "sources": [
+      "https://forum.tibia.pl/showthread.php?s=979cdcc8df79983cc963daf83d63d9ce&t=31887",
       "https://tibia.fandom.com/wiki/Doublet_Quest/Spoiler",
       "https://tibia.fandom.com/index.php?oldid=58445",
       "https://tibia.fandom.com/index.php?oldid=61509",
@@ -1024,11 +1034,19 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "aliases": "Doublet Quest ",
     "category": "exploração",
-    "historicalStatus": "incerta",
+    "historicalStatus": "documentada",
     "region": "rook",
     "introducedVersion": null,
-    "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
-    "reviewedAt": "2026-10-08"
+    "historicalNote": "Presença documentada em registro contemporâneo de Shinjix, 10/04/2005, 22:05. A cronologia confirma presença até o 7.4; a versão exata de introdução permanece desconhecida. Uma estratégia contemporânea de Rookgaard menciona explicitamente fazer as quests de Rapier e Doublet. O percurso continua uma referência, sem validação no jogo.",
+    "reviewedAt": "13/10/2026",
+    "documentedByVersion": "7.4",
+    "historicalEvidence": {
+      "date": "2005-04-10",
+      "source": "https://forum.tibia.pl/showthread.php?s=979cdcc8df79983cc963daf83d63d9ce&t=31887",
+      "kind": "contemporary-discussion",
+      "post": "Shinjix, 10/04/2005, 22:05",
+      "claim": "Uma estratégia contemporânea de Rookgaard menciona explicitamente fazer as quests de Rapier e Doublet."
+    }
   },
   {
     "id": "draconia",
@@ -1550,17 +1568,26 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "note": "Referência do clássico: nível de porta não é recomendação de combate. Servidores podem alterar recipientes, requisitos e recompensas.",
     "sources": [
+      "https://tawerna.rpg.pl/forum/viewtopic.php?t=272",
       "https://tibia.fandom.com/wiki/Goblin_Temple_Quest/Spoiler",
       "https://tibia.fandom.com/index.php?oldid=57028",
       "https://tibiantis.life/"
     ],
     "aliases": "Goblin Temple Quest ",
     "category": "exploração",
-    "historicalStatus": "incerta",
+    "historicalStatus": "documentada",
     "region": "rook",
     "introducedVersion": null,
-    "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
-    "reviewedAt": "2026-10-08"
+    "historicalNote": "Presença documentada em registro contemporâneo de Dzaba, 24/02/2005, 19:31. A cronologia confirma presença até o 7.4; a versão exata de introdução permanece desconhecida. O relato chama a caverna Premium de Goblinhalator e descreve ponte, Goblins, baú, Sandals e Snowballs; a identificação foi cruzada com Goblin Temple. O percurso continua uma referência, sem validação no jogo.",
+    "reviewedAt": "13/10/2026",
+    "documentedByVersion": "7.4",
+    "historicalEvidence": {
+      "date": "2005-02-24",
+      "source": "https://tawerna.rpg.pl/forum/viewtopic.php?t=272",
+      "kind": "contemporary-walkthrough",
+      "post": "Dzaba, 24/02/2005, 19:31",
+      "claim": "O relato chama a caverna Premium de Goblinhalator e descreve ponte, Goblins, baú, Sandals e Snowballs; a identificação foi cruzada com Goblin Temple."
+    }
   },
   {
     "id": "griffin-shield",
@@ -1591,17 +1618,27 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "note": "Referência do clássico: nível de porta não é recomendação de combate. Servidores podem alterar recipientes, requisitos e recompensas.",
     "sources": [
+      "https://forum.tibia.pl/showthread.php?t=23439",
+      "https://forum.tibia.pl/showthread.php?t=25548",
       "https://tibia.fandom.com/index.php?oldid=71210",
       "https://tibia.fandom.com/index.php?oldid=43219",
       "https://tibia.fandom.com/wiki/Griffin_Shield_Quest/Spoiler"
     ],
     "aliases": "Griffin Shield Quest (MoLS Quest) ",
     "category": "exploração",
-    "historicalStatus": "incerta",
+    "historicalStatus": "documentada",
     "region": "mainland",
     "introducedVersion": null,
-    "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
-    "reviewedAt": "2026-10-08"
+    "historicalNote": "Presença documentada em registro contemporâneo de SzPiLa_ThoRn, 17/01/2005, 21:23. A cronologia confirma presença até o 7.4; a versão exata de introdução permanece desconhecida. O participante relata ter acabado de fazer Griffin Shield Quest. Outro tópico de 09/02/2005 confirma Dwarven Axe como prêmio da mesma quest. O percurso continua uma referência, sem validação no jogo.",
+    "reviewedAt": "13/10/2026",
+    "documentedByVersion": "7.4",
+    "historicalEvidence": {
+      "date": "2005-01-17",
+      "source": "https://forum.tibia.pl/showthread.php?t=23439",
+      "kind": "contemporary-player-report",
+      "post": "SzPiLa_ThoRn, 17/01/2005, 21:23",
+      "claim": "O participante relata ter acabado de fazer Griffin Shield Quest. Outro tópico de 09/02/2005 confirma Dwarven Axe como prêmio da mesma quest."
+    }
   },
   {
     "id": "heaven-blossom",
@@ -2158,6 +2195,7 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "note": "Referência do clássico: nível de porta não é recomendação de combate. Servidores podem alterar recipientes, requisitos e recompensas.",
     "sources": [
+      "https://forum.tibia.pl/showthread.php?t=922",
       "https://tibia.fandom.com/index.php?oldid=55796",
       "https://tibia.fandom.com/index.php?oldid=38904",
       "https://tibia.fandom.com/wiki/Naginata_Quest/Spoiler",
@@ -2165,11 +2203,19 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "aliases": "Naginata Quest ",
     "category": "exploração",
-    "historicalStatus": "incerta",
+    "historicalStatus": "documentada",
     "region": "mainland",
     "introducedVersion": null,
-    "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
-    "reviewedAt": "2026-10-08"
+    "historicalNote": "Presença documentada em registro contemporâneo de Gimlos, 01/01/2004, 21:45. A cronologia confirma presença até o 7.4; a versão exata de introdução permanece desconhecida. A discussão contemporânea sobre Bright Sword compara a obtenção da Naginata por quest. O percurso continua uma referência, sem validação no jogo.",
+    "reviewedAt": "13/10/2026",
+    "documentedByVersion": "7.4",
+    "historicalEvidence": {
+      "date": "2004-01-01",
+      "source": "https://forum.tibia.pl/showthread.php?t=922",
+      "kind": "contemporary-discussion",
+      "post": "Gimlos, 01/01/2004, 21:45",
+      "claim": "A discussão contemporânea sobre Bright Sword compara a obtenção da Naginata por quest."
+    }
   },
   {
     "id": "noble-armor",
@@ -3760,17 +3806,26 @@ window.CLASSIC_QUEST_CATALOG=[
     ],
     "note": "Referência do clássico: nível de porta não é recomendação de combate. Servidores podem alterar recipientes, requisitos e recompensas.",
     "sources": [
+      "https://tawerna.rpg.pl/forum/viewtopic.php?t=272",
       "https://tibia.fandom.com/wiki/Torch_Quest/Spoiler",
       "https://tibia.fandom.com/index.php?oldid=20870",
       "https://tibiantis.life/"
     ],
     "aliases": "Torch Quest ",
     "category": "exploração",
-    "historicalStatus": "incerta",
+    "historicalStatus": "documentada",
     "region": "rook",
     "introducedVersion": null,
-    "historicalNote": "A fonte não informa uma data de introdução suficiente para confirmar esta entrada no Tibia 7.4. Mantida em revisão; não contada como confirmada.",
-    "reviewedAt": "2026-10-08"
+    "historicalNote": "Presença documentada em registro contemporâneo de Dzaba, 24/02/2005, 19:31. A cronologia confirma presença até o 7.4; a versão exata de introdução permanece desconhecida. O relato contemporâneo descreve a Torch Quest no porão da academia, com baú após os Rats. O percurso continua uma referência, sem validação no jogo.",
+    "reviewedAt": "13/10/2026",
+    "documentedByVersion": "7.4",
+    "historicalEvidence": {
+      "date": "2005-02-24",
+      "source": "https://tawerna.rpg.pl/forum/viewtopic.php?t=272",
+      "kind": "contemporary-walkthrough",
+      "post": "Dzaba, 24/02/2005, 19:31",
+      "claim": "O relato contemporâneo descreve a Torch Quest no porão da academia, com baú após os Rats."
+    }
   },
   {
     "id": "triangle-tower",
