@@ -105,7 +105,7 @@
   window.QUEST_DETAIL_IDS = [post,green,blue,banshee,tombs,desert];
 
   const safe = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const floor = z => z===7?'Superfície':z>7?'Subsolo '+(z-7):'Acima +'+(7-z);
+  const floor = z => z===7?'Superfície':z>7?'Subsolo '+(7-z):'Acima +'+(7-z);
   window.questStageExtras = function (id,i) {
     const s=routes[id]?.stages[i]; if(!s)return '';
     return `${s.warning?`<p class="guide-warning"><b>Atenção:</b> ${safe(s.warning)}</p>`:''}${s.before?`<p><b>Antes de sair:</b> ${safe(s.before)}</p>`:''}${s.arrival?`<p><b>Como chegar:</b> ${safe(s.arrival)}</p>`:''}${s.action?`<p><b>O que fazer:</b> ${safe(s.action)}</p>`:''}${s.objective?`<p class="guide-objective"><b>Item de passagem e peça:</b> ${safe(s.objective)}</p>`:''}${s.commands?.length?`<div class="guide-dialogue"><b class="guide-dialogue-title">${s.speaker?'Fale com '+safe(s.speaker):'Falas do NPC'}</b><small class="guide-dialogue-hint">Envie uma fala por vez.</small>${s.commandNote?`<p>${safe(s.commandNote)}</p>`:''}<ol role="list">${s.commands.map((c,n)=>`<li><span class="guide-command-number" aria-hidden="true">${n+1}</span><code>${safe(c)}</code><button type="button" data-copy-quest-command="${safe(c)}" aria-label="Copiar fala ${n+1}: ${safe(c)}">Copiar</button></li>`).join('')}</ol><small>Espere o NPC responder antes de continuar.</small><p class="guide-copy-status" role="status" aria-live="polite"></p></div>`:''}${s.detailSource?`<a class="guide-source" href="${safe(s.detailSource)}" target="_blank" rel="noopener noreferrer">${s.visualRequired?'Ver sequência e imagens do mecanismo ↗':'Consultar referência desta etapa ↗'}</a>`:''}`;
