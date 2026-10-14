@@ -12,4 +12,11 @@ s.events.click({target:{closest:()=>({href:'https://github.com/tibiacommand74/re
 s=setup({'tc74-analytics-consent':'accepted'},'https://tibiacommand74.com/?interno=1');assert.equal(s.scripts.length,0);
 for(const p of ['public/index.html','public/quests/torch/index.html','public/npcs/dermot/index.html'])assert(fs.readFileSync(p,'utf8').includes('analytics.js'));
 s=setup({'tc74-analytics-consent':'accepted'},'https://tibiacommand74.com/quests/torch/');assert.equal(s.e.window.dataLayer.map(x=>Array.from(x)).find(x=>x[1]==='page_view')[2].page_title,'Tibia Command 7.4');
-console.log('PASS: consent before Google loads, internal exclusion, clean campaigns/referrers, no duplicate pages, hash navigation, download clicks and static coverage');
+for(const [selector,placement] of [['#community-live','home_card'],['#twitch-mobile-note','home_mobile'],['#twitch-live-banner','live_banner'],['footer','footer']]){
+ s=setup({'tc74-analytics-consent':'accepted'});
+ const click=()=>s.events.click({target:{closest:()=>({href:'https://www.twitch.tv/kingninhow',closest:q=>q===selector?{}:null})}});
+ click();const pilot=s.e.window.dataLayer.map(x=>Array.from(x)).filter(x=>x[1]==='streamer_click');assert.equal(pilot.length,1);assert.equal(pilot[0][2].placement,placement);assert.equal(pilot[0][2].streamer_channel,'kingninhow');
+ s.store.set('tc74-exclude-visits','1');s.events['tc74-visit-preference']();click();assert.equal(s.e.window.dataLayer.map(x=>Array.from(x)).filter(x=>x[1]==='streamer_click').length,1);
+}
+s=setup({'tc74-analytics-consent':'declined'});s.events.click({target:{closest:()=>({href:'https://www.twitch.tv/kingninhow'})}});assert.equal(s.scripts.length,0);
+console.log('PASS: consent, internal exclusion, route titles, downloads and four streamer pilot placements');
