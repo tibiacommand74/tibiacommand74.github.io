@@ -2,10 +2,10 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
 (async()=>{
  let user=null,journal=0,market=[];
- const pane={innerHTML:'',isConnected:true,querySelector:()=>({})};
+ const pane={innerHTML:'',isConnected:true,querySelector:()=>({}),append(n){this.summary=n;}};
  const root={innerHTML:'',isConnected:true,dataset:{},classList:{add(){}},querySelector:s=>s==='#account-workspace'?pane:null};
- const context={window:{CommunityAccount:{},JournalAccount:{init:async()=>{}},renderCommunityJournal:()=>journal++,renderClassifieds:(el,options)=>market.push(options)},CommunityAuth:{journalIdentity:async()=>user,token:async()=>'test-token'},location:{hash:'#conta'},document:{getElementById:()=>pane},fetch:async()=>({ok:true,json:async()=>({profile:user.profile})}),String};
- vm.createContext(context);vm.runInContext(fs.readFileSync('public/account-page.js','utf8'),context);
+ const context={window:{CommunityAccount:{},ClassicExplorer:{journalRows:()=>[]},JournalAccount:{init:async()=>{},context:()=>({id:'test',character:'Knight',server:'Mythera'})},renderCommunityJournal:()=>journal++,renderClassifieds:(el,options)=>market.push(options)},CommunityAuth:{journalIdentity:async()=>user,token:async()=>'test-token'},location:{hash:'#conta'},document:{getElementById:()=>pane,createElement:()=>({innerHTML:'',isConnected:true})},fetch:async()=>({ok:true,json:async()=>({profile:user.profile})}),String};
+ vm.createContext(context);vm.runInContext(fs.readFileSync('public/account-overview.js','utf8'),context);vm.runInContext(fs.readFileSync('public/account-page.js','utf8'),context);
  await context.window.renderCommunityAccount(root);assert(pane.innerHTML.includes('Entrar na minha conta'));assert.equal(market.length,0);assert.equal(journal,0);
  user={id:'test',profile:{alias:'Knight <test>',character:'Knight',server:'Mythera'}};
  await context.window.renderCommunityAccount(root);assert(pane.innerHTML.includes('Knight &lt;test&gt;'));assert(root.innerHTML.includes('aria-label="Minha conta"'));assert(!root.innerHTML.includes('<dialog'));assert.equal(root.dataset.accountUser,'test');
@@ -13,5 +13,10 @@ const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
  context.location.hash='#conta/anuncios';await context.window.renderCommunityAccount(root);assert.equal(market.at(-1).tab,'mine');assert.equal(market.at(-1).account,true);
  context.location.hash='#conta/perfil';await context.window.renderCommunityAccount(root);assert.equal(market.at(-1).tab,'profile');
  user=null;await context.window.renderCommunityAccount(root);assert(pane.innerHTML.includes('Entrar na minha conta'));assert.equal(market.length,2);
+ const now=Date.parse('2026-10-14T12:00:00Z'),api=context.window.AccountOverview;
+ const records=[{id:'old',type:'quest',name:'Old',record:{status:'in-progress',updatedAt:'2026-10-10',stage:0}},{id:'torch',type:'quest',name:'Torch <quest>',record:{status:'in-progress',updatedAt:'2026-10-14',favorite:true,stage:99}},{id:'done',type:'quest',record:{status:'done'}}];
+ const ads=[{status:'active',title:'Soon',expiresAt:new Date(now+86400000).toISOString()},{status:'active',expiresAt:new Date(now+8*86400000).toISOString()},{status:'sold',expiresAt:new Date(now+86400000).toISOString()},{status:'active',expiresAt:new Date(now).toISOString()}];
+ const summary=api.summarize(records,ads,now);assert.equal(summary.progress.length,2);assert.equal(summary.progress[0].id,'torch');assert.equal(summary.done.length,1);assert.equal(summary.active.length,2);assert.equal(summary.soon.length,1);
+ context.window.QUEST_ROUTES={torch:{stages:[{},{},{}]}};const markup=api.markup(summary,{journalOK:true,marketOK:true,character:'Knight',server:'Mythera'});assert(markup.includes('#quest-map/torch/2'));assert(markup.includes('Torch &lt;quest&gt;'));assert(markup.includes('Etapa 3 de 3'));assert(api.markup(api.summarize([],[]),{journalOK:false,marketOK:false}).includes('Não foi possível carregar o resumo'));
  console.log('PASS: account gate, escaped profile, full-page layout, embedded diary/listings/profile and logged-out access');
 })().catch(error=>{console.error(error);process.exit(1);});
