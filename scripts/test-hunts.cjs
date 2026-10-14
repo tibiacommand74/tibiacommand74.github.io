@@ -11,3 +11,14 @@ run("openHuntMap('ancient-scarab');bindMap()");node('#floor').value='7';node('#f
 run("openQuestRoute('fibula');bindMap()");assert.equal(run('activeHuntMap'),null);assert.equal(node('#hunt-map-guide').hidden,true);assert.equal(run('activeQuestRoute'),'fibula');run("openHuntMap('amazon-venore');bindMap()");node('#map-reset').onclick();assert.equal(run('activeHuntMap'),null);assert.equal(run('activeQuestRoute'),null);
 assert(!node('#content').innerHTML.includes('Personagem<select'));assert(!fs.readFileSync('public/hunts.js','utf8').includes('localStorage'));
 console.log(`PASS: 37 guias, ${segments} trechos por andar, respawns reais da base, filtros combinados, loot, imunidades, mapa, transições e ausência de cadastro pessoal`);
+
+// Repeated map teardown must not restore the previous hunt's viewport.
+for(const h of env.window.CLASSIC_HUNTS.filter(h=>h.city==='Ankrahmun')){
+  run(`openHuntMap(${JSON.stringify(h.id)});bindMap()`);
+  const r=env.window.HUNT_PATHS[h.id],points=r.segments.length?r.segments.flat():[h.xyz];
+  const expected={x:(Math.min(...points.map(p=>p[0]))+Math.max(...points.map(p=>p[0])))/2,y:(Math.min(...points.map(p=>p[1]))+Math.max(...points.map(p=>p[1])))/2,z:h.xyz[2]};
+  for(const k of ['x','y','z'])assert.equal(run('mapState.'+k),expected[k],h.id+' focuses '+k);
+  run('mapCleanup();mapState={x:33000,y:32700,z:7,scale:3,show:true};mapCleanup()');
+  assert.equal(run('mapState.x'),33000,'Disposed map cannot overwrite a new viewport');
+}
+console.log('PASS: all 14 Ankrahmun destinations keep the correct coordinates and floor after repeated map visits');
