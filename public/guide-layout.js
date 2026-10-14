@@ -35,13 +35,13 @@ window.buildLibraryNavigation=(nav,selected,root)=>{
 
 // Shared navigation for the community and tools, including renderer refreshes.
 window.buildSectionNavigation=(nav,group,selected)=>{
- const entries=group==='community'?[['servidores','Servidores'],['classificados','Classificados'],['feedback','Feedback'],['explorador/journal','Meu diário']]:[['calculadora','XP, skills e magic level'],['mana','Mana e runas'],['equipamentos','Equipamentos'],['loot','Lootbag'],['explorador/sets','Sets clássicos'],['explorador/food','Comidas']];
+ const entries=group==='community'?[['servidores','Servidores'],['classificados','Classificados'],['feedback','Feedback']]:[['explorador/journal','Meu diário'],['calculadora','XP, skills e magic level'],['mana','Mana e runas'],['equipamentos','Equipamentos'],['loot','Lootbag'],['explorador/sets','Sets clássicos'],['explorador/food','Comidas']];
  nav.classList.add('guide-hub-nav');nav.setAttribute('aria-label',group==='community'?'Comunidade':'Ferramentas');
  nav.innerHTML='<p class="eyebrow">'+(group==='community'?'COMUNIDADE':'FERRAMENTAS 7.4')+'</p>'+entries.map(([id,name])=>'<a href="#'+id+'" '+(id===selected?'aria-current="page"':'')+'>'+name+'<span aria-hidden="true">›</span></a>').join('');
 };
 window.applySectionLayout=root=>{
  const route=location.hash.slice(1),page=document.body.dataset.page;
- const group=['servidores','classificados','feedback'].includes(page)||route==='explorador/journal'?'community':['calculadora','mana','equipamentos','loot'].includes(page)||['explorador/sets','explorador/food'].includes(route)?'tools':null;
+ const group=['servidores','classificados','feedback'].includes(page)?'community':['calculadora','mana','equipamentos','loot'].includes(page)||['explorador/journal','explorador/sets','explorador/food'].includes(route)?'tools':null;
  if(!group||page==='explorador'||root.querySelector(':scope > .section-area-layout'))return;
  const layout=document.createElement('div');layout.className='guide-hub-layout section-area-layout';
  const side=document.createElement('aside');side.className='guide-hub-sidebar';const nav=document.createElement('nav');window.buildSectionNavigation(nav,group,page);side.append(nav);
