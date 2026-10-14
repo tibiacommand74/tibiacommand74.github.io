@@ -1,6 +1,6 @@
 {
   "reviewedAt": "2026-10-14",
-  "scope": "Geographical comparison of all 61 hunt markers with named area references and the local classic spawn base. Current wiki pages are used for geography only; modern expansions, loot and walkthroughs are excluded. Not a validation of walking routes or stairs.",
+  "scope": "Geographical comparison of all 77 hunt markers with named area references and the local classic spawn base. Current wiki pages are used for geography only; modern expansions, loot and walkthroughs are excluded. Not a validation of walking routes or stairs.",
   "confirmedCorrection": {
     "id": "rotworm-carlin",
     "before": [
@@ -106,7 +106,8 @@
         32200
       ],
       "ids": [
-        "dragon-venore"
+        "dragon-venore",
+        "venore-dragon-lords"
       ]
     },
     {
@@ -520,6 +521,109 @@
       "ids": [
         "kazordoon-femor-goblins",
         "kazordoon-femor-hunter"
+      ]
+    },
+    {
+      "name": "Ancient Temple",
+      "bounds": [
+        32270,
+        32080,
+        32450,
+        32250
+      ],
+      "ids": [
+        "thais-temple-rotworms",
+        "thais-temple-orcs"
+      ]
+    },
+    {
+      "name": "Mintwallin",
+      "bounds": [
+        32380,
+        32080,
+        32490,
+        32190
+      ],
+      "ids": [
+        "thais-mintwallin-minotaurs",
+        "thais-mintwallin-guards",
+        "thais-mintwallin-mages"
+      ]
+    },
+    {
+      "name": "Fibula Dungeon",
+      "bounds": [
+        32120,
+        32390,
+        32225,
+        32480
+      ],
+      "ids": [
+        "thais-fibula-rotworms",
+        "thais-fibula-beholders"
+      ]
+    },
+    {
+      "name": "Deeper Fibula Dragon Lair",
+      "bounds": [
+        32210,
+        32450,
+        32310,
+        32520
+      ],
+      "ids": [
+        "thais-deeper-fibula-dragons",
+        "thais-deeper-fibula-dragon-lords"
+      ]
+    },
+    {
+      "name": "Venore Swamp Troll Den",
+      "bounds": [
+        32900,
+        32180,
+        32980,
+        32270
+      ],
+      "ids": [
+        "venore-swamp-trolls"
+      ]
+    },
+    {
+      "name": "Venore Southeast Rotworm Cave",
+      "bounds": [
+        32950,
+        32085,
+        33025,
+        32160
+      ],
+      "ids": [
+        "venore-rotworms"
+      ]
+    },
+    {
+      "name": "Shadowthorn",
+      "bounds": [
+        33015,
+        32125,
+        33150,
+        32250
+      ],
+      "ids": [
+        "venore-shadowthorn-elves",
+        "venore-shadowthorn-scouts",
+        "venore-shadowthorn-arcanists"
+      ]
+    },
+    {
+      "name": "Black Knight Villa",
+      "bounds": [
+        32800,
+        31910,
+        32905,
+        32015
+      ],
+      "ids": [
+        "venore-black-knight"
       ]
     }
   ],
@@ -1383,6 +1487,232 @@
       ],
       "sources": [
         "https://www.tibiawiki.com.br/wiki/Femor_Hills"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-temple-rotworms",
+      "city": "Thais",
+      "xyz": [
+        32354,
+        32151,
+        11
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ancient_Temple"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-temple-orcs",
+      "city": "Thais",
+      "xyz": [
+        32370,
+        32215,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ancient_Temple"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-mintwallin-minotaurs",
+      "city": "Thais",
+      "xyz": [
+        32416,
+        32128,
+        15
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Mintwallin"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-mintwallin-guards",
+      "city": "Thais",
+      "xyz": [
+        32420,
+        32147,
+        15
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Mintwallin"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-mintwallin-mages",
+      "city": "Thais",
+      "xyz": [
+        32462,
+        32145,
+        15
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Mintwallin"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-fibula-rotworms",
+      "city": "Thais",
+      "xyz": [
+        32166,
+        32426,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Fibula_Dungeon"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-fibula-beholders",
+      "city": "Thais",
+      "xyz": [
+        32174,
+        32457,
+        10
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Fibula_Dungeon"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-deeper-fibula-dragons",
+      "city": "Thais",
+      "xyz": [
+        32237,
+        32477,
+        10
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Fibula)",
+        "https://www.tibiawiki.com.br/wiki/Deeper_Fibula_Quest"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-deeper-fibula-dragon-lords",
+      "city": "Thais",
+      "xyz": [
+        32236,
+        32493,
+        10
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Fibula)",
+        "https://www.tibiawiki.com.br/wiki/Deeper_Fibula_Quest"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "venore-swamp-trolls",
+      "city": "Venore",
+      "xyz": [
+        32938,
+        32219,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Venore_Swamp_Troll_Den"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "venore-rotworms",
+      "city": "Venore",
+      "xyz": [
+        32986,
+        32118,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Marshland"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "venore-shadowthorn-elves",
+      "city": "Venore",
+      "xyz": [
+        33091,
+        32164,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Shadowthorn"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "venore-shadowthorn-scouts",
+      "city": "Venore",
+      "xyz": [
+        33097,
+        32168,
+        6
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Shadowthorn"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "venore-shadowthorn-arcanists",
+      "city": "Venore",
+      "xyz": [
+        33036,
+        32178,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Shadowthorn"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "venore-black-knight",
+      "city": "Venore",
+      "xyz": [
+        32874,
+        31948,
+        11
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Black_Knight_Villa"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "venore-dragon-lords",
+      "city": "Venore",
+      "xyz": [
+        32788,
+        32141,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Venore_Dragon_Lair"
       ],
       "floorComparedWithClassicSpawn": true,
       "walkingRouteValidated": false
