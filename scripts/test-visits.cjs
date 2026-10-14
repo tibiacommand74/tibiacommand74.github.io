@@ -8,7 +8,8 @@ async function setup(url,values={}){
  s=await setup('https://tibiacommand74.github.io/',{'tc74-exclude-visits':'1'});assert.equal(s.calls[0].action,'read');
  s=await setup('https://tibiacommand74.github.io/');assert.equal(s.calls[0].action,'visit');const saved=s.map.get('tc74-visit-session');let repeat=await setup('https://tibiacommand74.github.io/',{'tc74-visit-session':saved});assert.equal(repeat.calls[0].id,s.calls[0].id);
  await s.node('visit-toggle').onclick();assert.equal(s.calls.at(-1).action,'exclude');assert.equal(s.map.get('tc74-exclude-visits'),'1');assert.equal(s.node('visit-count').textContent,'5');
- let expired=JSON.parse(saved);expired.started-=31*60*1000;s=await setup('https://tibiacommand74.github.io/',{'tc74-visit-session':JSON.stringify(expired)});assert(JSON.parse(s.map.get('tc74-visit-session')).started>expired.started);
- console.log('PASS: internal link excludes before counting, persistent preference, session reuse and footer toggle');
+ let sameDay=JSON.parse(saved);sameDay.started-=31*60*1000;s=await setup('https://tibiacommand74.github.io/',{'tc74-visit-session':JSON.stringify(sameDay)});assert.equal(s.calls[0].id,sameDay.id);
+ let expired=JSON.parse(saved);expired.started-=48*60*60*1000;delete expired.day;s=await setup('https://tibiacommand74.github.io/',{'tc74-visit-session':JSON.stringify(expired)});assert(JSON.parse(s.map.get('tc74-visit-session')).started>expired.started);
+ console.log('PASS: internal link excludes before counting, persistent preference, same-day reuse, next-day renewal and footer toggle');
 })().catch(e=>{console.error(e);process.exitCode=1});
 
