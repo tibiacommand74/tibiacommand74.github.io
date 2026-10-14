@@ -39,6 +39,7 @@ jobs:
           node scripts/test-quest-routes.cjs
           node scripts/test-hunts.cjs
           node scripts/test-classic-resources.cjs
+          node scripts/test-account-page.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

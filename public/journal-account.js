@@ -6,11 +6,11 @@
  const object=v=>v&&typeof v==='object'&&!Array.isArray(v)?v:{};
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const key=c=>'tc74-journal-account:'+JSON.stringify([c.id,c.character,c.server]);
- function visibility(){document.querySelectorAll('[data-page="explorador"][data-hub-tab="journal"],a[href="#explorador/journal"]').forEach(el=>el.hidden=!signedIn);}
+ function visibility(){document.querySelectorAll('[data-page="explorador"][data-hub-tab="journal"],a[href="#explorador/journal"],a[data-account-journal]').forEach(el=>el.hidden=!signedIn);}
  function notify(){visibility();document.querySelectorAll('[data-journal-sync-status]').forEach(el=>el.textContent=message);}
  function persist(){if(!context)return;localStorage.setItem(key(context),JSON.stringify({records,dirty}));}
  function clear(){epoch++;clearTimeout(timer);context=null;signedIn=false;records={};dirty={};message='Entre na comunidade para abrir seu diário.';notify();}
- function refresh(){if(location.hash==='#explorador/journal')window.renderClassicHub?.(document.querySelector('#content'));}
+ function refresh(){if(location.hash==='#conta/diario'){window.CommunityAccount?.refreshJournal?.();return;}if(location.hash==='#explorador/journal')window.renderClassicHub?.(document.querySelector('#content'));}
  async function activate(character,server){
   const user=await CommunityAuth.journalIdentity();if(!user){clear();return false;}signedIn=true;
   character=String(character||'').trim().toLowerCase();server=String(server||'').trim().toLowerCase();
