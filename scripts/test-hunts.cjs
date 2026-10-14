@@ -27,3 +27,5 @@ assert.equal(env.window.CLASSIC_HUNTS.filter(h=>h.city==='Darashia').length,9);a
 
 for(const h of env.window.CLASSIC_HUNTS){run(`openHuntMap(${JSON.stringify(h.id)});bindMap()`);assert.equal(env.location.hash,'#hunt-map/'+h.id);assert.equal(env.lastScroll.top,0);}
 run("var savedRender=render;var mapRenderCount=0;render=()=>{mapRenderCount++};page='mapa';openHuntMap('edron-dragons')");assert.equal(env.location.hash,'#hunt-map/edron-dragons');assert.equal(run('mapRenderCount'),1);run("render=savedRender;page=''");console.log('PASS: all 53 hunt buttons keep their destination in the URL and scroll to the map');
+
+const pyramid=env.window.CLASSIC_HUNTS.find(h=>h.id==='minotaur-darashia');assert.equal(pyramid.xyz[2],7);assert.equal(env.window.HUNT_PATHS[pyramid.id].floor,7);assert(env.window.HUNT_PATHS[pyramid.id].markers.every(p=>p[2]===7));assert.equal(env.window.HUNT_PATHS[pyramid.id].segments.length,0);console.log('PASS: Darashia Minotaur Pyramid opens on the surface, separate from underground Guards and Mages');
