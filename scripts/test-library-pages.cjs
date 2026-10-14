@@ -1,14 +1,14 @@
 'use strict';
 const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),assert=require('node:assert/strict');
-const e={window:{}};vm.createContext(e);for(const f of ['data','catalog-data','content-links'])vm.runInContext(fs.readFileSync('public/'+f+'.js','utf8'),e);
+const e={window:{}};vm.createContext(e);for(const f of ['data','catalog-data','content-links','hunt-data'])vm.runInContext(fs.readFileSync('public/'+f+'.js','utf8'),e);
 const groups=[['criaturas','creature',e.window.DATA.creatures],['itens','item',e.window.CATALOG.items],['magias','spell',e.window.CATALOG.spells],['npcs','npc',e.window.CATALOG.npcs]],seen=new Set();
 const sitemap=fs.readFileSync('public/sitemap.xml','utf8');
 function check(url){const html=fs.readFileSync(path.join('public',url,'index.html'),'utf8');assert.equal((html.match(/<h1(?:\s[^>]*)?>/g)||[]).length,1,url);assert(html.includes('rel="canonical" href="https://tibiacommand74.com'+url+'"'));assert(html.includes('name="description"'));assert(!html.includes('undefined'));assert(!html.includes('<canvas'));assert(!html.includes('href="#'));assert(sitemap.includes('<loc>https://tibiacommand74.com'+url+'</loc>'));for(const m of html.matchAll(/href="(\/(?:itens|magias|npcs|criaturas|quests|hunts)\/[^"#]*)"/g))assert(fs.existsSync(path.join('public',m[1],'index.html')),url+' broken '+m[1]);return html;}
 for(const [section,type,rows]of groups){const directory=check('/'+section+'/');for(const r of rows){const key=type==='item'?r.id:r.name,url=e.window.contentURL(type,key);assert(url);assert(!seen.has(url),url);seen.add(url);const html=check(url);assert(directory.includes('href="'+url+'"'));assert(html.includes('/#'+type+'/'+encodeURIComponent(key)));}}
-assert.equal(seen.size,1167);assert.equal(new Set([...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1])).size,1262);
+assert.equal(seen.size,1167);assert.equal(new Set([...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1])).size,1248+e.window.CLASSIC_HUNTS.length);
 assert(check(e.window.contentURL('spell','Light')).includes('utevo lux'));
 assert(check(e.window.contentURL('npc','Dermot')).includes('/#npc-map/Dermot'));
 assert(check(e.window.contentURL('creature','troll')).includes('/#creature-map/troll'));
 assert(check(e.window.contentURL('creature','troll')).includes('/itens/'));
 const source=fs.readFileSync('public/app.js','utf8');const route=source.slice(source.indexOf('function route(){'),source.indexOf("document.addEventListener('click',event=>"));const calls=[],ctx={C:{items:[],spells:[{name:'Light'}],npcs:[{name:'Dermot'}]},D:{creatures:[{name:'troll'}]},location:{hash:''},render(){},detailSpell:n=>calls.push(['spell',n]),openMap:n=>calls.push(['map',n]),openCatalogMap:n=>calls.push(['npc-map',n])};vm.createContext(ctx);vm.runInContext(route,ctx);for(const [hash,expected]of [['#spell/Light',['spell','Light']],['#npc-map/Dermot',['npc-map','Dermot']],['#creature-map/troll',['map','troll']]]){ctx.location.hash=hash;vm.runInContext('route()',ctx);assert.deepEqual(calls.at(-1),expected);}
-console.log('PASS: 1167 linked library records, 4 directories, 1262 unique sitemap URLs, canonical pages, one H1, intact cross-links and spell/NPC/creature map routes');
+console.log('PASS: 1167 linked library records, 4 directories, updated unique sitemap URLs, canonical pages, one H1, intact cross-links and spell/NPC/creature map routes');
