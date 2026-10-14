@@ -16,7 +16,7 @@ console.log(`PASS: 61 guias, ${segments} trechos por andar, respawns reais da ba
 for(const h of env.window.CLASSIC_HUNTS.filter(h=>['Ankrahmun','Carlin','Darashia','Edron','Kazordoon'].includes(h.city))){
   run(`openHuntMap(${JSON.stringify(h.id)});bindMap()`);
   const r=env.window.HUNT_PATHS[h.id],points=r.segments.length?r.segments.flat():[h.xyz];
-  const expected={x:(Math.min(...points.map(p=>p[0]))+Math.max(...points.map(p=>p[0])))/2,y:(Math.min(...points.map(p=>p[1]))+Math.max(...points.map(p=>p[1])))/2,z:h.xyz[2]};
+  const expected={x:h.xyz[0],y:h.xyz[1],z:h.xyz[2]};
   for(const k of ['x','y','z'])assert.equal(run('mapState.'+k),expected[k],h.id+' focuses '+k);
   run('mapCleanup();mapState={x:33000,y:32700,z:7,scale:3,show:true};mapCleanup()');
   assert.equal(run('mapState.x'),33000,'Disposed map cannot overwrite a new viewport');
@@ -31,3 +31,7 @@ run("var savedRender=render;var mapRenderCount=0;render=()=>{mapRenderCount++};p
 const pyramid=env.window.CLASSIC_HUNTS.find(h=>h.id==='minotaur-darashia');assert.equal(pyramid.xyz[2],7);assert.equal(env.window.HUNT_PATHS[pyramid.id].floor,7);assert(env.window.HUNT_PATHS[pyramid.id].markers.every(p=>p[2]===7));assert.equal(env.window.HUNT_PATHS[pyramid.id].segments.length,0);console.log('PASS: Darashia Minotaur Pyramid opens on the surface, separate from underground Guards and Mages');
 
 assert.equal(env.window.CLASSIC_HUNTS.filter(h=>h.city==='Kazordoon').length,10);assert.equal(env.window.CLASSIC_HUNTS.find(h=>h.id==='kazordoon-dragon-surface').xyz[2],7);assert.equal(env.window.CLASSIC_HUNTS.find(h=>h.id==='kazordoon-dwacatra').xyz[2],14);
+
+const carlinRots=env.window.CLASSIC_HUNTS.find(h=>h.id==='rotworm-carlin');assert.deepEqual(Array.from(carlinRots.xyz),[32331,31840,9]);for(const h of env.window.CLASSIC_HUNTS){run(`openHuntMap(${JSON.stringify(h.id)});bindMap()`);assert.equal(run('mapState.x'),h.xyz[0]);assert.equal(run('mapState.y'),h.xyz[1]);assert.equal(run('mapSearch'),h.mob);assert.equal(run('mapFocusPending'),false);assert(node('#hunt-map-guide').innerHTML.includes('marcador principal'));}console.log('PASS: all 61 hunts focus the exact main marker and filter nearby creatures without global search relocation');
+
+const geo=JSON.parse(fs.readFileSync('docs/hunt-map-audit-20261014.json','utf8')),covered=new Set();for(const region of geo.regions){const [minX,minY,maxX,maxY]=region.bounds;for(const id of region.ids){const h=env.window.CLASSIC_HUNTS.find(h=>h.id===id);assert(h,'Unknown reviewed hunt');assert(!covered.has(id));covered.add(id);assert(h.xyz[0]>=minX&&h.xyz[0]<=maxX&&h.xyz[1]>=minY&&h.xyz[1]<=maxY,id+' must remain in its researched geographical area');}}assert.equal(covered.size,61);console.log('PASS: 61 destinations covered by named geographical review regions');

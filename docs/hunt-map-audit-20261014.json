@@ -1,0 +1,1391 @@
+{
+  "reviewedAt": "2026-10-14",
+  "scope": "Geographical comparison of all 61 hunt markers with named area references and the local classic spawn base. Current wiki pages are used for geography only; modern expansions, loot and walkthroughs are excluded. Not a validation of walking routes or stairs.",
+  "confirmedCorrection": {
+    "id": "rotworm-carlin",
+    "before": [
+      32484,
+      31899,
+      8
+    ],
+    "after": [
+      32331,
+      31840,
+      9
+    ],
+    "reason": "Previous point lay in the western Kazordoon mines band; the documented Carlin rotworm cave is around 32334,31841,9."
+  },
+  "navigationChanges": [
+    "Focus exact hunt.xyz, never the centre of an approximate path bounding box",
+    "Initial zoom 6 and creature filter without automatic global spawn search",
+    "Show destination coordinates and floor and highlight the main marker"
+  ],
+  "regions": [
+    {
+      "name": "Thais Troll Cave",
+      "bounds": [
+        32440,
+        32220,
+        32540,
+        32310
+      ],
+      "ids": [
+        "troll-thais"
+      ]
+    },
+    {
+      "name": "Carlin Rotworm Cave",
+      "bounds": [
+        32290,
+        31750,
+        32380,
+        31865
+      ],
+      "ids": [
+        "rotworm-carlin"
+      ]
+    },
+    {
+      "name": "Venore Amazon Camp",
+      "bounds": [
+        32810,
+        31880,
+        32890,
+        31980
+      ],
+      "ids": [
+        "amazon-venore"
+      ]
+    },
+    {
+      "name": "Mount Sternum",
+      "bounds": [
+        32420,
+        32030,
+        32560,
+        32140
+      ],
+      "ids": [
+        "cyclops-sternum"
+      ]
+    },
+    {
+      "name": "Darashia Pyramid",
+      "bounds": [
+        33280,
+        32250,
+        33335,
+        32315
+      ],
+      "ids": [
+        "minotaur-darashia",
+        "darashia-minotaur-guards",
+        "darashia-minotaur-mages"
+      ]
+    },
+    {
+      "name": "Ankrahmun Scarab Caves",
+      "bounds": [
+        33025,
+        32725,
+        33115,
+        32820
+      ],
+      "ids": [
+        "larva-darama",
+        "scarab-darama",
+        "ancient-scarab"
+      ]
+    },
+    {
+      "name": "Venore Dragon Lair",
+      "bounds": [
+        32765,
+        32110,
+        32870,
+        32200
+      ],
+      "ids": [
+        "dragon-venore"
+      ]
+    },
+    {
+      "name": "Drefia",
+      "bounds": [
+        32950,
+        32360,
+        33085,
+        32500
+      ],
+      "ids": [
+        "necromancer-drefia",
+        "drefia-ghouls",
+        "drefia-demon-skeletons",
+        "drefia-vampires",
+        "drefia-beholders"
+      ]
+    },
+    {
+      "name": "Edron Northern Ruins",
+      "bounds": [
+        33080,
+        31560,
+        33190,
+        31700
+      ],
+      "ids": [
+        "hero-edron"
+      ]
+    },
+    {
+      "name": "Plains of Havoc",
+      "bounds": [
+        32680,
+        32240,
+        32880,
+        32450
+      ],
+      "ids": [
+        "giant-spider-poh"
+      ]
+    },
+    {
+      "name": "Peninsula Tomb",
+      "bounds": [
+        32990,
+        32810,
+        33090,
+        32925
+      ],
+      "ids": [
+        "ankrahmun-peninsula-tomb"
+      ]
+    },
+    {
+      "name": "Tarpit Tomb",
+      "bounds": [
+        33185,
+        32660,
+        33285,
+        32765
+      ],
+      "ids": [
+        "ankrahmun-tarpit-tomb"
+      ]
+    },
+    {
+      "name": "Stone Tomb",
+      "bounds": [
+        33235,
+        32710,
+        33335,
+        32800
+      ],
+      "ids": [
+        "ankrahmun-stone-tomb"
+      ]
+    },
+    {
+      "name": "Shadow Tomb",
+      "bounds": [
+        33195,
+        32780,
+        33300,
+        32885
+      ],
+      "ids": [
+        "ankrahmun-shadow-tomb"
+      ]
+    },
+    {
+      "name": "Mountain Tomb",
+      "bounds": [
+        33080,
+        32500,
+        33185,
+        32620
+      ],
+      "ids": [
+        "ankrahmun-mountain-tomb"
+      ]
+    },
+    {
+      "name": "Oasis Tomb",
+      "bounds": [
+        33080,
+        32595,
+        33185,
+        32705
+      ],
+      "ids": [
+        "ankrahmun-oasis-tomb"
+      ]
+    },
+    {
+      "name": "Ancient Ruins Tomb",
+      "bounds": [
+        33160,
+        32540,
+        33270,
+        32670
+      ],
+      "ids": [
+        "ankrahmun-ancient-ruins-tomb"
+      ]
+    },
+    {
+      "name": "Library Tomb",
+      "bounds": [
+        33100,
+        32800,
+        33195,
+        32895
+      ],
+      "ids": [
+        "ankrahmun-library-tomb"
+      ]
+    },
+    {
+      "name": "Ankrahmun South Dragons",
+      "bounds": [
+        33020,
+        32695,
+        33080,
+        32760
+      ],
+      "ids": [
+        "ankrahmun-dragons-south"
+      ]
+    },
+    {
+      "name": "Ankrahmun Middle Dragons",
+      "bounds": [
+        33045,
+        32660,
+        33110,
+        32725
+      ],
+      "ids": [
+        "ankrahmun-dragons-middle"
+      ]
+    },
+    {
+      "name": "Ankrahmun North Dragons",
+      "bounds": [
+        33060,
+        32570,
+        33150,
+        32660
+      ],
+      "ids": [
+        "ankrahmun-dragons-north"
+      ]
+    },
+    {
+      "name": "Carlin Amazons",
+      "bounds": [
+        32440,
+        31745,
+        32505,
+        31815
+      ],
+      "ids": [
+        "carlin-amazon"
+      ]
+    },
+    {
+      "name": "Carlin Graveyard",
+      "bounds": [
+        32360,
+        31750,
+        32460,
+        31850
+      ],
+      "ids": [
+        "carlin-graveyard"
+      ]
+    },
+    {
+      "name": "Ghostlands",
+      "bounds": [
+        32130,
+        31760,
+        32265,
+        31915
+      ],
+      "ids": [
+        "carlin-ghostlands-skeletons",
+        "carlin-ghostlands-ghouls",
+        "carlin-ghostlands-demon-skeletons",
+        "carlin-ghostlands-vampire"
+      ]
+    },
+    {
+      "name": "Folda",
+      "bounds": [
+        31945,
+        31515,
+        32100,
+        31650
+      ],
+      "ids": [
+        "carlin-folda-frost-trolls",
+        "carlin-folda-rotworms",
+        "carlin-folda-minotaurs"
+      ]
+    },
+    {
+      "name": "Senja",
+      "bounds": [
+        32110,
+        31600,
+        32190,
+        31690
+      ],
+      "ids": [
+        "carlin-senja-frost-trolls"
+      ]
+    },
+    {
+      "name": "Vega",
+      "bounds": [
+        31930,
+        31650,
+        32040,
+        31750
+      ],
+      "ids": [
+        "carlin-vega-rotworms"
+      ]
+    },
+    {
+      "name": "Isle of the Kings",
+      "bounds": [
+        32140,
+        31910,
+        32215,
+        31970
+      ],
+      "ids": [
+        "carlin-isle-kings-skeletons"
+      ]
+    },
+    {
+      "name": "Darashia Rotworm Caves",
+      "bounds": [
+        33110,
+        32310,
+        33300,
+        32510
+      ],
+      "ids": [
+        "darashia-rotworms"
+      ]
+    },
+    {
+      "name": "Edron Troll Den",
+      "bounds": [
+        33050,
+        31710,
+        33175,
+        31805
+      ],
+      "ids": [
+        "edron-trolls"
+      ]
+    },
+    {
+      "name": "Edron Goblin Den",
+      "bounds": [
+        33040,
+        31800,
+        33165,
+        31890
+      ],
+      "ids": [
+        "edron-goblins"
+      ]
+    },
+    {
+      "name": "Edron Rotworm Caves",
+      "bounds": [
+        33165,
+        31820,
+        33290,
+        31940
+      ],
+      "ids": [
+        "edron-rotworms"
+      ]
+    },
+    {
+      "name": "Edron Orc Lands",
+      "bounds": [
+        33115,
+        31840,
+        33210,
+        31970
+      ],
+      "ids": [
+        "edron-orcs"
+      ]
+    },
+    {
+      "name": "Cyclopolis",
+      "bounds": [
+        33165,
+        31615,
+        33355,
+        31755
+      ],
+      "ids": [
+        "edron-cyclopolis",
+        "edron-behemoths"
+      ]
+    },
+    {
+      "name": "Edron Dragon Lair",
+      "bounds": [
+        33035,
+        31615,
+        33130,
+        31730
+      ],
+      "ids": [
+        "edron-dragons",
+        "edron-dragon-lords"
+      ]
+    },
+    {
+      "name": "Ghoul Hill",
+      "bounds": [
+        33170,
+        31650,
+        33235,
+        31710
+      ],
+      "ids": [
+        "edron-ghoul-hill"
+      ]
+    },
+    {
+      "name": "Kazordoon Dwarf Mines",
+      "bounds": [
+        32435,
+        31850,
+        32595,
+        32010
+      ],
+      "ids": [
+        "dwarf-mines",
+        "dwarf-guards",
+        "kazordoon-dwarf-soldiers",
+        "kazordoon-dwarf-geomancers",
+        "kazordoon-rotworms",
+        "kazordoon-slimes"
+      ]
+    },
+    {
+      "name": "Dwacatra",
+      "bounds": [
+        32570,
+        31890,
+        32655,
+        31970
+      ],
+      "ids": [
+        "kazordoon-dwacatra"
+      ]
+    },
+    {
+      "name": "Kazordoon Classic Surface Dragon",
+      "bounds": [
+        32625,
+        31875,
+        32680,
+        31930
+      ],
+      "ids": [
+        "kazordoon-dragon-surface"
+      ]
+    },
+    {
+      "name": "Femor Hills",
+      "bounds": [
+        32520,
+        31720,
+        32630,
+        31850
+      ],
+      "ids": [
+        "kazordoon-femor-goblins",
+        "kazordoon-femor-hunter"
+      ]
+    }
+  ],
+  "hunts": [
+    {
+      "id": "troll-thais",
+      "city": "Thais",
+      "xyz": [
+        32459,
+        32276,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Thais_Trolls%27_Cave"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "rotworm-carlin",
+      "city": "Carlin",
+      "xyz": [
+        32331,
+        31840,
+        9
+      ],
+      "sources": [
+        "https://www.tibia-wiki.net/wiki/Rotworms_Cave",
+        "https://www.tibiawiki.com.br/index.php?stableid=140281&title=Kazordoon_Corym_Dungeons"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "amazon-venore",
+      "city": "Venore",
+      "xyz": [
+        32847,
+        31918,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Venore_Amazon_Camp"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "dwarf-mines",
+      "city": "Kazordoon",
+      "xyz": [
+        32556,
+        31949,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "dwarf-guards",
+      "city": "Kazordoon",
+      "xyz": [
+        32554,
+        31968,
+        12
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dwarf_Guard"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "cyclops-sternum",
+      "city": "Thais",
+      "xyz": [
+        32477,
+        32116,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Mount_Sternum"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "minotaur-darashia",
+      "city": "Darashia",
+      "xyz": [
+        33311,
+        32286,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Daramian_Minotaur_Pyramid"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "larva-darama",
+      "city": "Ankrahmun",
+      "xyz": [
+        33068,
+        32766,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Daramian_Scarab_Caves"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "scarab-darama",
+      "city": "Ankrahmun",
+      "xyz": [
+        33059,
+        32750,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Daramian_Scarab_Caves"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "ancient-scarab",
+      "city": "Ankrahmun",
+      "xyz": [
+        33072,
+        32761,
+        11
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ancient_Scarab"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "dragon-venore",
+      "city": "Venore",
+      "xyz": [
+        32835,
+        32164,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Venore_Dragon_Lair"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "necromancer-drefia",
+      "city": "Darashia",
+      "xyz": [
+        32990,
+        32389,
+        10
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Drefia"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "hero-edron",
+      "city": "Edron",
+      "xyz": [
+        33109,
+        31673,
+        13
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Northern_Ruins"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "giant-spider-poh",
+      "city": "Venore",
+      "xyz": [
+        32751,
+        32295,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Plains_of_Havoc"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "ankrahmun-peninsula-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33047,
+        32849,
+        13
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Peninsula)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "ankrahmun-tarpit-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33230,
+        32713,
+        12
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Tarpit)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "ankrahmun-stone-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33267,
+        32747,
+        13
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Stone)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "ankrahmun-shadow-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33235,
+        32811,
+        13
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Shadow)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "ankrahmun-mountain-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33131,
+        32541,
+        13
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Mountain)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "ankrahmun-oasis-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33126,
+        32646,
+        13
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Oasis)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "ankrahmun-ancient-ruins-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33216,
+        32616,
+        13
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Ancient_Ruins)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "ankrahmun-library-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33141,
+        32836,
+        10
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Library)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "ankrahmun-dragons-south",
+      "city": "Ankrahmun",
+      "xyz": [
+        33049,
+        32720,
+        6
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Ankrahmun)"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "ankrahmun-dragons-middle",
+      "city": "Ankrahmun",
+      "xyz": [
+        33075,
+        32693,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Ankrahmun)"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "ankrahmun-dragons-north",
+      "city": "Ankrahmun",
+      "xyz": [
+        33097,
+        32613,
+        6
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Ankrahmun)"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "carlin-amazon",
+      "city": "Carlin",
+      "xyz": [
+        32472,
+        31780,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Carlin_Amazon_Camp"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "carlin-graveyard",
+      "city": "Carlin",
+      "xyz": [
+        32403,
+        31805,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Carlin_Graveyard"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "carlin-ghostlands-skeletons",
+      "city": "Carlin",
+      "xyz": [
+        32181,
+        31795,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ghostlands"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "carlin-ghostlands-ghouls",
+      "city": "Carlin",
+      "xyz": [
+        32189,
+        31825,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ghostlands"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "carlin-ghostlands-demon-skeletons",
+      "city": "Carlin",
+      "xyz": [
+        32183,
+        31792,
+        10
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ghostlands"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "carlin-ghostlands-vampire",
+      "city": "Carlin",
+      "xyz": [
+        32179,
+        31830,
+        12
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ghostlands"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "carlin-folda-frost-trolls",
+      "city": "Carlin",
+      "xyz": [
+        31983,
+        31560,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Folda"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "carlin-folda-rotworms",
+      "city": "Carlin",
+      "xyz": [
+        31980,
+        31567,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Folda"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "carlin-folda-minotaurs",
+      "city": "Carlin",
+      "xyz": [
+        32044,
+        31604,
+        10
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Folda"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "carlin-senja-frost-trolls",
+      "city": "Carlin",
+      "xyz": [
+        32152,
+        31633,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Senja"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "carlin-vega-rotworms",
+      "city": "Carlin",
+      "xyz": [
+        31969,
+        31696,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Vega"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "carlin-isle-kings-skeletons",
+      "city": "Carlin",
+      "xyz": [
+        32179,
+        31933,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Isle_of_the_Kings"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "darashia-rotworms",
+      "city": "Darashia",
+      "xyz": [
+        33150,
+        32440,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Daramian_Rotworm_Caves"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "darashia-minotaur-guards",
+      "city": "Darashia",
+      "xyz": [
+        33308,
+        32278,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Minotaur_Pyramid"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "darashia-minotaur-mages",
+      "city": "Darashia",
+      "xyz": [
+        33303,
+        32278,
+        10
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Minotaur_Pyramid"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "drefia-ghouls",
+      "city": "Darashia",
+      "xyz": [
+        33001,
+        32408,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Drefia"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "drefia-demon-skeletons",
+      "city": "Darashia",
+      "xyz": [
+        33009,
+        32408,
+        10
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Drefia"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "drefia-vampires",
+      "city": "Darashia",
+      "xyz": [
+        33035,
+        32404,
+        10
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Drefia"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "drefia-beholders",
+      "city": "Darashia",
+      "xyz": [
+        33060,
+        32445,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Drefia"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "edron-trolls",
+      "city": "Edron",
+      "xyz": [
+        33125,
+        31746,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Troll_Den"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "edron-goblins",
+      "city": "Edron",
+      "xyz": [
+        33109,
+        31840,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Goblin_Den"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "edron-rotworms",
+      "city": "Edron",
+      "xyz": [
+        33211,
+        31847,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Rotworm_Caves"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "edron-orcs",
+      "city": "Edron",
+      "xyz": [
+        33148,
+        31876,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Orc_Lands"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "edron-cyclopolis",
+      "city": "Edron",
+      "xyz": [
+        33180,
+        31682,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Cyclopolis"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "edron-behemoths",
+      "city": "Edron",
+      "xyz": [
+        33258,
+        31665,
+        14
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Cyclopolis"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "edron-dragons",
+      "city": "Edron",
+      "xyz": [
+        33053,
+        31651,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Dragon_Lair"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "edron-dragon-lords",
+      "city": "Edron",
+      "xyz": [
+        33087,
+        31647,
+        11
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Dragon_Lair"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "edron-ghoul-hill",
+      "city": "Edron",
+      "xyz": [
+        33197,
+        31678,
+        4
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ghoul_Hill"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "kazordoon-dwarf-soldiers",
+      "city": "Kazordoon",
+      "xyz": [
+        32527,
+        31953,
+        11
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "kazordoon-dwarf-geomancers",
+      "city": "Kazordoon",
+      "xyz": [
+        32499,
+        31941,
+        14
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "kazordoon-rotworms",
+      "city": "Kazordoon",
+      "xyz": [
+        32476,
+        31966,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "kazordoon-slimes",
+      "city": "Kazordoon",
+      "xyz": [
+        32458,
+        31900,
+        13
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "kazordoon-dwacatra",
+      "city": "Kazordoon",
+      "xyz": [
+        32623,
+        31914,
+        14
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dwacatra"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "kazordoon-dragon-surface",
+      "city": "Kazordoon",
+      "xyz": [
+        32650,
+        31901,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Kazordoon)"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "kazordoon-femor-goblins",
+      "city": "Kazordoon",
+      "xyz": [
+        32568,
+        31768,
+        6
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Femor_Hills"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "kazordoon-femor-hunter",
+      "city": "Kazordoon",
+      "xyz": [
+        32598,
+        31805,
+        4
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Femor_Hills"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    }
+  ]
+}
