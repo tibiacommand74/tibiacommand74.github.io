@@ -13,8 +13,17 @@
    return out.href;
   }catch{return '';}
  }
+ function pageTitle(){
+  if(!/^\/(?:index\.html)?$/.test(location.pathname))return document.title;
+  const parts=location.hash.slice(1).split('/');
+  const titles={inicio:'Início',iniciantes:'Iniciantes',quests:'Quests',hunts:'Hunts',mapa:'Mapa',criaturas:'Criaturas',biblioteca:'Biblioteca',servidores:'Servidores',classificados:'Classificados',feedback:'Opiniões e sugestões',calculadora:'Calculadora de XP, skills e magic level',mana:'Mana e runas',equipamentos:'Equipamentos',loot:'Lootbag',downloads:'Downloads',programa:'Programa para Windows',sobre:'Sobre e contato'};
+  const catalog={itens:'Itens',magias:'Magias e runas',npcs:'NPCs'};
+  const explorer={journal:'Meu diário',planner:'Planejar quests',search:'Busca geral',keys:'Chaves clássicas',cities:'Cidades',lore:'Livros e mistérios',sets:'Sets clássicos',food:'Comidas'};
+  const title=parts[0]==='catalog'?catalog[parts[1]]:parts[0]==='explorador'?explorer[parts[1]]:titles[parts[0]||'inicio'];
+  return title?title+' | Tibia Command 7.4':document.title;
+ }
  function event(name,params){if(ready&&allowed())window.gtag('event',name,{send_to:ID,...params});}
- function page(){if(!allowed()||!ready)return;const url=cleanURL(location.href,true);if(url===lastPage)return;lastPage=url;event('page_view',{page_location:url,page_title:document.title,page_referrer:document.referrer?new URL(document.referrer).origin:''});}
+ function page(){if(!allowed()||!ready)return;const url=cleanURL(location.href,true);if(url===lastPage)return;const ref=lastPage||(document.referrer?new URL(document.referrer).origin:'');lastPage=url;event('page_view',{page_location:url,page_title:pageTitle(),page_referrer:ref});}
  function enable(){
   window['ga-disable-'+ID]=!allowed();if(!allowed())return;
   if(!ready){window.dataLayer=window.dataLayer||[];window.gtag=window.gtag||function(){window.dataLayer.push(arguments);};
