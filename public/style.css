@@ -92,3 +92,17 @@ header .brand{flex-shrink:0;line-height:0}header .site-logo{display:block;width:
  footer>a,footer>button{min-height:44px;display:inline-flex;align-items:center}
  .toolbar{flex-wrap:wrap}.toolbar input{flex:1 1 180px}.toolbar select{max-width:100%}
 }
+
+/* Narrow-screen forms and touch targets. */
+@media(max-width:650px){
+ main input:not([type=checkbox]):not([type=radio]),main select,main textarea,dialog input:not([type=checkbox]):not([type=radio]),dialog select,dialog textarea{font-size:16px!important;max-width:100%}
+ .fields>*,.market-form-pair>*,.result,.form-panel,.market-contact{min-width:0}
+ .result .big{font-size:clamp(26px,8vw,38px);overflow-wrap:anywhere}
+ .market-link,.market-pagination button,#market-dialog button{min-height:44px}
+ #market-dialog{max-height:calc(100dvh - 32px);padding:24px 18px}
+ .market-close{min-width:44px;min-height:44px}
+ .home-search-strip form{flex-wrap:wrap}.home-search-strip input{flex:1 1 180px}
+ .home-search-strip button{min-height:44px}
+ .guide-hub-nav a{text-align:center;overflow-wrap:anywhere}
+}
+@media(max-width:420px){.fields,.market-form-pair,.market-filters{grid-template-columns:1fr}.market-filters label:first-child{grid-column:auto}.home-search-strip button{width:100%}.market-pagination{flex-wrap:wrap}}

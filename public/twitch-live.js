@@ -2,6 +2,7 @@
   'use strict';
   const section = document.getElementById('community-live');
   const mount = document.getElementById('twitch-player');
+  const mobileNote = document.getElementById('twitch-mobile-note');
   const status = document.getElementById('twitch-status');
   const banner = document.getElementById('twitch-live-banner');
   if (!section || !mount || !status || !banner) return;
@@ -24,7 +25,7 @@
       : 'Confira a transmissão e os horários no canal.';
   };
   const start = () => {
-    if (!window.Twitch || !window.Twitch.Player || document.hidden) return;
+    if (!window.Twitch || !window.Twitch.Player || document.hidden || mount.hidden) return;
     const current = ++generation;
     clearTimeout(timeout);
     setState('unknown');
@@ -52,11 +53,23 @@
       setState('unknown');
     }
   };
+  const resizePlayer = () => {
+    if(section.hidden) return;
+    const narrow = mount.parentElement.clientWidth < 400;
+    mount.hidden = narrow;
+    if(mobileNote) mobileNote.hidden = !narrow;
+    if(narrow){generation++;clearTimeout(timeout);mount.replaceChildren();setState('unknown');}
+    else if(!mount.querySelector('iframe')) start();
+  };
+  window.addEventListener('hashchange', resizePlayer);
+  window.addEventListener('resize', resizePlayer);
+  if(window.ResizeObserver)new ResizeObserver(resizePlayer).observe(mount.parentElement);
+  resizePlayer();
   setState('unknown');
   const sdk = document.createElement('script');
   sdk.src = 'https://player.twitch.tv/js/embed/v1.js';
   sdk.async = true;
-  sdk.onload = start;
+  sdk.onload = resizePlayer;
   sdk.onerror = () => setState('unknown');
   document.head.appendChild(sdk);
   // Recheck an idle channel without starting playback or requiring a page reload.
