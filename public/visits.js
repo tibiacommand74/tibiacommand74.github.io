@@ -1,8 +1,9 @@
 'use strict';
 (()=>{
  const API='https://tibia-command-74.calmstronglife.chatgpt.site/api/visits';
- const EXCLUDED='tc74-exclude-visits',SESSION='tc74-visit-session',SESSION_MS=30*60*1000;
+ const EXCLUDED='tc74-exclude-visits',SESSION='tc74-visit-session',DAY_ZONE='America/Sao_Paulo';
  const counter=document.getElementById('visit-count'),status=document.getElementById('visit-preference'),button=document.getElementById('visit-toggle');
+ const dayKey=()=>new Intl.DateTimeFormat('en-CA',{timeZone:DAY_ZONE,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
  let excluded=false,session=null,storage=true,busy=false;
  try{
   const url=new URL(location.href);
@@ -14,7 +15,7 @@
   if(!session||typeof session.id!=='string'||!Number.isFinite(session.started))session=null;
  }catch{storage=false;excluded=true;}
  function preference(){
-  status.textContent=!storage?'A contagem está desativada neste navegador.':excluded?'Seus acessos neste navegador não são contados.':'Uma visita por navegador a cada 30 minutos.';
+  status.textContent=!storage?'A contagem está desativada neste navegador.':excluded?'Seus acessos neste navegador não são contados.':'Uma visita por dia por navegador · horário de Brasília.';
   button.textContent=excluded?'Contar este navegador':'Não contar meus acessos';button.disabled=busy||!storage;
  }
  async function request(action,id){
@@ -27,12 +28,14 @@
  async function refresh(){
   busy=true;preference();
   try{
-   if(excluded){await request(session?'exclude':null,session?.id);}
+   if(excluded){await request(session?'exclude':null,session?.id);if(session){session.excluded=true;localStorage.setItem(SESSION,JSON.stringify(session));}}
    else{
-    if(!session||Date.now()-session.started>=SESSION_MS||session.started>Date.now()){
-     session={id:crypto.randomUUID(),started:Date.now()};localStorage.setItem(SESSION,JSON.stringify(session));
+    const today=dayKey();
+    if(session&&!session.day)session.day=new Intl.DateTimeFormat('en-CA',{timeZone:DAY_ZONE,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(session.started));
+    if(!session||session.day!==today||session.started>Date.now()){
+     session={id:crypto.randomUUID(),started:Date.now(),day:today};localStorage.setItem(SESSION,JSON.stringify(session));
     }
-    await request('visit',session.id);
+    await request(session.excluded?null:'visit',session.id);
    }
   }catch{counter.textContent='—';}
   finally{busy=false;preference();}
@@ -41,7 +44,7 @@
   if(busy||!storage)return;
   try{
    excluded=!excluded;localStorage.setItem(EXCLUDED,excluded?'1':'0');
-   if(!excluded){session=null;localStorage.removeItem(SESSION);}
+   
    await refresh();window.dispatchEvent(new Event('tc74-visit-preference'));
   }catch{storage=false;excluded=true;preference();}
  };

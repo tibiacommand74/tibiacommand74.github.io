@@ -5,6 +5,9 @@
   const status = document.getElementById('twitch-status');
   const banner = document.getElementById('twitch-live-banner');
   if (!section || !mount || !status || !banner) return;
+  const showHome = () => { section.hidden = !!location.hash && location.hash !== '#inicio'; };
+  showHome();
+  window.addEventListener('hashchange', showHome);
   let player = null;
   let state = 'unknown';
   let generation = 0;
