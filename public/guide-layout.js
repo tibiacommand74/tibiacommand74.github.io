@@ -14,12 +14,14 @@ window.applyGuideLayout=(root,kind)=>{
   h.textContent='Biblioteca 7.4';p.textContent='Consulte o mundo clássico, prepare sua aventura e guarde suas descobertas.';
  }else nav.innerHTML='<p class="eyebrow">GUIAS CLÁSSICOS</p>'+[['iniciantes','Iniciantes'],['hunts','Hunts'],['quests','Quests']].map(([id,name])=>`<a href="#${id}" ${kind===id?'aria-current="page"':''}>${name}<span aria-hidden="true">›</span></a>`).join('');sidebar.append(nav);
  const panel=document.createElement('section');panel.className='guide-hub-panel';
+ let librarySearch=null;
  const filter=root.querySelector(library?(kind==='criaturas'?'.toolbar':'.catalog-toolbar'):kind==='quests'?'.quest-filter-panel':kind==='hunts'?'.hunt-toolbar':'.beginner-nav');
+ if(library&&filter){const input=filter.querySelector('input');if(input){const section=kind==='criaturas'?'criaturas':catalogTab;librarySearch=document.createElement('div');librarySearch.className='library-search-bar';const label=document.createElement('label');label.htmlFor=input.id;label.textContent='Pesquisar '+({criaturas:'criaturas',itens:'itens',magias:'magias',npcs:'NPCs'}[section]||'na biblioteca');input.type='search';input.autocomplete='off';input.setAttribute('aria-label',label.textContent);input.placeholder=({criaturas:'Nome da criatura ou item de loot…',itens:'Nome do item ou vendedor…',magias:'Nome, palavras da magia ou professor…',npcs:'Nome do NPC, cidade ou magia…'}[section]||'Digite para pesquisar…');librarySearch.append(label,input);}}
  if(filter){filter.querySelectorAll('label.sr-only').forEach(label=>label.remove());const block=document.createElement('div');block.className='guide-hub-filters';const label=document.createElement('h3');label.textContent=library?'Filtrar biblioteca':kind==='iniciantes'?'Sua jornada':'Encontre seu guia';block.append(label,filter);sidebar.append(block);
   if(kind!=='iniciantes')filter.querySelectorAll('input,select').forEach(control=>{const text=control.getAttribute('aria-label')||({'search':'Buscar criatura ou loot','catalog-search':'Buscar na biblioteca'}[control.id]);if(!text)return;const label=document.createElement('label');label.className='guide-filter-label';const span=document.createElement('span');span.textContent=text;control.before(label);label.append(span,control);});
  }
  for(const child of [...root.children])if(child!==heading)panel.append(child);
- if(library){const ph=document.createElement('div');ph.className='explorer-panel-heading';const names={criaturas:['Criaturas','Conheça os atributos, loots e respawns.'],itens:['Itens','Compare equipamentos e encontre compradores e vendedores.'],magias:['Magias','Consulte palavras, requisitos e professores.'],npcs:['NPCs','Encontre comerciantes, professores e referências no mapa.']};const info=names[kind==='criaturas'?'criaturas':catalogTab];ph.innerHTML='<h3>'+info[0]+'</h3><p>'+info[1]+'</p>';panel.prepend(ph);}
+ if(library){const ph=document.createElement('div');ph.className='explorer-panel-heading';const names={criaturas:['Criaturas','Conheça os atributos, loots e respawns.'],itens:['Itens','Compare equipamentos e encontre compradores e vendedores.'],magias:['Magias','Consulte palavras, requisitos e professores.'],npcs:['NPCs','Encontre comerciantes, professores e referências no mapa.']};const info=names[kind==='criaturas'?'criaturas':catalogTab];ph.innerHTML='<h3>'+info[0]+'</h3><p>'+info[1]+'</p>';panel.prepend(ph);if(librarySearch)ph.after(librarySearch);}
  layout.append(sidebar,panel);root.append(layout);root.classList.add('guide-hub-root');root.dataset.guideKind=kind;
  if(kind==='iniciantes'){const links=sidebar.querySelectorAll('.beginner-nav a');links.forEach((link,i)=>{if(i===0)link.setAttribute('aria-current','step');link.addEventListener('click',()=>{links.forEach(a=>a.removeAttribute('aria-current'));link.setAttribute('aria-current','step');});});}
 };
@@ -57,3 +59,4 @@ document.addEventListener('DOMContentLoaded',()=>{
  const refresh=()=>window.applySectionLayout(root);
  new MutationObserver(refresh).observe(root,{childList:true});refresh();
 });
+
