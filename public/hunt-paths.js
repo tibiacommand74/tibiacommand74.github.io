@@ -4372,5 +4372,200 @@ window.HUNT_PATHS = {
     "segments": [],
     "gaps": 0,
     "notice": "Respawn de referência; caminho e escadas não validados."
+  },
+  "abdendriel-trolls": {
+    "floor": 9,
+    "markers": [
+      [
+        32636,
+        31635,
+        9
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
+  },
+  "abdendriel-rotworms": {
+    "floor": 8,
+    "markers": [
+      [
+        32652,
+        31636,
+        8
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
+  },
+  "abdendriel-elf-cave-elves": {
+    "floor": 8,
+    "markers": [
+      [
+        32627,
+        31625,
+        8
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
+  },
+  "abdendriel-elf-cave-scouts": {
+    "floor": 8,
+    "markers": [
+      [
+        32629,
+        31626,
+        8
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
+  },
+  "abdendriel-elf-cave-arcanists": {
+    "floor": 8,
+    "markers": [
+      [
+        32654,
+        31611,
+        8
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
+  },
+  "abdendriel-elvenbane-minotaurs": {
+    "floor": 8,
+    "markers": [
+      [
+        32584,
+        31641,
+        8
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
+  },
+  "abdendriel-elvenbane-orcs": {
+    "floor": 7,
+    "markers": [
+      [
+        32582,
+        31639,
+        7
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
+  },
+  "abdendriel-elvenbane-dragon": {
+    "floor": 5,
+    "markers": [
+      [
+        32591,
+        31645,
+        5
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
+  },
+  "abdendriel-elvenbane-demon-skeleton": {
+    "floor": 3,
+    "markers": [
+      [
+        32590,
+        31643,
+        3
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
+  },
+  "abdendriel-hellgate-ghouls": {
+    "floor": 11,
+    "markers": [
+      [
+        32713,
+        31570,
+        11
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
+  },
+  "abdendriel-hellgate-demon-skeletons": {
+    "floor": 11,
+    "markers": [
+      [
+        32755,
+        31580,
+        11
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
+  },
+  "abdendriel-hellgate-beholders": {
+    "floor": 14,
+    "markers": [
+      [
+        32767,
+        31613,
+        14
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
+  },
+  "abdendriel-draconia-demon-skeletons": {
+    "floor": 4,
+    "markers": [
+      [
+        32798,
+        31581,
+        4
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
+  },
+  "abdendriel-draconia-dragons": {
+    "floor": 9,
+    "markers": [
+      [
+        32775,
+        31589,
+        9
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
+  },
+  "abdendriel-draconia-dragon-lord": {
+    "floor": 3,
+    "markers": [
+      [
+        32797,
+        31558,
+        3
+      ]
+    ],
+    "segments": [],
+    "gaps": 0,
+    "notice": "Respawn de referência no andar indicado; não representa a entrada, escadas ou caminho validado."
   }
 };

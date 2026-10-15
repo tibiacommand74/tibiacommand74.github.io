@@ -3478,5 +3478,608 @@ window.CLASSIC_HUNTS = [
     "introducedVersion": "7.5",
     "versionException": true,
     "mapUnavailable": true
+  },
+  {
+    "id": "abdendriel-trolls",
+    "name": "Trolls do subsolo de Ab’Dendriel",
+    "city": "Ab'Dendriel",
+    "mob": "troll",
+    "xyz": [
+      32636,
+      31635,
+      9
+    ],
+    "level": 8,
+    "premium": false,
+    "risk": "Baixo",
+    "goal": "Economia",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Subsolo -2 da região oeste da cidade. Confira a Key 3033, vendida por Shirith, para o acesso às cavernas. A alternativa pelas Slime Caves exige Machete e Shovel e passa por inimigos mais fortes.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Confira a Key 3033 quando o acesso escolhido passar pelas portas de Shirith"
+    ],
+    "rotation": [
+      "Reconheça o marcador e deixe a passagem de retorno livre.",
+      "Atraia poucos alvos para uma borda conhecida, evitando perseguir inimigos para outra sala.",
+      "Volte pelo trecho já limpo antes de gastar a reserva de cura."
+    ],
+    "danger": "Trolls são o alvo inicial; não amplie a volta para Slimes ou mortos-vivos. A entrada alternativa não é uma rota segura para iniciantes.",
+    "tip": "Nível sugerido é editorial e vale para o alvo escolhido; não garante segurança em todo o andar.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Underground"
+    ],
+    "reviewedAt": "2026-10-15",
+    "introducedVersion": "6.2"
+  },
+  {
+    "id": "abdendriel-rotworms",
+    "name": "Rotworms do subsolo de Ab’Dendriel",
+    "city": "Ab'Dendriel",
+    "mob": "rotworm",
+    "xyz": [
+      32652,
+      31636,
+      8
+    ],
+    "level": 12,
+    "premium": false,
+    "risk": "Baixo",
+    "goal": "Economia",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Setor de Rotworms no primeiro subsolo da cidade, a oeste da área central. O ponto é um respawn, não a escada de entrada.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Confira a Key 3033 quando o acesso escolhido passar pelas portas de Shirith"
+    ],
+    "rotation": [
+      "Reconheça o marcador e deixe a passagem de retorno livre.",
+      "Atraia poucos alvos para uma borda conhecida, evitando perseguir inimigos para outra sala.",
+      "Volte pelo trecho já limpo antes de gastar a reserva de cura."
+    ],
+    "danger": "Corredores e descidas podem levar a outros grupos e cavernas; preserve a passagem de retorno.",
+    "tip": "Nível sugerido é editorial e vale para o alvo escolhido; não garante segurança em todo o andar.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Underground"
+    ],
+    "reviewedAt": "2026-10-15",
+    "introducedVersion": "6.2"
+  },
+  {
+    "id": "abdendriel-elf-cave-elves",
+    "name": "Elf Cave — Elves",
+    "city": "Ab'Dendriel",
+    "mob": "elf",
+    "xyz": [
+      32627,
+      31625,
+      8
+    ],
+    "level": 20,
+    "premium": false,
+    "risk": "Médio",
+    "goal": "Economia",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Caverna a noroeste de Ab’Dendriel. Leve Machete para a vegetação do acesso; a entrada de referência fica em 32643,31617,7. O marcador fica no subsolo -1.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Reconheça a passagem de entrada antes de atrair grupos"
+    ],
+    "rotation": [
+      "Reconheça o marcador e deixe a passagem de retorno livre.",
+      "Atraia poucos alvos para uma borda conhecida, evitando perseguir inimigos para outra sala.",
+      "Volte pelo trecho já limpo antes de gastar a reserva de cura."
+    ],
+    "danger": "Scouts e Arcanists tornam o conjunto mais perigoso do que os Elves comuns. Não persiga um alvo para dentro de outro grupo.",
+    "tip": "Nível sugerido é editorial e vale para o alvo escolhido; não garante segurança em todo o andar.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Elf_Cave"
+    ],
+    "reviewedAt": "2026-10-15",
+    "introducedVersion": "6.2"
+  },
+  {
+    "id": "abdendriel-elf-cave-scouts",
+    "name": "Elf Cave — Elf Scouts",
+    "city": "Ab'Dendriel",
+    "mob": "elf scout",
+    "xyz": [
+      32629,
+      31626,
+      8
+    ],
+    "level": 25,
+    "premium": false,
+    "risk": "Médio",
+    "goal": "Economia",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Setor de Elf Scouts no primeiro subsolo da caverna a noroeste da cidade. Leve Machete para o acesso.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Reconheça a passagem de entrada antes de atrair grupos"
+    ],
+    "rotation": [
+      "Reconheça o marcador e deixe a passagem de retorno livre.",
+      "Atraia poucos alvos para uma borda conhecida, evitando perseguir inimigos para outra sala.",
+      "Volte pelo trecho já limpo antes de gastar a reserva de cura."
+    ],
+    "danger": "Ataques à distância e fuga do alvo podem atrair Elves e Arcanists. Limpe poucas salas por volta.",
+    "tip": "Nível sugerido é editorial e vale para o alvo escolhido; não garante segurança em todo o andar.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Elf_Cave"
+    ],
+    "reviewedAt": "2026-10-15",
+    "introducedVersion": "6.2"
+  },
+  {
+    "id": "abdendriel-elf-cave-arcanists",
+    "name": "Elf Cave — Elf Arcanist",
+    "city": "Ab'Dendriel",
+    "mob": "elf arcanist",
+    "xyz": [
+      32654,
+      31611,
+      8
+    ],
+    "level": 40,
+    "premium": false,
+    "risk": "Alto",
+    "goal": "Equilíbrio",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Respawn de Elf Arcanist no primeiro subsolo da Elf Cave. Leve Machete para chegar à caverna.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Reconheça a passagem de entrada antes de atrair grupos"
+    ],
+    "rotation": [
+      "Reconheça o marcador e deixe a passagem de retorno livre.",
+      "Atraia poucos alvos para uma borda conhecida, evitando perseguir inimigos para outra sala.",
+      "Volte pelo trecho já limpo antes de gastar a reserva de cura."
+    ],
+    "danger": "Magias e summons podem bloquear corredores. É um setor pequeno, não uma caverna cheia de Arcanists.",
+    "tip": "Nível sugerido é editorial e vale para o alvo escolhido; não garante segurança em todo o andar.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Elf_Cave"
+    ],
+    "reviewedAt": "2026-10-15",
+    "introducedVersion": "6.2"
+  },
+  {
+    "id": "abdendriel-elvenbane-minotaurs",
+    "name": "Elvenbane — Minotaurs",
+    "city": "Ab'Dendriel",
+    "mob": "minotaur",
+    "xyz": [
+      32584,
+      31641,
+      8
+    ],
+    "level": 20,
+    "premium": false,
+    "risk": "Médio",
+    "goal": "Economia",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Subsolo -1 de Elvenbane, ilha a oeste da cidade. O acesso clássico passa pela caverna próxima de 32579,31679,7.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Reconheça a passagem de entrada antes de atrair grupos"
+    ],
+    "rotation": [
+      "Reconheça o marcador e deixe a passagem de retorno livre.",
+      "Atraia poucos alvos para uma borda conhecida, evitando perseguir inimigos para outra sala.",
+      "Volte pelo trecho já limpo antes de gastar a reserva de cura."
+    ],
+    "danger": "Há Orc Warriors nos túneis; outras subidas podem alcançar Berserkers e inimigos mais fortes.",
+    "tip": "Nível sugerido é editorial e vale para o alvo escolhido; não garante segurança em todo o andar.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Elvenbane"
+    ],
+    "reviewedAt": "2026-10-15",
+    "introducedVersion": "Pré-6.0"
+  },
+  {
+    "id": "abdendriel-elvenbane-orcs",
+    "name": "Elvenbane — Orc Warriors",
+    "city": "Ab'Dendriel",
+    "mob": "orc warrior",
+    "xyz": [
+      32582,
+      31639,
+      7
+    ],
+    "level": 25,
+    "premium": false,
+    "risk": "Médio",
+    "goal": "Economia",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Pátio de Elvenbane, na superfície da ilha a oeste de Ab’Dendriel. Chegue pelo acesso subterrâneo da ilha.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Reconheça a passagem de entrada antes de atrair grupos"
+    ],
+    "rotation": [
+      "Reconheça o marcador e deixe a passagem de retorno livre.",
+      "Atraia poucos alvos para uma borda conhecida, evitando perseguir inimigos para outra sala.",
+      "Volte pelo trecho já limpo antes de gastar a reserva de cura."
+    ],
+    "danger": "Orc Berserkers também aparecem na superfície. O nível sugerido não cobre limpar todos os andares da torre.",
+    "tip": "Nível sugerido é editorial e vale para o alvo escolhido; não garante segurança em todo o andar.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Elvenbane"
+    ],
+    "reviewedAt": "2026-10-15",
+    "introducedVersion": "Pré-6.0"
+  },
+  {
+    "id": "abdendriel-elvenbane-dragon",
+    "name": "Elvenbane — Dragon da torre",
+    "city": "Ab'Dendriel",
+    "mob": "dragon",
+    "xyz": [
+      32591,
+      31645,
+      5
+    ],
+    "level": 50,
+    "premium": false,
+    "risk": "Alto",
+    "goal": "Equilíbrio",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Dragon no andar +2 da torre central de Elvenbane. O mapa abre no alvo, não no acesso subterrâneo à ilha.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Reconheça a passagem de entrada antes de atrair grupos"
+    ],
+    "rotation": [
+      "Reconheça o marcador e deixe a passagem de retorno livre.",
+      "Atraia poucos alvos para uma borda conhecida, evitando perseguir inimigos para outra sala.",
+      "Volte pelo trecho já limpo antes de gastar a reserva de cura."
+    ],
+    "danger": "Respawn pontual em espaço limitado. Escadas e ataques de fogo exigem uma retirada preparada; outros andares têm Demon Skeletons.",
+    "tip": "Nível sugerido é editorial e vale para o alvo escolhido; não garante segurança em todo o andar.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Elvenbane"
+    ],
+    "reviewedAt": "2026-10-15",
+    "introducedVersion": "Pré-6.0"
+  },
+  {
+    "id": "abdendriel-elvenbane-demon-skeleton",
+    "name": "Elvenbane — Demon Skeleton da torre",
+    "city": "Ab'Dendriel",
+    "mob": "demon skeleton",
+    "xyz": [
+      32590,
+      31643,
+      3
+    ],
+    "level": 45,
+    "premium": false,
+    "risk": "Alto",
+    "goal": "Equilíbrio",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Demon Skeleton no andar +4 da torre de Elvenbane. Planeje a passagem pelos andares inferiores antes de subir.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Reconheça a passagem de entrada antes de atrair grupos"
+    ],
+    "rotation": [
+      "Reconheça o marcador e deixe a passagem de retorno livre.",
+      "Atraia poucos alvos para uma borda conhecida, evitando perseguir inimigos para outra sala.",
+      "Volte pelo trecho já limpo antes de gastar a reserva de cura."
+    ],
+    "danger": "Imunidades e pouco espaço dificultam o combate. O caminho pode incluir inimigos de risco maior do que o alvo indicado.",
+    "tip": "Nível sugerido é editorial e vale para o alvo escolhido; não garante segurança em todo o andar.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Elvenbane"
+    ],
+    "reviewedAt": "2026-10-15",
+    "introducedVersion": "Pré-6.0"
+  },
+  {
+    "id": "abdendriel-hellgate-ghouls",
+    "name": "Hellgate — Ghouls",
+    "city": "Ab'Dendriel",
+    "mob": "ghoul",
+    "xyz": [
+      32713,
+      31570,
+      11
+    ],
+    "level": 40,
+    "premium": false,
+    "risk": "Alto",
+    "goal": "Equilíbrio",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Área dos mortos-vivos de Hellgate, no subsolo -4. Para a entrada clássica, obtenha a Key 3012 com Elathriel por 5.000 gp. Estude a saída antes de entrar no portal.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Key 3012 e plano de saída de Hellgate; recursos para a travessia inteira"
+    ],
+    "rotation": [
+      "Antes de atravessar o portal, estude a saída de Hellgate e confirme chaves e suprimentos.",
+      "Reconheça o setor marcado e combata poucos inimigos por vez, sem ampliar a caça para outras salas.",
+      "Encerre a caça com reserva para a rota de saída planejada; o retorno pode exigir continuar pelo labirinto."
+    ],
+    "danger": "O portal não permite simplesmente voltar pelo mesmo caminho. Demon Skeletons e outros inimigos do labirinto tornam a viagem mais perigosa do que uma luta com Ghoul.",
+    "tip": "O marcador não é a entrada. Caminho, escadas e teleportes não foram validados no jogo; em Draconia, não conte com atalhos de retorno sem os requisitos da quest.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Hellgate",
+      "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "id": "abdendriel-hellgate-demon-skeletons",
+    "name": "Hellgate — Demon Skeletons",
+    "city": "Ab'Dendriel",
+    "mob": "demon skeleton",
+    "xyz": [
+      32755,
+      31580,
+      11
+    ],
+    "level": 45,
+    "premium": false,
+    "risk": "Alto",
+    "goal": "Equilíbrio",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Setor dos mortos-vivos no subsolo -4 de Hellgate. Confira Key 3012, vendida por Elathriel por 5.000 gp, e o percurso de saída antes de entrar.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Key 3012 e plano de saída de Hellgate; recursos para a travessia inteira"
+    ],
+    "rotation": [
+      "Antes de atravessar o portal, estude a saída de Hellgate e confirme chaves e suprimentos.",
+      "Reconheça o setor marcado e combata poucos inimigos por vez, sem ampliar a caça para outras salas.",
+      "Encerre a caça com reserva para a rota de saída planejada; o retorno pode exigir continuar pelo labirinto."
+    ],
+    "danger": "Demon Skeletons têm várias imunidades. O acesso e a saída são longos; não gaste toda a cura na caça.",
+    "tip": "O marcador não é a entrada. Caminho, escadas e teleportes não foram validados no jogo; em Draconia, não conte com atalhos de retorno sem os requisitos da quest.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Hellgate",
+      "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "id": "abdendriel-hellgate-beholders",
+    "name": "Hellgate — Beholders",
+    "city": "Ab'Dendriel",
+    "mob": "beholder",
+    "xyz": [
+      32767,
+      31613,
+      14
+    ],
+    "level": 50,
+    "premium": false,
+    "risk": "Alto",
+    "goal": "Equilíbrio",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Setor profundo de Hellgate, no subsolo -7. Entrada clássica com Key 3012; planeje a travessia e a saída antes do portal.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Key 3012 e plano de saída de Hellgate; recursos para a travessia inteira"
+    ],
+    "rotation": [
+      "Antes de atravessar o portal, estude a saída de Hellgate e confirme chaves e suprimentos.",
+      "Reconheça o setor marcado e combata poucos inimigos por vez, sem ampliar a caça para outras salas.",
+      "Encerre a caça com reserva para a rota de saída planejada; o retorno pode exigir continuar pelo labirinto."
+    ],
+    "danger": "Summons, ataques à distância e salas de mortos-vivos podem fechar a retirada. O guia não cobre toda a necrópole.",
+    "tip": "O marcador não é a entrada. Caminho, escadas e teleportes não foram validados no jogo; em Draconia, não conte com atalhos de retorno sem os requisitos da quest.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Hellgate",
+      "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+    ],
+    "reviewedAt": "2026-10-15"
+  },
+  {
+    "id": "abdendriel-draconia-demon-skeletons",
+    "name": "Draconia — Demon Skeletons",
+    "city": "Ab'Dendriel",
+    "mob": "demon skeleton",
+    "xyz": [
+      32798,
+      31581,
+      4
+    ],
+    "level": 50,
+    "premium": false,
+    "risk": "Alto",
+    "goal": "Equilíbrio",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Pirâmide de Draconia no andar +3. O acesso clássico é por Hellgate e Red Bone Castle. Leve a Key 3012 para Hellgate e recursos para a viagem inteira.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Key 3012 e plano de saída de Hellgate; recursos para a travessia inteira"
+    ],
+    "rotation": [
+      "Antes de atravessar o portal, estude a saída de Hellgate e confirme chaves e suprimentos.",
+      "Reconheça o setor marcado e combata poucos inimigos por vez, sem ampliar a caça para outras salas.",
+      "Encerre a caça com reserva para a rota de saída planejada; o retorno pode exigir continuar pelo labirinto."
+    ],
+    "danger": "Draconia é isolada. Memorize a saída por Hellgate e não conte com um teleporte liberado sem cumprir seus requisitos. Há Dragons e Dragon Lord em outros setores.",
+    "tip": "O marcador não é a entrada. Caminho, escadas e teleportes não foram validados no jogo; em Draconia, não conte com atalhos de retorno sem os requisitos da quest.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Draconia",
+      "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+    ],
+    "reviewedAt": "2026-10-15",
+    "introducedVersion": "6.2"
+  },
+  {
+    "id": "abdendriel-draconia-dragons",
+    "name": "Draconia — Dragon da caverna",
+    "city": "Ab'Dendriel",
+    "mob": "dragon",
+    "xyz": [
+      32775,
+      31589,
+      9
+    ],
+    "level": 55,
+    "premium": false,
+    "risk": "Alto",
+    "goal": "Equilíbrio",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Respawn subterrâneo de Dragon em Draconia, no subsolo -2. Acesso clássico por Hellgate e Red Bone Castle; prepare Key 3012 e o retorno.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Key 3012 e plano de saída de Hellgate; recursos para a travessia inteira"
+    ],
+    "rotation": [
+      "Antes de atravessar o portal, estude a saída de Hellgate e confirme chaves e suprimentos.",
+      "Reconheça o setor marcado e combata poucos inimigos por vez, sem ampliar a caça para outras salas.",
+      "Encerre a caça com reserva para a rota de saída planejada; o retorno pode exigir continuar pelo labirinto."
+    ],
+    "danger": "Encontro pontual de Dragon, com risco de fogo e pouco espaço. Chegar à ilha e sair dela pode exigir mais recursos do que o combate.",
+    "tip": "O marcador não é a entrada. Caminho, escadas e teleportes não foram validados no jogo; em Draconia, não conte com atalhos de retorno sem os requisitos da quest.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Draconia",
+      "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+    ],
+    "reviewedAt": "2026-10-15",
+    "introducedVersion": "6.2"
+  },
+  {
+    "id": "abdendriel-draconia-dragon-lord",
+    "name": "Draconia — Dragon Lord da torre",
+    "city": "Ab'Dendriel",
+    "mob": "dragon lord",
+    "xyz": [
+      32797,
+      31558,
+      3
+    ],
+    "level": 85,
+    "premium": false,
+    "risk": "Alto",
+    "goal": "Equilíbrio",
+    "vocations": [
+      "Knight",
+      "Paladin",
+      "Druid",
+      "Sorcerer"
+    ],
+    "access": "Dragon Lord da torre ao norte de Draconia, andar +4. Acesso pela ilha após atravessar Hellgate e Red Bone Castle. Confira a Key 3012 para a entrada de Hellgate e planeje a saída antes de viajar.",
+    "preparation": [
+      "Rope, Shovel, Machete e fonte de luz",
+      "Comida, cura e reserva para o retorno; arma, munição ou runas adequadas às imunidades",
+      "Key 3012 e plano de saída de Hellgate; recursos para a travessia inteira"
+    ],
+    "rotation": [
+      "Antes de atravessar o portal, estude a saída de Hellgate e confirme chaves e suprimentos.",
+      "Reconheça o setor marcado e combata poucos inimigos por vez, sem ampliar a caça para outras salas.",
+      "Encerre a caça com reserva para a rota de saída planejada; o retorno pode exigir continuar pelo labirinto."
+    ],
+    "danger": "Dano alto de fogo em espaço restrito. Não confunda o Dragon Lord hostil com o NPC An Old Dragonlord; o marcador representa o respawn da base clássica.",
+    "tip": "O marcador não é a entrada. Caminho, escadas e teleportes não foram validados no jogo; em Draconia, não conte com atalhos de retorno sem os requisitos da quest.",
+    "classicScope": "Área e respawn presentes na referência clássica 7.4. As fontes atuais orientam a localização; reformas de 7.9/10.1, tasks, criaturas, loot e atalhos posteriores ficam fora deste guia.",
+    "sources": [
+      "https://www.tibiawiki.com.br/wiki/Draconia",
+      "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+    ],
+    "reviewedAt": "2026-10-15",
+    "introducedVersion": "6.2"
   }
 ];

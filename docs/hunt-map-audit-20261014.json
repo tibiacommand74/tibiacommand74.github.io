@@ -1,6 +1,6 @@
 {
   "reviewedAt": "2026-10-15",
-  "scope": "Geographical comparison of all 87 hunt markers with named area references and the local classic spawn base. Current wiki pages are used for geography only; modern expansions, loot and walkthroughs are excluded. Not a validation of walking routes or stairs. Dark Cathedral is a documented 7.5 exception, with no marker because the area is absent from the classic map.",
+  "scope": "Geographical comparison of all 102 hunt markers with named area references and the local classic spawn base. Current wiki pages are used for geography only; modern expansions, loot and walkthroughs are excluded. Not a validation of walking routes or stairs. Dark Cathedral is a documented 7.5 exception, with no marker because the area is absent from the classic map.",
   "confirmedCorrection": {
     "id": "rotworm-carlin",
     "before": [
@@ -744,6 +744,76 @@
       ],
       "ids": [
         "venore-poh-dragon-lords"
+      ]
+    },
+    {
+      "name": "Ab'Dendriel Underground",
+      "bounds": [
+        32600,
+        31570,
+        32730,
+        31680
+      ],
+      "ids": [
+        "abdendriel-trolls",
+        "abdendriel-rotworms"
+      ]
+    },
+    {
+      "name": "Ab'Dendriel Elf Cave",
+      "bounds": [
+        32615,
+        31600,
+        32665,
+        31640
+      ],
+      "ids": [
+        "abdendriel-elf-cave-elves",
+        "abdendriel-elf-cave-scouts",
+        "abdendriel-elf-cave-arcanists"
+      ]
+    },
+    {
+      "name": "Elvenbane",
+      "bounds": [
+        32565,
+        31625,
+        32610,
+        31665
+      ],
+      "ids": [
+        "abdendriel-elvenbane-minotaurs",
+        "abdendriel-elvenbane-orcs",
+        "abdendriel-elvenbane-dragon",
+        "abdendriel-elvenbane-demon-skeleton"
+      ]
+    },
+    {
+      "name": "Hellgate classic undead sectors",
+      "bounds": [
+        32690,
+        31550,
+        32790,
+        31635
+      ],
+      "ids": [
+        "abdendriel-hellgate-ghouls",
+        "abdendriel-hellgate-demon-skeletons",
+        "abdendriel-hellgate-beholders"
+      ]
+    },
+    {
+      "name": "Draconia",
+      "bounds": [
+        32765,
+        31545,
+        32820,
+        31605
+      ],
+      "ids": [
+        "abdendriel-draconia-demon-skeletons",
+        "abdendriel-draconia-dragons",
+        "abdendriel-draconia-dragon-lord"
       ]
     }
   ],
@@ -1999,6 +2069,222 @@
       ],
       "floorComparedWithClassicSpawn": false,
       "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-trolls",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32636,
+        31635,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Underground"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-rotworms",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32652,
+        31636,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Underground"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-elf-cave-elves",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32627,
+        31625,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Elf_Cave"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-elf-cave-scouts",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32629,
+        31626,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Elf_Cave"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-elf-cave-arcanists",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32654,
+        31611,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Elf_Cave"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-elvenbane-minotaurs",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32584,
+        31641,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Elvenbane"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-elvenbane-orcs",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32582,
+        31639,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Elvenbane"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-elvenbane-dragon",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32591,
+        31645,
+        5
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Elvenbane"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-elvenbane-demon-skeleton",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32590,
+        31643,
+        3
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Elvenbane"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-hellgate-ghouls",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32713,
+        31570,
+        11
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Hellgate",
+        "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-hellgate-demon-skeletons",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32755,
+        31580,
+        11
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Hellgate",
+        "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-hellgate-beholders",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32767,
+        31613,
+        14
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Hellgate",
+        "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-draconia-demon-skeletons",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32798,
+        31581,
+        4
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Draconia",
+        "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-draconia-dragons",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32775,
+        31589,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Draconia",
+        "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "abdendriel-draconia-dragon-lord",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32797,
+        31558,
+        3
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Draconia",
+        "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
     }
   ],
   "exceptions": [
@@ -2011,8 +2297,8 @@
   ],
   "contentReview": {
     "date": "2026-10-15",
-    "total": 88,
-    "mapped": 87,
+    "total": 103,
+    "mapped": 102,
     "correctedGuides": [
       "ankrahmun-peninsula-tomb",
       "ankrahmun-tarpit-tomb",
@@ -2037,7 +2323,7 @@
     "limitations": [
       "Walking routes and stairs were not validated in game",
       "Existing 23 inferred minimap segments remain approximate",
-      "This review covers the current 88 guides and does not claim every possible hunting location is catalogued"
+      "This review covers the current 103 guides and does not claim every possible hunting location is catalogued"
     ]
   }
 }
