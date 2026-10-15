@@ -1,0 +1,16 @@
+'use strict';
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const env={window:{},Intl,Number,String,Map,Set,Error};vm.createContext(env);
+for(const file of ['hunt-tools','hunt-comparison'])vm.runInContext(fs.readFileSync('public/'+file+'.js','utf8'),env);
+const api=env.window.HuntComparison;
+const raw={id:'a',name:'Dragons',hunt_date:'2026-10-15',minutes:60,loot:1000,costs:400,xp:6000,notes:'',party:[]};
+const a=api.session(raw,'Alice'),b=api.session({...raw,id:'b',minutes:120,xp:null},'Alice');
+let m=api.summarize([a,b]);assert.equal(m.netHour,400);assert.equal(m.costHour,800*60/180);assert.equal(m.xpHour,6000);assert.equal(m.xpCount,1);assert.equal(m.xpMinutes,60);assert.equal(m.minutes,180);
+m=api.summarize([a,api.session({...raw,id:'zero',xp:0},'Alice')]);assert.equal(m.xpHour,3000);assert.equal(m.xpCount,2);
+m=api.summarize([b]);assert.equal(m.xpHour,null);assert.equal(api.summarize([]).netHour,null);
+const party=api.session({...raw,id:'p',party:[{name:'Alice',costs:100,loot:1000},{name:'Bob',costs:300,loot:0}]},' ALICE ');assert.equal(party.net,300);assert.equal(party.costs,100);assert.equal(party.mode,'party');assert.throws(()=>api.session({...raw,party:[{name:'Alice',costs:100,loot:1000},{name:'Bob',costs:300,loot:0}]},'Other'));
+const loss=api.session({...raw,loot:0,costs:100},'Alice');assert.equal(loss.netHour,-100);
+assert.equal(api.groups([a,b,party]).length,2);assert.equal(api.groups([a,{...b,name:' dragons  '}])[0].count,2);assert.equal(api.groups([a,{...b,name:'Dragons de Venore'}]).length,2);
+assert.equal(api.filter([a,b,party],{mode:'solo'}).length,2);assert.equal(api.filter([a,b,party],{query:'DRAGON',from:'2026-10-15',to:'2026-10-15'}).length,3);assert.equal(api.filter([a,b],{from:'2026-10-16'}).length,0);assert.throws(()=>api.filter([a],{from:'2026-10-16',to:'2026-10-15'}));
+for(const patch of [{minutes:0},{loot:-1},{xp:-1},{hunt_date:'2026-02-30'}])assert.throws(()=>api.session({...raw,...patch},'Alice'));
+console.log('PASS: time-weighted averages; missing versus zero XP; individual party shares; losses, group separation and filters');

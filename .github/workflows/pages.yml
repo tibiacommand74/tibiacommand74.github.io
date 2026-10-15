@@ -46,6 +46,7 @@ jobs:
           node scripts/test-catalog-navigation.cjs
           node scripts/test-community-stats.cjs
           node scripts/test-hunt-preparation.cjs
+          node scripts/test-hunt-comparison.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
