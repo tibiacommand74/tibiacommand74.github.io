@@ -1,0 +1,11 @@
+@media(max-width:650px){
+ .community-account-dialog .market-close,#market-dialog>.market-close{position:sticky;display:block;top:0;right:auto;margin-left:auto;margin-bottom:4px;background:#172b25;border:1px solid #89764e;border-radius:8px;z-index:2;min-width:44px;min-height:44px}
+ .community-account-dialog,#market-dialog{overscroll-behavior:contain;scroll-padding-block:56px 20px}
+ .market-form label,.market-form>div,.explorer-fields>*{min-width:0}
+ .market-form input:not([type=checkbox]):not([type=radio]),.market-form select,.market-form button[type=submit],.explorer-fields input,.explorer-fields select{min-height:44px}
+ .market-form .market-consent{min-height:44px;align-items:center;gap:12px;padding-block:6px}
+ .market-form .market-consent input{width:22px;height:22px;margin:0;flex:0 0 22px}
+ #market-profile-message,#community-auth-message,#market-save-message{overflow-wrap:anywhere;line-height:1.7;scroll-margin-block:20px}
+ .market-form[aria-busy=true] button[type=submit]{opacity:.7;cursor:wait}
+ .account-page-heading,.account-identity,.account-summary-heading{min-width:0}.account-identity strong,.account-identity small{overflow-wrap:anywhere}
+}
