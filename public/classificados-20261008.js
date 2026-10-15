@@ -86,7 +86,8 @@
    }catch(error){bodyEl.innerHTML=notice(error.message,true);}}
   function show(next){generation++;tab=next;page=0;root.querySelectorAll('[data-market-tab]').forEach(b=>b.classList.toggle('active',b.dataset.marketTab===tab));if(next==='profile')profileForm();else if(next==='moderation')moderation();else listings();}
   root.querySelectorAll('[data-market-tab]').forEach(b=>b.onclick=()=>show(b.dataset.marketTab));
-  try{{const result=await api('session');if(gen!==generation||!root.isConnected)return;session=result.user;profile=result.profile;moderator=!!session?.moderator;}authBox();const requested=settings.tab||window.communityRequestedTab;window.communityRequestedTab=null;show(['mine','profile'].includes(requested)?requested:'browse');if(CommunityAuth.isRecovery())authForm('password');}catch(error){account.innerHTML=notice(error.message,true);show('browse');}
+  try{{const result=await api('session');if(gen!==generation||!root.isConnected)return;session=result.user;profile=result.profile;moderator=!!session?.moderator;}authBox();const requested=settings.tab||window.communityRequestedTab;window.communityRequestedTab=null;if(settings.create&&session){generation++;tab='mine';if(profile)formListing();else profileForm();}else show(['mine','profile'].includes(requested)?requested:'browse');if(CommunityAuth.isRecovery())authForm('password');}catch(error){account.innerHTML=notice(error.message,true);show('browse');}
  };
 })();
+
 

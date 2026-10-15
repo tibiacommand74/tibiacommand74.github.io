@@ -13,16 +13,17 @@
   let profile=identity.profile||{};try{const token=await CommunityAuth.token();const response=await fetch('https://tibia-command-74.calmstronglife.chatgpt.site/api/market/session',{headers:{authorization:'Bearer '+token}});const result=await response.json();if(response.ok&&result.profile)profile=result.profile;}catch{}
   if(gen!==generation||!root.isConnected||!location.hash.startsWith('#conta'))return;frame(root,profile,true);root.dataset.accountUser=identity.id;const pane=root.querySelector('#account-workspace');switch(current()){
    case 'diario':await window.JournalAccount?.init();if(gen!==generation||!pane.isConnected)return;window.renderCommunityJournal(pane);break;
-   case 'anuncios':window.renderClassifieds(pane,{account:true,tab:'mine'});break;
+   case 'anuncios':window.renderClassifieds(pane,{account:true,tab:'mine',create:location.hash==='#conta/anuncios/novo'});break;
    case 'perfil':window.renderClassifieds(pane,{account:true,tab:'profile'});break;
    default:{
     overview(pane,profile);const summaryBox=document.createElement('div');summaryBox.className='account-live-summary';summaryBox.innerHTML='<p role="status" class="account-empty-summary">Carregando seu progresso e anúncios…</p>';pane.append(summaryBox);
     const results=await Promise.allSettled([window.JournalAccount?.init(),window.AccountOverview.listings()]);if(gen!==generation||!pane.isConnected||!location.hash.startsWith('#conta'))return;
     const selected=window.JournalAccount?.context(),journalOK=results[0].status==='fulfilled'&&selected?.id===identity.id,marketOK=results[1].status==='fulfilled';
-    const records=journalOK?window.ClassicExplorer.journalRows():[],ads=marketOK?results[1].value:[];summaryBox.innerHTML=window.AccountOverview.markup(window.AccountOverview.summarize(records,ads),{journalOK,marketOK,character:selected?.character,server:selected?.server});window.bindClassicExplorer?.(summaryBox);break;
+    const records=journalOK?window.ClassicExplorer.journalRows():[],ads=marketOK?results[1].value:[];summaryBox.innerHTML=window.AccountOverview.firstSteps(records,ads,{journalOK,marketOK,character:selected?.character,server:selected?.server})+window.AccountOverview.markup(window.AccountOverview.summarize(records,ads),{journalOK,marketOK,character:selected?.character,server:selected?.server});window.bindClassicExplorer?.(summaryBox);break;
    }
   }
  }
  window.renderCommunityAccount=render;
  window.CommunityAccount.refreshJournal=()=>{if(location.hash==='#conta/diario'){const pane=document.getElementById('account-workspace');if(pane)window.renderCommunityJournal?.(pane);}};
 })();
+
