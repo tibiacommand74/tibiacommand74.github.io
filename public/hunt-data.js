@@ -225,7 +225,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Mount_Sternum"
     ],
-    "reviewedAt": "2026-10-05"
+    "reviewedAt": "2026-10-15",
+    "classicScope": "Somente os Cyclops e o setor presentes na base 7.4. A expansão de Mount Sternum de 8.1, Cyclops Drones, Cyclops Smiths e a nova Undead Cave ficam fora do guia."
   },
   {
     "id": "minotaur-darashia",
@@ -547,26 +548,28 @@ window.CLASSIC_HUNTS = [
       "Druid",
       "Sorcerer"
     ],
-    "access": "Península ao sudoeste de Ankrahmun. A passagem escondida fica na areia; leve Shovel.",
+    "access": "Península ao sudoeste de Ankrahmun. A passagem escondida fica na areia; leve Shovel. Nos setores profundos, há teleportes que exigem sacrificar Scarab Coin. O marcador não indica a entrada nem confirma a sequência de escadas ou teleportes até ele.",
     "preparation": [
       "Shovel, Rope e iluminação",
       "Runas de cura e mana fluids de reserva",
-      "Arma, munição ou runas adequadas às imunidades; recursos para voltar"
+      "Arma, munição ou runas adequadas às imunidades; recursos para voltar",
+      "Scarab Coins para os teleportes de acesso aos setores profundos; confirme o mecanismo no seu servidor"
     ],
     "rotation": [
       "Escolha uma sala de combate e atraia poucos Vampires por vez.",
       "Percorra uma ala e retorne pelo caminho já limpo.",
       "Não atravesse o teleporte ou desça para ampliar a volta sem revisar o próximo trecho."
     ],
-    "danger": "Vampires e Stalkers podem aproximar o combate sem deixar uma retirada livre.",
+    "danger": "Vampires e Stalkers podem aproximar o combate sem deixar uma retirada livre. A sugestão de nível se refere ao alvo escolhido, não à limpeza de todo o andar: outras salas podem conter criaturas mais fortes.",
     "tip": "O nível sugerido vale apenas para o trecho de referência, não para a tumba inteira. Confira as imunidades antes de escolher runas. Teleportes podem exigir Scarab Coin; não atravesse sem preparar o outro lado.",
     "introducedVersion": "7.3",
     "classicScope": "Área documentada desde 7.3 e presente em 7.4. Esta ficha usa somente criaturas e loot da base clássica do site. Não inclui chefes nem circuitos de versões posteriores.",
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Peninsula)",
-      "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+      "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-15"
   },
   {
     "id": "ankrahmun-tarpit-tomb",
@@ -588,26 +591,28 @@ window.CLASSIC_HUNTS = [
       "Druid",
       "Sorcerer"
     ],
-    "access": "Região dos poços de piche no deserto ao norte da cidade. A entrada é escondida na areia.",
+    "access": "Região dos poços de piche no deserto a leste de Ankrahmun. A entrada é escondida na areia. Nos setores profundos, há teleportes que exigem sacrificar Scarab Coin. O marcador não indica a entrada nem confirma a sequência de escadas ou teleportes até ele.",
     "preparation": [
       "Shovel, Rope e iluminação",
       "Runas de cura e mana fluids de reserva",
-      "Arma, munição ou runas adequadas às imunidades; recursos para voltar"
+      "Arma, munição ou runas adequadas às imunidades; recursos para voltar",
+      "Scarab Coins para os teleportes de acesso aos setores profundos; confirme o mecanismo no seu servidor"
     ],
     "rotation": [
-      "Limpe primeiro as salas próximas da passagem.",
-      "Monte uma volta curta com Ghouls, sem atravessar várias salas ao mesmo tempo.",
-      "Regresse antes de gastar a reserva de cura; a sugestão não vale para os andares profundos."
+      "Reconheça o setor marcado e a passagem de retorno antes de atrair os Ghouls.",
+      "Faça uma volta curta focada nos Ghouls; outras salas do mesmo andar podem exigir preparação muito maior.",
+      "Retorne antes de gastar a reserva de cura. Não amplie o circuito por teleportes ou descidas sem rever os riscos."
     ],
-    "danger": "Ghouls drenam vida; outros corredores e andares aumentam bastante a dificuldade.",
+    "danger": "Ghouls drenam vida; outros corredores e andares aumentam bastante a dificuldade. A sugestão de nível se refere ao alvo escolhido, não à limpeza de todo o andar: outras salas podem conter criaturas mais fortes.",
     "tip": "O nível sugerido vale apenas para o trecho de referência, não para a tumba inteira. Confira as imunidades antes de escolher runas. Teleportes podem exigir Scarab Coin; não atravesse sem preparar o outro lado.",
     "introducedVersion": "7.3",
     "classicScope": "Área documentada desde 7.3 e presente em 7.4. Esta ficha usa somente criaturas e loot da base clássica do site. Não inclui chefes nem circuitos de versões posteriores.",
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Tarpit)",
-      "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+      "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-15"
   },
   {
     "id": "ankrahmun-stone-tomb",
@@ -629,26 +634,28 @@ window.CLASSIC_HUNTS = [
       "Druid",
       "Sorcerer"
     ],
-    "access": "Tumba na parte leste do deserto, associada à grande pedra. Use Shovel na entrada escondida.",
+    "access": "Tumba na parte leste do deserto, associada à grande pedra. Use Shovel na entrada escondida. Nos setores profundos, há teleportes que exigem sacrificar Scarab Coin. O marcador não indica a entrada nem confirma a sequência de escadas ou teleportes até ele.",
     "preparation": [
       "Shovel, Rope e iluminação",
       "Runas de cura e mana fluids de reserva",
-      "Arma, munição ou runas adequadas às imunidades; recursos para voltar"
+      "Arma, munição ou runas adequadas às imunidades; recursos para voltar",
+      "Scarab Coins para os teleportes de acesso aos setores profundos; confirme o mecanismo no seu servidor"
     ],
     "rotation": [
       "Confira a sala da passagem antes de iniciar a volta.",
       "Trabalhe salas de Mummies com uma área livre para recuar.",
       "Volte pela ala limpa, sem seguir descidas para Ancient Scarabs ou desafios do faraó."
     ],
-    "danger": "Mummies e grupos nos corredores exigem cura constante. Ancient Scarabs pertencem a trechos mais perigosos.",
+    "danger": "Mummies e grupos nos corredores exigem cura constante. Ancient Scarabs pertencem a trechos mais perigosos. A sugestão de nível se refere ao alvo escolhido, não à limpeza de todo o andar: outras salas podem conter criaturas mais fortes.",
     "tip": "O nível sugerido vale apenas para o trecho de referência, não para a tumba inteira. Confira as imunidades antes de escolher runas. Teleportes podem exigir Scarab Coin; não atravesse sem preparar o outro lado.",
     "introducedVersion": "7.3",
     "classicScope": "Área documentada desde 7.3 e presente em 7.4. Esta ficha usa somente criaturas e loot da base clássica do site. Não inclui chefes nem circuitos de versões posteriores.",
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Stone)",
-      "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+      "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-15"
   },
   {
     "id": "ankrahmun-shadow-tomb",
@@ -670,26 +677,28 @@ window.CLASSIC_HUNTS = [
       "Druid",
       "Sorcerer"
     ],
-    "access": "Tumba na parte sudeste do deserto de Kha’labal. Leve Shovel para localizar a abertura escondida.",
+    "access": "Tumba na parte sudeste do deserto de Kha’labal. Leve Shovel para localizar a abertura escondida. Nos setores profundos, há teleportes que exigem sacrificar Scarab Coin. O marcador não indica a entrada nem confirma a sequência de escadas ou teleportes até ele.",
     "preparation": [
       "Shovel, Rope e iluminação",
       "Runas de cura e mana fluids de reserva",
-      "Arma, munição ou runas adequadas às imunidades; recursos para voltar"
+      "Arma, munição ou runas adequadas às imunidades; recursos para voltar",
+      "Scarab Coins para os teleportes de acesso aos setores profundos; confirme o mecanismo no seu servidor"
     ],
     "rotation": [
       "Organize a área ao redor da passagem antes de puxar os mortos-vivos.",
       "Alterne entre poucas salas do mesmo andar.",
       "Interrompa a volta se a retirada passar a depender de uma sala ainda não limpa."
     ],
-    "danger": "Crypt Shamblers e outros mortos-vivos podem fechar corredores; áreas com criaturas de fogo exigem outra preparação.",
+    "danger": "Crypt Shamblers e outros mortos-vivos podem fechar corredores; áreas com criaturas de fogo exigem outra preparação. A sugestão de nível se refere ao alvo escolhido, não à limpeza de todo o andar: outras salas podem conter criaturas mais fortes.",
     "tip": "O nível sugerido vale apenas para o trecho de referência, não para a tumba inteira. Confira as imunidades antes de escolher runas. Teleportes podem exigir Scarab Coin; não atravesse sem preparar o outro lado.",
     "introducedVersion": "7.3",
     "classicScope": "Área documentada desde 7.3 e presente em 7.4. Esta ficha usa somente criaturas e loot da base clássica do site. Não inclui chefes nem circuitos de versões posteriores.",
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Shadow)",
-      "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+      "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-15"
   },
   {
     "id": "ankrahmun-mountain-tomb",
@@ -711,26 +720,28 @@ window.CLASSIC_HUNTS = [
       "Druid",
       "Sorcerer"
     ],
-    "access": "Tumba junto às montanhas ao norte do deserto. A entrada fica escondida e exige Shovel.",
+    "access": "Tumba junto às montanhas ao norte do deserto. A entrada fica escondida e exige Shovel. Nos setores profundos, há teleportes que exigem sacrificar Scarab Coin. O marcador não indica a entrada nem confirma a sequência de escadas ou teleportes até ele.",
     "preparation": [
       "Shovel, Rope e iluminação",
       "Runas de cura e mana fluids de reserva",
-      "Arma, munição ou runas adequadas às imunidades; recursos para voltar"
+      "Arma, munição ou runas adequadas às imunidades; recursos para voltar",
+      "Scarab Coins para os teleportes de acesso aos setores profundos; confirme o mecanismo no seu servidor"
     ],
     "rotation": [
       "Comece com uma sala pequena próxima do caminho de retorno.",
       "Atraia os Vampires para um espaço conhecido e preserve a passagem.",
       "Retorne sem descer para as salas de quest; a preparação é para o trecho marcado."
     ],
-    "danger": "Vampires, Stalkers e salas mais profundas podem transformar uma luta isolada em cerco.",
+    "danger": "Vampires, Stalkers e salas mais profundas podem transformar uma luta isolada em cerco. A sugestão de nível se refere ao alvo escolhido, não à limpeza de todo o andar: outras salas podem conter criaturas mais fortes.",
     "tip": "O nível sugerido vale apenas para o trecho de referência, não para a tumba inteira. Confira as imunidades antes de escolher runas. Teleportes podem exigir Scarab Coin; não atravesse sem preparar o outro lado.",
     "introducedVersion": "7.3",
     "classicScope": "Área documentada desde 7.3 e presente em 7.4. Esta ficha usa somente criaturas e loot da base clássica do site. Não inclui chefes nem circuitos de versões posteriores.",
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Mountain)",
-      "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+      "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-15"
   },
   {
     "id": "ankrahmun-oasis-tomb",
@@ -752,26 +763,28 @@ window.CLASSIC_HUNTS = [
       "Druid",
       "Sorcerer"
     ],
-    "access": "Tumba próxima ao oásis de Kha’labal, ao norte de Ankrahmun. A abertura na areia exige Shovel.",
+    "access": "Tumba próxima ao oásis de Kha’labal, ao norte de Ankrahmun. A abertura na areia exige Shovel. Nos setores profundos, há teleportes que exigem sacrificar Scarab Coin. O marcador não indica a entrada nem confirma a sequência de escadas ou teleportes até ele.",
     "preparation": [
       "Shovel, Rope e iluminação",
       "Runas de cura e mana fluids de reserva",
-      "Arma, munição ou runas adequadas às imunidades; recursos para voltar"
+      "Arma, munição ou runas adequadas às imunidades; recursos para voltar",
+      "Scarab Coins para os teleportes de acesso aos setores profundos; confirme o mecanismo no seu servidor"
     ],
     "rotation": [
       "Confira os arredores da passagem antes de atrair Vampires.",
       "Repita uma ala curta com o retorno já limpo.",
       "Não avance para teleporte, salas de desafios ou outro andar durante a mesma volta sem rever os riscos."
     ],
-    "danger": "Vampires e Ghosts exigem atenção às imunidades e ao espaço de fuga. Andares inferiores não fazem parte desta sugestão.",
+    "danger": "Vampires e Ghosts exigem atenção às imunidades e ao espaço de fuga. Andares inferiores não fazem parte desta sugestão. A sugestão de nível se refere ao alvo escolhido, não à limpeza de todo o andar: outras salas podem conter criaturas mais fortes.",
     "tip": "O nível sugerido vale apenas para o trecho de referência, não para a tumba inteira. Confira as imunidades antes de escolher runas. Teleportes podem exigir Scarab Coin; não atravesse sem preparar o outro lado.",
     "introducedVersion": "7.3",
     "classicScope": "Área documentada desde 7.3 e presente em 7.4. Esta ficha usa somente criaturas e loot da base clássica do site. Não inclui chefes nem circuitos de versões posteriores.",
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Oasis)",
-      "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+      "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-15"
   },
   {
     "id": "ankrahmun-ancient-ruins-tomb",
@@ -793,26 +806,28 @@ window.CLASSIC_HUNTS = [
       "Druid",
       "Sorcerer"
     ],
-    "access": "Tumba nas ruínas antigas na região norte do deserto. Leve Shovel para a passagem escondida.",
+    "access": "Tumba nas ruínas antigas na região norte do deserto. Leve Shovel para a passagem escondida. Nos setores profundos, há teleportes que exigem sacrificar Scarab Coin. O marcador não indica a entrada nem confirma a sequência de escadas ou teleportes até ele.",
     "preparation": [
       "Shovel, Rope e iluminação",
       "Runas de cura e mana fluids de reserva",
-      "Arma, munição ou runas adequadas às imunidades; recursos para voltar"
+      "Arma, munição ou runas adequadas às imunidades; recursos para voltar",
+      "Scarab Coins para os teleportes de acesso aos setores profundos; confirme o mecanismo no seu servidor"
     ],
     "rotation": [
       "Limpe a aproximação e memorize a passagem de volta.",
       "Mantenha uma volta curta nas salas de Mummies do trecho marcado.",
       "Abra novas salas somente se ainda houver cura suficiente para repetir todo o retorno."
     ],
-    "danger": "Mummies, criaturas invisíveis e salas mais profundas tornam perigoso explorar sem conhecer o retorno.",
+    "danger": "Mummies, criaturas invisíveis e salas mais profundas tornam perigoso explorar sem conhecer o retorno. A sugestão de nível se refere ao alvo escolhido, não à limpeza de todo o andar: outras salas podem conter criaturas mais fortes.",
     "tip": "O nível sugerido vale apenas para o trecho de referência, não para a tumba inteira. Confira as imunidades antes de escolher runas. Teleportes podem exigir Scarab Coin; não atravesse sem preparar o outro lado.",
     "introducedVersion": "7.3",
     "classicScope": "Área documentada desde 7.3 e presente em 7.4. Esta ficha usa somente criaturas e loot da base clássica do site. Não inclui chefes nem circuitos de versões posteriores.",
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Ancient_Ruins)",
-      "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+      "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-15"
   },
   {
     "id": "ankrahmun-library-tomb",
@@ -845,7 +860,7 @@ window.CLASSIC_HUNTS = [
       "Caçe as Mummies do trecho sem abrir vários corredores simultaneamente.",
       "Retorne pelo mesmo acesso; a sugestão não inclui Ancient Scarabs nem a sala do faraó."
     ],
-    "danger": "O acesso urbano não torna a tumba segura. Os andares mais profundos incluem criaturas muito mais perigosas.",
+    "danger": "O acesso urbano não torna a tumba segura. Os andares mais profundos incluem criaturas muito mais perigosas. O marcador indica um setor de Mummies; a sugestão de nível não se aplica à tumba inteira nem à sala de Ashmunrah.",
     "tip": "O nível sugerido vale apenas para o trecho de referência, não para a tumba inteira. Confira as imunidades antes de escolher runas. Teleportes podem exigir Scarab Coin; não atravesse sem preparar o outro lado.",
     "introducedVersion": "7.3",
     "classicScope": "Área documentada desde 7.3 e presente em 7.4. Esta ficha usa somente criaturas e loot da base clássica do site. Não inclui chefes nem circuitos de versões posteriores.",
@@ -853,7 +868,7 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Library)",
       "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-15"
   },
   {
     "id": "ankrahmun-dragons-south",
@@ -1035,11 +1050,12 @@ window.CLASSIC_HUNTS = [
       "Druid",
       "Sorcerer"
     ],
-    "access": "Cavernas sob o cemitério a leste da cidade. Confira a chave da entrada antes de sair. O mapa abre no respawn de referência, não indica um trajeto de entrada validado.",
+    "access": "Cavernas sob o cemitério a leste de Carlin. Leve a Key 3520 (Carlin Crypt Key), obtida no baú do armazém próximo ao barco de Carlin. O mapa abre em Trolls no subsolo -2, não na porta de entrada. Expansões de Coryms e Cults posteriores ficam fora do guia.",
     "preparation": [
       "Rope e Shovel para as passagens subterrâneas",
       "Comida, luz e cura de reserva",
-      "Arma ou munição adequada; reserve capacidade para o loot"
+      "Arma ou munição adequada; reserve capacidade para o loot",
+      "Key 3520 para a entrada do cemitério"
     ],
     "rotation": [
       "Comece pelas salas de Trolls próximas à passagem.",
@@ -1051,9 +1067,10 @@ window.CLASSIC_HUNTS = [
     "introducedVersion": "5.1",
     "classicScope": "Área presente no Tibia 7.4. Este guia usa somente os respawns e o loot da base clássica; expansões posteriores não fazem parte da recomendação.",
     "sources": [
-      "https://www.tibiawiki.com.br/wiki/Carlin_Graveyard"
+      "https://www.tibiawiki.com.br/wiki/Carlin_Graveyard",
+      "https://www.tibiawiki.com.br/wiki/Key_3520"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-15"
   },
   {
     "id": "carlin-ghostlands-skeletons",
@@ -1435,7 +1452,7 @@ window.CLASSIC_HUNTS = [
       "Druid",
       "Sorcerer"
     ],
-    "access": "Primeiro subsolo de Isle of the Kings. A passagem de Dalbrect exige iniciar The White Raven Monastery Quest. O mapa abre no respawn de referência, não indica um trajeto de entrada validado.",
+    "access": "Primeiro subsolo de Isle of the Kings. Para a viagem de Dalbrect, conclua a etapa de acesso da The White Raven Monastery Quest, entregando o Family Brooch; apenas iniciar a conversa não libera a passagem. Para as portas das catacumbas, fale com Costello sobre Fugio e aceite a investigação. O marcador indica o respawn, não o trajeto desde a cidade.",
     "preparation": [
       "Rope e Shovel para as passagens subterrâneas",
       "Comida, luz e cura de reserva",
@@ -1451,9 +1468,10 @@ window.CLASSIC_HUNTS = [
     "introducedVersion": "7.2",
     "classicScope": "Área presente no Tibia 7.4. Este guia usa somente os respawns e o loot da base clássica; expansões posteriores não fazem parte da recomendação.",
     "sources": [
-      "https://www.tibiawiki.com.br/wiki/Isle_of_the_Kings"
+      "https://www.tibiawiki.com.br/wiki/Isle_of_the_Kings",
+      "https://www.tibiawiki.com.br/wiki/The_White_Raven_Monastery_Quest"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-15"
   },
   {
     "id": "darashia-rotworms",

@@ -955,7 +955,8 @@
       ],
       "sources": [
         "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Peninsula)",
-        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
       ],
       "floorComparedWithClassicSpawn": true,
       "walkingRouteValidated": false
@@ -970,7 +971,8 @@
       ],
       "sources": [
         "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Tarpit)",
-        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
       ],
       "floorComparedWithClassicSpawn": true,
       "walkingRouteValidated": false
@@ -985,7 +987,8 @@
       ],
       "sources": [
         "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Stone)",
-        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
       ],
       "floorComparedWithClassicSpawn": true,
       "walkingRouteValidated": false
@@ -1000,7 +1003,8 @@
       ],
       "sources": [
         "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Shadow)",
-        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
       ],
       "floorComparedWithClassicSpawn": true,
       "walkingRouteValidated": false
@@ -1015,7 +1019,8 @@
       ],
       "sources": [
         "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Mountain)",
-        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
       ],
       "floorComparedWithClassicSpawn": true,
       "walkingRouteValidated": false
@@ -1030,7 +1035,8 @@
       ],
       "sources": [
         "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Oasis)",
-        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
       ],
       "floorComparedWithClassicSpawn": true,
       "walkingRouteValidated": false
@@ -1045,7 +1051,8 @@
       ],
       "sources": [
         "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Ancient_Ruins)",
-        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
       ],
       "floorComparedWithClassicSpawn": true,
       "walkingRouteValidated": false
@@ -1130,7 +1137,8 @@
         9
       ],
       "sources": [
-        "https://www.tibiawiki.com.br/wiki/Carlin_Graveyard"
+        "https://www.tibiawiki.com.br/wiki/Carlin_Graveyard",
+        "https://www.tibiawiki.com.br/wiki/Key_3520"
       ],
       "floorComparedWithClassicSpawn": true,
       "walkingRouteValidated": false
@@ -1270,7 +1278,8 @@
         8
       ],
       "sources": [
-        "https://www.tibiawiki.com.br/wiki/Isle_of_the_Kings"
+        "https://www.tibiawiki.com.br/wiki/Isle_of_the_Kings",
+        "https://www.tibiawiki.com.br/wiki/The_White_Raven_Monastery_Quest"
       ],
       "floorComparedWithClassicSpawn": true,
       "walkingRouteValidated": false
@@ -1999,5 +2008,36 @@
       "mapAvailable": false,
       "source": "https://www.tibiawiki.com.br/wiki/Dark_Cathedral"
     }
-  ]
+  ],
+  "contentReview": {
+    "date": "2026-10-15",
+    "total": 88,
+    "mapped": 87,
+    "correctedGuides": [
+      "ankrahmun-peninsula-tomb",
+      "ankrahmun-tarpit-tomb",
+      "ankrahmun-stone-tomb",
+      "ankrahmun-shadow-tomb",
+      "ankrahmun-mountain-tomb",
+      "ankrahmun-oasis-tomb",
+      "ankrahmun-ancient-ruins-tomb",
+      "ankrahmun-library-tomb",
+      "carlin-graveyard",
+      "carlin-isle-kings-skeletons",
+      "cyclops-sternum"
+    ],
+    "checks": [
+      "All primary and secondary markers correspond to the selected creature in the classic spawn base",
+      "Floor labels use surface z=7, underground z>7, upper floors z<7",
+      "Seven desert tomb guides explain Scarab Coin access",
+      "Carlin Graveyard names Key 3520; Isle of the Kings requires Family Brooch access and Costello catacomb permission",
+      "Nearby creature lists explicitly do not establish room connectivity",
+      "Dark Cathedral direct map URL opens its exception guide instead of a misleading classic map"
+    ],
+    "limitations": [
+      "Walking routes and stairs were not validated in game",
+      "Existing 23 inferred minimap segments remain approximate",
+      "This review covers the current 88 guides and does not claim every possible hunting location is catalogued"
+    ]
+  }
 }
