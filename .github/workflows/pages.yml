@@ -43,6 +43,7 @@ jobs:
           node scripts/test-hunt-tools.cjs
           node scripts/test-goal-tools.cjs
           node scripts/test-community-auth.cjs
+          node scripts/test-catalog-navigation.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

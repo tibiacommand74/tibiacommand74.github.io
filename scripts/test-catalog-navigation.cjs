@@ -1,0 +1,10 @@
+'use strict';
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const source=fs.readFileSync('public/app.js','utf8');
+const start=source.indexOf('function route(){'),end=source.indexOf('document.addEventListener(\'click\'',start);
+assert(start>=0&&end>start);
+const env={location:{hash:'#catalog/itens'},window:{scrollTo(){}},C:{items:[],npcs:[],spells:[]},D:{creatures:[]},QUESTS:[],catalogTab:'npcs',catalogQuery:'Sam',catalogCategory:'',catalogVocation:'Knight',catalogKind:'Runa',catalogPremium:'yes',catalogCity:'Thais',catalogRole:'Comerciante',catalogSort:'ml',catalogLimit:100,render(page){assert.equal(page,'biblioteca')}};
+vm.createContext(env);vm.runInContext(source.slice(start,end),env);env.route();assert.equal(env.catalogTab,'itens');for(const key of ['catalogQuery','catalogCategory','catalogVocation','catalogKind','catalogPremium','catalogCity','catalogRole'])assert.equal(env[key],'');assert.equal(env.catalogSort,'name');assert.equal(env.catalogLimit,36);
+env.catalogQuery='sword';env.route();assert.equal(env.catalogQuery,'sword','Reopening the same section preserves its current search');
+env.location.hash='#catalog/magias';env.route();assert.equal(env.catalogTab,'magias');assert.equal(env.catalogQuery,'');
+console.log('PASS: category links reset incompatible searches/filters and preserve searches within the same category');
