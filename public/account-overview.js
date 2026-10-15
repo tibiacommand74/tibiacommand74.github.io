@@ -8,7 +8,7 @@
   return {progress,done:quests.filter(r=>r.record.status==='done'),favorites:records.filter(r=>r.record.favorite).sort((a,b)=>stamp(b)-stamp(a)),active,soon};
  }
  async function listings(){const token=await CommunityAuth.token();if(!token)throw Error('Conta desconectada.');const rows=[];for(let page=0;page<=100;page++){
-  const response=await fetch('https://tibia-command-74.calmstronglife.chatgpt.site/api/market/listings?mine=1&page='+page,{headers:{authorization:'Bearer '+token}}),data=await response.json();
+  const response=await fetch('https://tibia-command-74.calmstronglife.chatgpt.site/api/market/listings?mine=1&page='+page,{headers:{authorization:'Bearer '+token},signal:AbortSignal.timeout(20000)}),data=await response.json();
   if(!response.ok||data.ok===false||!Array.isArray(data.listings))throw Error('Não foi possível carregar seus anúncios.');rows.push(...data.listings);if(rows.length>=data.total)return rows;if(!data.listings.length)break;
  }throw Error('Não foi possível carregar todos os anúncios.');}
  function firstSteps(records,ads,{journalOK,marketOK,character,server}){
@@ -29,4 +29,5 @@
  }
  window.AccountOverview={summarize,markup,listings,firstSteps};
 })();
+
 

@@ -12,7 +12,7 @@
  function overview(pane,profile){pane.innerHTML='<p class="account-overview-intro">Bem-vindo'+(profile.alias?', <strong>'+esc(profile.alias)+'</strong>':'')+'. Acompanhe sua jornada e suas negociações.</p>';}
  async function render(root){const gen=++generation;frame(root);let identity;try{identity=await CommunityAuth.journalIdentity();}catch{if(gen===generation&&root.isConnected)root.querySelector('#account-workspace').innerHTML='<p role="alert">Não foi possível carregar sua conta. Atualize a página para tentar novamente.</p>';return;}if(gen!==generation||!root.isConnected||!location.hash.startsWith('#conta'))return;
   if(!identity){const pane=root.querySelector('#account-workspace');pane.innerHTML='<section class="account-login-prompt"><span class="account-login-symbol">'+icon('perfil')+'</span><p class="eyebrow">COMUNIDADE TIBIA COMMAND</p><h3>Seu espaço, sua jornada.</h3><p>Entre para acessar seu diário, administrar anúncios e atualizar seu perfil.</p><button class="action" type="button" data-account-page-login>Entrar na minha conta</button><button class="account-text-button" type="button" data-account-page-signup>Ainda não tenho conta</button></section>';pane.querySelector('[data-account-page-login]').onclick=()=>CommunityAccount.open('login');pane.querySelector('[data-account-page-signup]').onclick=()=>CommunityAccount.open('signup');return;}
-  let profile=identity.profile||{};try{const token=await CommunityAuth.token();const response=await fetch('https://tibia-command-74.calmstronglife.chatgpt.site/api/market/session',{headers:{authorization:'Bearer '+token}});const result=await response.json();if(response.ok&&result.profile)profile=result.profile;}catch{}
+  let profile=identity.profile||{};try{const token=await CommunityAuth.token();const response=await fetch('https://tibia-command-74.calmstronglife.chatgpt.site/api/market/session',{headers:{authorization:'Bearer '+token},signal:AbortSignal.timeout(20000)});const result=await response.json();if(response.ok&&result.profile)profile=result.profile;}catch{}
   if(gen!==generation||!root.isConnected||!location.hash.startsWith('#conta'))return;frame(root,profile,true);root.dataset.accountUser=identity.id;const pane=root.querySelector('#account-workspace');switch(current()){
    case 'metas':await window.GoalTools.render(pane,{identity});break;
    case 'hunts':case 'loot':await window.HuntTools.render(pane,{mode:current()==='loot'?'party':'history',identity});break;
@@ -30,6 +30,7 @@
  window.renderCommunityAccount=render;
  window.CommunityAccount.refreshJournal=()=>{if(location.hash==='#conta/diario'){const pane=document.getElementById('account-workspace');if(pane)window.renderCommunityJournal?.(pane);}};
 })();
+
 
 
 

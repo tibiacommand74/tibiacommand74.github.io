@@ -40,6 +40,9 @@ jobs:
           node scripts/test-hunts.cjs
           node scripts/test-classic-resources.cjs
           node scripts/test-account-page.cjs
+          node scripts/test-hunt-tools.cjs
+          node scripts/test-goal-tools.cjs
+          node scripts/test-community-auth.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -47,3 +50,4 @@ jobs:
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@v4
+
