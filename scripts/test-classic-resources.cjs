@@ -43,3 +43,16 @@ run("detailNpc('Dermot')");assert(node('#detail-body').innerHTML.includes('data-
 run("detailHunt('troll-thais')");assert(node('#detail-body').innerHTML.includes('data-journal-type="hunt"'));
 assert(fs.readFileSync('public/index.html','utf8').indexOf('classic-resources.js')<fs.readFileSync('public/index.html','utf8').indexOf('app.js'));
 console.log('PASS: 34 chaves, busca geral, cidades, planejamento clássico, comida, sets, diário sanitizado, falha de armazenamento e integração das fichas');
+blocked=false;
+api.saveRecord('quest','fibula',{favorite:true,note:'Manter anotação',status:'done'});
+api.saveRecord('item','2666',{favorite:true});
+const favoriteSearch={value:''},favoriteType={value:''},favoriteCount={},favoriteMessage={};
+const favoriteList={innerHTML:'',querySelectorAll(selector){if(selector==='[data-remove-favorite]')return this.innerHTML.includes('data-remove-favorite="quest"')?[this.removeButton={dataset:{removeFavorite:'quest',favoriteId:'fibula'}}]:[];return [];}};
+const favoriteRoot={innerHTML:'',querySelector:s=>({'[data-favorite-search]':favoriteSearch,'[data-favorite-type]':favoriteType,'[data-favorite-count]':favoriteCount,'[data-favorite-message]':favoriteMessage,'[data-favorite-results]':favoriteList}[s]||null)};
+env.window.renderCommunityFavorites(favoriteRoot);
+assert(favoriteRoot.innerHTML.includes('Buscar favorito'));
+favoriteType.value='quest';favoriteType.onchange();assert(favoriteList.innerHTML.toLowerCase().includes('fibula'));assert(!favoriteList.innerHTML.includes('data-remove-favorite="item"'));
+favoriteSearch.value='inexistente';favoriteSearch.oninput();assert.equal(favoriteCount.textContent,'0 favoritos');
+favoriteSearch.value='fibula';favoriteSearch.oninput();assert.equal(favoriteCount.textContent,'1 favorito');
+favoriteList.removeButton.onclick();assert.equal(api.getRecord('quest','fibula').favorite,false);assert.equal(api.getRecord('quest','fibula').note,'Manter anotação');assert.equal(api.getRecord('quest','fibula').status,'done');assert.equal(favoriteCount.textContent,'0 favoritos');
+console.log('PASS: favorites category/search and removal preserve notes and completed quests');

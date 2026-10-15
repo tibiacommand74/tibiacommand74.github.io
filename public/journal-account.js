@@ -10,7 +10,7 @@
  function notify(){visibility();document.querySelectorAll('[data-journal-sync-status]').forEach(el=>el.textContent=message);}
  function persist(){if(!context)return;localStorage.setItem(key(context),JSON.stringify({records,dirty}));}
  function clear(){epoch++;clearTimeout(timer);context=null;signedIn=false;records={};dirty={};message='Entre na comunidade para abrir seu diário.';notify();}
- function refresh(){if(location.hash==='#conta/diario'){window.CommunityAccount?.refreshJournal?.();return;}if(location.hash==='#explorador/journal')window.renderClassicHub?.(document.querySelector('#content'));}
+ function refresh(){if(['#conta/diario','#conta/favoritos'].includes(location.hash)){window.CommunityAccount?.refreshJournal?.();return;}if(location.hash==='#explorador/journal')window.renderClassicHub?.(document.querySelector('#content'));}
  async function activate(character,server){
   const user=await CommunityAuth.journalIdentity();if(!user){clear();return false;}signedIn=true;
   character=String(character||'').trim().toLowerCase();server=String(server||'').trim().toLowerCase();
@@ -69,3 +69,4 @@
  new MutationObserver(visibility).observe(document.body,{childList:true,subtree:true});
  init().then(()=>{visibility();refresh();});
 })();
+

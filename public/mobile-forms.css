@@ -9,3 +9,16 @@
  .market-form[aria-busy=true] button[type=submit]{opacity:.7;cursor:wait}
  .account-page-heading,.account-identity,.account-summary-heading{min-width:0}.account-identity strong,.account-identity small{overflow-wrap:anywhere}
 }
+
+
+.favorite-filters label{flex:1;min-width:0}.favorite-filters input,.favorite-filters select{width:100%}.favorite-filters input{font:inherit}.explorer-card [data-remove-favorite]{min-height:44px;margin-top:12px}
+@media(max-width:650px){
+ /* Keep touch targets readable without changing the map's gesture handling. */
+ .toolbar input,.toolbar select,.favorite-filters input,.favorite-filters select,.account-workspace input,.account-workspace select,.account-workspace textarea{font-size:16px;min-height:44px}
+ .favorite-filters{flex-direction:column}.favorite-filters label{width:100%}
+ #site-navigation{max-height:70vh;max-height:70dvh;overflow-y:auto;overscroll-behavior:contain}
+ .account-sidebar nav{grid-template-columns:repeat(2,minmax(0,1fr))}.account-sidebar nav a{min-width:0}.account-sidebar nav a span{overflow-wrap:anywhere}.account-sidebar nav svg{flex-shrink:0}
+ .map-controls{right:12px;flex-wrap:wrap;max-width:calc(100% - 24px)}
+ #detail{padding:16px;scroll-padding-top:64px;overscroll-behavior:contain}#detail>#close{position:sticky;top:0;display:block;margin-left:auto;width:44px;height:44px;background:#172225;border:1px solid #675739;border-radius:6px;z-index:5}
+ .detail-title{gap:12px;min-width:0}.detail-title h2{overflow-wrap:anywhere}.detail-stats{flex-wrap:wrap}.detail-title .sprite{flex-shrink:0;width:64px;height:64px}
+}
