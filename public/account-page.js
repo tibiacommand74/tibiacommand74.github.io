@@ -1,8 +1,9 @@
 'use strict';
 (()=>{
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- const sections={inicio:['Visão geral','Seu ponto de partida'],diario:['Meu diário','Progresso, favoritos e anotações'],anuncios:['Meus anúncios','Suas negociações na comunidade'],perfil:['Meu perfil','Seus dados e contato público']};
+ const sections={inicio:['Visão geral','Seu ponto de partida'],diario:['Meu diário','Progresso, favoritos e anotações'],hunts:['Minhas hunts','Histórico, saldo e rendimento'],loot:['Dividir loot','Acerto de gastos e loot da party'],anuncios:['Meus anúncios','Suas negociações na comunidade'],perfil:['Meu perfil','Seus dados e contato público']};
  const icons={inicio:'<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>',diario:'<path d="M5 3h12a2 2 0 0 1 2 2v16H7a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3ZM4 17h15M8 7h7M8 11h5"/>',anuncios:'<path d="m3 12 9-9h8v8l-9 10Z"/><circle cx="16" cy="7" r="1"/>',perfil:'<circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/>'};
+ icons.hunts='<path d="m4 20 16-16M4 4l16 16M3 3l5 1-4 4-1-5M16 20l4-4 1 5-5-1"/>';icons.loot='<circle cx="8" cy="7" r="3"/><circle cx="17" cy="7" r="3"/><path d="M2 21v-4a6 6 0 0 1 12 0v4M14 12a6 6 0 0 1 8 5v4"/>';
  const icon=id=>'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+icons[id]+'</svg>';
  let generation=0;
  function current(){const section=location.hash.split('/')[1]||'inicio';return sections[section]?section:'inicio';}
@@ -12,11 +13,12 @@
   if(!identity){const pane=root.querySelector('#account-workspace');pane.innerHTML='<section class="account-login-prompt"><span class="account-login-symbol">'+icon('perfil')+'</span><p class="eyebrow">COMUNIDADE TIBIA COMMAND</p><h3>Seu espaço, sua jornada.</h3><p>Entre para acessar seu diário, administrar anúncios e atualizar seu perfil.</p><button class="action" type="button" data-account-page-login>Entrar na minha conta</button><button class="account-text-button" type="button" data-account-page-signup>Ainda não tenho conta</button></section>';pane.querySelector('[data-account-page-login]').onclick=()=>CommunityAccount.open('login');pane.querySelector('[data-account-page-signup]').onclick=()=>CommunityAccount.open('signup');return;}
   let profile=identity.profile||{};try{const token=await CommunityAuth.token();const response=await fetch('https://tibia-command-74.calmstronglife.chatgpt.site/api/market/session',{headers:{authorization:'Bearer '+token}});const result=await response.json();if(response.ok&&result.profile)profile=result.profile;}catch{}
   if(gen!==generation||!root.isConnected||!location.hash.startsWith('#conta'))return;frame(root,profile,true);root.dataset.accountUser=identity.id;const pane=root.querySelector('#account-workspace');switch(current()){
+   case 'hunts':case 'loot':await window.HuntTools.render(pane,{mode:current()==='loot'?'party':'history',identity});break;
    case 'diario':await window.JournalAccount?.init();if(gen!==generation||!pane.isConnected)return;window.renderCommunityJournal(pane);break;
    case 'anuncios':window.renderClassifieds(pane,{account:true,tab:'mine',create:location.hash==='#conta/anuncios/novo'});break;
    case 'perfil':window.renderClassifieds(pane,{account:true,tab:'profile'});break;
    default:{
-    overview(pane,profile);const summaryBox=document.createElement('div');summaryBox.className='account-live-summary';summaryBox.innerHTML='<p role="status" class="account-empty-summary">Carregando seu progresso e anúncios…</p>';pane.append(summaryBox);
+    overview(pane,profile);const summaryBox=document.createElement('div');summaryBox.className='account-live-summary';summaryBox.innerHTML='<p role="status" class="account-empty-summary">Carregando seu progresso e anúncios…</p>';pane.insertAdjacentHTML?.('beforeend','<div class="account-tool-shortcuts"><a href="#conta/hunts"><strong>Minhas hunts</strong><span>Registre tempo, loot, gastos e rendimento →</span></a><a href="#conta/loot"><strong>Dividir loot da party</strong><span>Calcule quem paga e quem recebe →</span></a></div>');pane.append(summaryBox);
     const results=await Promise.allSettled([window.JournalAccount?.init(),window.AccountOverview.listings()]);if(gen!==generation||!pane.isConnected||!location.hash.startsWith('#conta'))return;
     const selected=window.JournalAccount?.context(),journalOK=results[0].status==='fulfilled'&&selected?.id===identity.id,marketOK=results[1].status==='fulfilled';
     const records=journalOK?window.ClassicExplorer.journalRows():[],ads=marketOK?results[1].value:[];summaryBox.innerHTML=window.AccountOverview.firstSteps(records,ads,{journalOK,marketOK,character:selected?.character,server:selected?.server})+window.AccountOverview.markup(window.AccountOverview.summarize(records,ads),{journalOK,marketOK,character:selected?.character,server:selected?.server});window.bindClassicExplorer?.(summaryBox);break;
@@ -26,4 +28,5 @@
  window.renderCommunityAccount=render;
  window.CommunityAccount.refreshJournal=()=>{if(location.hash==='#conta/diario'){const pane=document.getElementById('account-workspace');if(pane)window.renderCommunityJournal?.(pane);}};
 })();
+
 
