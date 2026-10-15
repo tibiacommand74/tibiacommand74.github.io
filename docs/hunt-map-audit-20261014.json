@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-10-14",
-  "scope": "Geographical comparison of all 77 hunt markers with named area references and the local classic spawn base. Current wiki pages are used for geography only; modern expansions, loot and walkthroughs are excluded. Not a validation of walking routes or stairs.",
+  "reviewedAt": "2026-10-15",
+  "scope": "Geographical comparison of all 87 hunt markers with named area references and the local classic spawn base. Current wiki pages are used for geography only; modern expansions, loot and walkthroughs are excluded. Not a validation of walking routes or stairs. Dark Cathedral is a documented 7.5 exception, with no marker because the area is absent from the classic map.",
   "confirmedCorrection": {
     "id": "rotworm-carlin",
     "before": [
@@ -624,6 +624,126 @@
       ],
       "ids": [
         "venore-black-knight"
+      ]
+    },
+    {
+      "name": "Cyclops Camp — sul de Thais",
+      "bounds": [
+        32385,
+        32346,
+        32445,
+        32406
+      ],
+      "ids": [
+        "thais-cyclops-south"
+      ]
+    },
+    {
+      "name": "Minotaur Camp — sul de Thais",
+      "bounds": [
+        32275,
+        32375,
+        32335,
+        32435
+      ],
+      "ids": [
+        "thais-minotaur-camp"
+      ]
+    },
+    {
+      "name": "White Flower Temple — Ghouls",
+      "bounds": [
+        32297,
+        32363,
+        32357,
+        32423
+      ],
+      "ids": [
+        "thais-white-flower-ghouls"
+      ]
+    },
+    {
+      "name": "White Flower Temple — Banshee",
+      "bounds": [
+        32290,
+        32379,
+        32350,
+        32439
+      ],
+      "ids": [
+        "thais-white-flower-banshee"
+      ]
+    },
+    {
+      "name": "Dragon Lair de Thais — Dragons",
+      "bounds": [
+        32327,
+        32063,
+        32387,
+        32123
+      ],
+      "ids": [
+        "thais-dragon-lair"
+      ]
+    },
+    {
+      "name": "Dragon Lair de Thais — Dragon Lord",
+      "bounds": [
+        32324,
+        32065,
+        32384,
+        32125
+      ],
+      "ids": [
+        "thais-dragon-lords"
+      ]
+    },
+    {
+      "name": "Plains of Havoc — Cyclops Camp",
+      "bounds": [
+        32749,
+        32224,
+        32809,
+        32284
+      ],
+      "ids": [
+        "venore-poh-cyclops"
+      ]
+    },
+    {
+      "name": "Plains of Havoc — Minotaurs",
+      "bounds": [
+        32759,
+        32198,
+        32819,
+        32258
+      ],
+      "ids": [
+        "venore-poh-minotaurs"
+      ]
+    },
+    {
+      "name": "Plains of Havoc — Dragon Lair",
+      "bounds": [
+        32743,
+        32238,
+        32803,
+        32298
+      ],
+      "ids": [
+        "venore-poh-dragons"
+      ]
+    },
+    {
+      "name": "Plains of Havoc — Dragon Lords",
+      "bounds": [
+        32746,
+        32256,
+        32806,
+        32316
+      ],
+      "ids": [
+        "venore-poh-dragon-lords"
       ]
     }
   ],
@@ -1716,6 +1836,168 @@
       ],
       "floorComparedWithClassicSpawn": true,
       "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-cyclops-south",
+      "city": "Thais",
+      "xyz": [
+        32415,
+        32376,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Cyclops_Camp"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-minotaur-camp",
+      "city": "Thais",
+      "xyz": [
+        32305,
+        32405,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Minotaur_Camp"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-white-flower-ghouls",
+      "city": "Thais",
+      "xyz": [
+        32327,
+        32393,
+        9
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/White_Flower_Temple"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-white-flower-banshee",
+      "city": "Thais",
+      "xyz": [
+        32320,
+        32409,
+        10
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/White_Flower_Temple"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-dragon-lair",
+      "city": "Thais",
+      "xyz": [
+        32357,
+        32093,
+        10
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Thais)"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "thais-dragon-lords",
+      "city": "Thais",
+      "xyz": [
+        32354,
+        32095,
+        10
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Thais)"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "venore-poh-cyclops",
+      "city": "Venore",
+      "xyz": [
+        32779,
+        32254,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Plains_of_Havoc"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "venore-poh-minotaurs",
+      "city": "Venore",
+      "xyz": [
+        32789,
+        32228,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Plains_of_Havoc"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "venore-poh-dragons",
+      "city": "Venore",
+      "xyz": [
+        32773,
+        32268,
+        8
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Plains_of_Havoc)"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "venore-poh-dragon-lords",
+      "city": "Venore",
+      "xyz": [
+        32776,
+        32286,
+        10
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Plains_of_Havoc)"
+      ],
+      "floorComparedWithClassicSpawn": true,
+      "walkingRouteValidated": false
+    },
+    {
+      "id": "venore-dark-cathedral",
+      "city": "Venore",
+      "xyz": [
+        32663,
+        32343,
+        7
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dark_Cathedral"
+      ],
+      "floorComparedWithClassicSpawn": false,
+      "walkingRouteValidated": false
+    }
+  ],
+  "exceptions": [
+    {
+      "id": "venore-dark-cathedral",
+      "version": "7.5",
+      "mapAvailable": false,
+      "source": "https://www.tibiawiki.com.br/wiki/Dark_Cathedral"
     }
   ]
 }
