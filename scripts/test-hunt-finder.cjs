@@ -8,5 +8,16 @@ assert(api.recommend(rows,{...p,level:10000,access:'premium'}).every(h=>!h.versi
 assert.equal(api.recommend(rows,{...p,level:1}).length,0);
 for(const level of ['',0,-1,35.5,10001,'abc',Infinity])assert.throws(()=>api.recommend(rows,{...p,level}));assert.throws(()=>api.recommend(rows,{...p,vocation:'Monk'}));assert.throws(()=>api.recommend(rows,{...p,city:'<script>'}));
 const fake=[{...rows[0],id:'a',level:30,risk:'Alto'},{...rows[0],id:'b',level:30,risk:'Baixo'},{...rows[0],id:'c',level:31,risk:'Alto'},{...rows[0],id:'new',introducedVersion:'7.5'}];assert.deepEqual(Array.from(api.recommend(fake,p),h=>h.id),['c','b','a']);
-const index=fs.readFileSync('public/index.html','utf8'),app=fs.readFileSync('public/app.js','utf8');assert(index.includes('href="#buscar-hunt"'));assert(index.includes('hunt-finder.js?v=20261016-finder-auto'));assert(app.includes("else if(p==='buscar-hunt'){window.HuntFinder.render(el);}"));assert(index.indexOf('hunt-finder.js')<index.indexOf('app.js'));
+const index=fs.readFileSync('public/index.html','utf8'),app=fs.readFileSync('public/app.js','utf8');assert(index.includes('href="#buscar-hunt"'));assert(index.includes('hunt-finder.js?v=20261016-hunt-audit'));assert(app.includes("else if(p==='buscar-hunt'){window.HuntFinder.render(el);}"));assert(index.indexOf('hunt-finder.js')<index.indexOf('app.js'));
 console.log('PASS: finder vocation/level/access/city/goal/risk filters, closest-level sorting, invalid values, 7.5 exclusion and route integration');
+
+// Every admitted classic guide must be reachable for at least one eligible vocation.
+const reachable=new Set(['Knight','Paladin','Druid','Sorcerer'].flatMap(vocation=>api.recommend(rows,{...p,level:10000,vocation,access:'premium'}).map(h=>h.id)));
+assert.equal(reachable.size,102);for(const h of rows.filter(h=>!h.versionException))assert(reachable.has(h.id),h.id+' silently excluded');
+assert.equal(api.recommend(rows,{...p,level:100,city:"Ab'Dendriel"}).filter(h=>h.id.includes('elvenbane')).length,4);
+assert(!api.isClassic({...rows[0],introducedVersion:'unknown'}));assert(!api.isClassic({...rows[0],introducedVersion:'8.0'}));
+assert(api.isClassic({...rows[0],introducedVersion:'Pré-6.0'}));
+assert.equal(api.recommend([{...rows[0],level:10,accessLevel:50}],{...p,level:49}).length,0);
+assert.equal(api.recommend([{...rows[0],level:10,accessLevel:50}],{...p,level:50}).length,1);
+assert(!rows.some(h=>h.risk==='Médio'),'one consistent moderate risk category');
+console.log('PASS: all 102 classic guides reachable, Elvenbane pre-6.0 retained, level gates enforced and moderate risk unified');

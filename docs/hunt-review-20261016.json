@@ -1,0 +1,2036 @@
+{
+  "date": "2026-10-16",
+  "scope": "All 103 existing hunt guides. This is not a claim of exhaustive world coverage or official 2004 coordinate certification.",
+  "counts": {
+    "guides": 103,
+    "mappedGuides": 102,
+    "markers": 125,
+    "classicFinderReachable": 102,
+    "unverifiedSegmentsRetired": 23
+  },
+  "method": [
+    "Code and data inspection; geographic wiki references compared with community 7.4 spawn base",
+    "All primary/secondary points matched to creature and floor in local data",
+    "All 125 points sampled in the rendered floor PNG; none on blank/white pixels",
+    "All 102 classic guides made reachable in finder across the four vocations",
+    "Full Pages CI command suite and DOM automatic-search checks passed"
+  ],
+  "limitations": [
+    "Community reconstruction, not official CipSoft data",
+    "No in-game traversal, door or stair verification",
+    "Modern wiki pages used selectively for geography; modern creatures, loot, gear and spells not imported",
+    "Old Fandom revision 55209 was inaccessible; Deeper Fibula history cross-checked with the upstream research notes and accessible wiki descriptions",
+    "Browser visual QA unavailable in this environment"
+  ],
+  "entries": [
+    {
+      "id": "troll-thais",
+      "city": "Thais",
+      "xyz": [
+        32459,
+        32276,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 2,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Thais_Trolls%27_Cave"
+      ],
+      "exception": false
+    },
+    {
+      "id": "rotworm-carlin",
+      "city": "Carlin",
+      "xyz": [
+        32331,
+        31840,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "rotation",
+        "sources",
+        "classicScope"
+      ],
+      "sources": [
+        "https://www.tibia-wiki.net/wiki/Rotworms_Cave"
+      ],
+      "exception": false
+    },
+    {
+      "id": "amazon-venore",
+      "city": "Venore",
+      "xyz": [
+        32847,
+        31918,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 4,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Venore_Amazon_Camp"
+      ],
+      "exception": false
+    },
+    {
+      "id": "dwarf-mines",
+      "city": "Kazordoon",
+      "xyz": [
+        32556,
+        31949,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 2,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
+      ],
+      "exception": false
+    },
+    {
+      "id": "dwarf-guards",
+      "city": "Kazordoon",
+      "xyz": [
+        32554,
+        31968,
+        12
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 3,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dwarf_Guard"
+      ],
+      "exception": false
+    },
+    {
+      "id": "cyclops-sternum",
+      "city": "Thais",
+      "xyz": [
+        32477,
+        32116,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 2,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Mount_Sternum"
+      ],
+      "exception": false
+    },
+    {
+      "id": "minotaur-darashia",
+      "city": "Darashia",
+      "xyz": [
+        33311,
+        32286,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 4,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Daramian_Minotaur_Pyramid"
+      ],
+      "exception": false
+    },
+    {
+      "id": "larva-darama",
+      "city": "Ankrahmun",
+      "xyz": [
+        33068,
+        32766,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 4,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Daramian_Scarab_Caves"
+      ],
+      "exception": false
+    },
+    {
+      "id": "scarab-darama",
+      "city": "Ankrahmun",
+      "xyz": [
+        33059,
+        32750,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 4,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Daramian_Scarab_Caves"
+      ],
+      "exception": false
+    },
+    {
+      "id": "ancient-scarab",
+      "city": "Ankrahmun",
+      "xyz": [
+        33072,
+        32761,
+        11
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 4,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ancient_Scarab"
+      ],
+      "exception": false
+    },
+    {
+      "id": "dragon-venore",
+      "city": "Venore",
+      "xyz": [
+        32835,
+        32164,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 4,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "preparation"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Venore_Dragon_Lair"
+      ],
+      "exception": false
+    },
+    {
+      "id": "necromancer-drefia",
+      "city": "Darashia",
+      "xyz": [
+        32990,
+        32389,
+        10
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Drefia"
+      ],
+      "exception": false
+    },
+    {
+      "id": "hero-edron",
+      "city": "Edron",
+      "xyz": [
+        33109,
+        31673,
+        13
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Northern_Ruins"
+      ],
+      "exception": false
+    },
+    {
+      "id": "giant-spider-poh",
+      "city": "Venore",
+      "xyz": [
+        32751,
+        32295,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Plains_of_Havoc"
+      ],
+      "exception": false
+    },
+    {
+      "id": "ankrahmun-peninsula-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33047,
+        32849,
+        13
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "preparation",
+        "danger"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Peninsula)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
+      ],
+      "exception": false
+    },
+    {
+      "id": "ankrahmun-tarpit-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33230,
+        32713,
+        12
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Tarpit)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
+      ],
+      "exception": false
+    },
+    {
+      "id": "ankrahmun-stone-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33267,
+        32747,
+        13
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Stone)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
+      ],
+      "exception": false
+    },
+    {
+      "id": "ankrahmun-shadow-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33235,
+        32811,
+        13
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Shadow)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
+      ],
+      "exception": false
+    },
+    {
+      "id": "ankrahmun-mountain-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33131,
+        32541,
+        13
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "preparation",
+        "danger"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Mountain)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
+      ],
+      "exception": false
+    },
+    {
+      "id": "ankrahmun-oasis-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33126,
+        32646,
+        13
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "preparation",
+        "danger"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Oasis)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
+      ],
+      "exception": false
+    },
+    {
+      "id": "ankrahmun-ancient-ruins-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33216,
+        32616,
+        13
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Ancient_Ruins)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
+      ],
+      "exception": false
+    },
+    {
+      "id": "ankrahmun-library-tomb",
+      "city": "Ankrahmun",
+      "xyz": [
+        33141,
+        32836,
+        10
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "preparation",
+        "danger"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Library)",
+        "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
+      ],
+      "exception": false
+    },
+    {
+      "id": "ankrahmun-dragons-south",
+      "city": "Ankrahmun",
+      "xyz": [
+        33049,
+        32720,
+        6
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Ankrahmun)"
+      ],
+      "exception": false
+    },
+    {
+      "id": "ankrahmun-dragons-middle",
+      "city": "Ankrahmun",
+      "xyz": [
+        33075,
+        32693,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Ankrahmun)"
+      ],
+      "exception": false
+    },
+    {
+      "id": "ankrahmun-dragons-north",
+      "city": "Ankrahmun",
+      "xyz": [
+        33097,
+        32613,
+        6
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Ankrahmun)"
+      ],
+      "exception": false
+    },
+    {
+      "id": "carlin-amazon",
+      "city": "Carlin",
+      "xyz": [
+        32472,
+        31780,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Carlin_Amazon_Camp"
+      ],
+      "exception": false
+    },
+    {
+      "id": "carlin-graveyard",
+      "city": "Carlin",
+      "xyz": [
+        32403,
+        31805,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "preparation"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Carlin_Graveyard",
+        "https://www.tibiawiki.com.br/wiki/Key_3520"
+      ],
+      "exception": false
+    },
+    {
+      "id": "carlin-ghostlands-skeletons",
+      "city": "Carlin",
+      "xyz": [
+        32181,
+        31795,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ghostlands"
+      ],
+      "exception": false
+    },
+    {
+      "id": "carlin-ghostlands-ghouls",
+      "city": "Carlin",
+      "xyz": [
+        32189,
+        31825,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ghostlands"
+      ],
+      "exception": false
+    },
+    {
+      "id": "carlin-ghostlands-demon-skeletons",
+      "city": "Carlin",
+      "xyz": [
+        32183,
+        31792,
+        10
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ghostlands"
+      ],
+      "exception": false
+    },
+    {
+      "id": "carlin-ghostlands-vampire",
+      "city": "Carlin",
+      "xyz": [
+        32179,
+        31830,
+        12
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "danger",
+        "sources"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ghostlands",
+        "https://www.tibiawiki.com.br/wiki/Vampire",
+        "https://github.com/Ethaan/mintwall/blob/main/server/data/monster/vampire.xml"
+      ],
+      "exception": false
+    },
+    {
+      "id": "carlin-folda-frost-trolls",
+      "city": "Carlin",
+      "xyz": [
+        31983,
+        31560,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Folda"
+      ],
+      "exception": false
+    },
+    {
+      "id": "carlin-folda-rotworms",
+      "city": "Carlin",
+      "xyz": [
+        31980,
+        31567,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Folda"
+      ],
+      "exception": false
+    },
+    {
+      "id": "carlin-folda-minotaurs",
+      "city": "Carlin",
+      "xyz": [
+        32044,
+        31604,
+        10
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Folda"
+      ],
+      "exception": false
+    },
+    {
+      "id": "carlin-senja-frost-trolls",
+      "city": "Carlin",
+      "xyz": [
+        32152,
+        31633,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Senja"
+      ],
+      "exception": false
+    },
+    {
+      "id": "carlin-vega-rotworms",
+      "city": "Carlin",
+      "xyz": [
+        31969,
+        31696,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Vega"
+      ],
+      "exception": false
+    },
+    {
+      "id": "carlin-isle-kings-skeletons",
+      "city": "Carlin",
+      "xyz": [
+        32179,
+        31933,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "preparation"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Isle_of_the_Kings",
+        "https://www.tibiawiki.com.br/wiki/The_White_Raven_Monastery_Quest"
+      ],
+      "exception": false
+    },
+    {
+      "id": "darashia-rotworms",
+      "city": "Darashia",
+      "xyz": [
+        33150,
+        32440,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Daramian_Rotworm_Caves"
+      ],
+      "exception": false
+    },
+    {
+      "id": "darashia-minotaur-guards",
+      "city": "Darashia",
+      "xyz": [
+        33308,
+        32278,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Minotaur_Pyramid"
+      ],
+      "exception": false
+    },
+    {
+      "id": "darashia-minotaur-mages",
+      "city": "Darashia",
+      "xyz": [
+        33303,
+        32278,
+        10
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Minotaur_Pyramid"
+      ],
+      "exception": false
+    },
+    {
+      "id": "drefia-ghouls",
+      "city": "Darashia",
+      "xyz": [
+        33001,
+        32408,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Drefia"
+      ],
+      "exception": false
+    },
+    {
+      "id": "drefia-demon-skeletons",
+      "city": "Darashia",
+      "xyz": [
+        33009,
+        32408,
+        10
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Drefia"
+      ],
+      "exception": false
+    },
+    {
+      "id": "drefia-vampires",
+      "city": "Darashia",
+      "xyz": [
+        33035,
+        32404,
+        10
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "danger",
+        "sources"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Drefia",
+        "https://www.tibiawiki.com.br/wiki/Vampire",
+        "https://github.com/Ethaan/mintwall/blob/main/server/data/monster/vampire.xml"
+      ],
+      "exception": false
+    },
+    {
+      "id": "drefia-beholders",
+      "city": "Darashia",
+      "xyz": [
+        33060,
+        32445,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Drefia"
+      ],
+      "exception": false
+    },
+    {
+      "id": "edron-trolls",
+      "city": "Edron",
+      "xyz": [
+        33125,
+        31746,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Troll_Den"
+      ],
+      "exception": false
+    },
+    {
+      "id": "edron-goblins",
+      "city": "Edron",
+      "xyz": [
+        33109,
+        31840,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Goblin_Den"
+      ],
+      "exception": false
+    },
+    {
+      "id": "edron-rotworms",
+      "city": "Edron",
+      "xyz": [
+        33211,
+        31847,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Rotworm_Caves"
+      ],
+      "exception": false
+    },
+    {
+      "id": "edron-orcs",
+      "city": "Edron",
+      "xyz": [
+        33148,
+        31876,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk",
+        "access"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Orc_Lands"
+      ],
+      "exception": false
+    },
+    {
+      "id": "edron-cyclopolis",
+      "city": "Edron",
+      "xyz": [
+        33180,
+        31682,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Cyclopolis"
+      ],
+      "exception": false
+    },
+    {
+      "id": "edron-behemoths",
+      "city": "Edron",
+      "xyz": [
+        33258,
+        31665,
+        14
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Cyclopolis"
+      ],
+      "exception": false
+    },
+    {
+      "id": "edron-dragons",
+      "city": "Edron",
+      "xyz": [
+        33053,
+        31651,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Dragon_Lair"
+      ],
+      "exception": false
+    },
+    {
+      "id": "edron-dragon-lords",
+      "city": "Edron",
+      "xyz": [
+        33087,
+        31647,
+        11
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Edron_Dragon_Lair"
+      ],
+      "exception": false
+    },
+    {
+      "id": "edron-ghoul-hill",
+      "city": "Edron",
+      "xyz": [
+        33197,
+        31678,
+        4
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "name",
+        "level",
+        "risk",
+        "access",
+        "preparation",
+        "danger",
+        "tip"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ghoul_Hill"
+      ],
+      "exception": false
+    },
+    {
+      "id": "kazordoon-dwarf-soldiers",
+      "city": "Kazordoon",
+      "xyz": [
+        32527,
+        31953,
+        11
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
+      ],
+      "exception": false
+    },
+    {
+      "id": "kazordoon-dwarf-geomancers",
+      "city": "Kazordoon",
+      "xyz": [
+        32499,
+        31941,
+        14
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
+      ],
+      "exception": false
+    },
+    {
+      "id": "kazordoon-rotworms",
+      "city": "Kazordoon",
+      "xyz": [
+        32476,
+        31966,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
+      ],
+      "exception": false
+    },
+    {
+      "id": "kazordoon-slimes",
+      "city": "Kazordoon",
+      "xyz": [
+        32458,
+        31900,
+        13
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
+      ],
+      "exception": false
+    },
+    {
+      "id": "kazordoon-dwacatra",
+      "city": "Kazordoon",
+      "xyz": [
+        32623,
+        31914,
+        14
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "preparation"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dwacatra"
+      ],
+      "exception": false
+    },
+    {
+      "id": "kazordoon-dragon-surface",
+      "city": "Kazordoon",
+      "xyz": [
+        32650,
+        31901,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Kazordoon)"
+      ],
+      "exception": false
+    },
+    {
+      "id": "kazordoon-femor-goblins",
+      "city": "Kazordoon",
+      "xyz": [
+        32568,
+        31768,
+        6
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Femor_Hills"
+      ],
+      "exception": false
+    },
+    {
+      "id": "kazordoon-femor-hunter",
+      "city": "Kazordoon",
+      "xyz": [
+        32598,
+        31805,
+        4
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Femor_Hills"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-temple-rotworms",
+      "city": "Thais",
+      "xyz": [
+        32354,
+        32151,
+        11
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ancient_Temple"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-temple-orcs",
+      "city": "Thais",
+      "xyz": [
+        32370,
+        32215,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ancient_Temple"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-mintwallin-minotaurs",
+      "city": "Thais",
+      "xyz": [
+        32416,
+        32128,
+        15
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Mintwallin"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-mintwallin-guards",
+      "city": "Thais",
+      "xyz": [
+        32420,
+        32147,
+        15
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Mintwallin"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-mintwallin-mages",
+      "city": "Thais",
+      "xyz": [
+        32462,
+        32145,
+        15
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Mintwallin"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-fibula-rotworms",
+      "city": "Thais",
+      "xyz": [
+        32166,
+        32426,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Fibula_Dungeon"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-fibula-beholders",
+      "city": "Thais",
+      "xyz": [
+        32174,
+        32457,
+        10
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Fibula_Dungeon"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-deeper-fibula-dragons",
+      "city": "Thais",
+      "xyz": [
+        32237,
+        32477,
+        10
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "access",
+        "preparation",
+        "rotation",
+        "danger",
+        "sources",
+        "accessLevel",
+        "exitAdvice"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Fibula)",
+        "https://www.tibiawiki.com.br/wiki/Deeper_Fibula_Quest",
+        "https://www.tibiawiki.com.br/wiki/Key_3980"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-deeper-fibula-dragon-lords",
+      "city": "Thais",
+      "xyz": [
+        32236,
+        32493,
+        10
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "access",
+        "preparation",
+        "rotation",
+        "danger",
+        "sources",
+        "accessLevel",
+        "exitAdvice"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Fibula)",
+        "https://www.tibiawiki.com.br/wiki/Deeper_Fibula_Quest",
+        "https://www.tibiawiki.com.br/wiki/Key_3980"
+      ],
+      "exception": false
+    },
+    {
+      "id": "venore-swamp-trolls",
+      "city": "Venore",
+      "xyz": [
+        32938,
+        32219,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Venore_Swamp_Troll_Den"
+      ],
+      "exception": false
+    },
+    {
+      "id": "venore-rotworms",
+      "city": "Venore",
+      "xyz": [
+        32986,
+        32118,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Marshland"
+      ],
+      "exception": false
+    },
+    {
+      "id": "venore-shadowthorn-elves",
+      "city": "Venore",
+      "xyz": [
+        33091,
+        32164,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Shadowthorn"
+      ],
+      "exception": false
+    },
+    {
+      "id": "venore-shadowthorn-scouts",
+      "city": "Venore",
+      "xyz": [
+        33097,
+        32168,
+        6
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Shadowthorn"
+      ],
+      "exception": false
+    },
+    {
+      "id": "venore-shadowthorn-arcanists",
+      "city": "Venore",
+      "xyz": [
+        33036,
+        32178,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Shadowthorn"
+      ],
+      "exception": false
+    },
+    {
+      "id": "venore-black-knight",
+      "city": "Venore",
+      "xyz": [
+        32874,
+        31948,
+        11
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "preparation",
+        "sources",
+        "introducedVersion",
+        "accessLevel"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Black_Knight_Villa",
+        "https://www.tibiawiki.com.br/wiki/Black_Knight_Quest"
+      ],
+      "exception": false
+    },
+    {
+      "id": "venore-dragon-lords",
+      "city": "Venore",
+      "xyz": [
+        32788,
+        32141,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "preparation"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Venore_Dragon_Lair"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-cyclops-south",
+      "city": "Thais",
+      "xyz": [
+        32415,
+        32376,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Cyclops_Camp"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-minotaur-camp",
+      "city": "Thais",
+      "xyz": [
+        32305,
+        32405,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Minotaur_Camp"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-white-flower-ghouls",
+      "city": "Thais",
+      "xyz": [
+        32327,
+        32393,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk",
+        "accessLevel"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/White_Flower_Temple"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-white-flower-banshee",
+      "city": "Thais",
+      "xyz": [
+        32320,
+        32409,
+        10
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "danger",
+        "sources",
+        "accessLevel"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/White_Flower_Temple",
+        "https://www.tibiawiki.com.br/wiki/Banshee",
+        "https://github.com/Ethaan/mintwall/blob/main/server/data/monster/banshee.xml"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-dragon-lair",
+      "city": "Thais",
+      "xyz": [
+        32357,
+        32093,
+        10
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Thais)"
+      ],
+      "exception": false
+    },
+    {
+      "id": "thais-dragon-lords",
+      "city": "Thais",
+      "xyz": [
+        32354,
+        32095,
+        10
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Thais)"
+      ],
+      "exception": false
+    },
+    {
+      "id": "venore-poh-cyclops",
+      "city": "Venore",
+      "xyz": [
+        32779,
+        32254,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Plains_of_Havoc"
+      ],
+      "exception": false
+    },
+    {
+      "id": "venore-poh-minotaurs",
+      "city": "Venore",
+      "xyz": [
+        32789,
+        32228,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Plains_of_Havoc"
+      ],
+      "exception": false
+    },
+    {
+      "id": "venore-poh-dragons",
+      "city": "Venore",
+      "xyz": [
+        32773,
+        32268,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Plains_of_Havoc)"
+      ],
+      "exception": false
+    },
+    {
+      "id": "venore-poh-dragon-lords",
+      "city": "Venore",
+      "xyz": [
+        32776,
+        32286,
+        10
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Plains_of_Havoc)"
+      ],
+      "exception": false
+    },
+    {
+      "id": "venore-dark-cathedral",
+      "city": "Venore",
+      "xyz": [
+        32663,
+        32343,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": false,
+      "markerCount": 0,
+      "renderedFloorPixelsChecked": false,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Dark_Cathedral"
+      ],
+      "exception": true
+    },
+    {
+      "id": "abdendriel-trolls",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32636,
+        31635,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Underground"
+      ],
+      "exception": false
+    },
+    {
+      "id": "abdendriel-rotworms",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32652,
+        31636,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Underground"
+      ],
+      "exception": false
+    },
+    {
+      "id": "abdendriel-elf-cave-elves",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32627,
+        31625,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Elf_Cave"
+      ],
+      "exception": false
+    },
+    {
+      "id": "abdendriel-elf-cave-scouts",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32629,
+        31626,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Elf_Cave"
+      ],
+      "exception": false
+    },
+    {
+      "id": "abdendriel-elf-cave-arcanists",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32654,
+        31611,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Elf_Cave"
+      ],
+      "exception": false
+    },
+    {
+      "id": "abdendriel-elvenbane-minotaurs",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32584,
+        31641,
+        8
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Elvenbane"
+      ],
+      "exception": false
+    },
+    {
+      "id": "abdendriel-elvenbane-orcs",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32582,
+        31639,
+        7
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "risk"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Elvenbane"
+      ],
+      "exception": false
+    },
+    {
+      "id": "abdendriel-elvenbane-dragon",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32591,
+        31645,
+        5
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Elvenbane"
+      ],
+      "exception": false
+    },
+    {
+      "id": "abdendriel-elvenbane-demon-skeleton",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32590,
+        31643,
+        3
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Elvenbane"
+      ],
+      "exception": false
+    },
+    {
+      "id": "abdendriel-hellgate-ghouls",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32713,
+        31570,
+        11
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "exitAdvice"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Hellgate",
+        "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+      ],
+      "exception": false
+    },
+    {
+      "id": "abdendriel-hellgate-demon-skeletons",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32755,
+        31580,
+        11
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "exitAdvice"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Hellgate",
+        "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+      ],
+      "exception": false
+    },
+    {
+      "id": "abdendriel-hellgate-beholders",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32767,
+        31613,
+        14
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "exitAdvice"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Hellgate",
+        "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+      ],
+      "exception": false
+    },
+    {
+      "id": "abdendriel-draconia-demon-skeletons",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32798,
+        31581,
+        4
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "exitAdvice"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Draconia",
+        "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+      ],
+      "exception": false
+    },
+    {
+      "id": "abdendriel-draconia-dragons",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32775,
+        31589,
+        9
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "exitAdvice"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Draconia",
+        "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+      ],
+      "exception": false
+    },
+    {
+      "id": "abdendriel-draconia-dragon-lord",
+      "city": "Ab'Dendriel",
+      "xyz": [
+        32797,
+        31558,
+        3
+      ],
+      "primaryAndSecondaryMarkersMatchClassicBase": true,
+      "markerCount": 1,
+      "renderedFloorPixelsChecked": true,
+      "walkingRouteValidated": false,
+      "changedFields": [
+        "exitAdvice"
+      ],
+      "sources": [
+        "https://www.tibiawiki.com.br/wiki/Draconia",
+        "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
+      ],
+      "exception": false
+    }
+  ]
+}

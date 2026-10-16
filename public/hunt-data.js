@@ -35,7 +35,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Thais_Trolls%27_Cave"
     ],
-    "reviewedAt": "2026-10-05"
+    "reviewedAt": "2026-10-05",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "rotworm-carlin",
@@ -64,18 +65,18 @@ window.CLASSIC_HUNTS = [
       "Cura de emergência e espaço na mochila"
     ],
     "rotation": [
-      "Escolha duas salas próximas no mesmo andar.",
+      "Reconheça os poucos respawns do setor; esta área pequena pode exigir espera.",
       "Limpe o corredor entre elas antes de ampliar a volta.",
       "Retorne pelo corredor limpo quando estiver sem recursos."
     ],
     "danger": "Baixo risco relativo não significa seguro para um personagem sem skills ou cura.",
     "tip": "Evite carregar equipamentos pesados de baixo valor quando isso reduzir suas reservas.",
     "sources": [
-      "https://www.tibia-wiki.net/wiki/Rotworms_Cave",
-      "https://www.tibiawiki.com.br/index.php?stableid=140281&title=Kazordoon_Corym_Dungeons"
+      "https://www.tibia-wiki.net/wiki/Rotworms_Cave"
     ],
-    "reviewedAt": "2026-10-14",
-    "classicScope": "Somente os Rotworms existentes na base clássica 7.4 sob Carlin. As expansões de Coryms descritas nas fontes modernas não fazem parte deste guia."
+    "reviewedAt": "2026-10-16",
+    "classicScope": "Rotworms sob Carlin, presentes na base comunitária 7.4 usada pelo atlas. A referência externa descreve uma área pequena nos canais; não inclui minas de Kazordoon nem expansões de Coryms.",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "amazon-venore",
@@ -113,7 +114,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Venore_Amazon_Camp"
     ],
-    "reviewedAt": "2026-10-05"
+    "reviewedAt": "2026-10-05",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "dwarf-mines",
@@ -151,7 +153,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
     ],
-    "reviewedAt": "2026-10-05"
+    "reviewedAt": "2026-10-05",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "dwarf-guards",
@@ -187,7 +190,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Dwarf_Guard"
     ],
-    "reviewedAt": "2026-10-05"
+    "reviewedAt": "2026-10-05",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "cyclops-sternum",
@@ -226,7 +230,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Mount_Sternum"
     ],
     "reviewedAt": "2026-10-15",
-    "classicScope": "Somente os Cyclops e o setor presentes na base 7.4. A expansão de Mount Sternum de 8.1, Cyclops Drones, Cyclops Smiths e a nova Undead Cave ficam fora do guia."
+    "classicScope": "Somente os Cyclops e o setor presentes na base 7.4. A expansão de Mount Sternum de 8.1, Cyclops Drones, Cyclops Smiths e a nova Undead Cave ficam fora do guia.",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "minotaur-darashia",
@@ -240,7 +245,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 15,
     "premium": true,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Economia",
     "vocations": [
       "Knight",
@@ -265,7 +270,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Daramian_Minotaur_Pyramid"
     ],
     "reviewedAt": "2026-10-14",
-    "classicScope": "Pirâmide clássica de Darashia no Tibia 7.4. Referência no térreo (z=7), sem incluir o circuito subterrâneo."
+    "classicScope": "Pirâmide clássica de Darashia no Tibia 7.4. Referência no térreo (z=7), sem incluir o circuito subterrâneo.",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "larva-darama",
@@ -303,7 +309,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Daramian_Scarab_Caves"
     ],
-    "reviewedAt": "2026-10-05"
+    "reviewedAt": "2026-10-05",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "scarab-darama",
@@ -339,7 +346,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Daramian_Scarab_Caves"
     ],
-    "reviewedAt": "2026-10-05"
+    "reviewedAt": "2026-10-05",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "ancient-scarab",
@@ -376,7 +384,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Ancient_Scarab"
     ],
-    "reviewedAt": "2026-10-05"
+    "reviewedAt": "2026-10-05",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "dragon-venore",
@@ -402,7 +411,8 @@ window.CLASSIC_HUNTS = [
     "preparation": [
       "Cura e mana de reserva",
       "Runas ou munição para o combate",
-      "Rope e conhecimento da saída"
+      "Rope e conhecimento da saída",
+      "Machete para cortar Jungle Grass no acesso ao covil"
     ],
     "rotation": [
       "Limpe o acesso sem avançar pelo centro dos grupos.",
@@ -414,7 +424,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Venore_Dragon_Lair"
     ],
-    "reviewedAt": "2026-10-05"
+    "reviewedAt": "2026-10-16",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "necromancer-drefia",
@@ -451,7 +462,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Drefia"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "hero-edron",
@@ -489,7 +501,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Edron_Northern_Ruins"
     ],
     "reviewedAt": "2026-10-05",
-    "classicScope": "Hero Cave clássica das Northern Ruins, presente em 7.4. Não é a Hero Fortress reformulada posteriormente."
+    "classicScope": "Hero Cave clássica das Northern Ruins, presente em 7.4. Não é a Hero Fortress reformulada posteriormente.",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "giant-spider-poh",
@@ -526,7 +539,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Plains_of_Havoc"
     ],
-    "reviewedAt": "2026-10-05"
+    "reviewedAt": "2026-10-05",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "ankrahmun-peninsula-tomb",
@@ -553,14 +567,15 @@ window.CLASSIC_HUNTS = [
       "Shovel, Rope e iluminação",
       "Runas de cura e mana fluids de reserva",
       "Arma, munição ou runas adequadas às imunidades; recursos para voltar",
-      "Scarab Coins para os teleportes de acesso aos setores profundos; confirme o mecanismo no seu servidor"
+      "Scarab Coins para os teleportes de acesso aos setores profundos; confirme o mecanismo no seu servidor",
+      "Runas com dano não físico para Ghosts; não dependa apenas de arma ou munição física"
     ],
     "rotation": [
       "Escolha uma sala de combate e atraia poucos Vampires por vez.",
       "Percorra uma ala e retorne pelo caminho já limpo.",
       "Não atravesse o teleporte ou desça para ampliar a volta sem revisar o próximo trecho."
     ],
-    "danger": "Vampires e Stalkers podem aproximar o combate sem deixar uma retirada livre. A sugestão de nível se refere ao alvo escolhido, não à limpeza de todo o andar: outras salas podem conter criaturas mais fortes.",
+    "danger": "Vampires e Stalkers podem aproximar o combate sem deixar uma retirada livre. A sugestão de nível se refere ao alvo escolhido, não à limpeza de todo o andar: outras salas podem conter criaturas mais fortes. Há Ghosts registrados perto do marcador no mesmo andar; são imunes a dano físico na base clássica. Proximidade não confirma ligação entre salas.",
     "tip": "O nível sugerido vale apenas para o trecho de referência, não para a tumba inteira. Confira as imunidades antes de escolher runas. Teleportes podem exigir Scarab Coin; não atravesse sem preparar o outro lado.",
     "introducedVersion": "7.3",
     "classicScope": "Área documentada desde 7.3 e presente em 7.4. Esta ficha usa somente criaturas e loot da base clássica do site. Não inclui chefes nem circuitos de versões posteriores.",
@@ -569,7 +584,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-16",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "ankrahmun-tarpit-tomb",
@@ -612,7 +628,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "ankrahmun-stone-tomb",
@@ -655,7 +672,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "ankrahmun-shadow-tomb",
@@ -698,7 +716,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "ankrahmun-mountain-tomb",
@@ -725,14 +744,15 @@ window.CLASSIC_HUNTS = [
       "Shovel, Rope e iluminação",
       "Runas de cura e mana fluids de reserva",
       "Arma, munição ou runas adequadas às imunidades; recursos para voltar",
-      "Scarab Coins para os teleportes de acesso aos setores profundos; confirme o mecanismo no seu servidor"
+      "Scarab Coins para os teleportes de acesso aos setores profundos; confirme o mecanismo no seu servidor",
+      "Runas com dano não físico para Ghosts; não dependa apenas de arma ou munição física"
     ],
     "rotation": [
       "Comece com uma sala pequena próxima do caminho de retorno.",
       "Atraia os Vampires para um espaço conhecido e preserve a passagem.",
       "Retorne sem descer para as salas de quest; a preparação é para o trecho marcado."
     ],
-    "danger": "Vampires, Stalkers e salas mais profundas podem transformar uma luta isolada em cerco. A sugestão de nível se refere ao alvo escolhido, não à limpeza de todo o andar: outras salas podem conter criaturas mais fortes.",
+    "danger": "Vampires, Stalkers e salas mais profundas podem transformar uma luta isolada em cerco. A sugestão de nível se refere ao alvo escolhido, não à limpeza de todo o andar: outras salas podem conter criaturas mais fortes. Há Ghosts registrados perto do marcador no mesmo andar; são imunes a dano físico na base clássica. Proximidade não confirma ligação entre salas.",
     "tip": "O nível sugerido vale apenas para o trecho de referência, não para a tumba inteira. Confira as imunidades antes de escolher runas. Teleportes podem exigir Scarab Coin; não atravesse sem preparar o outro lado.",
     "introducedVersion": "7.3",
     "classicScope": "Área documentada desde 7.3 e presente em 7.4. Esta ficha usa somente criaturas e loot da base clássica do site. Não inclui chefes nem circuitos de versões posteriores.",
@@ -741,7 +761,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-16",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "ankrahmun-oasis-tomb",
@@ -768,14 +789,15 @@ window.CLASSIC_HUNTS = [
       "Shovel, Rope e iluminação",
       "Runas de cura e mana fluids de reserva",
       "Arma, munição ou runas adequadas às imunidades; recursos para voltar",
-      "Scarab Coins para os teleportes de acesso aos setores profundos; confirme o mecanismo no seu servidor"
+      "Scarab Coins para os teleportes de acesso aos setores profundos; confirme o mecanismo no seu servidor",
+      "Runas com dano não físico para Ghosts; não dependa apenas de arma ou munição física"
     ],
     "rotation": [
       "Confira os arredores da passagem antes de atrair Vampires.",
       "Repita uma ala curta com o retorno já limpo.",
       "Não avance para teleporte, salas de desafios ou outro andar durante a mesma volta sem rever os riscos."
     ],
-    "danger": "Vampires e Ghosts exigem atenção às imunidades e ao espaço de fuga. Andares inferiores não fazem parte desta sugestão. A sugestão de nível se refere ao alvo escolhido, não à limpeza de todo o andar: outras salas podem conter criaturas mais fortes.",
+    "danger": "Vampires e Ghosts exigem atenção às imunidades e ao espaço de fuga. Andares inferiores não fazem parte desta sugestão. A sugestão de nível se refere ao alvo escolhido, não à limpeza de todo o andar: outras salas podem conter criaturas mais fortes. Há Ghosts registrados perto do marcador no mesmo andar; são imunes a dano físico na base clássica. Proximidade não confirma ligação entre salas.",
     "tip": "O nível sugerido vale apenas para o trecho de referência, não para a tumba inteira. Confira as imunidades antes de escolher runas. Teleportes podem exigir Scarab Coin; não atravesse sem preparar o outro lado.",
     "introducedVersion": "7.3",
     "classicScope": "Área documentada desde 7.3 e presente em 7.4. Esta ficha usa somente criaturas e loot da base clássica do site. Não inclui chefes nem circuitos de versões posteriores.",
@@ -784,7 +806,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-16",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "ankrahmun-ancient-ruins-tomb",
@@ -827,7 +850,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest",
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "ankrahmun-library-tomb",
@@ -853,14 +877,16 @@ window.CLASSIC_HUNTS = [
     "preparation": [
       "Shovel, Rope e iluminação",
       "Runas de cura e mana fluids de reserva",
-      "Arma, munição ou runas adequadas às imunidades; recursos para voltar"
+      "Arma, munição ou runas adequadas às imunidades; recursos para voltar",
+      "Runas com dano não físico para Ghosts; não dependa apenas de arma ou munição física",
+      "Scarab Coins se decidir atravessar os teleportes dos setores mais profundos; o guia não conduz à sala de Ashmunrah"
     ],
     "rotation": [
       "Prepare uma sala de retirada perto da passagem do andar.",
       "Caçe as Mummies do trecho sem abrir vários corredores simultaneamente.",
       "Retorne pelo mesmo acesso; a sugestão não inclui Ancient Scarabs nem a sala do faraó."
     ],
-    "danger": "O acesso urbano não torna a tumba segura. Os andares mais profundos incluem criaturas muito mais perigosas. O marcador indica um setor de Mummies; a sugestão de nível não se aplica à tumba inteira nem à sala de Ashmunrah.",
+    "danger": "O acesso urbano não torna a tumba segura. Os andares mais profundos incluem criaturas muito mais perigosas. O marcador indica um setor de Mummies; a sugestão de nível não se aplica à tumba inteira nem à sala de Ashmunrah. Há Ghosts registrados perto do marcador no mesmo andar; são imunes a dano físico na base clássica. Proximidade não confirma ligação entre salas.",
     "tip": "O nível sugerido vale apenas para o trecho de referência, não para a tumba inteira. Confira as imunidades antes de escolher runas. Teleportes podem exigir Scarab Coin; não atravesse sem preparar o outro lado.",
     "introducedVersion": "7.3",
     "classicScope": "Área documentada desde 7.3 e presente em 7.4. Esta ficha usa somente criaturas e loot da base clássica do site. Não inclui chefes nem circuitos de versões posteriores.",
@@ -868,7 +894,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Ankrahmun_Pharaoh_Tombs_(Library)",
       "https://www.tibiawiki.com.br/wiki/The_Ancient_Tombs_Quest"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-16",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "ankrahmun-dragons-south",
@@ -908,7 +935,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Ankrahmun)"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "ankrahmun-dragons-middle",
@@ -948,7 +976,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Ankrahmun)"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "ankrahmun-dragons-north",
@@ -988,7 +1017,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Ankrahmun)"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "carlin-amazon",
@@ -1028,7 +1058,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Carlin_Amazon_Camp"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "carlin-graveyard",
@@ -1055,7 +1086,8 @@ window.CLASSIC_HUNTS = [
       "Rope e Shovel para as passagens subterrâneas",
       "Comida, luz e cura de reserva",
       "Arma ou munição adequada; reserve capacidade para o loot",
-      "Key 3520 para a entrada do cemitério"
+      "Key 3520 para a entrada do cemitério",
+      "Key 3520 para a entrada das cavernas do cemitério"
     ],
     "rotation": [
       "Comece pelas salas de Trolls próximas à passagem.",
@@ -1070,7 +1102,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Carlin_Graveyard",
       "https://www.tibiawiki.com.br/wiki/Key_3520"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-16",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "carlin-ghostlands-skeletons",
@@ -1110,7 +1143,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Ghostlands"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "carlin-ghostlands-ghouls",
@@ -1124,7 +1158,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 20,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Economia",
     "vocations": [
       "Knight",
@@ -1150,7 +1184,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Ghostlands"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "carlin-ghostlands-demon-skeletons",
@@ -1190,7 +1225,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Ghostlands"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "carlin-ghostlands-vampire",
@@ -1223,14 +1259,17 @@ window.CLASSIC_HUNTS = [
       "Após eliminar o alvo, volte pela área limpa; evite esperar cercado.",
       "Encerre a volta com cura suficiente para fazer o caminho de retorno."
     ],
-    "danger": "Vampire pode drenar vida e ficar invisível. É um respawn pequeno, não uma caverna inteira de Vampires.",
+    "danger": "Vampire pode drenar vida e paralisar; sua transformação em morcego não é invisibilidade. Evite o cerco e reserve cura para a retirada. Este é um respawn pontual, com espera entre encontros.",
     "tip": "Magos: confira as imunidades antes de escolher runas. Paladins: mantenham espaço de recuo. Knights: evitem vários inimigos ao redor.",
     "introducedVersion": "6.2",
     "classicScope": "Área presente no Tibia 7.4. Este guia usa somente os respawns e o loot da base clássica; expansões posteriores não fazem parte da recomendação.",
     "sources": [
-      "https://www.tibiawiki.com.br/wiki/Ghostlands"
+      "https://www.tibiawiki.com.br/wiki/Ghostlands",
+      "https://www.tibiawiki.com.br/wiki/Vampire",
+      "https://github.com/Ethaan/mintwall/blob/main/server/data/monster/vampire.xml"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-16",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "carlin-folda-frost-trolls",
@@ -1270,7 +1309,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Folda"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "carlin-folda-rotworms",
@@ -1310,7 +1350,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Folda"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "carlin-folda-minotaurs",
@@ -1324,7 +1365,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 25,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Equilíbrio",
     "vocations": [
       "Knight",
@@ -1350,7 +1391,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Folda"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "carlin-senja-frost-trolls",
@@ -1390,7 +1432,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Senja"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "carlin-vega-rotworms",
@@ -1430,7 +1473,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Vega"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "carlin-isle-kings-skeletons",
@@ -1456,7 +1500,8 @@ window.CLASSIC_HUNTS = [
     "preparation": [
       "Rope e Shovel para as passagens subterrâneas",
       "Comida, luz e cura de reserva",
-      "Arma ou munição adequada; reserve capacidade para o loot"
+      "Arma ou munição adequada; reserve capacidade para o loot",
+      "Acesso de Dalbrect liberado com Family Brooch e permissão de Costello para as catacumbas"
     ],
     "rotation": [
       "Mantenha a caça nas salas superiores de Skeletons.",
@@ -1471,7 +1516,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Isle_of_the_Kings",
       "https://www.tibiawiki.com.br/wiki/The_White_Raven_Monastery_Quest"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-16",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "darashia-rotworms",
@@ -1510,7 +1556,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Daramian_Rotworm_Caves"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "darashia-minotaur-guards",
@@ -1524,7 +1571,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 30,
     "premium": true,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Equilíbrio",
     "vocations": [
       "Knight",
@@ -1549,7 +1596,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Minotaur_Pyramid"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "darashia-minotaur-mages",
@@ -1588,7 +1636,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Minotaur_Pyramid"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "drefia-ghouls",
@@ -1602,7 +1651,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 20,
     "premium": true,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Economia",
     "vocations": [
       "Knight",
@@ -1627,7 +1676,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Drefia"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "drefia-demon-skeletons",
@@ -1666,7 +1716,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Drefia"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "drefia-vampires",
@@ -1699,13 +1750,16 @@ window.CLASSIC_HUNTS = [
       "Repita um trecho pequeno, voltando para a área limpa após cada combate.",
       "Interrompa a volta antes de consumir os suprimentos reservados para o retorno."
     ],
-    "danger": "Dreno de vida e invisibilidade tornam perigoso permanecer cercado.",
+    "danger": "Vampire pode drenar vida e paralisar; sua transformação em morcego não é invisibilidade. Evite o cerco e reserve cura para a retirada.",
     "tip": "O loot mostrado vem da base clássica. Confira a vocação, as imunidades e os pontos de venda antes de planejar a caça.",
     "classicScope": "Área e respawn presentes na base do Tibia 7.4. Expansões, criaturas e itens posteriores não fazem parte desta recomendação.",
     "sources": [
-      "https://www.tibiawiki.com.br/wiki/Drefia"
+      "https://www.tibiawiki.com.br/wiki/Drefia",
+      "https://www.tibiawiki.com.br/wiki/Vampire",
+      "https://github.com/Ethaan/mintwall/blob/main/server/data/monster/vampire.xml"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-16",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "drefia-beholders",
@@ -1719,7 +1773,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 35,
     "premium": true,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Equilíbrio",
     "vocations": [
       "Knight",
@@ -1744,7 +1798,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Drefia"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "edron-trolls",
@@ -1784,7 +1839,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Edron_Troll_Den"
     ],
     "reviewedAt": "2026-10-14",
-    "introducedVersion": "6.4"
+    "introducedVersion": "6.4",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "edron-goblins",
@@ -1824,7 +1880,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Edron_Goblin_Den"
     ],
     "reviewedAt": "2026-10-14",
-    "introducedVersion": "6.4"
+    "introducedVersion": "6.4",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "edron-rotworms",
@@ -1864,7 +1921,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Edron_Rotworm_Caves"
     ],
     "reviewedAt": "2026-10-14",
-    "introducedVersion": "6.4"
+    "introducedVersion": "6.4",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "edron-orcs",
@@ -1878,7 +1936,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 25,
     "premium": true,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Equilíbrio",
     "vocations": [
       "Knight",
@@ -1886,7 +1944,7 @@ window.CLASSIC_HUNTS = [
       "Druid",
       "Sorcerer"
     ],
-    "access": "Terras dos Orcs a sudoeste de Edron, na superfície clássica. O mapa abre no respawn de referência, não na entrada.",
+    "access": "Península a sudoeste de Edron, acessível pela passagem no porão dos apartamentos ao sul do castelo. Leve Shovel para reabrir a passagem de retorno. O marcador está na superfície clássica dos Orcs, não na entrada do túnel.",
     "preparation": [
       "Rope, Shovel e fonte de luz",
       "Comida e cura de reserva para o retorno",
@@ -1903,8 +1961,9 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Edron_Orc_Lands"
     ],
-    "reviewedAt": "2026-10-14",
-    "introducedVersion": "6.4"
+    "reviewedAt": "2026-10-16",
+    "introducedVersion": "6.4",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "edron-cyclopolis",
@@ -1918,7 +1977,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 25,
     "premium": true,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Equilíbrio",
     "vocations": [
       "Knight",
@@ -1944,7 +2003,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Cyclopolis"
     ],
     "reviewedAt": "2026-10-14",
-    "introducedVersion": "6.4"
+    "introducedVersion": "6.4",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "edron-behemoths",
@@ -1984,7 +2044,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Cyclopolis"
     ],
     "reviewedAt": "2026-10-14",
-    "introducedVersion": "6.4"
+    "introducedVersion": "6.4",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "edron-dragons",
@@ -2024,7 +2085,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Edron_Dragon_Lair"
     ],
     "reviewedAt": "2026-10-14",
-    "introducedVersion": "6.4"
+    "introducedVersion": "6.4",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "edron-dragon-lords",
@@ -2064,11 +2126,12 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Edron_Dragon_Lair"
     ],
     "reviewedAt": "2026-10-14",
-    "introducedVersion": "6.4"
+    "introducedVersion": "6.4",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "edron-ghoul-hill",
-    "name": "Ghouls de Ghoul Hill",
+    "name": "Ghoul Hill — setor superior",
     "city": "Edron",
     "mob": "ghoul",
     "xyz": [
@@ -2076,9 +2139,9 @@ window.CLASSIC_HUNTS = [
       31678,
       4
     ],
-    "level": 20,
+    "level": 35,
     "premium": true,
-    "risk": "Médio",
+    "risk": "Alto",
     "goal": "Economia",
     "vocations": [
       "Knight",
@@ -2086,25 +2149,27 @@ window.CLASSIC_HUNTS = [
       "Druid",
       "Sorcerer"
     ],
-    "access": "Colina ao norte de Edron, com referência no andar acima da superfície. O mapa abre no respawn de referência, não na entrada.",
+    "access": "Setor superior de Ghoul Hill, ao norte de Edron, no andar +3 (z=4). O marcador fica junto de Ghouls e de um Demon Skeleton da base clássica; não representa os andares iniciais da colina.",
     "preparation": [
       "Rope, Shovel e fonte de luz",
       "Comida e cura de reserva para o retorno",
-      "Arma ou munição adequada; capacidade livre para o loot"
+      "Arma ou munição adequada; capacidade livre para o loot",
+      "Recursos contra Demon Skeleton: fogo e veneno não funcionam na base clássica; prepare cura para os Hunters do acesso"
     ],
     "rotation": [
       "Limpe a área da escada antes de avançar pela colina.",
       "Faça uma volta curta no mesmo andar e evite juntar os grupos.",
       "Interrompa a volta antes de consumir os suprimentos reservados para o retorno."
     ],
-    "danger": "As escadas da colina limitam o recuo e Ghouls drenam vida.",
-    "tip": "O loot mostrado vem da base clássica. Confira a vocação, as imunidades e os pontos de venda antes de planejar a caça.",
+    "danger": "Há um Demon Skeleton a poucos quadrados do marcador no mesmo andar. Hunters também tornam o acesso perigoso. Prepare o combate contra essas criaturas, não apenas contra Ghouls.",
+    "tip": "Sugestão editorial elevada para considerar os perigos do setor marcado. Não use este guia como recomendação de Ghouls isolados para level 20.",
     "classicScope": "Área e respawn presentes na base do Tibia 7.4. Expansões, criaturas e itens posteriores não fazem parte desta recomendação.",
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Ghoul_Hill"
     ],
-    "reviewedAt": "2026-10-14",
-    "introducedVersion": "6.4"
+    "reviewedAt": "2026-10-16",
+    "introducedVersion": "6.4",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "kazordoon-dwarf-soldiers",
@@ -2118,7 +2183,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 25,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Economia",
     "vocations": [
       "Knight",
@@ -2143,7 +2208,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "kazordoon-dwarf-geomancers",
@@ -2182,7 +2248,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "kazordoon-rotworms",
@@ -2221,7 +2288,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "kazordoon-slimes",
@@ -2260,7 +2328,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Kazordoon_Dwarf_Mines"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "kazordoon-dwacatra",
@@ -2286,7 +2355,8 @@ window.CLASSIC_HUNTS = [
     "preparation": [
       "Rope, Shovel e fonte de luz",
       "Comida e cura reservada para o caminho de retorno",
-      "Arma, munição ou runas adequadas ao alvo e aos inimigos do caminho"
+      "Arma, munição ou runas adequadas ao alvo e aos inimigos do caminho",
+      "Key 3802 para as portas da prisão"
     ],
     "rotation": [
       "Reconheça o retorno e limpe um trecho pequeno da prisão.",
@@ -2299,8 +2369,9 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Dwacatra"
     ],
-    "reviewedAt": "2026-10-14",
-    "introducedVersion": "6.1"
+    "reviewedAt": "2026-10-16",
+    "introducedVersion": "6.1",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "kazordoon-dragon-surface",
@@ -2340,7 +2411,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Kazordoon)"
     ],
     "reviewedAt": "2026-10-14",
-    "introducedVersion": "6.1"
+    "introducedVersion": "6.1",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "kazordoon-femor-goblins",
@@ -2379,7 +2451,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Femor_Hills"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "kazordoon-femor-hunter",
@@ -2418,7 +2491,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Femor_Hills"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "thais-temple-rotworms",
@@ -2457,7 +2531,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Ancient_Temple"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "thais-temple-orcs",
@@ -2496,7 +2571,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Ancient_Temple"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "thais-mintwallin-minotaurs",
@@ -2510,7 +2586,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 25,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Equilíbrio",
     "vocations": [
       "Knight",
@@ -2535,7 +2611,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Mintwallin"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "thais-mintwallin-guards",
@@ -2574,7 +2651,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Mintwallin"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "thais-mintwallin-mages",
@@ -2613,7 +2691,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Mintwallin"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "thais-fibula-rotworms",
@@ -2652,7 +2731,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Fibula_Dungeon"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "thais-fibula-beholders",
@@ -2691,7 +2771,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Fibula_Dungeon"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "thais-deeper-fibula-dragons",
@@ -2713,25 +2794,29 @@ window.CLASSIC_HUNTS = [
       "Druid",
       "Sorcerer"
     ],
-    "access": "Covil de Deeper Fibula, no subsolo -3. O acesso passa pela dungeon e exige nível 50 e as chaves 3940 e 3980; leve as chaves para poder retornar. O mapa abre no respawn indicado, não no acesso desde a cidade.",
+    "access": "Deeper Fibula, no subsolo -3. A Key 3940 abre a dungeon; depois da porta de nível 50, o teleporte não permite voltar pelo mesmo caminho. A Key 3980 é obtida no buraco do setor de Minotaur Mages e abre a porta interna em direção aos dragões. O mapa aponta o respawn, não a entrada. Se já coletou a Key 3980 anteriormente, leve-a: não presuma que poderá retirá-la novamente.",
     "preparation": [
-      "Rope, Shovel e fonte de luz",
-      "Comida e cura reservada para o retorno",
-      "Confira as chaves e o acesso da dungeon antes de viajar"
+      "Key 3940 para a dungeon; Key 3980 para a porta interna. Se já retirou a 3980 na quest, leve sua chave antes de entrar",
+      "Destroy Field Runes para os campos no caminho",
+      "Rope, Shovel, luz e reservas de cura e mana para toda a travessia"
     ],
     "rotation": [
-      "Reconheça o retorno e prepare a equipe antes de atrair Dragons.",
+      "Planeje a travessia completa antes do teleporte de entrada; confira a porta de nível 50 e as chaves.",
       "Fique na diagonal do alvo e use a área limpa para recuar, sem avançar para os Dragon Lords.",
       "Interrompa a caça antes de consumir os suprimentos necessários para o retorno."
     ],
-    "danger": "Dragons aparecem em grupos e há Dragon Lords em outros setores. Ondas de fogo e recuo bloqueado são os principais riscos.",
+    "danger": "Dragons e Dragon Lords podem atacar em grupo. O teleporte inicial é de mão única; a Key 3980 abre a porta interna, não funciona como uma chave de retorno. Prepare a travessia até a saída. Sem a Key 3980, a porta interna pode impedir o avanço até o teleporte de saída.",
     "tip": "Use o andar indicado e planeje pelo setor. O loot mostrado vem da base clássica 7.4; expansões e itens modernos não fazem parte da recomendação.",
     "classicScope": "Setor e respawn presentes na base do Tibia 7.4. As fontes atuais são usadas para localização; criaturas, expansões, itens e estratégias posteriores ficam fora do guia.",
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Fibula)",
-      "https://www.tibiawiki.com.br/wiki/Deeper_Fibula_Quest"
+      "https://www.tibiawiki.com.br/wiki/Deeper_Fibula_Quest",
+      "https://www.tibiawiki.com.br/wiki/Key_3980"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-16",
+    "mapReviewedAt": "2026-10-16",
+    "accessLevel": 50,
+    "exitAdvice": "Após o teleporte de entrada, não conte com voltar pelo mesmo caminho. A saída documentada fica no sudoeste da caverna final e leva de volta à dungeon. Reserve recursos para alcançar essa saída."
   },
   {
     "id": "thais-deeper-fibula-dragon-lords",
@@ -2753,25 +2838,29 @@ window.CLASSIC_HUNTS = [
       "Druid",
       "Sorcerer"
     ],
-    "access": "Setor de Dragon Lords em Deeper Fibula, no subsolo -3. O acesso exige nível 50 e as chaves 3940 e 3980; o nível sugerido para esta caça é maior. O mapa abre no respawn indicado, não no acesso desde a cidade.",
+    "access": "Deeper Fibula, no subsolo -3. A Key 3940 abre a dungeon; depois da porta de nível 50, o teleporte não permite voltar pelo mesmo caminho. A Key 3980 é obtida no buraco do setor de Minotaur Mages e abre a porta interna em direção aos dragões. O mapa aponta o respawn, não a entrada. Se já coletou a Key 3980 anteriormente, leve-a: não presuma que poderá retirá-la novamente.",
     "preparation": [
-      "Rope, Shovel e fonte de luz",
-      "Comida e cura reservada para o retorno",
-      "Confira as chaves e o acesso da dungeon antes de viajar"
+      "Key 3940 para a dungeon; Key 3980 para a porta interna. Se já retirou a 3980 na quest, leve sua chave antes de entrar",
+      "Destroy Field Runes para os campos no caminho",
+      "Rope, Shovel, luz e reservas de cura e mana para toda a travessia"
     ],
     "rotation": [
-      "Prepare a equipe e confirme que possui as duas chaves antes de entrar.",
+      "Planeje a travessia completa antes do teleporte de entrada; confira a porta de nível 50 e as chaves.",
       "Atraia o menor grupo possível e evite ficar alinhado à frente dos Dragon Lords.",
       "Interrompa a caça antes de consumir os suprimentos necessários para o retorno."
     ],
-    "danger": "Grupos de Dragon Lords causam dano muito alto. Entrar no teleport sem a chave de retorno pode deixar o personagem preso.",
+    "danger": "Dragons e Dragon Lords podem atacar em grupo. O teleporte inicial é de mão única; a Key 3980 abre a porta interna, não funciona como uma chave de retorno. Prepare a travessia até a saída. Sem a Key 3980, a porta interna pode impedir o avanço até o teleporte de saída.",
     "tip": "Use o andar indicado e planeje pelo setor. O loot mostrado vem da base clássica 7.4; expansões e itens modernos não fazem parte da recomendação.",
     "classicScope": "Setor e respawn presentes na base do Tibia 7.4. As fontes atuais são usadas para localização; criaturas, expansões, itens e estratégias posteriores ficam fora do guia.",
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Fibula)",
-      "https://www.tibiawiki.com.br/wiki/Deeper_Fibula_Quest"
+      "https://www.tibiawiki.com.br/wiki/Deeper_Fibula_Quest",
+      "https://www.tibiawiki.com.br/wiki/Key_3980"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-16",
+    "mapReviewedAt": "2026-10-16",
+    "accessLevel": 50,
+    "exitAdvice": "Após o teleporte de entrada, não conte com voltar pelo mesmo caminho. A saída documentada fica no sudoeste da caverna final e leva de volta à dungeon. Reserve recursos para alcançar essa saída."
   },
   {
     "id": "venore-swamp-trolls",
@@ -2810,7 +2899,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Venore_Swamp_Troll_Den"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "venore-rotworms",
@@ -2849,7 +2939,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Marshland"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "venore-shadowthorn-elves",
@@ -2863,7 +2954,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 20,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Economia",
     "vocations": [
       "Knight",
@@ -2888,7 +2979,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Shadowthorn"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "venore-shadowthorn-scouts",
@@ -2902,7 +2994,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 30,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Equilíbrio",
     "vocations": [
       "Knight",
@@ -2927,7 +3019,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Shadowthorn"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "venore-shadowthorn-arcanists",
@@ -2966,7 +3059,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Shadowthorn"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-14",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "venore-black-knight",
@@ -2992,7 +3086,8 @@ window.CLASSIC_HUNTS = [
     "preparation": [
       "Rope, Shovel e fonte de luz",
       "Comida e cura reservada para o retorno",
-      "Arma, munição ou runas adequadas aos inimigos do setor"
+      "Arma, munição ou runas adequadas aos inimigos do setor",
+      "Key 5010 e nível 50 para a porta de acesso; a sugestão de combate é 60+"
     ],
     "rotation": [
       "Reconheça a sala e deixe a passagem de retorno livre.",
@@ -3003,10 +3098,13 @@ window.CLASSIC_HUNTS = [
     "tip": "Use o andar indicado e planeje pelo setor. O loot mostrado vem da base clássica 7.4; expansões e itens modernos não fazem parte da recomendação.",
     "classicScope": "Setor e respawn presentes na base do Tibia 7.4. As fontes atuais são usadas para localização; criaturas, expansões, itens e estratégias posteriores ficam fora do guia.",
     "sources": [
-      "https://www.tibiawiki.com.br/wiki/Black_Knight_Villa"
+      "https://www.tibiawiki.com.br/wiki/Black_Knight_Villa",
+      "https://www.tibiawiki.com.br/wiki/Black_Knight_Quest"
     ],
-    "reviewedAt": "2026-10-14",
-    "introducedVersion": "6.2"
+    "reviewedAt": "2026-10-16",
+    "introducedVersion": "7.1",
+    "mapReviewedAt": "2026-10-16",
+    "accessLevel": 50
   },
   {
     "id": "venore-dragon-lords",
@@ -3032,7 +3130,8 @@ window.CLASSIC_HUNTS = [
     "preparation": [
       "Rope, Shovel e fonte de luz",
       "Comida e cura reservada para o retorno",
-      "Arma, munição ou runas adequadas aos inimigos do setor"
+      "Arma, munição ou runas adequadas aos inimigos do setor",
+      "Machete para cortar Jungle Grass no acesso ao covil"
     ],
     "rotation": [
       "Confira o retorno antes de abordar o primeiro Dragon Lord.",
@@ -3045,7 +3144,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Venore_Dragon_Lair"
     ],
-    "reviewedAt": "2026-10-14"
+    "reviewedAt": "2026-10-16",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "thais-cyclops-south",
@@ -3059,7 +3159,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 20,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Equilíbrio",
     "vocations": [
       "Knight",
@@ -3084,7 +3184,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Cyclops_Camp"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "thais-minotaur-camp",
@@ -3098,7 +3199,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 12,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Equilíbrio",
     "vocations": [
       "Knight",
@@ -3123,7 +3224,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Minotaur_Camp"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "thais-white-flower-ghouls",
@@ -3137,7 +3239,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 25,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Equilíbrio",
     "vocations": [
       "Knight",
@@ -3162,7 +3264,9 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/White_Flower_Temple"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16",
+    "accessLevel": 25
   },
   {
     "id": "thais-white-flower-banshee",
@@ -3195,13 +3299,17 @@ window.CLASSIC_HUNTS = [
       "Avance pela borda do setor, atraindo poucos inimigos e mantendo a retirada livre.",
       "Retorne pelo trecho já limpo antes de gastar a reserva de cura."
     ],
-    "danger": "Banshee é um encontro pontual de alto risco, com ataques mágicos e dreno de vida. Dano físico não resolve sua imunidade; confira as imunidades e leve runas adequadas.",
+    "danger": "Banshee causa dreno de vida e pode paralisar em uma sala pequena. Na base clássica usada pelo site, não é imune a dano físico; fogo, veneno e dreno de vida constam como imunidades. Não a confunda com Ghost.",
     "tip": "Nível sugerido não garante segurança. Respawns pequenos podem exigir espera; não prometemos XP/h nem lucro.",
     "classicScope": "Setor presente na base clássica 7.4. Expansões, criaturas e itens posteriores das fontes atuais ficam fora da recomendação.",
     "sources": [
-      "https://www.tibiawiki.com.br/wiki/White_Flower_Temple"
+      "https://www.tibiawiki.com.br/wiki/White_Flower_Temple",
+      "https://www.tibiawiki.com.br/wiki/Banshee",
+      "https://github.com/Ethaan/mintwall/blob/main/server/data/monster/banshee.xml"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-16",
+    "mapReviewedAt": "2026-10-16",
+    "accessLevel": 25
   },
   {
     "id": "thais-dragon-lair",
@@ -3240,7 +3348,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Thais)"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "thais-dragon-lords",
@@ -3279,7 +3388,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Thais)"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "venore-poh-cyclops",
@@ -3293,7 +3403,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 30,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Equilíbrio",
     "vocations": [
       "Knight",
@@ -3318,7 +3428,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Plains_of_Havoc"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "venore-poh-minotaurs",
@@ -3332,7 +3443,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 25,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Equilíbrio",
     "vocations": [
       "Knight",
@@ -3357,7 +3468,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Plains_of_Havoc"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "venore-poh-dragons",
@@ -3396,7 +3508,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Plains_of_Havoc)"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "venore-poh-dragon-lords",
@@ -3435,7 +3548,8 @@ window.CLASSIC_HUNTS = [
     "sources": [
       "https://www.tibiawiki.com.br/wiki/Dragon_Lair_(Plains_of_Havoc)"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "venore-dark-cathedral",
@@ -3477,7 +3591,8 @@ window.CLASSIC_HUNTS = [
     "reviewedAt": "2026-10-15",
     "introducedVersion": "7.5",
     "versionException": true,
-    "mapUnavailable": true
+    "mapUnavailable": true,
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "abdendriel-trolls",
@@ -3517,7 +3632,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Underground"
     ],
     "reviewedAt": "2026-10-15",
-    "introducedVersion": "6.2"
+    "introducedVersion": "6.2",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "abdendriel-rotworms",
@@ -3557,7 +3673,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Underground"
     ],
     "reviewedAt": "2026-10-15",
-    "introducedVersion": "6.2"
+    "introducedVersion": "6.2",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "abdendriel-elf-cave-elves",
@@ -3571,7 +3688,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 20,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Economia",
     "vocations": [
       "Knight",
@@ -3597,7 +3714,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Elf_Cave"
     ],
     "reviewedAt": "2026-10-15",
-    "introducedVersion": "6.2"
+    "introducedVersion": "6.2",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "abdendriel-elf-cave-scouts",
@@ -3611,7 +3729,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 25,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Economia",
     "vocations": [
       "Knight",
@@ -3637,7 +3755,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Elf_Cave"
     ],
     "reviewedAt": "2026-10-15",
-    "introducedVersion": "6.2"
+    "introducedVersion": "6.2",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "abdendriel-elf-cave-arcanists",
@@ -3677,7 +3796,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Ab'Dendriel_Elf_Cave"
     ],
     "reviewedAt": "2026-10-15",
-    "introducedVersion": "6.2"
+    "introducedVersion": "6.2",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "abdendriel-elvenbane-minotaurs",
@@ -3691,7 +3811,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 20,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Economia",
     "vocations": [
       "Knight",
@@ -3717,7 +3837,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Elvenbane"
     ],
     "reviewedAt": "2026-10-15",
-    "introducedVersion": "Pré-6.0"
+    "introducedVersion": "Pré-6.0",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "abdendriel-elvenbane-orcs",
@@ -3731,7 +3852,7 @@ window.CLASSIC_HUNTS = [
     ],
     "level": 25,
     "premium": false,
-    "risk": "Médio",
+    "risk": "Moderado",
     "goal": "Economia",
     "vocations": [
       "Knight",
@@ -3757,7 +3878,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Elvenbane"
     ],
     "reviewedAt": "2026-10-15",
-    "introducedVersion": "Pré-6.0"
+    "introducedVersion": "Pré-6.0",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "abdendriel-elvenbane-dragon",
@@ -3797,7 +3919,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Elvenbane"
     ],
     "reviewedAt": "2026-10-15",
-    "introducedVersion": "Pré-6.0"
+    "introducedVersion": "Pré-6.0",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "abdendriel-elvenbane-demon-skeleton",
@@ -3837,7 +3960,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Elvenbane"
     ],
     "reviewedAt": "2026-10-15",
-    "introducedVersion": "Pré-6.0"
+    "introducedVersion": "Pré-6.0",
+    "mapReviewedAt": "2026-10-16"
   },
   {
     "id": "abdendriel-hellgate-ghouls",
@@ -3877,7 +4001,9 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Hellgate",
       "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16",
+    "exitAdvice": "Hellgate exige planejar a saída pelo labirinto antes de entrar. Não conte com retornar pelo portal de entrada nem com atalhos de Draconia sem cumprir seus requisitos."
   },
   {
     "id": "abdendriel-hellgate-demon-skeletons",
@@ -3917,7 +4043,9 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Hellgate",
       "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16",
+    "exitAdvice": "Hellgate exige planejar a saída pelo labirinto antes de entrar. Não conte com retornar pelo portal de entrada nem com atalhos de Draconia sem cumprir seus requisitos."
   },
   {
     "id": "abdendriel-hellgate-beholders",
@@ -3957,7 +4085,9 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Hellgate",
       "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
     ],
-    "reviewedAt": "2026-10-15"
+    "reviewedAt": "2026-10-15",
+    "mapReviewedAt": "2026-10-16",
+    "exitAdvice": "Hellgate exige planejar a saída pelo labirinto antes de entrar. Não conte com retornar pelo portal de entrada nem com atalhos de Draconia sem cumprir seus requisitos."
   },
   {
     "id": "abdendriel-draconia-demon-skeletons",
@@ -3998,7 +4128,9 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
     ],
     "reviewedAt": "2026-10-15",
-    "introducedVersion": "6.2"
+    "introducedVersion": "6.2",
+    "mapReviewedAt": "2026-10-16",
+    "exitAdvice": "Hellgate exige planejar a saída pelo labirinto antes de entrar. Não conte com retornar pelo portal de entrada nem com atalhos de Draconia sem cumprir seus requisitos."
   },
   {
     "id": "abdendriel-draconia-dragons",
@@ -4039,7 +4171,9 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
     ],
     "reviewedAt": "2026-10-15",
-    "introducedVersion": "6.2"
+    "introducedVersion": "6.2",
+    "mapReviewedAt": "2026-10-16",
+    "exitAdvice": "Hellgate exige planejar a saída pelo labirinto antes de entrar. Não conte com retornar pelo portal de entrada nem com atalhos de Draconia sem cumprir seus requisitos."
   },
   {
     "id": "abdendriel-draconia-dragon-lord",
@@ -4080,6 +4214,8 @@ window.CLASSIC_HUNTS = [
       "https://www.tibiawiki.com.br/wiki/Rota:Hellgate"
     ],
     "reviewedAt": "2026-10-15",
-    "introducedVersion": "6.2"
+    "introducedVersion": "6.2",
+    "mapReviewedAt": "2026-10-16",
+    "exitAdvice": "Hellgate exige planejar a saída pelo labirinto antes de entrar. Não conte com retornar pelo portal de entrada nem com atalhos de Draconia sem cumprir seus requisitos."
   }
 ];
