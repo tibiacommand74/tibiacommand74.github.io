@@ -5,8 +5,8 @@ function node(id){if(!nodes.has(id))nodes.set(id,{innerHTML:'',value:'',hidden:f
 const env={reportButton:()=>'',bindContextReports(){},window:{},document:{querySelector:node,querySelectorAll:()=>[]},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>{if(blocked)throw Error('blocked');storage.set(k,v);}},location:{hash:'#explorador/search'},URL,console,setTimeout,clearTimeout};vm.createContext(env);
 for(const f of ['data','catalog-data','catalog','adventures','quest-catalog','quest-route-data','quest-map-guides','quest-guide-details','quest-wiki-review','route-review','quest-route-audit','hunt-data','hunt-paths','hunts','community-tools','classic-resources-data','classic-resources'])vm.runInContext(fs.readFileSync('public/'+f+'.js','utf8'),env);
 const run=s=>vm.runInContext(s,env),api=env.window.ClassicExplorer,data=env.window.CLASSIC_RESOURCES;
-assert.equal(data.keys.length,34);assert.equal(new Set(data.keys.map(k=>k.number)).size,34);
-for(const k of data.keys){assert(run(`QUESTS.some(q=>q.id===${JSON.stringify(k.questId)})`));assert(k.sources.length>=2);assert(k.sources.every(u=>u.startsWith('https://')));if(k.introducedVersion)assert(Number(k.introducedVersion)<=7.4);}
+assert.equal(data.keys.length,46);assert.equal(new Set(data.keys.map(k=>k.number)).size,46);
+for(const k of data.keys){if(k.questId)assert(run(`QUESTS.some(q=>q.id===${JSON.stringify(k.questId)})`));assert(k.sources.length>=2);assert(k.sources.every(u=>u.startsWith('https://')));if(k.introducedVersion)assert(Number(k.introducedVersion)<=7.4);}
 assert(api.search('4503').some(r=>r.type==='key'&&r.id==='4503'));
 assert(api.search('exura','spell').every(r=>r.type==='spell'));
 assert(api.search('crown armor','item').some(r=>r.name==='crown armor'));
@@ -42,7 +42,7 @@ run("detailSpell('Light Healing')");assert(node('#detail-body').innerHTML.includ
 run("detailNpc('Dermot')");assert(node('#detail-body').innerHTML.includes('data-journal-type="npc"'));
 run("detailHunt('troll-thais')");assert(node('#detail-body').innerHTML.includes('data-journal-type="hunt"'));
 assert(fs.readFileSync('public/index.html','utf8').indexOf('classic-resources.js')<fs.readFileSync('public/index.html','utf8').indexOf('app.js'));
-console.log('PASS: 34 chaves, busca geral, cidades, planejamento clássico, comida, sets, diário sanitizado, falha de armazenamento e integração das fichas');
+console.log('PASS: 46 chaves, busca geral, cidades, planejamento clássico, comida, sets, diário sanitizado, falha de armazenamento e integração das fichas');
 blocked=false;
 api.saveRecord('quest','fibula',{favorite:true,note:'Manter anotação',status:'done'});
 api.saveRecord('item','2666',{favorite:true});
@@ -56,3 +56,18 @@ favoriteSearch.value='inexistente';favoriteSearch.oninput();assert.equal(favorit
 favoriteSearch.value='fibula';favoriteSearch.oninput();assert.equal(favoriteCount.textContent,'1 favorito');
 favoriteList.removeButton.onclick();assert.equal(api.getRecord('quest','fibula').favorite,false);assert.equal(api.getRecord('quest','fibula').note,'Manter anotação');assert.equal(api.getRecord('quest','fibula').status,'done');assert.equal(favoriteCount.textContent,'0 favoritos');
 console.log('PASS: favorites category/search and removal preserve notes and completed quests');
+
+assert.equal(api.keyRows('', '', '', '').length,46);
+assert.equal(api.keyRows('', '', '', 'historica').length,3);
+assert(api.keyRows('Shirith', '', '', '').some(k=>k.number==='3033'));
+assert(api.keyRows('library', 'Jakundaf', 'silver', '').some(k=>k.number==='4009'));
+assert(api.keyRows('', 'Fibula', '', '').every(k=>k.city==='Fibula'));
+assert(api.keyRows('', '', 'copper', '').every(k=>k.material==='copper'));
+assert(!api.keyRows('', '', '', 'classica').some(k=>k.number==='4600'));
+assert(api.saveRecord('key','3033',{status:'done',note:'Comprada',favorite:true}));
+assert(api.keyRows('', '', '', '', 'yes').some(k=>k.number==='3033'));
+assert(!api.keyRows('', '', '', '', 'no').some(k=>k.number==='3033'));
+api.detailKey('4009');assert(node('#detail-body').innerHTML.includes('Consultar Key 4022'));
+api.detailKey('4600');assert(node('#detail-body').innerHTML.includes('Uso histórico / não confirmado'));assert(!node('#detail-body').innerHTML.includes('data-key-map='));
+for(const k of data.keys){assert(k.material);assert(k.method);assert(['historica','classica'].includes(k.availability));if(!k.questId)assert.equal(api.keyStage(k),null);}
+console.log('PASS: key city/material/scope/alias filters, owned records, prerequisites and historical map guards');
