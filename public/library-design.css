@@ -1,0 +1,21 @@
+/* Library cards inherit the approved spell card's visual rhythm and palette. */
+.guide-hub-panel .library-grid,.library-grid,.library-static-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:16px}
+.catalog-card.library-card{display:flex;flex-direction:column;align-items:stretch;gap:0;min-width:0;padding:20px;border:1px solid #3b5145;border-radius:11px;background:linear-gradient(150deg,#1c2e2c,#152225 65%);text-align:left;color:var(--text);text-decoration:none;transition:border-color .16s,box-shadow .16s}
+.catalog-card.library-card:hover{border-color:#b29a62;box-shadow:0 8px 24px #0003;background:#20332f}
+.library-card-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:18px}
+.library-art{display:flex;align-items:center;justify-content:center;width:54px;height:54px;flex:0 0 54px;border:1px solid #69806366;border-radius:10px;background:radial-gradient(circle,#5a725333,#172524 75%);color:#d7be85}
+.library-art .catalog-sprite{width:40px;height:40px;max-width:40px;object-fit:contain;image-rendering:pixelated}
+.library-card-badge{font-size:10px;color:#c1ccc4;line-height:1.6;text-align:right}
+.library-card-category{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#afc4b4;margin-bottom:7px;line-height:1.6}
+.catalog-card.library-card h3{font:600 19px/1.4 Inter,Arial,sans-serif;color:#ece7da;margin:0 0 18px;letter-spacing:-.02em;overflow-wrap:anywhere}
+.library-card-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 12px;margin:0 0 14px}
+.library-card-facts>div{min-width:0}.library-card-facts>div>span{display:block;color:#aebeb3;font-size:10px;line-height:1.5;margin-bottom:6px}.library-card-facts strong{display:block;font-size:15px;line-height:1.5;color:#e3e5d8;font-weight:500;overflow-wrap:anywhere}
+.catalog-card.library-card .library-card-note{font-size:11px;line-height:1.7;color:#bcc4c5;margin:0 0 18px}
+.library-card-footer{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin-top:auto;padding-top:18px;border-top:1px solid #415247;font-size:11px;line-height:1.6;color:#d0c4a5}.library-card-footer>span:last-child{color:#e2c58c;white-space:nowrap}
+.library-card[hidden],#catalog-more[hidden]{display:none!important}
+.library-card:focus-visible{outline:2px solid #e2c58c;outline-offset:4px}
+.library-static-grid{margin-top:22px}.library-static-grid .library-card{min-height:280px}
+.item-facts{display:flex;flex-wrap:wrap;gap:10px}.item-facts>span{padding:14px 16px;border:1px solid #3d5147;border-radius:7px;background:#152426;font-size:16px}
+.item-audit-note{padding:16px 18px;margin:20px 0;border:1px solid #786b4666;border-radius:9px;background:#292e24;color:#d7c69e}.item-audit-note strong{font-size:12px}.item-audit-note p{font-size:13px;line-height:1.8;margin:8px 0 0}
+@media(max-width:450px){.guide-hub-panel .library-grid,.library-grid,.library-static-grid{grid-template-columns:minmax(0,1fr)}.catalog-card.library-card{padding:18px}.library-card-footer{flex-wrap:wrap;gap:8px}}
+@media(prefers-reduced-motion:reduce){.library-card{transition:none!important}}

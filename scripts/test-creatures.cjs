@@ -2,7 +2,7 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
 const nodes=new Map();function node(id){if(!nodes.has(id))nodes.set(id,{innerHTML:'',textContent:'',value:'',hidden:false,querySelectorAll:()=>[],querySelector:()=>null,addEventListener(){},showModal(){},close(){}});return nodes.get(id);}
 const env={window:{},document:{querySelector:node,querySelectorAll:()=>[]},console,reportButton:()=>'',bindContextReports(){},URL};vm.createContext(env);
-for(const f of ['data','catalog-data','content-links'])vm.runInContext(fs.readFileSync('public/'+f+'.js','utf8'),env);
+for(const f of ['data','catalog-data','content-links','catalog'])vm.runInContext(fs.readFileSync('public/'+f+'.js','utf8'),env);
 vm.runInContext(fs.readFileSync('public/app.js','utf8').split("\ndocument.querySelectorAll('nav button[data-page]')")[0],env);
 env.contentPageLink=()=>'';
 const D=env.window.DATA,C=env.window.CATALOG,run=s=>vm.runInContext(s,env);
