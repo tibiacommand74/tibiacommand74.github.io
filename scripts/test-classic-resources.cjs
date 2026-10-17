@@ -5,7 +5,7 @@ function node(id){if(!nodes.has(id))nodes.set(id,{innerHTML:'',value:'',hidden:f
 const env={reportButton:()=>'',bindContextReports(){},window:{},document:{querySelector:node,querySelectorAll:()=>[]},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>{if(blocked)throw Error('blocked');storage.set(k,v);}},location:{hash:'#explorador/search'},URL,console,setTimeout,clearTimeout};vm.createContext(env);
 for(const f of ['data','catalog-data','catalog','adventures','quest-catalog','quest-route-data','quest-map-guides','quest-guide-details','quest-wiki-review','route-review','quest-route-audit','hunt-data','hunt-paths','hunts','community-tools','classic-resources-data','classic-resources'])vm.runInContext(fs.readFileSync('public/'+f+'.js','utf8'),env);
 const run=s=>vm.runInContext(s,env),api=env.window.ClassicExplorer,data=env.window.CLASSIC_RESOURCES;
-assert.equal(data.keys.length,46);assert.equal(new Set(data.keys.map(k=>k.number)).size,46);
+assert.equal(data.keys.length,47);assert.equal(new Set(data.keys.map(k=>k.number)).size,47);
 for(const k of data.keys){if(k.questId)assert(run(`QUESTS.some(q=>q.id===${JSON.stringify(k.questId)})`));assert(k.sources.length>=2);assert(k.sources.every(u=>u.startsWith('https://')));if(k.introducedVersion)assert(Number(k.introducedVersion)<=7.4);}
 assert(api.search('4503').some(r=>r.type==='key'&&r.id==='4503'));
 assert(api.search('exura','spell').every(r=>r.type==='spell'));
@@ -42,7 +42,7 @@ run("detailSpell('Light Healing')");assert(node('#detail-body').innerHTML.includ
 run("detailNpc('Dermot')");assert(node('#detail-body').innerHTML.includes('data-journal-type="npc"'));
 run("detailHunt('troll-thais')");assert(node('#detail-body').innerHTML.includes('data-journal-type="hunt"'));
 assert(fs.readFileSync('public/index.html','utf8').indexOf('classic-resources.js')<fs.readFileSync('public/index.html','utf8').indexOf('app.js'));
-console.log('PASS: 46 chaves, busca geral, cidades, planejamento clássico, comida, sets, diário sanitizado, falha de armazenamento e integração das fichas');
+console.log('PASS: 47 chaves, busca geral, cidades, planejamento clássico, comida, sets, diário sanitizado, falha de armazenamento e integração das fichas');
 blocked=false;
 api.saveRecord('quest','fibula',{favorite:true,note:'Manter anotação',status:'done'});
 api.saveRecord('item','2666',{favorite:true});
@@ -57,7 +57,7 @@ favoriteSearch.value='fibula';favoriteSearch.oninput();assert.equal(favoriteCoun
 favoriteList.removeButton.onclick();assert.equal(api.getRecord('quest','fibula').favorite,false);assert.equal(api.getRecord('quest','fibula').note,'Manter anotação');assert.equal(api.getRecord('quest','fibula').status,'done');assert.equal(favoriteCount.textContent,'0 favoritos');
 console.log('PASS: favorites category/search and removal preserve notes and completed quests');
 
-assert.equal(api.keyRows('', '', '', '').length,46);
+assert.equal(api.keyRows('', '', '', '').length,47);
 assert.equal(api.keyRows('', '', '', 'historica').length,3);
 assert(api.keyRows('Shirith', '', '', '').some(k=>k.number==='3033'));
 assert(api.keyRows('library', 'Jakundaf', 'silver', '').some(k=>k.number==='4009'));
@@ -71,3 +71,20 @@ api.detailKey('4009');assert(node('#detail-body').innerHTML.includes('Consultar 
 api.detailKey('4600');assert(node('#detail-body').innerHTML.includes('Uso histórico / não confirmado'));assert(!node('#detail-body').innerHTML.includes('data-key-map='));
 for(const k of data.keys){assert(k.material);assert(k.method);assert(['historica','classica'].includes(k.availability));if(!k.questId)assert.equal(api.keyStage(k),null);}
 console.log('PASS: key city/material/scope/alias filters, owned records, prerequisites and historical map guards');
+// Historical keys, acquisition-only map links and curated city/region navigation.
+assert.equal(data.keys.filter(k=>k.availability==='classica').length,44);
+assert(data.keys.some(k=>k.number==='3350'));
+assert(!data.keys.some(k=>k.number==='3700'));
+assert.equal(data.keys.find(k=>k.number==='3142').material,'copper');
+for(const id of ['3940','3980','6010'])assert.equal(api.keyStage(data.keys.find(k=>k.number===id)),null,id+' must not link acquisition to a door');
+for(const k of data.keys){const i=api.keyStage(k);if(i!==null){const stage=env.window.QUEST_ROUTES[k.questId].stages[i];assert(['chave','npc','recompensa'].includes(stage.role));}for(const n of k.requires||[])assert(data.keys.some(x=>x.number===n));for(const id of k.relatedQuests||[])assert(run(`QUESTS.some(q=>q.id===${JSON.stringify(id)})`));}
+assert.equal(data.regions.filter(r=>r.kind==='city').length,9);assert.equal(data.regions.length,38);
+const aliases=new Set();for(const r of data.regions){for(const a of [r.name,r.id,...r.aliases]){const normalized=a.toLowerCase();if(normalized===r.name.toLowerCase()&&aliases.has(normalized))continue;aliases.add(normalized);}if(r.parent)assert(api.regionProfile(r.parent));assert(r.map.every(Number.isInteger));assert(r.map[2]>=0&&r.map[2]<=15);for(const id of r.questIds)assert(run(`QUESTS.some(q=>q.id===${JSON.stringify(id)})`));for(const id of r.huntIds)assert(env.window.CLASSIC_HUNTS.some(h=>h.id===id));}
+assert.equal(api.regionProfile('Jakundaf').name,'Jakundaf Desert');
+assert.equal(api.regionProfile('Venore').map[2],6);assert.equal(api.regionProfile('Darashia').map[2],7);assert.equal(api.regionProfile('Edron').map[2],7);assert.equal(api.regionProfile('Kazordoon').map[2],9);
+assert.equal(api.cityRows('Draconia').keys.length,8);assert(api.cityRows("Ab'Dendriel",true).keys.length>=8);assert(api.cityRows('Thais',true).npcs.length>api.cityRows('Thais').npcs.length);
+const dom=new Map();function el(selector){if(!dom.has(selector))dom.set(selector,{innerHTML:'',value:'',checked:false,textContent:'',querySelectorAll:()=>[]});return dom.get(selector);}
+const root={innerHTML:'',querySelector:el,querySelectorAll:()=>[]};api.renderKeys(root);assert(el('#explorer-key-list').innerHTML.includes('library-card'));assert(root.innerHTML.includes('key-clear'));el('#explorer-key-search').oninput({target:{value:'inexistente-8811'}});assert(el('#explorer-key-list').innerHTML.includes('Nenhuma chave'));el('#key-clear').onclick();assert(el('#key-result-count').textContent.startsWith('44 '));
+api.renderCity(root);assert(root.innerHTML.includes('Regiões e ilhas'));assert(el('#city-results').innerHTML.includes('npc-sprite'));el('#city-search').oninput({target:{value:'inexistente-8811'}});assert(!el('#city-results').innerHTML.includes('data-catalog-npc='));el('#explorer-city').onchange({target:{value:'Draconia'}});assert(el('#city-results').innerHTML.includes('Key 3008'));
+for(const k of data.keys){const html=api.keyCard(k);assert.equal((html.match(/<button/g)||[]).length,1);assert.equal((html.match(/<\/button>/g)||[]).length,1);}
+console.log('PASS: key/city historical review, safe map roles, city memberships, overview floors, portraits, cards, search and clear filters');

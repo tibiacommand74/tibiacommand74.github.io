@@ -1,0 +1,4268 @@
+{
+  "date": "2026-10-17",
+  "beforeKeys": 46,
+  "afterKeys": 47,
+  "keyChanges": [
+    {
+      "number": "3001",
+      "before": {
+        "number": "3001",
+        "name": "Key 3001",
+        "city": "Ab'Dendriel",
+        "obtain": "Obtida durante a sequência de chaves da pirâmide de Draconia.",
+        "use": "Abre uma passagem da sequência de Draconia.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3001",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": []
+      },
+      "after": {
+        "number": "3001",
+        "name": "Key 3001",
+        "city": "Ab'Dendriel",
+        "obtain": "No esqueleto da entrada da pirâmide.",
+        "use": "Abre a porta da direita, ao sul da entrada.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3001",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/draconia.lua",
+          "https://www.tibiawiki.com.br/wiki/Draconia_Quest"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": [],
+        "area": "Draconia",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3002",
+      "before": {
+        "number": "3002",
+        "name": "Key 3002",
+        "city": "Ab'Dendriel",
+        "obtain": "Obtida durante a sequência de chaves da pirâmide de Draconia.",
+        "use": "Abre uma passagem da sequência de Draconia.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3002",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": []
+      },
+      "after": {
+        "number": "3002",
+        "name": "Key 3002",
+        "city": "Ab'Dendriel",
+        "obtain": "No caixão do setor acessível com 3001.",
+        "use": "Abre o setor das duas alavancas do térreo.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3002",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/draconia.lua",
+          "https://www.tibiawiki.com.br/wiki/Draconia_Quest"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": [],
+        "requires": [
+          "3001"
+        ],
+        "area": "Draconia",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3003",
+      "before": {
+        "number": "3003",
+        "name": "Key 3003",
+        "city": "Ab'Dendriel",
+        "obtain": "Obtida durante a sequência de chaves da pirâmide de Draconia.",
+        "use": "Abre uma passagem da sequência de Draconia.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3003",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": []
+      },
+      "after": {
+        "number": "3003",
+        "name": "Key 3003",
+        "city": "Ab'Dendriel",
+        "obtain": "Atrás da pedra movida pela segunda alavanca.",
+        "use": "Abre a porta esquerda no sudeste do térreo.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3003",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/draconia.lua",
+          "https://www.tibiawiki.com.br/wiki/Draconia_Quest"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": [],
+        "requires": [
+          "3002"
+        ],
+        "area": "Draconia",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3004",
+      "before": {
+        "number": "3004",
+        "name": "Key 3004",
+        "city": "Ab'Dendriel",
+        "obtain": "Obtida durante a sequência de chaves da pirâmide de Draconia.",
+        "use": "Abre uma passagem da sequência de Draconia.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3004",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": []
+      },
+      "after": {
+        "number": "3004",
+        "name": "Key 3004",
+        "city": "Ab'Dendriel",
+        "obtain": "Sob um Energy Field no segundo piso.",
+        "use": "Abre a passagem para o labirinto desse piso.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3004",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/draconia.lua",
+          "https://www.tibiawiki.com.br/wiki/Draconia_Quest"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": [],
+        "requires": [
+          "3003"
+        ],
+        "area": "Draconia",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3005",
+      "before": {
+        "number": "3005",
+        "name": "Key 3005",
+        "city": "Ab'Dendriel",
+        "obtain": "Obtida durante a sequência de chaves da pirâmide de Draconia.",
+        "use": "Abre uma passagem da sequência de Draconia.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3005",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": []
+      },
+      "after": {
+        "number": "3005",
+        "name": "Key 3005",
+        "city": "Ab'Dendriel",
+        "obtain": "Perto do pilar, ao final do labirinto.",
+        "use": "Abre a sala oeste com campos mágicos.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3005",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/draconia.lua",
+          "https://www.tibiawiki.com.br/wiki/Draconia_Quest"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": [],
+        "requires": [
+          "3004"
+        ],
+        "area": "Draconia",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3006",
+      "before": {
+        "number": "3006",
+        "name": "Key 3006",
+        "city": "Ab'Dendriel",
+        "obtain": "Obtida durante a sequência de chaves da pirâmide de Draconia.",
+        "use": "Abre uma passagem da sequência de Draconia.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3006",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": []
+      },
+      "after": {
+        "number": "3006",
+        "name": "Key 3006",
+        "city": "Ab'Dendriel",
+        "obtain": "Sob um campo mágico da sala oeste.",
+        "use": "Abre a porta sudeste para a próxima subida.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3006",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/draconia.lua",
+          "https://www.tibiawiki.com.br/wiki/Draconia_Quest"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": [],
+        "requires": [
+          "3005"
+        ],
+        "area": "Draconia",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3007",
+      "before": {
+        "number": "3007",
+        "name": "Key 3007",
+        "city": "Ab'Dendriel",
+        "obtain": "Obtida durante a sequência de chaves da pirâmide de Draconia.",
+        "use": "Abre uma passagem da sequência de Draconia.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3007",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": []
+      },
+      "after": {
+        "number": "3007",
+        "name": "Key 3007",
+        "city": "Ab'Dendriel",
+        "obtain": "Na sala alcançada pelo portal e placas de pressão.",
+        "use": "Abre a continuação do labirinto nos andares superiores.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3007",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/draconia.lua",
+          "https://www.tibiawiki.com.br/wiki/Draconia_Quest"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": [],
+        "requires": [
+          "3006"
+        ],
+        "area": "Draconia",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3008",
+      "before": {
+        "number": "3008",
+        "name": "Key 3008",
+        "city": "Ab'Dendriel",
+        "obtain": "Obtida durante a sequência de chaves da pirâmide de Draconia.",
+        "use": "Abre uma passagem da sequência de Draconia.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3008",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": []
+      },
+      "after": {
+        "number": "3008",
+        "name": "Key 3008",
+        "city": "Ab'Dendriel",
+        "obtain": "Na estante oeste do andar das recompensas.",
+        "use": "Abre a passagem superior para as alavancas de saída.",
+        "questId": "draconia",
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3008",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/draconia.lua",
+          "https://www.tibiawiki.com.br/wiki/Draconia_Quest"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "sequencia",
+        "aliases": [],
+        "requires": [
+          "3007"
+        ],
+        "area": "Draconia",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3012",
+      "before": {
+        "number": "3012",
+        "name": "Key 3012",
+        "city": "Ab'Dendriel",
+        "obtain": "Comprada com Elathriel por 5.000 gp.",
+        "use": "Abre as portas de Hellgate.",
+        "questId": null,
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3012",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/main/server/data/npc/scripts/elathriel.lua"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "npc",
+        "aliases": [
+          "Hellgate Key"
+        ]
+      },
+      "after": {
+        "number": "3012",
+        "name": "Key 3012",
+        "city": "Ab'Dendriel",
+        "obtain": "Comprada com Elathriel por 5.000 gp.",
+        "use": "Abre as portas de Hellgate.",
+        "questId": null,
+        "introducedVersion": "6.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3012",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/npc/scripts/elathriel.lua"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "npc",
+        "aliases": [
+          "Hellgate Key"
+        ],
+        "npcs": [
+          "Elathriel"
+        ],
+        "cost": 5000,
+        "area": "Hellgate",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3033",
+      "before": {
+        "number": "3033",
+        "name": "Key 3033",
+        "city": "Ab'Dendriel",
+        "aliases": [
+          "Shadow Cave Key"
+        ],
+        "obtain": "Comprada com Shirith por 50 gp.",
+        "use": "Acesso às Shadow Caves, também conhecidas como cavernas dos trolls.",
+        "material": "silver",
+        "method": "npc",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": "6.2",
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3033",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "16/10/2026"
+      },
+      "after": {
+        "number": "3033",
+        "name": "Key 3033",
+        "city": "Ab'Dendriel",
+        "aliases": [
+          "Shadow Cave Key"
+        ],
+        "obtain": "Comprada com Shirith por 50 gp.",
+        "use": "Acesso às Shadow Caves, também conhecidas como cavernas dos trolls.",
+        "material": "silver",
+        "method": "npc",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": "6.2",
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3033",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "npcs": [
+          "Shirith"
+        ],
+        "cost": 50,
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3142",
+      "before": {
+        "number": "3142",
+        "name": "Key 3142",
+        "city": "Thais",
+        "obtain": "Obtida no teste de Skjaar; reserve 1.000 gp.",
+        "use": "Abre a sala dos prêmios de Noble Armor.",
+        "questId": "noble-armor",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3142",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "npc",
+        "aliases": [
+          "Skjaar Key"
+        ]
+      },
+      "after": {
+        "number": "3142",
+        "name": "Key 3142",
+        "city": "Thais",
+        "obtain": "Obtida no teste de Skjaar; reserve 1.000 gp.",
+        "use": "Abre a sala dos prêmios de Noble Armor.",
+        "questId": "noble-armor",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3142",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "npc",
+        "aliases": [
+          "Skjaar Key"
+        ],
+        "npcs": [
+          "Skjaar"
+        ],
+        "cost": 1000,
+        "area": "Mount Sternum",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3301",
+      "before": {
+        "number": "3301",
+        "name": "Key 3301",
+        "city": "Outlaw Camp",
+        "obtain": "Encontrada em uma árvore morta do acampamento.",
+        "use": "Abre uma passagem da Bright Sword Quest.",
+        "questId": "the-outlaw-camp",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3301",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": []
+      },
+      "after": {
+        "number": "3301",
+        "name": "Key 3301",
+        "city": "Outlaw Camp",
+        "obtain": "Na árvore morta ao norte da torre dos minotauros, em Outlaw Camp.",
+        "use": "Abre uma das portas da torre dos minotauros.",
+        "questId": "the-outlaw-camp",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3301",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/system.lua"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3302",
+      "before": {
+        "number": "3302",
+        "name": "Key 3302",
+        "city": "Outlaw Camp",
+        "obtain": "Encontrada em uma árvore morta do acampamento.",
+        "use": "Abre uma passagem da Bright Sword Quest.",
+        "questId": "the-outlaw-camp",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3302",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": []
+      },
+      "after": {
+        "number": "3302",
+        "name": "Key 3302",
+        "city": "Outlaw Camp",
+        "obtain": "Em outra árvore morta próxima à torre dos minotauros, em Outlaw Camp.",
+        "use": "Abre a outra porta da torre dos minotauros; não substitui a Key 3301.",
+        "questId": "the-outlaw-camp",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3302",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/system.lua"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [],
+        "materialNote": "Mantida como prata pela referência da quest e pelo script de recompensa. Uma lista antiga usa cobre; essa divergência não foi aplicada automaticamente.",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3303",
+      "before": {
+        "number": "3303",
+        "name": "Key 3303",
+        "city": "Outlaw Camp",
+        "obtain": "Encontrada em uma árvore morta do acampamento.",
+        "use": "Libera acesso à continuação da Bright Sword Quest.",
+        "questId": "the-outlaw-camp",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3303",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": []
+      },
+      "after": {
+        "number": "3303",
+        "name": "Key 3303",
+        "city": "Outlaw Camp",
+        "obtain": "Na árvore morta do próprio acampamento.",
+        "use": "Abre a sala da alavanca que controla o forno e o acesso à Key 3304.",
+        "questId": "the-outlaw-camp",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3303",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/system.lua"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3304",
+      "before": {
+        "number": "3304",
+        "name": "Key 3304",
+        "city": "Outlaw Camp",
+        "obtain": "Obtida no baú da caverna acessível com 3303.",
+        "use": "Abre a porta da recompensa da Bright Sword Quest.",
+        "questId": "the-outlaw-camp",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3304",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "golden",
+        "method": "coleta",
+        "aliases": []
+      },
+      "after": {
+        "number": "3304",
+        "name": "Key 3304",
+        "city": "Outlaw Camp",
+        "obtain": "No baú atrás do forno, após usar o setor da Key 3303.",
+        "use": "Abre a porta da recompensa da Bright Sword Quest.",
+        "questId": "the-outlaw-camp",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3304",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/system.lua"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "golden",
+        "method": "coleta",
+        "aliases": [],
+        "requires": [
+          "3303"
+        ],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3350",
+      "before": null,
+      "after": {
+        "number": "3350",
+        "name": "Key 3350",
+        "city": "Carlin",
+        "obtain": "Na estante próxima a Costello, junto de uma bolsa com documentos do monastério.",
+        "use": "Abre a área restrita dos andares superiores do monastério na Isle of the Kings. Entrar nessa área pode gerar cobrança para sair da ilha.",
+        "questId": "the-white-raven-monastery",
+        "introducedVersion": "7.2",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3350",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/docs/reference-74/quests.md",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/system.lua"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [
+          "Monastery Key",
+          "Isle of the Kings Key"
+        ],
+        "area": "Isle of the Kings",
+        "mapDisabled": true,
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3520",
+      "before": {
+        "number": "3520",
+        "name": "Key 3520",
+        "city": "Carlin",
+        "obtain": "Obtida no armazém próximo ao porto de Carlin.",
+        "use": "Abre a passagem da cripta usada na Fanfare Quest.",
+        "questId": "fanfare",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3520",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "bone",
+        "method": "coleta",
+        "aliases": [
+          "Carlin Crypt Key"
+        ]
+      },
+      "after": {
+        "number": "3520",
+        "name": "Key 3520",
+        "city": "Carlin",
+        "obtain": "Obtida no armazém próximo ao porto de Carlin.",
+        "use": "Abre a passagem da cripta usada na Fanfare Quest.",
+        "questId": "fanfare",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3520",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "bone",
+        "method": "coleta",
+        "aliases": [
+          "Carlin Crypt Key"
+        ],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3600",
+      "before": {
+        "number": "3600",
+        "name": "Key 3600",
+        "city": "Thais",
+        "obtain": "Recolhida durante a exploração do Ancient Temple.",
+        "use": "Abre a sala da Ghoul Room.",
+        "questId": "ghoul-room",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3600",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [
+          "Ghoul Room Key"
+        ]
+      },
+      "after": {
+        "number": "3600",
+        "name": "Key 3600",
+        "city": "Thais",
+        "obtain": "Recolhida durante a exploração do Ancient Temple.",
+        "use": "Abre a sala da Ghoul Room.",
+        "questId": "ghoul-room",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3600",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [
+          "Ghoul Room Key"
+        ],
+        "area": "Ancient Temple",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3610",
+      "before": {
+        "number": "3610",
+        "name": "Key 3610",
+        "city": "Thais",
+        "obtain": "Recolhida no setor de Cyclops e Minotaur Outcasts.",
+        "use": "Abre o laboratório secreto da Devil Helmet Quest.",
+        "questId": "devil-helmet",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3610",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [
+          "Secret Laboratory Key"
+        ]
+      },
+      "after": {
+        "number": "3610",
+        "name": "Key 3610",
+        "city": "Thais",
+        "obtain": "Recolhida no setor de Cyclops e Minotaur Outcasts.",
+        "use": "Abre o laboratório secreto da Devil Helmet Quest.",
+        "questId": "devil-helmet",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3610",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [
+          "Secret Laboratory Key"
+        ],
+        "area": "Ancient Temple",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3620",
+      "before": {
+        "number": "3620",
+        "name": "Key 3620",
+        "city": "Thais",
+        "obtain": "Obtida nos alojamentos dos guardas de Mintwallin.",
+        "use": "Libera acesso à prisão de Mintwallin.",
+        "questId": "mad-mage-room",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3620",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [
+          "Mintwallin Prison Key"
+        ]
+      },
+      "after": {
+        "number": "3620",
+        "name": "Key 3620",
+        "city": "Thais",
+        "obtain": "Obtida nos alojamentos dos guardas de Mintwallin.",
+        "use": "Libera acesso à prisão de Mintwallin.",
+        "questId": "mad-mage-room",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3620",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [
+          "Mintwallin Prison Key"
+        ],
+        "area": "Mintwallin",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3650",
+      "before": {
+        "number": "3650",
+        "name": "Key 3650",
+        "city": "Thais",
+        "aliases": [
+          "Mintwallin Storage Room Key"
+        ],
+        "obtain": "Procure a cômoda na sala de Markwin, no castelo de Mintwallin.",
+        "use": "Abre o depósito de Mintwallin.",
+        "material": "silver",
+        "method": "coleta",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3650",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "16/10/2026"
+      },
+      "after": {
+        "number": "3650",
+        "name": "Key 3650",
+        "city": "Thais",
+        "aliases": [
+          "Mintwallin Storage Room Key"
+        ],
+        "obtain": "Procure a cômoda na sala de Markwin, no castelo de Mintwallin.",
+        "use": "Abre o depósito de Mintwallin.",
+        "material": "silver",
+        "method": "coleta",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3650",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "area": "Mintwallin",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3666",
+      "before": {
+        "number": "3666",
+        "name": "Key 3666",
+        "city": "Thais",
+        "obtain": "Entregue por A Prisoner após o enigma e sete Red Apples.",
+        "use": "Abre a sala de recompensa da Mad Mage Room.",
+        "questId": "mad-mage-room",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3666",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "npc",
+        "aliases": [
+          "Mad Mage Key"
+        ]
+      },
+      "after": {
+        "number": "3666",
+        "name": "Key 3666",
+        "city": "Thais",
+        "obtain": "Entregue por A Prisoner após o enigma e sete Red Apples.",
+        "use": "Abre a sala de recompensa da Mad Mage Room.",
+        "questId": "mad-mage-room",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3666",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "npc",
+        "aliases": [
+          "Mad Mage Key"
+        ],
+        "npcs": [
+          "A Prisoner"
+        ],
+        "requires": [
+          "3620"
+        ],
+        "area": "Mintwallin",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3667",
+      "before": {
+        "number": "3667",
+        "name": "Key 3667",
+        "city": "Thais",
+        "obtain": "Obtida no corpo sob o lixo, na continuação da Mad Mage Room.",
+        "use": "Abre a porta dos Cyclops que dá acesso à Key 3610.",
+        "questId": "mintwallin-cyclops",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3667",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": []
+      },
+      "after": {
+        "number": "3667",
+        "name": "Key 3667",
+        "city": "Thais",
+        "obtain": "Obtida no corpo sob o lixo, na continuação da Mad Mage Room.",
+        "use": "Abre a porta dos Cyclops que dá acesso à Key 3610.",
+        "questId": "mintwallin-cyclops",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3667",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [],
+        "area": "Mintwallin",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3701",
+      "before": {
+        "number": "3701",
+        "name": "Key 3701",
+        "city": "Plains of Havoc",
+        "aliases": [
+          "Necromancers House Key"
+        ],
+        "obtain": "Escondida no chão da Necromant House.",
+        "use": "Libera portas internas da casa do necromante.",
+        "material": "silver",
+        "method": "coleta",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3701",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "16/10/2026"
+      },
+      "after": {
+        "number": "3701",
+        "name": "Key 3701",
+        "city": "Plains of Havoc",
+        "aliases": [
+          "Necromancers House Key"
+        ],
+        "obtain": "Escondida no chão da Necromant House.",
+        "use": "Libera portas internas da casa do necromante.",
+        "material": "silver",
+        "method": "coleta",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3701",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3702",
+      "before": {
+        "number": "3702",
+        "name": "Key 3702",
+        "city": "Plains of Havoc",
+        "aliases": [
+          "Knightwatch Tower Key"
+        ],
+        "obtain": "Associada à Ornamented Shield Quest.",
+        "use": "Registro antigo ligado à Knightwatch Tower; funcionamento no 7.4 requer confirmação.",
+        "material": "crystal",
+        "method": "historica",
+        "availability": "historica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3702",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "16/10/2026"
+      },
+      "after": {
+        "number": "3702",
+        "name": "Key 3702",
+        "city": "Plains of Havoc",
+        "aliases": [
+          "Knightwatch Tower Key"
+        ],
+        "obtain": "Associada à Ornamented Shield Quest.",
+        "use": "Registro antigo ligado à Knightwatch Tower; funcionamento no 7.4 requer confirmação.",
+        "material": "crystal",
+        "method": "historica",
+        "availability": "historica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3702",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3800",
+      "before": {
+        "number": "3800",
+        "name": "Key 3800",
+        "city": "Kazordoon",
+        "obtain": "Recolhida no percurso da Emperor’s Cookies.",
+        "use": "Abre a porta ao norte da sala do trono.",
+        "questId": "emperor-s-cookies",
+        "introducedVersion": "6.1",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3800",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": []
+      },
+      "after": {
+        "number": "3800",
+        "name": "Key 3800",
+        "city": "Kazordoon",
+        "obtain": "No baú ao fim da passagem secreta dos aposentos do imperador.",
+        "use": "Abre a sala ao norte do trono, onde ficam cookies e a Key 3801.",
+        "questId": "emperor-s-cookies",
+        "introducedVersion": "6.1",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3800",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/system.lua"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3801",
+      "before": {
+        "number": "3801",
+        "name": "Key 3801",
+        "city": "Kazordoon",
+        "obtain": "Recolhida no percurso da Emperor’s Cookies.",
+        "use": "Abre portas do arsenal e da sala do tesouro.",
+        "questId": "emperor-s-cookies",
+        "introducedVersion": "6.1",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3801",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": []
+      },
+      "after": {
+        "number": "3801",
+        "name": "Key 3801",
+        "city": "Kazordoon",
+        "obtain": "No recipiente da sala aberta com 3800, junto dos cookies.",
+        "use": "Abre o setor do arsenal para buscar 3802 e o acesso à sala do tesouro.",
+        "questId": "emperor-s-cookies",
+        "introducedVersion": "6.1",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3801",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/system.lua"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [],
+        "requires": [
+          "3800"
+        ],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3802",
+      "before": {
+        "number": "3802",
+        "name": "Key 3802",
+        "city": "Kazordoon",
+        "obtain": "Recolhida no percurso da Emperor’s Cookies.",
+        "use": "Abre o acesso à prisão de Dwacatra.",
+        "questId": "emperor-s-cookies",
+        "introducedVersion": "6.1",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3802",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [
+          "Dwacatra Key"
+        ]
+      },
+      "after": {
+        "number": "3802",
+        "name": "Key 3802",
+        "city": "Kazordoon",
+        "obtain": "No baú do setor dos quartéis alcançado com 3801.",
+        "use": "Abre a prisão de Dwacatra. Usos de eventos e ampliações posteriores não fazem parte desta ficha.",
+        "questId": "emperor-s-cookies",
+        "introducedVersion": "6.1",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3802",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/actions/scripts/quests/system.lua"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [
+          "Dwacatra Key"
+        ],
+        "requires": [
+          "3801"
+        ],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3899",
+      "before": {
+        "number": "3899",
+        "name": "Key 3899",
+        "city": "Kazordoon",
+        "obtain": "Encontrada na árvore morta perto da Paradox Tower.",
+        "use": "Abre uma porta da Paradox Tower.",
+        "questId": "the-paradox-tower",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3899",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": []
+      },
+      "after": {
+        "number": "3899",
+        "name": "Key 3899",
+        "city": "Kazordoon",
+        "obtain": "Encontrada na árvore morta perto da Paradox Tower.",
+        "use": "Abre uma porta da Paradox Tower.",
+        "questId": "the-paradox-tower",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3899",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3940",
+      "before": {
+        "number": "3940",
+        "name": "Key 3940",
+        "city": "Fibula",
+        "obtain": "Comprada com Dermot por 2.000 gp.",
+        "use": "Abre o acesso à Fibula Dungeon.",
+        "questId": "fibula",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3940",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/main/server/data/npc/scripts/dermot.lua"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "wooden",
+        "method": "npc",
+        "aliases": [
+          "Fibula Key"
+        ]
+      },
+      "after": {
+        "number": "3940",
+        "name": "Key 3940",
+        "city": "Fibula",
+        "obtain": "Comprada com Dermot por 2.000 gp.",
+        "use": "Abre o acesso à Fibula Dungeon.",
+        "questId": "fibula",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3940",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys",
+          "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/npc/scripts/dermot.lua"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "wooden",
+        "method": "npc",
+        "aliases": [
+          "Fibula Key"
+        ],
+        "materialNote": "A chave de Fibula é descrita como madeira nas listas comparadas. Há referência a uma variante de cobre, e o XML comunitário de Dermot usa cobre. Não se deve identificar a porta apenas pela cor: confira o número 3940.",
+        "npcs": [
+          "Dermot"
+        ],
+        "cost": 2000,
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3950",
+      "before": {
+        "number": "3950",
+        "name": "Key 3950",
+        "city": "Fibula",
+        "aliases": [
+          "Fibula Cyclops Key"
+        ],
+        "obtain": "Método de obtenção não confirmado para o 7.4.",
+        "use": "Registro de acesso antigo em Fibula; referências divergem sobre a sala.",
+        "material": "wooden",
+        "method": "historica",
+        "availability": "historica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3950",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "16/10/2026"
+      },
+      "after": {
+        "number": "3950",
+        "name": "Key 3950",
+        "city": "Fibula",
+        "aliases": [
+          "Fibula Cyclops Key"
+        ],
+        "obtain": "Método de obtenção não confirmado para o 7.4.",
+        "use": "Registro de acesso antigo em Fibula; referências divergem sobre a sala.",
+        "material": "wooden",
+        "method": "historica",
+        "availability": "historica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3950",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "3980",
+      "before": {
+        "number": "3980",
+        "name": "Key 3980",
+        "city": "Fibula",
+        "obtain": "Obtida abaixo do buraco interno da Fibula Dungeon.",
+        "use": "Abre a passagem para a parte profunda da dungeon.",
+        "questId": "fibula",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3980",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "golden",
+        "method": "coleta",
+        "aliases": [
+          "Deeper Fibula Key"
+        ]
+      },
+      "after": {
+        "number": "3980",
+        "name": "Key 3980",
+        "city": "Fibula",
+        "obtain": "Obtida abaixo do buraco interno da Fibula Dungeon.",
+        "use": "Abre a passagem para a parte profunda da dungeon.",
+        "questId": "fibula",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_3980",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "golden",
+        "method": "coleta",
+        "aliases": [
+          "Deeper Fibula Key"
+        ],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "4001",
+      "before": {
+        "number": "4001",
+        "name": "Key 4001",
+        "city": "Jakundaf",
+        "aliases": [
+          "Fire Devil Pit Key"
+        ],
+        "obtain": "Baú protegido por Orc Berserkers; uma passagem exige Pick.",
+        "use": "Abre a porta do fosso dos Fire Devils na Desert Dungeon.",
+        "material": "silver",
+        "method": "coleta",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4001",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "16/10/2026"
+      },
+      "after": {
+        "number": "4001",
+        "name": "Key 4001",
+        "city": "Jakundaf",
+        "aliases": [
+          "Fire Devil Pit Key"
+        ],
+        "obtain": "Baú protegido por Orc Berserkers; uma passagem exige Pick.",
+        "use": "Abre a porta do fosso dos Fire Devils na Desert Dungeon.",
+        "material": "silver",
+        "method": "coleta",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4001",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "4009",
+      "before": {
+        "number": "4009",
+        "name": "Key 4009",
+        "city": "Jakundaf",
+        "aliases": [
+          "Desert Dungeon Library Key"
+        ],
+        "obtain": "É necessário obter primeiro a Key 4022 para alcançar esta chave.",
+        "use": "Abre a biblioteca subterrânea da Desert Dungeon.",
+        "material": "silver",
+        "method": "coleta",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4009",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "16/10/2026",
+        "requires": [
+          "4022"
+        ]
+      },
+      "after": {
+        "number": "4009",
+        "name": "Key 4009",
+        "city": "Jakundaf",
+        "aliases": [
+          "Desert Dungeon Library Key"
+        ],
+        "obtain": "É necessário obter primeiro a Key 4022 para alcançar esta chave.",
+        "use": "Abre a biblioteca subterrânea da Desert Dungeon.",
+        "material": "silver",
+        "method": "coleta",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4009",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "requires": [
+          "4022"
+        ],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "4022",
+      "before": {
+        "number": "4022",
+        "name": "Key 4022",
+        "city": "Jakundaf",
+        "aliases": [
+          "Library Access Key"
+        ],
+        "obtain": "Obtida com Hagor; o diário de Morrin contém pistas.",
+        "use": "Permite chegar à sala onde fica a Key 4009.",
+        "material": "silver",
+        "method": "npc",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4022",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "16/10/2026"
+      },
+      "after": {
+        "number": "4022",
+        "name": "Key 4022",
+        "city": "Jakundaf",
+        "aliases": [
+          "Library Access Key"
+        ],
+        "obtain": "Obtida com Hagor; o diário de Morrin contém pistas.",
+        "use": "Permite chegar à sala onde fica a Key 4009.",
+        "material": "silver",
+        "method": "npc",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4022",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "npcs": [
+          "Hagor"
+        ],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "4023",
+      "before": {
+        "number": "4023",
+        "name": "Key 4023",
+        "city": "Jakundaf",
+        "aliases": [
+          "Teleport Room Key"
+        ],
+        "obtain": "Entregue por Adrenius após seu questionário.",
+        "use": "Abre a sala dos quatro teleports na Desert Dungeon.",
+        "material": "silver",
+        "method": "npc",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4023",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "16/10/2026"
+      },
+      "after": {
+        "number": "4023",
+        "name": "Key 4023",
+        "city": "Jakundaf",
+        "aliases": [
+          "Teleport Room Key"
+        ],
+        "obtain": "Entregue por Adrenius após seu questionário.",
+        "use": "Abre a sala dos quatro teleports na Desert Dungeon.",
+        "material": "silver",
+        "method": "npc",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4023",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "npcs": [
+          "Adrenius"
+        ],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "4037",
+      "before": {
+        "number": "4037",
+        "name": "Key 4037",
+        "city": "Jakundaf",
+        "aliases": [
+          "Hall of Lost Doors Key"
+        ],
+        "obtain": "Obtida ao ajudar Nemal; consulte as pistas da biblioteca da Desert Dungeon.",
+        "use": "Abre o Hall of Lost Doors.",
+        "material": "silver",
+        "method": "npc",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4037",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "16/10/2026"
+      },
+      "after": {
+        "number": "4037",
+        "name": "Key 4037",
+        "city": "Jakundaf",
+        "aliases": [
+          "Hall of Lost Doors Key"
+        ],
+        "obtain": "Obtida ao ajudar Nemal; consulte as pistas da biblioteca da Desert Dungeon.",
+        "use": "Abre o Hall of Lost Doors.",
+        "material": "silver",
+        "method": "npc",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4037",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "npcs": [
+          "Nemal"
+        ],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "4055",
+      "before": {
+        "number": "4055",
+        "name": "Key 4055",
+        "city": "Jakundaf",
+        "obtain": "Obtida usando a pedra ao sul da entrada da Desert Dungeon.",
+        "use": "Abre a porta da Panpipe Quest.",
+        "questId": "panpipe",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4055",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [
+          "Panpipe Key"
+        ]
+      },
+      "after": {
+        "number": "4055",
+        "name": "Key 4055",
+        "city": "Jakundaf",
+        "obtain": "Obtida usando a pedra ao sul da entrada da Desert Dungeon.",
+        "use": "Abre a porta da Panpipe Quest.",
+        "questId": "panpipe",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4055",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [
+          "Panpipe Key"
+        ],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "4501",
+      "before": {
+        "number": "4501",
+        "name": "Key 4501",
+        "city": "Carlin",
+        "obtain": "Baú protegido por Minotaur Mage nas cavernas das Ice Islands. A posição exata apresenta divergências entre referências.",
+        "use": "Abre o depósito de Alawar’s Vault.",
+        "questId": "alawar-s-vault",
+        "introducedVersion": "6.4",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4501",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "mapDisabled": true,
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [
+          "Alawar’s Vault Storage Key"
+        ]
+      },
+      "after": {
+        "number": "4501",
+        "name": "Key 4501",
+        "city": "Carlin",
+        "obtain": "Baú protegido por Minotaur Mage nas cavernas das Ice Islands. A posição exata apresenta divergências entre referências.",
+        "use": "Abre o depósito de Alawar’s Vault.",
+        "questId": "alawar-s-vault",
+        "introducedVersion": "6.4",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4501",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "mapDisabled": true,
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [
+          "Alawar’s Vault Storage Key"
+        ],
+        "area": "Ice Islands",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "4502",
+      "before": {
+        "number": "4502",
+        "name": "Key 4502",
+        "city": "Carlin",
+        "obtain": "Baú protegido por Minotaur Mage nas cavernas das Ice Islands, no percurso de Alawar’s Vault.",
+        "use": "Abre as portas de Alawar’s Vault.",
+        "questId": "alawar-s-vault",
+        "introducedVersion": "6.4",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4502",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [
+          "Senja Castle Key"
+        ]
+      },
+      "after": {
+        "number": "4502",
+        "name": "Key 4502",
+        "city": "Carlin",
+        "obtain": "Baú protegido por Minotaur Mage nas cavernas das Ice Islands, no percurso de Alawar’s Vault.",
+        "use": "Abre as portas de Alawar’s Vault.",
+        "questId": "alawar-s-vault",
+        "introducedVersion": "6.4",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4502",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [
+          "Senja Castle Key"
+        ],
+        "area": "Ice Islands",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "4503",
+      "before": {
+        "number": "4503",
+        "name": "Key 4503",
+        "city": "Carlin",
+        "obtain": "Obtida no baú atrás dos Fire Fields em Folda.",
+        "use": "Abre a passagem dos minotauros nas Ice Islands.",
+        "questId": "alawar-s-vault",
+        "introducedVersion": "6.4",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4503",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [
+          "Folda Restricted Area Key"
+        ]
+      },
+      "after": {
+        "number": "4503",
+        "name": "Key 4503",
+        "city": "Carlin",
+        "obtain": "Em um baú atrás de Fire Fields nas cavernas das Ice Islands.",
+        "use": "Abre a área restrita dos minotauros nas Ice Islands.",
+        "questId": "alawar-s-vault",
+        "introducedVersion": "6.4",
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4503",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [
+          "Ice Islands Restricted Area Key"
+        ],
+        "area": "Ice Islands",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "4600",
+      "before": {
+        "number": "4600",
+        "name": "Key 4600",
+        "city": "Rookgaard",
+        "aliases": [
+          "Academy Training Room Key"
+        ],
+        "obtain": "Método de obtenção não confirmado para o 7.4.",
+        "use": "Registro da sala de treinamento da academia; não é apresentado como acesso funcional.",
+        "material": "silver",
+        "method": "historica",
+        "availability": "historica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4600",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "16/10/2026"
+      },
+      "after": {
+        "number": "4600",
+        "name": "Key 4600",
+        "city": "Rookgaard",
+        "aliases": [
+          "Academy Training Room Key"
+        ],
+        "obtain": "Método de obtenção não confirmado para o 7.4.",
+        "use": "Registro da sala de treinamento da academia; não é apresentado como acesso funcional.",
+        "material": "silver",
+        "method": "historica",
+        "availability": "historica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4600",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "4601",
+      "before": {
+        "number": "4601",
+        "name": "Key 4601",
+        "city": "Rookgaard",
+        "obtain": "Obtida no baú abaixo da passagem aberta com Pick.",
+        "use": "Abre a porta da Bear Room.",
+        "questId": "bear-room",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4601",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [
+          "Bear Room Key"
+        ]
+      },
+      "after": {
+        "number": "4601",
+        "name": "Key 4601",
+        "city": "Rookgaard",
+        "obtain": "Obtida no baú abaixo da passagem aberta com Pick.",
+        "use": "Abre a porta da Bear Room.",
+        "questId": "bear-room",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4601",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "copper",
+        "method": "coleta",
+        "aliases": [
+          "Bear Room Key"
+        ],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "4603",
+      "before": {
+        "number": "4603",
+        "name": "Key 4603",
+        "city": "Rookgaard",
+        "obtain": "Obtida no corpo do fim do corredor acima da Katana Room.",
+        "use": "Abre a porta da Katana Room.",
+        "questId": "katana",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4603",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [
+          "Katana Room Key"
+        ]
+      },
+      "after": {
+        "number": "4603",
+        "name": "Key 4603",
+        "city": "Rookgaard",
+        "obtain": "Obtida no corpo do fim do corredor acima da Katana Room.",
+        "use": "Abre a porta da Katana Room.",
+        "questId": "katana",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_4603",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [
+          "Katana Room Key"
+        ],
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "5000",
+      "before": {
+        "number": "5000",
+        "name": "Key 5000",
+        "city": "Venore",
+        "aliases": [
+          "Witch House Key"
+        ],
+        "obtain": "Procure o caixão de marfim abaixo da casa de Wyda.",
+        "use": "Abre a casa da bruxa em Green Claw Swamp.",
+        "material": "silver",
+        "method": "coleta",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_5000",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "16/10/2026"
+      },
+      "after": {
+        "number": "5000",
+        "name": "Key 5000",
+        "city": "Venore",
+        "aliases": [
+          "Witch House Key"
+        ],
+        "obtain": "Procure o caixão de marfim abaixo da casa de Wyda.",
+        "use": "Abre a casa da bruxa em Green Claw Swamp.",
+        "material": "silver",
+        "method": "coleta",
+        "availability": "classica",
+        "questId": null,
+        "introducedVersion": null,
+        "mapDisabled": true,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_5000",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "area": "Green Claw Swamp",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "5010",
+      "before": {
+        "number": "5010",
+        "name": "Key 5010",
+        "city": "Venore",
+        "obtain": "Obtida em árvores mortas do pântano.",
+        "use": "Abre o acesso subterrâneo da Black Knight Villa.",
+        "questId": "black-knight",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_5010",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [
+          "Black Knight Villa Key"
+        ]
+      },
+      "after": {
+        "number": "5010",
+        "name": "Key 5010",
+        "city": "Venore",
+        "obtain": "Obtida em árvores mortas do pântano.",
+        "use": "Abre o acesso subterrâneo da Black Knight Villa.",
+        "questId": "black-knight",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_5010",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "silver",
+        "method": "coleta",
+        "aliases": [
+          "Black Knight Villa Key"
+        ],
+        "area": "Green Claw Swamp",
+        "mapPolicy": "acquisition-only"
+      }
+    },
+    {
+      "number": "6010",
+      "before": {
+        "number": "6010",
+        "name": "Key 6010",
+        "city": "Edron",
+        "obtain": "Obtida na Parchment Room.",
+        "use": "Abre a passagem da Demon Helmet Quest.",
+        "questId": "demon-helmet",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_6010",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "12/10/2026",
+        "availability": "classica",
+        "material": "golden",
+        "method": "coleta",
+        "aliases": [
+          "Demon Key"
+        ]
+      },
+      "after": {
+        "number": "6010",
+        "name": "Key 6010",
+        "city": "Edron",
+        "obtain": "Obtida na Parchment Room.",
+        "use": "Abre a passagem da Demon Helmet Quest.",
+        "questId": "demon-helmet",
+        "introducedVersion": null,
+        "sources": [
+          "https://www.tibiawiki.com.br/wiki/Key_6010",
+          "https://tibia.pl/itemslist/key",
+          "https://tibia-wiki.com/7.4/pt/Items/Keys"
+        ],
+        "reviewedAt": "17/10/2026",
+        "availability": "classica",
+        "material": "golden",
+        "method": "coleta",
+        "aliases": [
+          "Demon Key"
+        ],
+        "relatedQuests": [
+          "parchment-room"
+        ],
+        "mapPolicy": "acquisition-only"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "id": "rookgaard",
+      "name": "Rookgaard",
+      "kind": "city",
+      "parent": null,
+      "aliases": [],
+      "map": [
+        32097,
+        32219,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Cidade clássica: NPCs, chaves e guias atribuídos à cidade e, opcionalmente, às regiões relacionadas."
+    },
+    {
+      "id": "thais",
+      "name": "Thais",
+      "kind": "city",
+      "parent": null,
+      "aliases": [],
+      "map": [
+        32369,
+        32241,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Cidade clássica: NPCs, chaves e guias atribuídos à cidade e, opcionalmente, às regiões relacionadas."
+    },
+    {
+      "id": "carlin",
+      "name": "Carlin",
+      "kind": "city",
+      "parent": null,
+      "aliases": [],
+      "map": [
+        32360,
+        31782,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Cidade clássica: NPCs, chaves e guias atribuídos à cidade e, opcionalmente, às regiões relacionadas."
+    },
+    {
+      "id": "kazordoon",
+      "name": "Kazordoon",
+      "kind": "city",
+      "parent": null,
+      "aliases": [],
+      "map": [
+        32649,
+        31925,
+        9
+      ],
+      "mapScope": "overview",
+      "terms": [],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Cidade clássica: NPCs, chaves e guias atribuídos à cidade e, opcionalmente, às regiões relacionadas."
+    },
+    {
+      "id": "ab-dendriel",
+      "name": "Ab'Dendriel",
+      "kind": "city",
+      "parent": null,
+      "aliases": [],
+      "map": [
+        32732,
+        31634,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Cidade clássica: NPCs, chaves e guias atribuídos à cidade e, opcionalmente, às regiões relacionadas."
+    },
+    {
+      "id": "edron",
+      "name": "Edron",
+      "kind": "city",
+      "parent": null,
+      "aliases": [],
+      "map": [
+        33217,
+        31814,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Cidade clássica: NPCs, chaves e guias atribuídos à cidade e, opcionalmente, às regiões relacionadas."
+    },
+    {
+      "id": "darashia",
+      "name": "Darashia",
+      "kind": "city",
+      "parent": null,
+      "aliases": [],
+      "map": [
+        33213,
+        32454,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Cidade clássica: NPCs, chaves e guias atribuídos à cidade e, opcionalmente, às regiões relacionadas."
+    },
+    {
+      "id": "venore",
+      "name": "Venore",
+      "kind": "city",
+      "parent": null,
+      "aliases": [],
+      "map": [
+        32957,
+        32076,
+        6
+      ],
+      "mapScope": "overview",
+      "terms": [],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Cidade clássica: NPCs, chaves e guias atribuídos à cidade e, opcionalmente, às regiões relacionadas."
+    },
+    {
+      "id": "ankrahmun",
+      "name": "Ankrahmun",
+      "kind": "city",
+      "parent": null,
+      "aliases": [],
+      "map": [
+        33194,
+        32853,
+        6
+      ],
+      "mapScope": "overview",
+      "terms": [],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Cidade clássica: NPCs, chaves e guias atribuídos à cidade e, opcionalmente, às regiões relacionadas."
+    },
+    {
+      "id": "fibula",
+      "name": "Fibula",
+      "kind": "region",
+      "parent": "Thais",
+      "aliases": [],
+      "map": [
+        32176,
+        32437,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "Fibula"
+      ],
+      "questIds": [
+        "fibula"
+      ],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [
+        "thais-deeper-fibula-dragon-lords",
+        "thais-deeper-fibula-dragons",
+        "thais-fibula-beholders",
+        "thais-fibula-rotworms"
+      ],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "senja",
+      "name": "Senja",
+      "kind": "region",
+      "parent": "Carlin",
+      "aliases": [],
+      "map": [
+        32125,
+        31667,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "Senja"
+      ],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [
+        "carlin-senja-frost-trolls"
+      ],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "folda",
+      "name": "Folda",
+      "kind": "region",
+      "parent": "Carlin",
+      "aliases": [],
+      "map": [
+        32046,
+        31582,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "Folda"
+      ],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [
+        "carlin-folda-frost-trolls",
+        "carlin-folda-minotaurs",
+        "carlin-folda-rotworms"
+      ],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "vega",
+      "name": "Vega",
+      "kind": "region",
+      "parent": "Carlin",
+      "aliases": [],
+      "map": [
+        32027,
+        31692,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "Vega"
+      ],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [
+        "carlin-vega-rotworms"
+      ],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "northport",
+      "name": "Northport",
+      "kind": "region",
+      "parent": "Carlin",
+      "aliases": [],
+      "map": [
+        32486,
+        31610,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "Northport"
+      ],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "greenshore",
+      "name": "Greenshore",
+      "kind": "region",
+      "parent": "Thais",
+      "aliases": [],
+      "map": [
+        32273,
+        32053,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "Greenshore"
+      ],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "stonehome",
+      "name": "Stonehome",
+      "kind": "region",
+      "parent": "Edron",
+      "aliases": [],
+      "map": [
+        33319,
+        31766,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "Stonehome"
+      ],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "cormaya",
+      "name": "Cormaya",
+      "kind": "region",
+      "parent": "Edron",
+      "aliases": [],
+      "map": [
+        33302,
+        31970,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "Cormaya"
+      ],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "ghostlands",
+      "name": "Ghostlands",
+      "kind": "region",
+      "parent": "Carlin",
+      "aliases": [],
+      "map": [
+        32223,
+        31831,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "Ghostlands"
+      ],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [
+        "carlin-ghostlands-demon-skeletons",
+        "carlin-ghostlands-ghouls",
+        "carlin-ghostlands-skeletons",
+        "carlin-ghostlands-vampire"
+      ],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "ice-islands",
+      "name": "Ice Islands",
+      "kind": "region",
+      "parent": "Carlin",
+      "aliases": [
+        "Ice Isles"
+      ],
+      "map": [
+        32100,
+        31630,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "alawar",
+        "ice islands"
+      ],
+      "questIds": [
+        "alawar-s-vault"
+      ],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "isle-of-the-kings",
+      "name": "Isle of the Kings",
+      "kind": "region",
+      "parent": "Carlin",
+      "aliases": [
+        "KingsIsle"
+      ],
+      "map": [
+        32174,
+        31940,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "white raven",
+        "monastery"
+      ],
+      "questIds": [
+        "the-white-raven-monastery"
+      ],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "fields-of-glory",
+      "name": "Fields of Glory",
+      "kind": "region",
+      "parent": "Carlin",
+      "aliases": [
+        "Fieldofglory"
+      ],
+      "map": [
+        32430,
+        31671,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "fields of glory"
+      ],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "draconia",
+      "name": "Draconia",
+      "kind": "region",
+      "parent": "Ab'Dendriel",
+      "aliases": [
+        "DragonIsle"
+      ],
+      "map": [
+        32781,
+        31603,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "draconia"
+      ],
+      "questIds": [
+        "draconia"
+      ],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [
+        "abdendriel-draconia-demon-skeletons",
+        "abdendriel-draconia-dragon-lord",
+        "abdendriel-draconia-dragons"
+      ],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "hellgate",
+      "name": "Hellgate",
+      "kind": "region",
+      "parent": "Ab'Dendriel",
+      "aliases": [
+        "HellsGate",
+        "Necropolis"
+      ],
+      "map": [
+        32675,
+        31648,
+        10
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "hellgate",
+        "hell gate"
+      ],
+      "questIds": [],
+      "npcNames": [
+        "A Wrinkled Beholder"
+      ],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [
+        "abdendriel-hellgate-beholders",
+        "abdendriel-hellgate-demon-skeletons",
+        "abdendriel-hellgate-ghouls"
+      ],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "elvenbane",
+      "name": "Elvenbane",
+      "kind": "region",
+      "parent": "Ab'Dendriel",
+      "aliases": [],
+      "map": [
+        32590,
+        31657,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "elvenbane"
+      ],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [
+        "abdendriel-elvenbane-demon-skeleton",
+        "abdendriel-elvenbane-dragon",
+        "abdendriel-elvenbane-minotaurs",
+        "abdendriel-elvenbane-orcs"
+      ],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "mintwallin",
+      "name": "Mintwallin",
+      "kind": "region",
+      "parent": "Thais",
+      "aliases": [
+        "Minocity"
+      ],
+      "map": [
+        32404,
+        32124,
+        15
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "mintwallin",
+        "mad mage"
+      ],
+      "questIds": [
+        "mad-mage-room"
+      ],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [
+        "thais-mintwallin-guards",
+        "thais-mintwallin-mages",
+        "thais-mintwallin-minotaurs"
+      ],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "ancient-temple",
+      "name": "Ancient Temple",
+      "kind": "region",
+      "parent": "Thais",
+      "aliases": [],
+      "map": [
+        32354,
+        32136,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "ancient temple"
+      ],
+      "questIds": [
+        "devil-helmet",
+        "ghoul-room"
+      ],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [
+        "thais-temple-orcs",
+        "thais-temple-rotworms"
+      ],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "mount-sternum",
+      "name": "Mount Sternum",
+      "kind": "region",
+      "parent": "Thais",
+      "aliases": [
+        "Sternum"
+      ],
+      "map": [
+        32463,
+        32077,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "mount sternum"
+      ],
+      "questIds": [
+        "noble-armor"
+      ],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [
+        "cyclops-sternum"
+      ],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "jakundaf-desert",
+      "name": "Jakundaf Desert",
+      "kind": "region",
+      "parent": null,
+      "aliases": [
+        "Jakundaf",
+        "Desert"
+      ],
+      "map": [
+        32653,
+        32117,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "desert dungeon",
+        "panpipe"
+      ],
+      "questIds": [
+        "panpipe",
+        "the-desert-dungeon"
+      ],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "outlaw-camp",
+      "name": "Outlaw Camp",
+      "kind": "region",
+      "parent": null,
+      "aliases": [
+        "Camp"
+      ],
+      "map": [
+        32655,
+        32208,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "outlaw camp",
+        "bright sword"
+      ],
+      "questIds": [
+        "the-outlaw-camp"
+      ],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "plains-of-havoc",
+      "name": "Plains of Havoc",
+      "kind": "region",
+      "parent": null,
+      "aliases": [
+        "Havoc"
+      ],
+      "map": [
+        32783,
+        32243,
+        6
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "plains of havoc"
+      ],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [
+        "giant-spider-poh",
+        "venore-poh-cyclops",
+        "venore-poh-dragon-lords",
+        "venore-poh-dragons",
+        "venore-poh-minotaurs"
+      ],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "green-claw-swamp",
+      "name": "Green Claw Swamp",
+      "kind": "region",
+      "parent": "Venore",
+      "aliases": [
+        "Swamp"
+      ],
+      "map": [
+        32724,
+        31976,
+        6
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "black knight"
+      ],
+      "questIds": [
+        "black-knight"
+      ],
+      "npcNames": [
+        "Wyda"
+      ],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [
+        "venore-black-knight"
+      ],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "drefia",
+      "name": "Drefia",
+      "kind": "region",
+      "parent": "Darashia",
+      "aliases": [],
+      "map": [
+        32996,
+        32417,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "drefia"
+      ],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [
+        "drefia-beholders",
+        "drefia-demon-skeletons",
+        "drefia-ghouls",
+        "drefia-vampires",
+        "necromancer-drefia"
+      ],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "ashta-daramai",
+      "name": "Ashta'daramai",
+      "kind": "region",
+      "parent": null,
+      "aliases": [
+        "Marid"
+      ],
+      "map": [
+        33103,
+        32539,
+        6
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "blue djinn"
+      ],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "mal-ouquah",
+      "name": "Mal'ouquah",
+      "kind": "region",
+      "parent": null,
+      "aliases": [
+        "Efreet"
+      ],
+      "map": [
+        33053,
+        32622,
+        6
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "green djinn"
+      ],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "eremo-s-island",
+      "name": "Eremo's Island",
+      "kind": "region",
+      "parent": "Edron",
+      "aliases": [
+        "Eremo"
+      ],
+      "map": [
+        33323,
+        31883,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [],
+      "questIds": [],
+      "npcNames": [
+        "Eremo"
+      ],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "ulderek-s-rock",
+      "name": "Ulderek's Rock",
+      "kind": "region",
+      "parent": null,
+      "aliases": [
+        "Orc",
+        "Orc Fortress"
+      ],
+      "map": [
+        32901,
+        31771,
+        7
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "orc fortress"
+      ],
+      "questIds": [
+        "orc-fortress"
+      ],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "arredores-de-kazordoon",
+      "name": "Arredores de Kazordoon",
+      "kind": "region",
+      "parent": "Kazordoon",
+      "aliases": [
+        "Hills"
+      ],
+      "map": [
+        32553,
+        31827,
+        6
+      ],
+      "mapScope": "overview",
+      "terms": [
+        "paradox tower"
+      ],
+      "questIds": [
+        "the-paradox-tower"
+      ],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    },
+    {
+      "id": "arredores-de-venore",
+      "name": "Arredores de Venore",
+      "kind": "region",
+      "parent": "Venore",
+      "aliases": [
+        "VenoreDragons"
+      ],
+      "map": [
+        32793,
+        32155,
+        8
+      ],
+      "mapScope": "overview",
+      "terms": [],
+      "questIds": [],
+      "npcNames": [],
+      "sources": [
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74.otbm",
+        "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/world/Tibia74-spawns.xml"
+      ],
+      "huntIds": [],
+      "description": "Região clássica: referências do catálogo identificadas por localização ou ligação explícita com o guia."
+    }
+  ],
+  "mapKeyScan": {
+    "4501": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1209,
+          "pos": [
+            32039,
+            31603,
+            10
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 4501
+          }
+        }
+      ]
+    },
+    "4502": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32107,
+            31568,
+            9
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 4502
+          }
+        },
+        {
+          "item": 1212,
+          "pos": [
+            32108,
+            31568,
+            9
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 4502
+          }
+        }
+      ]
+    },
+    "4503": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1209,
+          "pos": [
+            32035,
+            31642,
+            8
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 4503
+          }
+        }
+      ]
+    },
+    "3012": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32675,
+            31649,
+            10
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3012
+          }
+        },
+        {
+          "item": 1212,
+          "pos": [
+            32675,
+            31671,
+            10
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3012
+          }
+        }
+      ]
+    },
+    "3350": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32180,
+            31934,
+            7
+          ],
+          "container": 1987,
+          "attrs": {
+            "action_id": 3350
+          }
+        }
+      ],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32178,
+            31928,
+            6
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3350
+          }
+        }
+      ]
+    },
+    "3520": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1209,
+          "pos": [
+            32400,
+            31788,
+            8
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3520
+          }
+        },
+        {
+          "item": 1209,
+          "pos": [
+            32400,
+            31789,
+            8
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3520
+          }
+        }
+      ]
+    },
+    "3899": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32479,
+            31903,
+            4
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3899
+          }
+        }
+      ]
+    },
+    "3801": {
+      "keys": [
+        {
+          "item": 2089,
+          "pos": [
+            32648,
+            31905,
+            3
+          ],
+          "container": 1740,
+          "attrs": {
+            "action_id": 3801
+          }
+        }
+      ],
+      "doors": [
+        {
+          "item": 1209,
+          "pos": [
+            32600,
+            31926,
+            6
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3801
+          }
+        }
+      ]
+    },
+    "3800": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32645,
+            31906,
+            3
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3800
+          }
+        }
+      ]
+    },
+    "3802": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32602,
+            31962,
+            14
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3802
+          }
+        },
+        {
+          "item": 1212,
+          "pos": [
+            32603,
+            31962,
+            14
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3802
+          }
+        },
+        {
+          "item": 1212,
+          "pos": [
+            32602,
+            31966,
+            14
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3802
+          }
+        },
+        {
+          "item": 1212,
+          "pos": [
+            32603,
+            31966,
+            14
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3802
+          }
+        },
+        {
+          "item": 1212,
+          "pos": [
+            32602,
+            31975,
+            14
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3802
+          }
+        },
+        {
+          "item": 1212,
+          "pos": [
+            32603,
+            31975,
+            14
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3802
+          }
+        }
+      ]
+    },
+    "5000": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32726,
+            31980,
+            7
+          ],
+          "container": 1410,
+          "attrs": {
+            "action_id": 5000
+          }
+        }
+      ],
+      "doors": []
+    },
+    "4601": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32145,
+            32100,
+            11
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 4601
+          }
+        }
+      ]
+    },
+    "4600": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1209,
+          "pos": [
+            32109,
+            32172,
+            8
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 4600
+          }
+        }
+      ]
+    },
+    "4603": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1209,
+          "pos": [
+            32179,
+            32149,
+            10
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 4603
+          }
+        }
+      ]
+    },
+    "3142": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1209,
+          "pos": [
+            32450,
+            32044,
+            8
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3142
+          }
+        }
+      ]
+    },
+    "3620": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32411,
+            32155,
+            15
+          ],
+          "container": 1717,
+          "attrs": {
+            "action_id": 3620
+          }
+        }
+      ],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32395,
+            32117,
+            15
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3620
+          }
+        },
+        {
+          "item": 1212,
+          "pos": [
+            32393,
+            32136,
+            14
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3620
+          }
+        }
+      ]
+    },
+    "3650": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32414,
+            32146,
+            15
+          ],
+          "container": 1717,
+          "attrs": {
+            "action_id": 3650
+          }
+        }
+      ],
+      "doors": []
+    },
+    "3610": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32589,
+            32097,
+            14
+          ],
+          "container": 1740,
+          "attrs": {
+            "action_id": 3610
+          }
+        }
+      ],
+      "doors": [
+        {
+          "item": 1209,
+          "pos": [
+            32462,
+            32151,
+            15
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3610
+          }
+        },
+        {
+          "item": 1212,
+          "pos": [
+            32462,
+            32153,
+            14
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3610
+          }
+        }
+      ]
+    },
+    "3600": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1209,
+          "pos": [
+            32506,
+            32175,
+            14
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3600
+          }
+        }
+      ]
+    },
+    "3667": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32576,
+            32216,
+            15
+          ],
+          "container": 3058,
+          "attrs": {
+            "action_id": 3667
+          }
+        }
+      ],
+      "doors": [
+        {
+          "item": 1209,
+          "pos": [
+            32592,
+            32102,
+            14
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3667
+          }
+        }
+      ]
+    },
+    "4009": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32677,
+            32084,
+            11
+          ],
+          "container": 1740,
+          "attrs": {
+            "action_id": 4009
+          }
+        }
+      ],
+      "doors": []
+    },
+    "3303": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32614,
+            32175,
+            9
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3303
+          }
+        }
+      ]
+    },
+    "3304": {
+      "keys": [
+        {
+          "item": 2091,
+          "pos": [
+            32623,
+            32187,
+            9
+          ],
+          "container": 1738,
+          "attrs": {
+            "action_id": 3304
+          }
+        }
+      ],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32620,
+            32199,
+            10
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3304
+          }
+        }
+      ]
+    },
+    "4055": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32643,
+            32128,
+            8
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 4055
+          }
+        }
+      ]
+    },
+    "4001": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32661,
+            32141,
+            10
+          ],
+          "container": 1740,
+          "attrs": {
+            "action_id": 4001
+          }
+        }
+      ],
+      "doors": []
+    },
+    "3666": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32578,
+            32197,
+            15
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3666
+          }
+        }
+      ]
+    },
+    "3302": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32619,
+            32240,
+            8
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3302
+          }
+        }
+      ]
+    },
+    "3301": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32619,
+            32241,
+            8
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3301
+          }
+        }
+      ]
+    },
+    "3940": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32190,
+            32432,
+            8
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3940
+          }
+        }
+      ]
+    },
+    "3980": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32277,
+            32420,
+            10
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3980
+          }
+        }
+      ]
+    },
+    "3001": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32794,
+            31572,
+            7
+          ],
+          "container": 3103,
+          "attrs": {
+            "action_id": 3001
+          }
+        }
+      ],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32814,
+            31597,
+            7
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3001
+          }
+        }
+      ]
+    },
+    "3005": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32792,
+            31591,
+            6
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3005
+          }
+        }
+      ],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32794,
+            31582,
+            6
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3005
+          }
+        }
+      ]
+    },
+    "3006": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32801,
+            31579,
+            6
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3006
+          }
+        }
+      ],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32814,
+            31595,
+            6
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3006
+          }
+        }
+      ]
+    },
+    "3004": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32807,
+            31576,
+            6
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3004
+          }
+        }
+      ],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32809,
+            31593,
+            6
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3004
+          }
+        }
+      ]
+    },
+    "3007": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32813,
+            31576,
+            5
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3007
+          }
+        }
+      ],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32797,
+            31592,
+            4
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3007
+          }
+        }
+      ]
+    },
+    "3008": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32800,
+            31582,
+            2
+          ],
+          "container": 1718,
+          "attrs": {
+            "action_id": 3008
+          }
+        }
+      ],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32804,
+            31585,
+            1
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3008
+          }
+        }
+      ]
+    },
+    "3003": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32790,
+            31593,
+            7
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3003
+          }
+        }
+      ],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32811,
+            31597,
+            7
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3003
+          }
+        }
+      ]
+    },
+    "3002": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            32796,
+            31597,
+            7
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3002
+          }
+        }
+      ]
+    },
+    "6010": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1212,
+          "pos": [
+            33211,
+            31634,
+            13
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 6010
+          }
+        }
+      ]
+    },
+    "5010": {
+      "keys": [],
+      "doors": [
+        {
+          "item": 1209,
+          "pos": [
+            32824,
+            31969,
+            8
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 5010
+          }
+        }
+      ]
+    },
+    "3700": {
+      "keys": [
+        {
+          "item": 2087,
+          "pos": [
+            32818,
+            32230,
+            9
+          ],
+          "container": null,
+          "attrs": {
+            "action_id": 3700
+          }
+        }
+      ],
+      "doors": []
+    },
+    "3701": {
+      "keys": [
+        {
+          "item": 2088,
+          "pos": [
+            32781,
+            32334,
+            6
+          ],
+          "container": 1740,
+          "attrs": {
+            "action_id": 3701
+          }
+        }
+      ],
+      "doors": []
+    }
+  },
+  "mapSHA256": "f5c3cde6921a8efb35294478a1a4aa86415d561bf6e935467f8fc4bf8012b535",
+  "limits": [
+    "Mapa reconstruído contém conteúdo posterior; presença isolada não comprova compatibilidade 7.4.",
+    "Coordenadas modernas não foram tratadas como SQM clássico comprovado.",
+    "Material de 3940 e 3302 tem divergências explicitadas na ficha.",
+    "Vistas de cidade são centros editoriais de consulta, não pontos de entrada ou respawn."
+  ]
+}
