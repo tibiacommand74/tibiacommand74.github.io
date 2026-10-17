@@ -85,6 +85,23 @@ assert.equal(api.regionProfile('Venore').map[2],6);assert.equal(api.regionProfil
 assert.equal(api.cityRows('Draconia').keys.length,8);assert(api.cityRows("Ab'Dendriel",true).keys.length>=8);assert(api.cityRows('Thais',true).npcs.length>api.cityRows('Thais').npcs.length);
 const dom=new Map();function el(selector){if(!dom.has(selector))dom.set(selector,{innerHTML:'',value:'',checked:false,textContent:'',querySelectorAll:()=>[]});return dom.get(selector);}
 const root={innerHTML:'',querySelector:el,querySelectorAll:()=>[]};api.renderKeys(root);assert(el('#explorer-key-list').innerHTML.includes('library-card'));assert(root.innerHTML.includes('key-clear'));el('#explorer-key-search').oninput({target:{value:'inexistente-8811'}});assert(el('#explorer-key-list').innerHTML.includes('Nenhuma chave'));el('#key-clear').onclick();assert(el('#key-result-count').textContent.startsWith('44 '));
-api.renderCity(root);assert(root.innerHTML.includes('Regiões e ilhas'));assert(el('#city-results').innerHTML.includes('npc-sprite'));el('#city-search').oninput({target:{value:'inexistente-8811'}});assert(!el('#city-results').innerHTML.includes('data-catalog-npc='));el('#explorer-city').onchange({target:{value:'Draconia'}});assert(el('#city-results').innerHTML.includes('Key 3008'));
+api.renderCity(root);assert(root.innerHTML.includes('Regiões e ilhas'));assert(el('#city-results').innerHTML.includes('city-summary-card'));assert(!el('#city-results').innerHTML.includes('data-catalog-npc='));assert(!el('#city-results').innerHTML.includes('npc-sprite'));assert(!el('#city-results').innerHTML.includes('Key 3008'));assert(el('#city-results').innerHTML.includes('#city-catalog/npcs/Thais/local'));
+el('#explorer-city').onchange({target:{value:'Draconia'}});assert(el('#city-results').innerHTML.includes('#city-catalog/keys/Draconia/local'));assert(el('#city-results').innerHTML.includes('<strong>8</strong>'));
+const originalRender=env.render,rendered=[];env.render=p=>rendered.push(p);const directory=env.window.CityDirectory;
+for(const [kind,field,expression,target] of [['npcs','npcs','catalogRows()','biblioteca'],['magias','spells','catalogRows()','biblioteca'],['quests','quests','questRows()','quests'],['hunts','hunts','huntRows()','hunts'],['keys','keys','window.ClassicExplorer.keyRows()','explorador']]){
+ for(const [name,nearby] of [['Thais',false],["Ab'Dendriel",true],['Jakundaf Desert',false]]){
+  const expected=api.cityRows(name,nearby)[field].filter(r=>kind!=='keys'||r.availability==='classica').map(r=>String(kind==='keys'?r.number:kind==='hunts'||kind==='quests'?r.id:r.name)).sort();
+  assert(directory.route('#city-catalog/'+kind+'/'+encodeURIComponent(name)+'/'+(nearby?'nearby':'local')));assert.equal(rendered.at(-1),target);
+  const actual=run(expression).map(r=>String(kind==='keys'?r.number:kind==='hunts'||kind==='quests'?r.id:r.name)).sort();assert.deepEqual(Array.from(actual),Array.from(expected),kind+' '+name);
+  const banner=directory.markup(kind);assert(banner.includes('Remover filtro de local'));assert(banner.includes('Voltar ao resumo'));assert(!directory.markup(kind==='npcs'?'keys':'npcs'));
+  directory.clear();assert.equal(directory.markup(kind),'');assert(directory.matches(kind,'any-id'));
+ }
+}
+assert(!directory.route('#city-catalog/npcs/%E0%A4%A/local'));assert(!directory.route('#city-catalog/npcs/Unknown/local'));assert(!directory.route('#city-catalog/unknown/Thais/local'));
+const appSource=fs.readFileSync('public/app.js','utf8');vm.runInContext(appSource.slice(appSource.indexOf('function route(){'),appSource.indexOf("document.addEventListener('click',event=>")),env);
+env.location.hash='#city-catalog/npcs/Thais/local';run('route()');assert.equal(rendered.at(-1),'biblioteca');assert(run('catalogRows().every(n=>n.city===\'Thais\')'));assert(directory.markup('npcs').includes('Thais'));
+env.location.hash='#catalog/npcs';run('route()');assert.equal(directory.markup('npcs'),'');assert.equal(run('catalogRows().length'),env.window.CATALOG.npcs.length);
+env.render=originalRender;
+
 for(const k of data.keys){const html=api.keyCard(k);assert.equal((html.match(/<button/g)||[]).length,1);assert.equal((html.match(/<\/button>/g)||[]).length,1);}
-console.log('PASS: key/city historical review, safe map roles, city memberships, overview floors, portraits, cards, search and clear filters');
+console.log('PASS: key/city historical review, safe map roles, city memberships, overview floors, summary navigation, scoped catalogs, cards, search and clear filters');
