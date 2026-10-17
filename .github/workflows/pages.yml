@@ -35,6 +35,7 @@ jobs:
           node scripts/test-map-downloads.cjs
           node scripts/test-catalog.cjs
           node scripts/test-item-review.cjs
+          node scripts/test-npc-review.cjs
           node scripts/test-spell-design.cjs
           node scripts/test-creatures.cjs
           node scripts/test-calculator.cjs
