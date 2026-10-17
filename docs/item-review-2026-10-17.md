@@ -6,7 +6,7 @@ Catálogo: 679 → 677 itens. Auditoria estrutural de todos os registros, revis�
 - Worm retirado (introduzido no 7.5). Ceremonial Mask suspenso pela documentação de introdução no 7.8, apesar do registro no XML antigo.
 - Dwarven Legs suspenso: fontes divergem sobre presença, disponibilidade e atributos. Não foi classificado definitivamente como item posterior; existência de sprite não comprova obtenção.
 - Elven Legs permanece como registro histórico, com armadura oculta e exclusão dos cálculos. Não foi importada a armadura da versão atual.
-- 232 itens recategorizados. Munição, chaves, valiosos, documentos, luzes, instrumentos, utensílios e objetos mágicos ganharam categorias próprias. Corpos deixam de aparecer como recipientes comuns. Ancient Rune não é apresentada como runa conjurável.
+- 233 itens recategorizados. Munição, chaves, valiosos, documentos, luzes, instrumentos, utensílios e objetos mágicos ganharam categorias próprias. Corpos deixam de aparecer como recipientes comuns. Ancient Rune não é apresentada como runa conjurável.
 - 1.665 referências de estoque de NPCs normalizadas para IDs canônicos; oito ofertas residuais retiradas. Comércio validado em ambas as direções, preservando preço e NPC. Preços de compra ordenados do menor para o maior; venda do maior para o menor.
 - Todas as 677 imagens foram decodificadas e seus arquivos verificados. Isso não equivale a comparação visual individual de todos os sprites.
 - Loot original das criaturas preservado; vínculos inversos reconstruídos por ID. IDs sem ficha não foram ligados apenas por semelhança de nome.
