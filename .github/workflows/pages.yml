@@ -40,6 +40,7 @@ jobs:
           node scripts/test-creatures.cjs
           node scripts/test-calculator.cjs
           node scripts/test-launch-pages.cjs
+          node scripts/test-adsense.cjs
           node scripts/test-quest-routes.cjs
           node scripts/test-hunts.cjs
           node scripts/test-hunt-finder.cjs
