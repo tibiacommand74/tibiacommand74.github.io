@@ -47,9 +47,13 @@
  }
  function write(all){
   if(!context)throw Error('Entre na conta e escolha seu personagem.');
-  for(const [k,v] of Object.entries(all))if(JSON.stringify(records[k])!==JSON.stringify(v))dirty[k]=v;
-  records=all;persist();message='Salvo neste navegador; sincronização pendente.';notify();clearTimeout(timer);timer=setTimeout(sync,1200);
+  const next=JSON.parse(JSON.stringify(all)),pending={...dirty};
+  for(const [k,v] of Object.entries(next))if(JSON.stringify(records[k])!==JSON.stringify(v))pending[k]=v;
+  localStorage.setItem(key(context),JSON.stringify({records:next,dirty:pending}));
+  records=next;dirty=pending;message='Salvo neste navegador; sincronização pendente.';notify();clearTimeout(timer);timer=setTimeout(sync,1200);
  }
+ async function syncNow(){const captured=context&&{...context};await sync();return Boolean(captured&&context&&captured.id===context.id&&captured.character===context.character&&captured.server===context.server&&!Object.keys(dirty).length);}
+
  function markup(){if(!signedIn)return '<section class="explorer-journal-box"><h4>Entre para usar seu diário</h4><p>Esta ferramenta é exclusiva para quem tem conta na comunidade.</p><a class="action" href="#classificados" data-community-login>Entrar ou criar conta</a></section>';return `<section class="explorer-journal-box" aria-label="Conta e personagem do diário"><p data-journal-sync-status role="status">${esc(message)}</p><p>${context?'<strong>'+esc(context.character)+' · '+esc(context.server)+'</strong> — diário privado da sua conta.':'O diário é uma ferramenta exclusiva da comunidade. Entre na sua conta para guardar o progresso e continuar em outros dispositivos.'}</p><form data-journal-character class="explorer-fields"><label>Personagem<input name="character" required minlength="2" maxlength="40" value="${esc(context?.character||'')}" placeholder="Nome do personagem" autocomplete="off"></label><label>Servidor<input name="server" required minlength="2" maxlength="60" value="${esc(context?.server||'')}" list="journal-servers" placeholder="Ex.: Mythera"><datalist id="journal-servers"><option value="Mythera"><option value="Miracle"><option value="DeusOLD"><option value="Exordion Aegis"><option value="Exordion Legacy"><option value="Exordion Bravora"></datalist></label><button class="action" type="submit">Abrir diário do personagem</button></form><div class="explorer-actions"><a class="action secondary" href="#classificados" data-community-login>Entrar ou gerenciar conta</a>${context?'<button type="button" class="action secondary" data-journal-sync>Sincronizar agora</button><button type="button" class="action secondary" data-journal-import-local>Importar diário antigo deste navegador</button>':''}</div><small>A sincronização guarda seus registros na conta. O progresso continua manual e não acompanha o jogo.</small></section>`;}
  function bind(root){
   const form=root.querySelector('[data-journal-character]');if(!form)return;
@@ -62,7 +66,7 @@
    message=count+' registros antigos copiados. Registros existentes do personagem foram preservados.';notify();refresh();
   });
  }
- window.JournalAccount={signedIn:()=>signedIn,read:()=>context?{...records}:{},write,markup,bind,init,context:()=>context,saveMessage:()=>context?'Salvo neste navegador; sincronizando com sua conta.':'Entre na conta para salvar.'};
+ window.JournalAccount={activate,syncNow,status:()=>({message,pending:Object.keys(dirty).length,busy}),signedIn:()=>signedIn,read:()=>context?{...records}:{},write,markup,bind,init,context:()=>context,saveMessage:()=>context?'Salvo neste navegador; sincronizando com sua conta.':'Entre na conta para salvar.'};
  window.addEventListener('tc74-auth-change',()=>{clear();init().then(refresh);});
  window.addEventListener('online',()=>{if(context)sync();});
  window.addEventListener('hashchange',()=>{if(location.hash==='#explorador/journal')init().then(refresh);});
