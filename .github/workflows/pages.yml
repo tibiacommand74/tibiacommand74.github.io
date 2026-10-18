@@ -47,6 +47,7 @@ jobs:
           node scripts/test-classic-resources.cjs
           node scripts/test-account-page.cjs
           node scripts/test-character-tools.cjs
+          node scripts/test-adventure-planning.cjs
           node scripts/test-hunt-tools.cjs
           node scripts/test-goal-tools.cjs
           node scripts/test-community-auth.cjs
