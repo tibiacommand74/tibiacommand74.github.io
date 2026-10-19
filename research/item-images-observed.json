@@ -1,0 +1,2963 @@
+[
+  {
+    "category": "swords",
+    "name": "Bone Sword",
+    "src": "https://mythera74.com/items/2450.png",
+    "image": "assets/item-2450.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Bright Sword",
+    "src": "https://mythera74.com/items/2407.png",
+    "image": "assets/mythera-item-2407.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "swords",
+    "name": "Broadsword",
+    "src": "https://mythera74.com/items/2413.png",
+    "image": "assets/item-2413.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Carlin Sword",
+    "src": "https://mythera74.com/items/2395.png",
+    "image": "assets/item-2395.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Combat Knife",
+    "src": "https://mythera74.com/items/2404.png",
+    "image": "assets/item-2404.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Dagger",
+    "src": "https://mythera74.com/items/2379.png",
+    "image": "assets/item-2379.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Djinn Blade",
+    "src": "https://mythera74.com/items/2451.png",
+    "image": "assets/item-2451.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Fire Sword",
+    "src": "https://mythera74.com/items/2392.png",
+    "image": "assets/item-2392.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Frozen Slayer",
+    "src": "https://mythera74.com/items/6019.png",
+    "image": "assets/mythera-item-6019.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "swords",
+    "name": "Giant Sword",
+    "src": "https://mythera74.com/items/2393.png",
+    "image": "assets/item-2393.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Heavy Machete",
+    "src": "https://mythera74.com/items/2442.png",
+    "image": "assets/item-2442.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Ice Rapier",
+    "src": "https://mythera74.com/items/2396.png",
+    "image": "assets/item-2396.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Katana",
+    "src": "https://mythera74.com/items/2412.png",
+    "image": "assets/item-2412.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Knife",
+    "src": "https://mythera74.com/items/2403.png",
+    "image": "assets/item-2403.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Longsword",
+    "src": "https://mythera74.com/items/2397.png",
+    "image": "assets/item-2397.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Machete",
+    "src": "https://mythera74.com/items/2420.png",
+    "image": "assets/item-2420.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Magic Longsword",
+    "src": "https://mythera74.com/items/2390.png",
+    "image": "assets/mythera-item-2390.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "swords",
+    "name": "Magic Sword",
+    "src": "https://mythera74.com/items/2400.png",
+    "image": "assets/mythera-item-2400.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "swords",
+    "name": "Permafrost Sword",
+    "src": "https://mythera74.com/items/6021.png",
+    "image": "assets/mythera-item-6021.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "swords",
+    "name": "Pharaoh Sword",
+    "src": "https://mythera74.com/items/2446.png",
+    "image": "assets/item-2446.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Poison Dagger",
+    "src": "https://mythera74.com/items/2411.png",
+    "image": "assets/item-2411.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Rapier",
+    "src": "https://mythera74.com/items/2384.png",
+    "image": "assets/item-2384.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Sabre",
+    "src": "https://mythera74.com/items/2385.png",
+    "image": "assets/item-2385.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Scimitar",
+    "src": "https://mythera74.com/items/2419.png",
+    "image": "assets/item-2419.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Serpent Sword",
+    "src": "https://mythera74.com/items/2409.png",
+    "image": "assets/item-2409.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Short Sword",
+    "src": "https://mythera74.com/items/2406.png",
+    "image": "assets/item-2406.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Silver Dagger",
+    "src": "https://mythera74.com/items/2402.png",
+    "image": "assets/item-2402.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Spike Sword",
+    "src": "https://mythera74.com/items/2383.png",
+    "image": "assets/item-2383.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Sword",
+    "src": "https://mythera74.com/items/2376.png",
+    "image": "assets/item-2376.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Two Handed Sword",
+    "src": "https://mythera74.com/items/2377.png",
+    "image": "assets/item-2377.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "swords",
+    "name": "Warlord Sword",
+    "src": "https://mythera74.com/items/2408.png",
+    "image": "assets/mythera-item-2408.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "swords",
+    "name": "Wormfang Blade",
+    "src": "https://mythera74.com/items/6034.png",
+    "image": "assets/mythera-item-6034.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Amazon Helmet",
+    "src": "https://mythera74.com/items/2499.png",
+    "image": "assets/mythera-item-2499.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Ancient Tiara",
+    "src": "https://mythera74.com/items/2139.png",
+    "image": "assets/mythera-item-2139.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Beholder Helmet",
+    "src": "https://mythera74.com/items/3972.png",
+    "image": "assets/mythera-item-3972.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Brass Helmet",
+    "src": "https://mythera74.com/items/2460.png",
+    "image": "assets/item-2460.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Ceremonial Mask",
+    "src": "https://mythera74.com/items/2501.png",
+    "image": "assets/mythera-item-2501.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Chain Helmet",
+    "src": "https://mythera74.com/items/2458.png",
+    "image": "assets/item-2458.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Crown Helmet",
+    "src": "https://mythera74.com/items/2491.png",
+    "image": "assets/item-2491.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Crusader Helmet",
+    "src": "https://mythera74.com/items/2497.png",
+    "image": "assets/item-2497.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Dark Helmet",
+    "src": "https://mythera74.com/items/2490.png",
+    "image": "assets/item-2490.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Demon Helmet",
+    "src": "https://mythera74.com/items/2493.png",
+    "image": "assets/mythera-item-2493.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Devil Helmet",
+    "src": "https://mythera74.com/items/2462.png",
+    "image": "assets/item-2462.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Dragon Scale Helmet",
+    "src": "https://mythera74.com/items/2506.png",
+    "image": "assets/mythera-item-2506.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Dwarven Helmet",
+    "src": "https://mythera74.com/items/2502.png",
+    "image": "assets/mythera-item-2502.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Golden Helmet",
+    "src": "https://mythera74.com/items/2471.png",
+    "image": "assets/mythera-item-2471.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Hat of The Mad",
+    "src": "https://mythera74.com/items/2323.png",
+    "image": "assets/mythera-item-2323.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Helmet of the Ancients",
+    "src": "https://mythera74.com/items/2342.png",
+    "image": "assets/mythera-item-2342.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Helmet Of The Ancients",
+    "src": "https://mythera74.com/items/2343.png",
+    "image": "assets/mythera-item-2343.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Horned Helmet",
+    "src": "https://mythera74.com/items/2496.png",
+    "image": "assets/mythera-item-2496.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Iron Helmet",
+    "src": "https://mythera74.com/items/2459.png",
+    "image": "assets/item-2459.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Leather Helmet",
+    "src": "https://mythera74.com/items/2461.png",
+    "image": "assets/item-2461.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Legion Helmet",
+    "src": "https://mythera74.com/items/2480.png",
+    "image": "assets/item-2480.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Magician Hat",
+    "src": "https://mythera74.com/items/2662.png",
+    "image": "assets/mythera-item-2662.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Mystic Turban",
+    "src": "https://mythera74.com/items/2663.png",
+    "image": "assets/item-2663.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Post Officers Hat",
+    "src": "https://mythera74.com/items/2665.png",
+    "image": "assets/mythera-item-2665.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Royal Helmet",
+    "src": "https://mythera74.com/items/2498.png",
+    "image": "assets/item-2498.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Soldier Helmet",
+    "src": "https://mythera74.com/items/2481.png",
+    "image": "assets/item-2481.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Steel Helmet",
+    "src": "https://mythera74.com/items/2457.png",
+    "image": "assets/item-2457.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Strange Helmet",
+    "src": "https://mythera74.com/items/2479.png",
+    "image": "assets/item-2479.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Studded Helmet",
+    "src": "https://mythera74.com/items/2482.png",
+    "image": "assets/item-2482.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Viking Helmet",
+    "src": "https://mythera74.com/items/2473.png",
+    "image": "assets/item-2473.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Warrior Helmet",
+    "src": "https://mythera74.com/items/2475.png",
+    "image": "assets/item-2475.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "helmets",
+    "name": "Winged Helmet",
+    "src": "https://mythera74.com/items/2474.png",
+    "image": "assets/mythera-item-2474.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "helmets",
+    "name": "Wood Cape",
+    "src": "https://mythera74.com/items/2664.png",
+    "image": "assets/mythera-item-2664.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "armors",
+    "name": "Amazon Armor",
+    "src": "https://mythera74.com/items/2500.png",
+    "image": "assets/mythera-item-2500.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "armors",
+    "name": "Ball Gown",
+    "src": "https://mythera74.com/items/2659.png",
+    "image": "assets/mythera-item-2659.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "armors",
+    "name": "Blue Robe",
+    "src": "https://mythera74.com/items/2656.png",
+    "image": "assets/item-2656.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Brass Armor",
+    "src": "https://mythera74.com/items/2465.png",
+    "image": "assets/item-2465.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Cape",
+    "src": "https://mythera74.com/items/2654.png",
+    "image": "assets/item-2654.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Chain Armor",
+    "src": "https://mythera74.com/items/2464.png",
+    "image": "assets/item-2464.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Coat",
+    "src": "https://mythera74.com/items/2651.png",
+    "image": "assets/item-2651.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Crown Armor",
+    "src": "https://mythera74.com/items/2487.png",
+    "image": "assets/item-2487.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Dark Armor",
+    "src": "https://mythera74.com/items/2489.png",
+    "image": "assets/item-2489.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Demon Armor",
+    "src": "https://mythera74.com/items/2494.png",
+    "image": "assets/mythera-item-2494.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "armors",
+    "name": "Doublet",
+    "src": "https://mythera74.com/items/2485.png",
+    "image": "assets/mythera-item-2485.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "armors",
+    "name": "Dragon Scale Mail",
+    "src": "https://mythera74.com/items/2492.png",
+    "image": "assets/item-2492.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Dwarven Armor",
+    "src": "https://mythera74.com/items/2503.png",
+    "image": "assets/mythera-item-2503.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "armors",
+    "name": "Elven Mail",
+    "src": "https://mythera74.com/items/2505.png",
+    "image": "assets/mythera-item-2505.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "armors",
+    "name": "Golden Armor",
+    "src": "https://mythera74.com/items/2466.png",
+    "image": "assets/item-2466.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Green Tunic",
+    "src": "https://mythera74.com/items/2652.png",
+    "image": "assets/item-2652.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Jacket",
+    "src": "https://mythera74.com/items/2650.png",
+    "image": "assets/mythera-item-2650.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "armors",
+    "name": "Knight Armor",
+    "src": "https://mythera74.com/items/2476.png",
+    "image": "assets/item-2476.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Leather Armor",
+    "src": "https://mythera74.com/items/2467.png",
+    "image": "assets/item-2467.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Magic Plate Armor",
+    "src": "https://mythera74.com/items/2472.png",
+    "image": "assets/item-2472.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Native Armor",
+    "src": "https://mythera74.com/items/2508.png",
+    "image": "assets/mythera-item-2508.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "armors",
+    "name": "Noble Armor",
+    "src": "https://mythera74.com/items/2486.png",
+    "image": "assets/item-2486.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Plate Armor",
+    "src": "https://mythera74.com/items/2463.png",
+    "image": "assets/item-2463.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Ranger's Cloak",
+    "src": "https://mythera74.com/items/2660.png",
+    "image": "assets/mythera-item-2660.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "armors",
+    "name": "Red Robe",
+    "src": "https://mythera74.com/items/2655.png",
+    "image": "assets/item-2655.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Red Tunic",
+    "src": "https://mythera74.com/items/2653.png",
+    "image": "assets/mythera-item-2653.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "armors",
+    "name": "Scale Armor",
+    "src": "https://mythera74.com/items/2483.png",
+    "image": "assets/item-2483.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Simple Dress",
+    "src": "https://mythera74.com/items/2657.png",
+    "image": "assets/item-2657.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "Spectral Dress",
+    "src": "https://mythera74.com/items/4847.png",
+    "image": "assets/mythera-item-4847.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "armors",
+    "name": "Studded Armor",
+    "src": "https://mythera74.com/items/2484.png",
+    "image": "assets/item-2484.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "armors",
+    "name": "White Dress",
+    "src": "https://mythera74.com/items/2658.png",
+    "image": "assets/item-2658.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "legs",
+    "name": "Brass Legs",
+    "src": "https://mythera74.com/items/2478.png",
+    "image": "assets/item-2478.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "legs",
+    "name": "Chain Legs",
+    "src": "https://mythera74.com/items/2648.png",
+    "image": "assets/item-2648.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "legs",
+    "name": "Crown Legs",
+    "src": "https://mythera74.com/items/2488.png",
+    "image": "assets/item-2488.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "legs",
+    "name": "Demon Legs",
+    "src": "https://mythera74.com/items/2495.png",
+    "image": "assets/mythera-item-2495.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "legs",
+    "name": "Dragon Scale Legs",
+    "src": "https://mythera74.com/items/2469.png",
+    "image": "assets/mythera-item-2469.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "legs",
+    "name": "Dwarven Legs",
+    "src": "https://mythera74.com/items/2504.png",
+    "image": "assets/mythera-item-2504.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "legs",
+    "name": "Elven Legs",
+    "src": "https://mythera74.com/items/2507.png",
+    "image": "assets/mythera-item-2507.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "legs",
+    "name": "Golden Legs",
+    "src": "https://mythera74.com/items/2470.png",
+    "image": "assets/item-2470.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "legs",
+    "name": "Knight Legs",
+    "src": "https://mythera74.com/items/2477.png",
+    "image": "assets/item-2477.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "legs",
+    "name": "Leather Legs",
+    "src": "https://mythera74.com/items/2649.png",
+    "image": "assets/item-2649.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "legs",
+    "name": "Plate Legs",
+    "src": "https://mythera74.com/items/2647.png",
+    "image": "assets/item-2647.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "legs",
+    "name": "Studded Legs",
+    "src": "https://mythera74.com/items/2468.png",
+    "image": "assets/item-2468.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "boots",
+    "name": "Boots of Haste",
+    "src": "https://mythera74.com/items/2195.png",
+    "image": "assets/item-2195.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "boots",
+    "name": "Boots of Waterwalking",
+    "src": "https://mythera74.com/items/2358.png",
+    "image": "assets/mythera-item-2358.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "boots",
+    "name": "Bunnyslippers",
+    "src": "https://mythera74.com/items/2644.png",
+    "image": "assets/mythera-item-2644.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "boots",
+    "name": "Golden Boots",
+    "src": "https://mythera74.com/items/2646.png",
+    "image": "assets/mythera-item-2646.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "boots",
+    "name": "Leather Boots",
+    "src": "https://mythera74.com/items/2643.png",
+    "image": "assets/item-2643.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "boots",
+    "name": "Patched Boots",
+    "src": "https://mythera74.com/items/2641.png",
+    "image": "assets/mythera-item-2641.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "boots",
+    "name": "Sandals",
+    "src": "https://mythera74.com/items/2642.png",
+    "image": "assets/item-2642.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "boots",
+    "name": "Soft Boots",
+    "src": "https://mythera74.com/items/2640.png",
+    "image": "assets/mythera-item-2640.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "boots",
+    "name": "Steel Boots",
+    "src": "https://mythera74.com/items/2645.png",
+    "image": "assets/item-2645.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Amazon Shield",
+    "src": "https://mythera74.com/items/2537.png",
+    "image": "assets/mythera-item-2537.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "shields",
+    "name": "Ancient Shield",
+    "src": "https://mythera74.com/items/2532.png",
+    "image": "assets/item-2532.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Battle Shield",
+    "src": "https://mythera74.com/items/2513.png",
+    "image": "assets/item-2513.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Beholder Shield",
+    "src": "https://mythera74.com/items/2518.png",
+    "image": "assets/item-2518.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Black Shield",
+    "src": "https://mythera74.com/items/2529.png",
+    "image": "assets/item-2529.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Blessed Shield",
+    "src": "https://mythera74.com/items/2523.png",
+    "image": "assets/mythera-item-2523.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "shields",
+    "name": "Bone Shield",
+    "src": "https://mythera74.com/items/2541.png",
+    "image": "assets/item-2541.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Brass Shield",
+    "src": "https://mythera74.com/items/2511.png",
+    "image": "assets/item-2511.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Castle Shield",
+    "src": "https://mythera74.com/items/2535.png",
+    "image": "assets/item-2535.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Copper Shield",
+    "src": "https://mythera74.com/items/2530.png",
+    "image": "assets/item-2530.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Crown Shield",
+    "src": "https://mythera74.com/items/2519.png",
+    "image": "assets/item-2519.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Dark Shield",
+    "src": "https://mythera74.com/items/2521.png",
+    "image": "assets/mythera-item-2521.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "shields",
+    "name": "Demon Shield",
+    "src": "https://mythera74.com/items/2520.png",
+    "image": "assets/item-2520.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Dragon Shield",
+    "src": "https://mythera74.com/items/2516.png",
+    "image": "assets/item-2516.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Dwarven Shield",
+    "src": "https://mythera74.com/items/2525.png",
+    "image": "assets/item-2525.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Eagle Shield",
+    "src": "https://mythera74.com/items/2538.png",
+    "image": "assets/mythera-item-2538.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "shields",
+    "name": "Frozen Shield",
+    "src": "https://mythera74.com/items/6020.png",
+    "image": "assets/mythera-item-6020.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "shields",
+    "name": "Great Shield",
+    "src": "https://mythera74.com/items/2522.png",
+    "image": "assets/mythera-item-2522.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "shields",
+    "name": "Griffin Shield",
+    "src": "https://mythera74.com/items/2533.png",
+    "image": "assets/item-2533.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Guardian Shield",
+    "src": "https://mythera74.com/items/2515.png",
+    "image": "assets/item-2515.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Mastermind Shield",
+    "src": "https://mythera74.com/items/2514.png",
+    "image": "assets/item-2514.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Medusa Shield",
+    "src": "https://mythera74.com/items/2536.png",
+    "image": "assets/mythera-item-2536.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "shields",
+    "name": "Ornamented Shield",
+    "src": "https://mythera74.com/items/2524.png",
+    "image": "assets/mythera-item-2524.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "shields",
+    "name": "Phoenix Shield",
+    "src": "https://mythera74.com/items/2539.png",
+    "image": "assets/item-2539.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Plate Shield",
+    "src": "https://mythera74.com/items/2510.png",
+    "image": "assets/item-2510.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Rose Shield",
+    "src": "https://mythera74.com/items/2527.png",
+    "image": "assets/mythera-item-2527.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "shields",
+    "name": "Scarab Shield",
+    "src": "https://mythera74.com/items/2540.png",
+    "image": "assets/item-2540.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Shield Of Honour",
+    "src": "https://mythera74.com/items/2517.png",
+    "image": "assets/mythera-item-2517.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "shields",
+    "name": "Steel Shield",
+    "src": "https://mythera74.com/items/2509.png",
+    "image": "assets/item-2509.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Studded Shield",
+    "src": "https://mythera74.com/items/2526.png",
+    "image": "assets/item-2526.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Tempest Shield",
+    "src": "https://mythera74.com/items/2542.png",
+    "image": "assets/mythera-item-2542.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "shields",
+    "name": "Tower Shield",
+    "src": "https://mythera74.com/items/2528.png",
+    "image": "assets/item-2528.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Vampire Shield",
+    "src": "https://mythera74.com/items/2534.png",
+    "image": "assets/item-2534.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "shields",
+    "name": "Viking Shield",
+    "src": "https://mythera74.com/items/2531.png",
+    "image": "assets/mythera-item-2531.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "shields",
+    "name": "Wooden Shield",
+    "src": "https://mythera74.com/items/2512.png",
+    "image": "assets/item-2512.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "quivers",
+    "name": "Demonic Quiver",
+    "src": "https://mythera74.com/items/5929.png",
+    "image": "assets/mythera-item-5929.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "quivers",
+    "name": "Flaming Quiver",
+    "src": "https://mythera74.com/items/5924.png",
+    "image": "assets/mythera-item-5924.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "quivers",
+    "name": "Fletcher's Quiver",
+    "src": "https://mythera74.com/items/5090.png",
+    "image": "assets/mythera-item-5090.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "quivers",
+    "name": "Frozen Quiver",
+    "src": "https://mythera74.com/items/5923.png",
+    "image": "assets/mythera-item-5923.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "quivers",
+    "name": "Leather Quiver",
+    "src": "https://mythera74.com/items/5922.png",
+    "image": "assets/mythera-item-5922.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "quivers",
+    "name": "Marksman's Quiver",
+    "src": "https://mythera74.com/items/5091.png",
+    "image": "assets/mythera-item-5091.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "quivers",
+    "name": "Quiver",
+    "src": "https://mythera74.com/items/5921.png",
+    "image": "assets/mythera-item-5921.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "quivers",
+    "name": "Quiver Of Valor",
+    "src": "https://mythera74.com/items/5928.png",
+    "image": "assets/mythera-item-5928.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "quivers",
+    "name": "Scale Quiver",
+    "src": "https://mythera74.com/items/5925.png",
+    "image": "assets/mythera-item-5925.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "quivers",
+    "name": "Skull Quiver",
+    "src": "https://mythera74.com/items/5926.png",
+    "image": "assets/mythera-item-5926.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "rings",
+    "name": "Axe Ring",
+    "src": "https://mythera74.com/items/2208.png",
+    "image": "assets/item-2208.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Club Ring",
+    "src": "https://mythera74.com/items/2209.png",
+    "image": "assets/item-2209.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Crystal Ring",
+    "src": "https://mythera74.com/items/2124.png",
+    "image": "assets/item-2124.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Dwarven Ring",
+    "src": "https://mythera74.com/items/2213.png",
+    "image": "assets/item-2213.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Emerald Bangle",
+    "src": "https://mythera74.com/items/2127.png",
+    "image": "assets/item-2127.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Energy Ring",
+    "src": "https://mythera74.com/items/2167.png",
+    "image": "assets/item-2167.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Gold Ring",
+    "src": "https://mythera74.com/items/2179.png",
+    "image": "assets/item-2179.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Life Ring",
+    "src": "https://mythera74.com/items/2168.png",
+    "image": "assets/item-2168.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Might Ring",
+    "src": "https://mythera74.com/items/2164.png",
+    "image": "assets/item-2164.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Power Ring",
+    "src": "https://mythera74.com/items/2166.png",
+    "image": "assets/item-2166.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Ring Of Healing",
+    "src": "https://mythera74.com/items/2214.png",
+    "image": "assets/item-2214.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Ring Of The Sky",
+    "src": "https://mythera74.com/items/2123.png",
+    "image": "assets/item-2123.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Ring Of Wishes",
+    "src": "https://mythera74.com/items/2357.png",
+    "image": "assets/mythera-item-2357.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "rings",
+    "name": "Stealth Ring",
+    "src": "https://mythera74.com/items/2165.png",
+    "image": "assets/item-2165.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Sword Ring",
+    "src": "https://mythera74.com/items/2207.png",
+    "image": "assets/item-2207.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Time Ring",
+    "src": "https://mythera74.com/items/2169.png",
+    "image": "assets/item-2169.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "rings",
+    "name": "Wedding Ring",
+    "src": "https://mythera74.com/items/2121.png",
+    "image": "assets/item-2121.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Amulet Of Loss",
+    "src": "https://mythera74.com/items/2173.png",
+    "image": "assets/mythera-item-2173.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "amulets",
+    "name": "Ancient Amulet",
+    "src": "https://mythera74.com/items/2142.png",
+    "image": "assets/item-2142.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Broken Amulet",
+    "src": "https://mythera74.com/items/2196.png",
+    "image": "assets/mythera-item-2196.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "amulets",
+    "name": "Bronze Amulet",
+    "src": "https://mythera74.com/items/2172.png",
+    "image": "assets/item-2172.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Bronze Necklace",
+    "src": "https://mythera74.com/items/2126.png",
+    "image": "assets/mythera-item-2126.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "amulets",
+    "name": "Crystal Necklace",
+    "src": "https://mythera74.com/items/2125.png",
+    "image": "assets/item-2125.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Demonbone Amulet",
+    "src": "https://mythera74.com/items/2136.png",
+    "image": "assets/mythera-item-2136.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "amulets",
+    "name": "Dragon Necklace",
+    "src": "https://mythera74.com/items/2201.png",
+    "image": "assets/item-2201.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Elven Amulet",
+    "src": "https://mythera74.com/items/2198.png",
+    "image": "assets/item-2198.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Garlic Necklace",
+    "src": "https://mythera74.com/items/2199.png",
+    "image": "assets/item-2199.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Golden Amulet",
+    "src": "https://mythera74.com/items/2130.png",
+    "image": "assets/mythera-item-2130.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "amulets",
+    "name": "Impetuous Amulet",
+    "src": "https://mythera74.com/items/5785.png",
+    "image": "assets/mythera-item-5785.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "amulets",
+    "name": "Platinum Amulet",
+    "src": "https://mythera74.com/items/2171.png",
+    "image": "assets/item-2171.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Protection Amulet",
+    "src": "https://mythera74.com/items/2200.png",
+    "image": "assets/item-2200.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Ruby Necklace",
+    "src": "https://mythera74.com/items/2133.png",
+    "image": "assets/item-2133.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Sapphire Amulet",
+    "src": "https://mythera74.com/items/2138.png",
+    "image": "assets/mythera-item-2138.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "amulets",
+    "name": "Scarab Amulet",
+    "src": "https://mythera74.com/items/2135.png",
+    "image": "assets/item-2135.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Scarf",
+    "src": "https://mythera74.com/items/2661.png",
+    "image": "assets/item-2661.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Silver Amulet",
+    "src": "https://mythera74.com/items/2170.png",
+    "image": "assets/item-2170.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Silver Necklace",
+    "src": "https://mythera74.com/items/2132.png",
+    "image": "assets/mythera-item-2132.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "amulets",
+    "name": "Sporebound Amulet",
+    "src": "https://mythera74.com/items/6037.png",
+    "image": "assets/mythera-item-6037.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "amulets",
+    "name": "Star Amulet",
+    "src": "https://mythera74.com/items/2131.png",
+    "image": "assets/mythera-item-2131.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "amulets",
+    "name": "Stone Skin Amulet",
+    "src": "https://mythera74.com/items/2197.png",
+    "image": "assets/item-2197.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Strange Symbol",
+    "src": "https://mythera74.com/items/2319.png",
+    "image": "assets/mythera-item-2319.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "amulets",
+    "name": "Strange Talisman",
+    "src": "https://mythera74.com/items/2161.png",
+    "image": "assets/item-2161.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "amulets",
+    "name": "Wolf Tooth Chain",
+    "src": "https://mythera74.com/items/2129.png",
+    "image": "assets/item-2129.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Axe",
+    "src": "https://mythera74.com/items/2386.png",
+    "image": "assets/item-2386.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Barbarian Axe",
+    "src": "https://mythera74.com/items/2429.png",
+    "image": "assets/mythera-item-2429.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "axes",
+    "name": "Battle Axe",
+    "src": "https://mythera74.com/items/2378.png",
+    "image": "assets/item-2378.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Daramanian Axe",
+    "src": "https://mythera74.com/items/2441.png",
+    "image": "assets/mythera-item-2441.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "axes",
+    "name": "Daramanian Waraxe",
+    "src": "https://mythera74.com/items/2440.png",
+    "image": "assets/item-2440.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Double Axe",
+    "src": "https://mythera74.com/items/2387.png",
+    "image": "assets/item-2387.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Dragon Lance",
+    "src": "https://mythera74.com/items/2414.png",
+    "image": "assets/item-2414.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Dwarven Axe",
+    "src": "https://mythera74.com/items/2435.png",
+    "image": "assets/mythera-item-2435.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "axes",
+    "name": "Fire Axe",
+    "src": "https://mythera74.com/items/2432.png",
+    "image": "assets/item-2432.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Golden Sickle",
+    "src": "https://mythera74.com/items/2418.png",
+    "image": "assets/item-2418.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Great Axe",
+    "src": "https://mythera74.com/items/2415.png",
+    "image": "assets/mythera-item-2415.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "axes",
+    "name": "Guardian Halberd",
+    "src": "https://mythera74.com/items/2427.png",
+    "image": "assets/mythera-item-2427.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "axes",
+    "name": "Halberd",
+    "src": "https://mythera74.com/items/2381.png",
+    "image": "assets/item-2381.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Hand Axe",
+    "src": "https://mythera74.com/items/2380.png",
+    "image": "assets/item-2380.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Hatchet",
+    "src": "https://mythera74.com/items/2388.png",
+    "image": "assets/item-2388.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Knight Axe",
+    "src": "https://mythera74.com/items/2430.png",
+    "image": "assets/item-2430.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Naginata",
+    "src": "https://mythera74.com/items/2426.png",
+    "image": "assets/mythera-item-2426.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "axes",
+    "name": "Obsidian Lance",
+    "src": "https://mythera74.com/items/2425.png",
+    "image": "assets/item-2425.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Orcish Axe",
+    "src": "https://mythera74.com/items/2428.png",
+    "image": "assets/item-2428.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "ravager's axe",
+    "src": "https://mythera74.com/items/2443.png",
+    "image": "assets/item-2443.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Reaper's Scythe",
+    "src": "https://mythera74.com/items/6104.png",
+    "image": "assets/mythera-item-6104.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "axes",
+    "name": "Sickle",
+    "src": "https://mythera74.com/items/2405.png",
+    "image": "assets/item-2405.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "axes",
+    "name": "Stonecutter Axe",
+    "src": "https://mythera74.com/items/2431.png",
+    "image": "assets/mythera-item-2431.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "axes",
+    "name": "Twin Axe",
+    "src": "https://mythera74.com/items/2447.png",
+    "image": "assets/mythera-item-2447.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "axes",
+    "name": "War Axe",
+    "src": "https://mythera74.com/items/2454.png",
+    "image": "assets/mythera-item-2454.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "axes",
+    "name": "Wormcleaver",
+    "src": "https://mythera74.com/items/6035.png",
+    "image": "assets/mythera-item-6035.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "clubs",
+    "name": "Arcane Staff",
+    "src": "https://mythera74.com/items/2453.png",
+    "image": "assets/mythera-item-2453.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "clubs",
+    "name": "Battle Hammer",
+    "src": "https://mythera74.com/items/2417.png",
+    "image": "assets/item-2417.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Bone Club",
+    "src": "https://mythera74.com/items/2449.png",
+    "image": "assets/item-2449.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Clerical Mace",
+    "src": "https://mythera74.com/items/2423.png",
+    "image": "assets/item-2423.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Club",
+    "src": "https://mythera74.com/items/2382.png",
+    "image": "assets/item-2382.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Crowbar",
+    "src": "https://mythera74.com/items/2416.png",
+    "image": "assets/item-2416.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Crystal Mace",
+    "src": "https://mythera74.com/items/2445.png",
+    "image": "assets/item-2445.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Daramanian Mace",
+    "src": "https://mythera74.com/items/2439.png",
+    "image": "assets/item-2439.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Dragon Hammer",
+    "src": "https://mythera74.com/items/2434.png",
+    "image": "assets/item-2434.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Enchanted Staff",
+    "src": "https://mythera74.com/items/2433.png",
+    "image": "assets/mythera-item-2433.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "clubs",
+    "name": "Frozen Staff",
+    "src": "https://mythera74.com/items/6103.png",
+    "image": "assets/mythera-item-6103.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "clubs",
+    "name": "Giant Smithhammer",
+    "src": "https://mythera74.com/items/2321.png",
+    "image": "assets/mythera-item-2321.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "clubs",
+    "name": "Hammer Of Wrath",
+    "src": "https://mythera74.com/items/2444.png",
+    "image": "assets/item-2444.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Heavy Mace",
+    "src": "https://mythera74.com/items/2452.png",
+    "image": "assets/mythera-item-2452.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "clubs",
+    "name": "Iron Hammer",
+    "src": "https://mythera74.com/items/2422.png",
+    "image": "assets/mythera-item-2422.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "clubs",
+    "name": "Light Mace",
+    "src": "https://mythera74.com/items/2437.png",
+    "image": "assets/mythera-item-2437.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "clubs",
+    "name": "Mace",
+    "src": "https://mythera74.com/items/2398.png",
+    "image": "assets/item-2398.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Morning Star",
+    "src": "https://mythera74.com/items/2394.png",
+    "image": "assets/item-2394.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Scythe",
+    "src": "https://mythera74.com/items/2550.png",
+    "image": "assets/item-2550.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Silver Mace",
+    "src": "https://mythera74.com/items/2424.png",
+    "image": "assets/item-2424.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Skull Staff",
+    "src": "https://mythera74.com/items/2436.png",
+    "image": "assets/item-2436.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Staff",
+    "src": "https://mythera74.com/items/2401.png",
+    "image": "assets/item-2401.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Studded Club",
+    "src": "https://mythera74.com/items/2448.png",
+    "image": "assets/item-2448.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Thunder Hammer",
+    "src": "https://mythera74.com/items/2421.png",
+    "image": "assets/mythera-item-2421.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "clubs",
+    "name": "War Hammer",
+    "src": "https://mythera74.com/items/2391.png",
+    "image": "assets/item-2391.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "clubs",
+    "name": "Wormfang Mace",
+    "src": "https://mythera74.com/items/6036.png",
+    "image": "assets/mythera-item-6036.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "distance",
+    "name": "Bow",
+    "src": "https://mythera74.com/items/2456.png",
+    "image": "assets/item-2456.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "distance",
+    "name": "Crossbow",
+    "src": "https://mythera74.com/items/2455.png",
+    "image": "assets/item-2455.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "distance",
+    "name": "Small Stone",
+    "src": "https://mythera74.com/items/1294.png",
+    "image": "assets/item-1294.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "distance",
+    "name": "Snowball",
+    "src": "https://mythera74.com/items/2111.png",
+    "image": "assets/item-2111.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "distance",
+    "name": "Spear",
+    "src": "https://mythera74.com/items/2389.png",
+    "image": "assets/item-2389.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "distance",
+    "name": "Throwing Knife",
+    "src": "https://mythera74.com/items/2410.png",
+    "image": "assets/item-2410.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "distance",
+    "name": "Throwing Star",
+    "src": "https://mythera74.com/items/2399.png",
+    "image": "assets/item-2399.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "ammunition",
+    "name": "Arrow",
+    "src": "https://mythera74.com/items/2544.png",
+    "image": "assets/item-2544.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "ammunition",
+    "name": "Bolt",
+    "src": "https://mythera74.com/items/2543.png",
+    "image": "assets/item-2543.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "ammunition",
+    "name": "Burst Arrow",
+    "src": "https://mythera74.com/items/2546.png",
+    "image": "assets/item-2546.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "ammunition",
+    "name": "Poison Arrow",
+    "src": "https://mythera74.com/items/2545.png",
+    "image": "assets/item-2545.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "ammunition",
+    "name": "Power Bolt",
+    "src": "https://mythera74.com/items/2547.png",
+    "image": "assets/item-2547.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "containers",
+    "name": "Amulet Backpack",
+    "src": "https://mythera74.com/items/5964.png",
+    "image": "assets/mythera-item-5964.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Backpack",
+    "src": "https://mythera74.com/items/1988.png",
+    "image": "assets/item-1988.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "containers",
+    "name": "Bag",
+    "src": "https://mythera74.com/items/1987.png",
+    "image": "assets/item-1987.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "containers",
+    "name": "Blank Rune Backpack",
+    "src": "https://mythera74.com/items/5966.png",
+    "image": "assets/mythera-item-5966.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Blue Backpack",
+    "src": "https://mythera74.com/items/2002.png",
+    "image": "assets/item-2002.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "containers",
+    "name": "Blue Bag",
+    "src": "https://mythera74.com/items/1995.png",
+    "image": "assets/mythera-item-1995.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Camouflage Backpack",
+    "src": "https://mythera74.com/items/3940.png",
+    "image": "assets/mythera-item-3940.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Camouflage Bag",
+    "src": "https://mythera74.com/items/3939.png",
+    "image": "assets/mythera-item-3939.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Classic Backpack",
+    "src": "https://mythera74.com/items/5268.png",
+    "image": "assets/mythera-item-5268.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Explosion Backpack",
+    "src": "https://mythera74.com/items/5969.png",
+    "image": "assets/mythera-item-5969.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Golden Backpack",
+    "src": "https://mythera74.com/items/2004.png",
+    "image": "assets/mythera-item-2004.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Golden Bag",
+    "src": "https://mythera74.com/items/1997.png",
+    "image": "assets/mythera-item-1997.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Great Fireball Backpack",
+    "src": "https://mythera74.com/items/6039.png",
+    "image": "assets/mythera-item-6039.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Green Backpack",
+    "src": "https://mythera74.com/items/1998.png",
+    "image": "assets/mythera-item-1998.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Green Bag",
+    "src": "https://mythera74.com/items/1991.png",
+    "image": "assets/mythera-item-1991.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Grey Backpack",
+    "src": "https://mythera74.com/items/2003.png",
+    "image": "assets/mythera-item-2003.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Grey Bag",
+    "src": "https://mythera74.com/items/1996.png",
+    "image": "assets/mythera-item-1996.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Heavy Magic Missile Backpack",
+    "src": "https://mythera74.com/items/6040.png",
+    "image": "assets/mythera-item-6040.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Magic Wall Backpack",
+    "src": "https://mythera74.com/items/5971.png",
+    "image": "assets/mythera-item-5971.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Mana Fluid Backpack",
+    "src": "https://mythera74.com/items/5970.png",
+    "image": "assets/mythera-item-5970.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Old And Used Backpack",
+    "src": "https://mythera74.com/items/3960.png",
+    "image": "assets/mythera-item-3960.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Paralyze Backpack",
+    "src": "https://mythera74.com/items/5972.png",
+    "image": "assets/mythera-item-5972.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Parcel",
+    "src": "https://mythera74.com/items/2595.png",
+    "image": "assets/mythera-item-2595.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Present",
+    "src": "https://mythera74.com/items/1990.png",
+    "image": "assets/mythera-item-1990.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Purple Backpack",
+    "src": "https://mythera74.com/items/2001.png",
+    "image": "assets/mythera-item-2001.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Purple Bag",
+    "src": "https://mythera74.com/items/1994.png",
+    "image": "assets/mythera-item-1994.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Red Backpack",
+    "src": "https://mythera74.com/items/2000.png",
+    "image": "assets/mythera-item-2000.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Red Bag",
+    "src": "https://mythera74.com/items/1993.png",
+    "image": "assets/mythera-item-1993.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Ring Backpack",
+    "src": "https://mythera74.com/items/5965.png",
+    "image": "assets/mythera-item-5965.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Stone Pouch",
+    "src": "https://mythera74.com/items/5480.png",
+    "image": "assets/mythera-item-5480.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Sudden Death Backpack",
+    "src": "https://mythera74.com/items/5967.png",
+    "image": "assets/mythera-item-5967.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Ultimate Healing Backpack",
+    "src": "https://mythera74.com/items/5968.png",
+    "image": "assets/mythera-item-5968.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Yellow Backpack",
+    "src": "https://mythera74.com/items/1999.png",
+    "image": "assets/mythera-item-1999.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "containers",
+    "name": "Yellow Bag",
+    "src": "https://mythera74.com/items/1992.png",
+    "image": "assets/mythera-item-1992.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Banana",
+    "src": "https://mythera74.com/items/2676.png",
+    "image": "assets/mythera-item-2676.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Blueberry",
+    "src": "https://mythera74.com/items/2677.png",
+    "image": "assets/item-2677.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Bread",
+    "src": "https://mythera74.com/items/2689.png",
+    "image": "assets/item-2689.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Brown Bread",
+    "src": "https://mythera74.com/items/2691.png",
+    "image": "assets/mythera-item-2691.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Brown Mushroom",
+    "src": "https://mythera74.com/items/2789.png",
+    "image": "assets/mythera-item-2789.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Candy Cane",
+    "src": "https://mythera74.com/items/2688.png",
+    "image": "assets/item-2688.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Carrot",
+    "src": "https://mythera74.com/items/2684.png",
+    "image": "assets/item-2684.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Carrot Of Doom",
+    "src": "https://mythera74.com/items/2362.png",
+    "image": "assets/mythera-item-2362.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Cheese",
+    "src": "https://mythera74.com/items/2696.png",
+    "image": "assets/item-2696.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Cherry",
+    "src": "https://mythera74.com/items/2679.png",
+    "image": "assets/item-2679.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Coconut",
+    "src": "https://mythera74.com/items/2678.png",
+    "image": "assets/item-2678.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Cookie",
+    "src": "https://mythera74.com/items/2687.png",
+    "image": "assets/item-2687.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Corncob",
+    "src": "https://mythera74.com/items/2686.png",
+    "image": "assets/item-2686.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Dark Mushroom",
+    "src": "https://mythera74.com/items/2792.png",
+    "image": "assets/item-2792.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Dragon Ham",
+    "src": "https://mythera74.com/items/2672.png",
+    "image": "assets/item-2672.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Egg",
+    "src": "https://mythera74.com/items/2695.png",
+    "image": "assets/item-2695.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Fire Mushroom",
+    "src": "https://mythera74.com/items/2795.png",
+    "image": "assets/item-2795.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Fish",
+    "src": "https://mythera74.com/items/2667.png",
+    "image": "assets/item-2667.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Frozen Ham",
+    "src": "https://mythera74.com/items/5109.png",
+    "image": "assets/mythera-item-5109.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Grapes",
+    "src": "https://mythera74.com/items/2681.png",
+    "image": "assets/item-2681.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Green Mushroom",
+    "src": "https://mythera74.com/items/2796.png",
+    "image": "assets/item-2796.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Ham",
+    "src": "https://mythera74.com/items/2671.png",
+    "image": "assets/item-2671.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Meat",
+    "src": "https://mythera74.com/items/2666.png",
+    "image": "assets/item-2666.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Melon",
+    "src": "https://mythera74.com/items/2682.png",
+    "image": "assets/item-2682.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Mushrooms",
+    "src": "https://mythera74.com/items/2794.png",
+    "image": "assets/mythera-item-2794.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Mushrooms",
+    "src": "https://mythera74.com/items/2793.png",
+    "image": "assets/mythera-item-2793.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Northern Pike",
+    "src": "https://mythera74.com/items/2669.png",
+    "image": "assets/mythera-item-2669.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Orange",
+    "src": "https://mythera74.com/items/2675.png",
+    "image": "assets/item-2675.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Orange Mushroom",
+    "src": "https://mythera74.com/items/2790.png",
+    "image": "assets/mythera-item-2790.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Organic Orange",
+    "src": "https://mythera74.com/items/2675.png",
+    "image": "assets/item-2675.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Pear",
+    "src": "https://mythera74.com/items/2673.png",
+    "image": "assets/item-2673.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Pumpkin",
+    "src": "https://mythera74.com/items/2683.png",
+    "image": "assets/mythera-item-2683.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Red Apple",
+    "src": "https://mythera74.com/items/2674.png",
+    "image": "assets/item-2674.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Red Mushroom",
+    "src": "https://mythera74.com/items/2788.png",
+    "image": "assets/mythera-item-2788.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Roll",
+    "src": "https://mythera74.com/items/2690.png",
+    "image": "assets/item-2690.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Salmon",
+    "src": "https://mythera74.com/items/2668.png",
+    "image": "assets/mythera-item-2668.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Shrimp",
+    "src": "https://mythera74.com/items/2670.png",
+    "image": "assets/mythera-item-2670.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Strawberry",
+    "src": "https://mythera74.com/items/2680.png",
+    "image": "assets/mythera-item-2680.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "Tomato",
+    "src": "https://mythera74.com/items/2685.png",
+    "image": "assets/mythera-item-2685.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "foods",
+    "name": "White Mushroom",
+    "src": "https://mythera74.com/items/2787.png",
+    "image": "assets/item-2787.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "foods",
+    "name": "Wood Mushroom",
+    "src": "https://mythera74.com/items/2791.png",
+    "image": "assets/item-2791.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "runes",
+    "name": "Animate Dead Rune",
+    "src": "https://mythera74.com/items/2316.png",
+    "image": "assets/mythera-item-2316.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Antidote Rune",
+    "src": "https://mythera74.com/items/2266.png",
+    "image": "assets/mythera-item-2266.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Blank Rune",
+    "src": "https://mythera74.com/items/2260.png",
+    "image": "assets/item-2260.png",
+    "imageOrigin": "shared-item-id"
+  },
+  {
+    "category": "runes",
+    "name": "Chameleon Rune",
+    "src": "https://mythera74.com/items/2291.png",
+    "image": "assets/mythera-item-2291.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Convince Creature Rune",
+    "src": "https://mythera74.com/items/2290.png",
+    "image": "assets/mythera-item-2290.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Desintegrate Rune",
+    "src": "https://mythera74.com/items/2310.png",
+    "image": "assets/mythera-item-2310.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Destroy Field Rune",
+    "src": "https://mythera74.com/items/2261.png",
+    "image": "assets/mythera-item-2261.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Energy Bomb Rune",
+    "src": "https://mythera74.com/items/2262.png",
+    "image": "assets/mythera-item-2262.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Energy Explosion Rune",
+    "src": "https://mythera74.com/items/5902.png",
+    "image": "assets/mythera-item-5902.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Energy Field Rune",
+    "src": "https://mythera74.com/items/2277.png",
+    "image": "assets/mythera-item-2277.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Energy Wall Rune",
+    "src": "https://mythera74.com/items/2279.png",
+    "image": "assets/mythera-item-2279.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Envenom Rune",
+    "src": "https://mythera74.com/items/2292.png",
+    "image": "assets/mythera-item-2292.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Explosion Rune",
+    "src": "https://mythera74.com/items/2313.png",
+    "image": "assets/mythera-item-2313.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Fire Field Rune",
+    "src": "https://mythera74.com/items/2301.png",
+    "image": "assets/mythera-item-2301.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Fire Wall Rune",
+    "src": "https://mythera74.com/items/2303.png",
+    "image": "assets/mythera-item-2303.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Fireball Rune",
+    "src": "https://mythera74.com/items/2302.png",
+    "image": "assets/mythera-item-2302.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Firebomb Rune",
+    "src": "https://mythera74.com/items/2305.png",
+    "image": "assets/mythera-item-2305.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Great Fireball Rune",
+    "src": "https://mythera74.com/items/2304.png",
+    "image": "assets/mythera-item-2304.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Heavy Magic Missile Rune",
+    "src": "https://mythera74.com/items/2311.png",
+    "image": "assets/mythera-item-2311.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Icicle Rune",
+    "src": "https://mythera74.com/items/6102.png",
+    "image": "assets/mythera-item-6102.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Intense Healing Rune",
+    "src": "https://mythera74.com/items/2265.png",
+    "image": "assets/mythera-item-2265.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Light Magic Missile Rune",
+    "src": "https://mythera74.com/items/2287.png",
+    "image": "assets/mythera-item-2287.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Magic Wall Rune",
+    "src": "https://mythera74.com/items/2293.png",
+    "image": "assets/mythera-item-2293.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Paralyze Rune",
+    "src": "https://mythera74.com/items/2278.png",
+    "image": "assets/mythera-item-2278.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Poison Bomb Rune",
+    "src": "https://mythera74.com/items/2286.png",
+    "image": "assets/mythera-item-2286.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Poison Field Rune",
+    "src": "https://mythera74.com/items/2285.png",
+    "image": "assets/mythera-item-2285.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Poison Wall Rune",
+    "src": "https://mythera74.com/items/2289.png",
+    "image": "assets/mythera-item-2289.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Soulfire Rune",
+    "src": "https://mythera74.com/items/2308.png",
+    "image": "assets/mythera-item-2308.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Sudden Death Rune",
+    "src": "https://mythera74.com/items/2268.png",
+    "image": "assets/mythera-item-2268.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "runes",
+    "name": "Ultimate Healing Rune",
+    "src": "https://mythera74.com/items/2273.png",
+    "image": "assets/mythera-item-2273.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "wands-rods",
+    "name": "Frostpulse Rod",
+    "src": "https://mythera74.com/items/5796.png",
+    "image": "assets/mythera-item-5796.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "wands-rods",
+    "name": "Toxic Mire Rod",
+    "src": "https://mythera74.com/items/5794.png",
+    "image": "assets/mythera-item-5794.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "wands-rods",
+    "name": "Voidcaster Rod",
+    "src": "https://mythera74.com/items/6109.png",
+    "image": "assets/mythera-item-6109.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "wands-rods",
+    "name": "Cobra Blaze Wand",
+    "src": "https://mythera74.com/items/5797.png",
+    "image": "assets/mythera-item-5797.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "wands-rods",
+    "name": "Tempest Wand",
+    "src": "https://mythera74.com/items/6110.png",
+    "image": "assets/mythera-item-6110.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "wands-rods",
+    "name": "Vortex Wand",
+    "src": "https://mythera74.com/items/5795.png",
+    "image": "assets/mythera-item-5795.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "mystic-runes",
+    "name": "Bastion Rune",
+    "src": "https://mythera74.com/items/5974.png",
+    "image": "assets/mythera-item-5974.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "mystic-runes",
+    "name": "Ethereal Rune",
+    "src": "https://mythera74.com/items/5975.png",
+    "image": "assets/mythera-item-5975.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "mystic-runes",
+    "name": "Ignis Rune",
+    "src": "https://mythera74.com/items/5976.png",
+    "image": "assets/mythera-item-5976.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "mystic-runes",
+    "name": "Magma Rune",
+    "src": "https://mythera74.com/items/5980.png",
+    "image": "assets/mythera-item-5980.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "mystic-runes",
+    "name": "Purity Rune",
+    "src": "https://mythera74.com/items/5979.png",
+    "image": "assets/mythera-item-5979.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "mystic-runes",
+    "name": "Umbral Rune",
+    "src": "https://mythera74.com/items/5978.png",
+    "image": "assets/mythera-item-5978.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "mystic-runes",
+    "name": "Void Rune",
+    "src": "https://mythera74.com/items/5977.png",
+    "image": "assets/mythera-item-5977.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "tools",
+    "name": "Adventurer's Tools",
+    "src": "https://mythera74.com/items/5160.png",
+    "image": "assets/mythera-item-5160.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "tools",
+    "name": "Arcane Light Wand",
+    "src": "https://mythera74.com/items/5931.png",
+    "image": "assets/mythera-item-5931.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "tools",
+    "name": "Blessings Checker",
+    "src": "https://mythera74.com/items/5116.png",
+    "image": "assets/mythera-item-5116.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "tools",
+    "name": "Keychain",
+    "src": "https://mythera74.com/items/5161.png",
+    "image": "assets/mythera-item-5161.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "tools",
+    "name": "Stone Pouch",
+    "src": "https://mythera74.com/items/5480.png",
+    "image": "assets/mythera-item-5480.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Charged Training Axe",
+    "src": "https://mythera74.com/items/5940.png",
+    "image": "assets/mythera-item-5940.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Charged Training Club",
+    "src": "https://mythera74.com/items/5941.png",
+    "image": "assets/mythera-item-5941.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Charged Training Rod",
+    "src": "https://mythera74.com/items/5943.png",
+    "image": "assets/mythera-item-5943.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Charged Training Shield",
+    "src": "https://mythera74.com/items/5945.png",
+    "image": "assets/mythera-item-5945.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Charged Training Spear",
+    "src": "https://mythera74.com/items/5942.png",
+    "image": "assets/mythera-item-5942.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Charged Training Sword",
+    "src": "https://mythera74.com/items/5939.png",
+    "image": "assets/mythera-item-5939.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Charged Training Wand",
+    "src": "https://mythera74.com/items/5944.png",
+    "image": "assets/mythera-item-5944.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Discharged Training Axe",
+    "src": "https://mythera74.com/items/5933.png",
+    "image": "assets/mythera-item-5933.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Discharged Training Club",
+    "src": "https://mythera74.com/items/5934.png",
+    "image": "assets/mythera-item-5934.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Discharged Training Rod",
+    "src": "https://mythera74.com/items/5936.png",
+    "image": "assets/mythera-item-5936.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Discharged Training Shield",
+    "src": "https://mythera74.com/items/5938.png",
+    "image": "assets/mythera-item-5938.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Discharged Training Spear",
+    "src": "https://mythera74.com/items/5935.png",
+    "image": "assets/mythera-item-5935.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Discharged Training Sword",
+    "src": "https://mythera74.com/items/5932.png",
+    "image": "assets/mythera-item-5932.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Discharged Training Wand",
+    "src": "https://mythera74.com/items/5937.png",
+    "image": "assets/mythera-item-5937.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Empowered Training Axe",
+    "src": "https://mythera74.com/items/5947.png",
+    "image": "assets/mythera-item-5947.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Empowered Training Club",
+    "src": "https://mythera74.com/items/5948.png",
+    "image": "assets/mythera-item-5948.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Empowered Training Rod",
+    "src": "https://mythera74.com/items/5950.png",
+    "image": "assets/mythera-item-5950.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Empowered Training Shield",
+    "src": "https://mythera74.com/items/5952.png",
+    "image": "assets/mythera-item-5952.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Empowered Training Spear",
+    "src": "https://mythera74.com/items/5949.png",
+    "image": "assets/mythera-item-5949.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Empowered Training Sword",
+    "src": "https://mythera74.com/items/5946.png",
+    "image": "assets/mythera-item-5946.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Empowered Training Wand",
+    "src": "https://mythera74.com/items/5951.png",
+    "image": "assets/mythera-item-5951.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Overcharged Training Axe",
+    "src": "https://mythera74.com/items/5954.png",
+    "image": "assets/mythera-item-5954.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Overcharged Training Club",
+    "src": "https://mythera74.com/items/5955.png",
+    "image": "assets/mythera-item-5955.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Overcharged Training Rod",
+    "src": "https://mythera74.com/items/5957.png",
+    "image": "assets/mythera-item-5957.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Overcharged Training Shield",
+    "src": "https://mythera74.com/items/5959.png",
+    "image": "assets/mythera-item-5959.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Overcharged Training Spear",
+    "src": "https://mythera74.com/items/5956.png",
+    "image": "assets/mythera-item-5956.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Overcharged Training Sword",
+    "src": "https://mythera74.com/items/5953.png",
+    "image": "assets/mythera-item-5953.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Overcharged Training Wand",
+    "src": "https://mythera74.com/items/5958.png",
+    "image": "assets/mythera-item-5958.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Charged Crystal",
+    "src": "https://mythera74.com/items/5960.png",
+    "image": "assets/mythera-item-5960.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Empowered Crystal",
+    "src": "https://mythera74.com/items/5961.png",
+    "image": "assets/mythera-item-5961.png",
+    "imageOrigin": "official-download"
+  },
+  {
+    "category": "training",
+    "name": "Overcharged Crystal",
+    "src": "https://mythera74.com/items/5962.png",
+    "image": "assets/mythera-item-5962.png",
+    "imageOrigin": "official-download"
+  }
+]

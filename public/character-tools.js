@@ -10,7 +10,7 @@
  const today=()=>{const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()),value=type=>parts.find(p=>p.type===type).value;return value('year')+'-'+value('month')+'-'+value('day');};
  const fmt=v=>v===null||v===undefined?'Não informado':Number(v).toLocaleString('pt-BR');
  const date=s=>String(s).split('-').reverse().join('/');
- const xp=l=>Math.round((50*l*l*l-300*l*l+850*l-600)/3);
+ const xp=l=>window.ServerContext?window.ServerContext.xp(l):Math.round((50*l*l*l-300*l*l+850*l-600)/3);
  function integer(v,label,min,max){if(v===null||v===undefined||String(v).trim()==='')return null;const n=Number(v);if(!Number.isSafeInteger(n)||n<min||n>max)throw Error(label+': informe um inteiro entre '+min+' e '+max+'.');return n;}
  function text(v,max,label){const s=String(v??'').trim();if(s.length>max)throw Error(label+': limite de '+max+' caracteres.');return s;}
  function validDate(v){if(!/^\d{4}-\d{2}-\d{2}$/.test(v)||!Number.isFinite(Date.parse(v+'T12:00:00Z'))||new Date(v+'T12:00:00Z').toISOString().slice(0,10)!==v||v<'2000-01-01'||v>today())throw Error('Informe uma data válida, de 2000 até hoje.');return v;}

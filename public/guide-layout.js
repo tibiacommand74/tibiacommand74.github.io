@@ -30,9 +30,9 @@ window.applyGuideLayout=(root,kind)=>{
 window.buildLibraryNavigation=(nav,selected,root)=>{
  nav.classList.add('unified-library-nav');nav.setAttribute('aria-label','Biblioteca e planejamento');
  const groups=[['Consultar',[['search','Busca geral'],['criaturas','Criaturas'],['itens','Itens'],['magias','Magias'],['npcs','NPCs'],['keys','Chaves'],['cities','Cidades']]],['Preparar',[['planner','Planejar quests'],['sets','Sets clássicos'],['food','Comidas']]],['Descobrir',[['lore','Livros e mistérios']]]];
- const href=id=>id==='criaturas'?'#criaturas':['itens','magias','npcs'].includes(id)?'#biblioteca':'#explorador/'+id;
+ const href=id=>id==='criaturas'?'#criaturas':['itens','magias','npcs'].includes(id)?(window.ServerContext?.isMythera?'#catalog/'+id:'#biblioteca'):'#explorador/'+id;
  nav.innerHTML=groups.map(([name,entries])=>'<div class="explorer-nav-group"><h3>'+name+'</h3>'+entries.map(([id,label])=>'<a href="'+href(id)+'" '+(['itens','magias','npcs'].includes(id)?'data-library-section="'+id+'" ':'')+(selected===id?'aria-current="page"':'')+'>'+label+'<span aria-hidden="true">›</span></a>').join('')+'</div>').join('');
- nav.querySelectorAll('[data-library-section]').forEach(a=>a.onclick=ev=>{ev.preventDefault();catalogTab=a.dataset.librarySection;catalogQuery=catalogCategory=catalogVocation=catalogKind=catalogPremium=catalogCity=catalogRole='';catalogSort='name';catalogLimit=36;if(location.hash==='#biblioteca')renderCatalog(root);else location.hash='biblioteca';});
+ nav.querySelectorAll('[data-library-section]').forEach(a=>a.onclick=ev=>{ev.preventDefault();if(window.ServerContext?.isMythera){location.hash='#catalog/'+a.dataset.librarySection;return;}catalogTab=a.dataset.librarySection;catalogQuery=catalogCategory=catalogVocation=catalogKind=catalogPremium=catalogCity=catalogRole='';catalogSort='name';catalogLimit=36;if(location.hash==='#biblioteca')renderCatalog(root);else location.hash='biblioteca';});
 };
 
 

@@ -14,6 +14,7 @@
  async function activate(character,server){
   const user=await CommunityAuth.journalIdentity();if(!user){clear();return false;}signedIn=true;
   character=String(character||'').trim().toLowerCase();server=String(server||'').trim().toLowerCase();
+  if(window.ServerContext?.isMythera&&server!=='mythera')throw Error('Selecione Mythera para usar este modo do site.');
   if(character.length<2||character.length>40||server.length<2||server.length>60)throw Error('Informe personagem (2 a 40 caracteres) e servidor (2 a 60).');
   epoch++;clearTimeout(timer);context={id:user.id,character,server};const cached=object(safeRead(key(context)));records=object(cached.records);dirty=object(cached.dirty);
   try{localStorage.setItem('tc74-journal-selection:'+user.id,JSON.stringify({character,server}));}catch{}
@@ -24,7 +25,7 @@
   initializing=(async()=>{const user=await CommunityAuth.journalIdentity();if(!user){clear();return;}signedIn=true;visibility();
    if(context?.id===user.id)return;
    const selected=object(safeRead('tc74-journal-selection:'+user.id)),profile=user.profile||{};
-   const character=selected.character||profile.character,server=selected.server||profile.server;
+   const matchingMythera=String(selected.server||'').toLowerCase()==='mythera'?selected:String(profile.server||'').toLowerCase()==='mythera'?profile:{};const chosen=window.ServerContext?.isMythera?matchingMythera:selected;const character=chosen.character||(!window.ServerContext?.isMythera?profile.character:null),server=window.ServerContext?.isMythera?'mythera':chosen.server||profile.server;
    if(character&&server)await activate(character,server);
    else{clear();signedIn=true;visibility();message='Escolha personagem e servidor para usar o diário da conta.';}
   })().catch(()=>{message='Não foi possível conectar à conta. O diário local permanece disponível.';notify();}).finally(()=>{initializing=null;});return initializing;
