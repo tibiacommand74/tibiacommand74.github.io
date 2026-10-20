@@ -61,6 +61,7 @@ jobs:
           node scripts/test-mythera-access.cjs
           node scripts/test-mythera-wiki.cjs
           node scripts/test-mythera-professions.cjs
+          node scripts/test-mythera-crafting.cjs
           node scripts/test-mythera-attributes.cjs
           node scripts/test-mythera-systems.cjs
       - uses: actions/configure-pages@v5
