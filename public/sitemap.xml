@@ -406,7 +406,6 @@
   <url><loc>https://tibiacommand74.com/itens/carrot/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/carrot-of-doom/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/castle-shield/</loc></url>
-  <url><loc>https://tibiacommand74.com/itens/ceremonial-mask/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/chain-armor/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/chain-helmet/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/chain-legs/</loc></url>
@@ -510,7 +509,6 @@
   <url><loc>https://tibiacommand74.com/itens/dwarven-armor/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/dwarven-axe/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/dwarven-helmet/</loc></url>
-  <url><loc>https://tibiacommand74.com/itens/dwarven-legs/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/dwarven-ring/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/dwarven-shield/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/eagle-shield/</loc></url>
@@ -959,7 +957,6 @@
   <url><loc>https://tibiacommand74.com/itens/wooden-spoon/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/wooden-trash/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/wooden-wand/</loc></url>
-  <url><loc>https://tibiacommand74.com/itens/worm/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/worn-leather-boots/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/written-parchment/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/yellow-backpack/</loc></url>
@@ -969,6 +966,7 @@
   <url><loc>https://tibiacommand74.com/itens/yellow-spell-wand/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/yellow-tapestry/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/yellow-vase/</loc></url>
+  <url><loc>https://tibiacommand74.com/itens/small-stone/</loc></url>
   <url><loc>https://tibiacommand74.com/itens/</loc></url>
   <url><loc>https://tibiacommand74.com/magias/animate-dead/</loc></url>
   <url><loc>https://tibiacommand74.com/magias/antidote/</loc></url>
@@ -1129,6 +1127,7 @@
   <url><loc>https://tibiacommand74.com/npcs/dove/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/duria/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/dustrunner/</loc></url>
+  <url><loc>https://tibiacommand74.com/npcs/ebenizer/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/edala/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/eddy/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/edoch/</loc></url>
@@ -1142,6 +1141,7 @@
   <url><loc>https://tibiacommand74.com/npcs/eremo/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/eroth/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/etzel/</loc></url>
+  <url><loc>https://tibiacommand74.com/npcs/eva/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/fa-hradin/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/falk/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/faluae/</loc></url>
@@ -1228,6 +1228,7 @@
   <url><loc>https://tibiacommand74.com/npcs/morun/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/mugluf/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/muriel/</loc></url>
+  <url><loc>https://tibiacommand74.com/npcs/muzir/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/nah-bob/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/nelliem/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/nemal/</loc></url>
@@ -1265,6 +1266,7 @@
   <url><loc>https://tibiacommand74.com/npcs/robin/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/roderick/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/rodney/</loc></url>
+  <url><loc>https://tibiacommand74.com/npcs/rokyn/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/romella/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/rose/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/rowenna/</loc></url>
@@ -1286,6 +1288,7 @@
   <url><loc>https://tibiacommand74.com/npcs/smiley/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/snake-eye/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/stutch/</loc></url>
+  <url><loc>https://tibiacommand74.com/npcs/suzy/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/svenson/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/sylvester/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/talesia/</loc></url>
@@ -1341,4 +1344,5 @@
   <url><loc>https://tibiacommand74.com/npcs/zerbrus/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/zoltan/</loc></url>
   <url><loc>https://tibiacommand74.com/npcs/</loc></url>
+  <url><loc>https://tibiacommand74.com/guias/amazon-camp/</loc></url>
 </urlset>
