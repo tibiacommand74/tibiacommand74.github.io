@@ -16,7 +16,8 @@
 - NPCs e criaturas sem retrato documentado usam ícones neutros de categoria, com descrição acessível. Nenhuma aparência de outro personagem foi atribuída a eles.
 - Cabeçalhos de fichas de hunts/quests passam a reutilizar a ilustração correta do registro ou o ícone da categoria.
 - Padronizados limites de ilustrações, quebra de texto, rodapés, foco por teclado e espaçamentos em telas estreitas.
-- Ajustado o singular de uma oferta no card de NPC.
+- Ajustado o singular de ofertas e do contador de resultados de NPC.
+- Cabeçalho de páginas individuais: Minha conta deixa de ser um botão permanentemente desativado e abre a central de conta; o Instagram recebe o acabamento e área de toque do padrão aprovado.
 - O gerador também inclui o CSS compartilhado nas páginas individuais e diretórios.
 
 ## Fontes das novas imagens

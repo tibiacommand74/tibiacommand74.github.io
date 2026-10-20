@@ -43,3 +43,10 @@ body[data-server=mythera] .guide-media figcaption a{color:#f0b3ad}
  .guide-hub-panel :is(.library-search-bar input,.world-filters input,.world-filters select),.explorer-filter-bar :is(input,select){font-size:16px;max-width:100%;box-sizing:border-box}
 }
 @media(prefers-reduced-motion:reduce){.library-card,.spell-card,.guide-media-link{transition:none!important}}
+
+/* Standalone pages do not load account auth: use a working link to the account hub. */
+.header-download-actions .guide-account-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:11px 17px;box-sizing:border-box;border:1px solid #bfa268;border-radius:7px;background:linear-gradient(135deg,#dfc584,#b49355);color:#25251d;font:600 13px/1.4 Inter,Arial,sans-serif;text-decoration:none;white-space:nowrap}
+body:has(.standalone-guide) .header-download-actions{display:flex;align-items:center;gap:10px}
+body:has(.standalone-guide) .header-instagram{display:inline-flex;align-items:center;justify-content:center;width:44px;min-height:44px;box-sizing:border-box;padding:10px;border:1px solid #a58c56;border-radius:7px;color:#d9bc7d}
+.header-download-actions .guide-account-link:focus-visible,body:has(.standalone-guide) .header-instagram:focus-visible{outline:2px solid #e2c58c;outline-offset:3px}
+@media(max-width:600px){.header-download-actions .guide-account-link{padding:10px 12px;font-size:12px}body:has(.standalone-guide) .header-download-actions{gap:7px}}
