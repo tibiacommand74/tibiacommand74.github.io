@@ -9,6 +9,9 @@ for(const server of ['classic','mythera']){
  const api=e.LibrarySearch;
  assert.equal(api.search('   ').length,0);
  assert.equal(api.search('dragon','creature')[0].name.toLowerCase(),'dragon');
+ assert(api.search('dragon','creature').every(r=>r.name.toLowerCase().includes('dragon')),'Name search must not return creatures only because of loot');
+ assert.equal(api.search('dragon shield','creature').length,0);
+ const drops=api.search('dragon shield','creature','loot');assert(drops.length>0);assert(drops.every(r=>e.DATA.creatures.find(c=>c.name.toLowerCase()===r.name.toLowerCase())?.loot.some(l=>l.name.toLowerCase().includes('dragon shield'))));
  assert(api.search('dragon','hunt').length>0);
  assert(api.search('exura','spell').length>0);
  assert(api.search('crown armor','item').length>0);
@@ -27,6 +30,9 @@ for(const server of ['classic','mythera']){
  const select=root.querySelector('#explorer-search-type');select.value='hunt';select.onchange();
  assert(e.location.href.includes('categoria=hunt'));
  api.render(root);assert(root.innerHTML.includes('value="dragon"'));
+ const mode=root.querySelector('[data-creature-search-mode]');mode.value='loot';mode.onchange({target:mode});assert(e.location.href.includes('criaturasPor=loot'));assert(e.location.href.includes('categoria=creature'));
+ api.render(root);assert.equal(root.querySelector('[data-creature-search-mode]').value,'loot');
+ root.querySelector('[data-search-clear]').onclick();assert(!e.location.href.includes('criaturasPor='));
  if(server==='mythera')assert(api.search('mining','guide').length>0,'English guide names must also work');
  assert(api.rows().some(r=>r.type==='guide')===(server==='mythera'),'Server-specific guides are isolated');
  console.log('PASS: '+server+' search ranking, loot, hunts, exact relationships, filters and URL restoration');

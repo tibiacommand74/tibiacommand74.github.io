@@ -29,3 +29,6 @@ run("query='demongoblin';list()");assert.equal((node('#cards').innerHTML.match(/
 run("detail('demongoblin')");assert(node('#detail-body').innerHTML.includes('Demon (Goblin)'));assert(node('#detail-body').innerHTML.includes('id="find-spawns"'));
 run("detail('Orshabaal')");assert(node('#detail-body').innerHTML.includes('XP histórico não confirmado'));assert(!node('#detail-body').innerHTML.includes('0 armadura'));
 run("detail('Mimic')");assert(node('#detail-body').innerHTML.includes('REGISTRO HISTÓRICO'));assert(!node('#detail-body').innerHTML.includes('0 XP'));
+
+run("query='dragon';immunityFilter='';creatureSearchMode='name'");assert(run("filtered().every(c=>c.name.toLowerCase().includes('dragon'))"));
+run("query='dragon shield'");assert.equal(run('filtered().length'),0);run("creatureSearchMode='loot'");assert(run('filtered().length')>0);assert(run("filtered().every(c=>c.loot.some(l=>l.name.includes('dragon shield')))"));
