@@ -27,6 +27,7 @@ for(const server of ['classic','mythera']){
  const select=root.querySelector('#explorer-search-type');select.value='hunt';select.onchange();
  assert(e.location.href.includes('categoria=hunt'));
  api.render(root);assert(root.innerHTML.includes('value="dragon"'));
+ if(server==='mythera')assert(api.search('mining','guide').length>0,'English guide names must also work');
  assert(api.rows().some(r=>r.type==='guide')===(server==='mythera'),'Server-specific guides are isolated');
  console.log('PASS: '+server+' search ranking, loot, hunts, exact relationships, filters and URL restoration');
 }
