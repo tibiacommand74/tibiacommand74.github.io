@@ -10,11 +10,11 @@ for(const match of html.matchAll(/href="(\/(?:quests|hunts)\/[^"#]*)"/g))assert(
 for(const match of html.matchAll(/src="([^"]+)"/g))assert(match[1].startsWith('/')||match[1].startsWith('https://')||match[1].startsWith('data:image/'),url+': '+match[1]);
 }
 const huntData={window:{}};vm.createContext(huntData);vm.runInContext(fs.readFileSync('public/hunt-data.js','utf8'),huntData);const huntCount=huntData.window.CLASSIC_HUNTS.length;
-assert.equal(total,98+huntCount);assert.equal(uncertain,27);assert.equal((sitemap.match(/<loc>/g)||[]).length,1242+huntCount);
+assert.equal(total,98+huntCount);assert.equal(uncertain,27);assert.equal((sitemap.match(/<loc>/g)||[]).length,1241+huntCount);
 const fibula=fs.readFileSync('public/quests/fibula/index.html','utf8');assert(fibula.includes('/#quest-map/fibula/0'));assert(fibula.includes('3940'));assert(fibula.includes('trajetos ainda não foram validados no jogo'));
 const source=fs.readFileSync('public/app.js','utf8');const route=source.slice(source.indexOf('function route(){'),source.indexOf("document.addEventListener('click',event=>"));
 const calls=[];const ctx={C:{items:[{id:2666}],npcs:[{name:'Dermot'}]},D:{creatures:[{name:'troll'}]},location:{hash:''},QUESTS:[{id:'fibula'}],window:{CLASSIC_HUNTS:[{id:'troll-thais'}],QUEST_ROUTES:{fibula:{}},scrollTo(){}},render:p=>calls.push(['render',p]),detailItem:id=>calls.push(['item',id]),detailNpc:id=>calls.push(['npc',id]),detail:id=>calls.push(['creature',id]),detailQuest:id=>calls.push(['quest',id]),detailHunt:id=>calls.push(['hunt',id]),openQuestRoute:(id,i)=>calls.push(['quest-map',id,i]),openHuntMap:id=>calls.push(['hunt-map',id])};vm.createContext(ctx);vm.runInContext(route,ctx);
 for(const [hash,expected] of [['#item/2666',['item',2666]],['#npc/Dermot',['npc','Dermot']],['#creature/troll',['creature','troll']],['#quest/fibula',['quest','fibula']],['#hunt/troll-thais',['hunt','troll-thais']],['#quest-map/fibula/2',['quest-map','fibula',2]],['#hunt-map/troll-thais',['hunt-map','troll-thais']]]){ctx.location.hash=hash;vm.runInContext('route()',ctx);assert.deepEqual(calls.at(-1),expected);}
 ctx.location.hash='#quest/unknown';vm.runInContext('route()',ctx);assert.deepEqual(calls.at(-1),['render','inicio']);
 assert(fs.readFileSync('public/guide-pages.js','utf8').includes("'mobile-open'"));
-console.log('PASS: '+total+' guide pages, 27 withdrawal notices, '+(1242+huntCount)+' sitemap URLs, canonical URLs, maps and guide navigation');
+console.log('PASS: '+total+' guide pages, 27 withdrawal notices, '+(1241+huntCount)+' sitemap URLs, canonical URLs, maps and guide navigation');
