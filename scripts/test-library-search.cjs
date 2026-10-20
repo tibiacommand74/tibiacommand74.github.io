@@ -1,0 +1,32 @@
+'use strict';
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
+const setup=new Function('require',fs.readFileSync('scripts/test-server-lab.cjs','utf8')+'\nreturn setup;')(require);
+for(const server of ['classic','mythera']){
+ const {env:e}=setup(server);e.questStageExtras=()=>'';e.bindQuestGuideDetails=()=>{};
+ vm.runInContext(fs.readFileSync('public/classic-resources.js','utf8'),e);
+ e.history={replaceState(a,b,url){e.location.href=url;}};
+ vm.runInContext(fs.readFileSync('public/library-search.js','utf8'),e);
+ const api=e.LibrarySearch;
+ assert.equal(api.search('   ').length,0);
+ assert.equal(api.search('dragon','creature')[0].name.toLowerCase(),'dragon');
+ assert(api.search('dragon','hunt').length>0);
+ assert(api.search('exura','spell').length>0);
+ assert(api.search('crown armor','item').length>0);
+ assert(api.search('zzzzz-no-record').length===0);
+ const dragon=api.rows().find(r=>r.type==='creature'&&r.name.toLowerCase()==='dragon');
+ const connected=api.related('creature',dragon.record);
+ assert(connected.some(r=>r.row.type==='hunt'));
+ assert(connected.some(r=>r.row.type==='item'));
+ assert(connected.filter(r=>r.row.type==='hunt').every(r=>r.row.record.mob.toLowerCase()==='dragon'),'Do not connect unrelated hunts');
+ const crown=api.search('crown armor','item')[0];
+ assert(api.related('item',crown.record).some(r=>r.row.type==='creature'));
+ const root=e.document.createElement('section');api.render(root);
+ const input=root.querySelector('#explorer-search');input.value='dragon';input.oninput();
+ assert(root.querySelector('[data-search-count]').textContent.includes('resultados'));
+ assert(e.location.href.includes('busca=dragon'));
+ const select=root.querySelector('#explorer-search-type');select.value='hunt';select.onchange();
+ assert(e.location.href.includes('categoria=hunt'));
+ api.render(root);assert(root.innerHTML.includes('value="dragon"'));
+ assert(api.rows().some(r=>r.type==='guide')===(server==='mythera'),'Server-specific guides are isolated');
+ console.log('PASS: '+server+' search ranking, loot, hunts, exact relationships, filters and URL restoration');
+}
