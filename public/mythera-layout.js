@@ -35,7 +35,7 @@ window.applyMytheraLayout=(root,page)=>{
  const panelHeading=document.createElement('div');panelHeading.className='explorer-panel-heading';
  const subtitle=document.createElement('h3');subtitle.textContent=title;
  const subtitleText=document.createElement('p');subtitleText.textContent=description;
- panelHeading.append(subtitle,subtitleText);if(!workspace.dataset.crafting)panel.append(panelHeading);
+ panelHeading.append(subtitle,subtitleText);if(!workspace.dataset.crafting&&!workspace.dataset.profession)panel.append(panelHeading);
  oldHeading.remove();workspace.querySelectorAll(':scope > .world-library-tabs').forEach(n=>n.remove());
  const filterNodes=[...workspace.querySelectorAll(':scope > .world-filters')];
  const input=filterNodes[0]?.querySelector('input[type="search"]');
