@@ -5,3 +5,10 @@
 
 /* Planning and buyer forms keep the account card language on public tools. */
 #loot-buyers .loot-panel{margin-bottom:24px}#loot-buyers .character-form-grid{margin:18px 0}#loot-buyers select,#loot-buyers input{width:100%;min-width:0}#loot-buyers .loot-sale{flex-wrap:wrap}#loot-buyers .loot-sale button{text-align:left}#loot-buyers .character-note{margin:10px 0}.character-tabs{flex-wrap:wrap}[data-plan-result]{margin:20px 0}[data-plan-list] .character-note{margin:12px 0}[data-plan-list] button{margin-right:16px}
+
+/* Keep narrow screens readable without automatic focus zoom. */
+@media(max-width:650px){
+ .character-tools .character-form input:not([type=checkbox]),.character-tools .character-form select,.character-tools .character-form textarea,.character-note-filters input[type=search],.character-note-filters select{font-size:16px}
+ .character-note-top{flex-wrap:wrap}.character-note h4,.character-note-top>*{overflow-wrap:anywhere;min-width:0}
+ .character-quick-stats{flex-wrap:wrap}.character-quick-stats>div{min-width:0;overflow-wrap:anywhere}
+}
