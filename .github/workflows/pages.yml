@@ -48,6 +48,7 @@ jobs:
           node scripts/test-library-search.cjs
           node scripts/test-account-page.cjs
           node scripts/test-character-tools.cjs
+          node scripts/test-material-plans.cjs
           node scripts/test-adventure-planning.cjs
           node scripts/test-hunt-tools.cjs
           node scripts/test-goal-tools.cjs

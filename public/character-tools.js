@@ -5,7 +5,7 @@
  const fields={level:['Level',1,10000],experience:['XP total',0,1e15],magicLevel:['Magic level',0,1000],sword:['Sword',10,1000],axe:['Axe',10,1000],club:['Club',10,1000],distance:['Distance',10,1000],shielding:['Shielding',10,1000],fist:['Fist',10,1000],fishing:['Fishing',10,1000]};
  const categories={geral:'Geral',hunt:'Hunt',quest:'Quest',treino:'Treino',lembrete:'Lembrete'};
  const vocations=['Sem vocação','Knight','Elite Knight','Paladin','Royal Paladin','Sorcerer','Master Sorcerer','Druid','Elder Druid'];
- const prefixes={profile:'character-profile:',note:'character-note:',progress:'character-progress:',levelPlan:'character-level-plan:',runePlan:'character-rune-plan:'};
+ const prefixes={profile:'character-profile:',note:'character-note:',progress:'character-progress:',levelPlan:'character-level-plan:',runePlan:'character-rune-plan:',materialPlan:'character-material-plan:'};
  let generation=0;
  const today=()=>{const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()),value=type=>parts.find(p=>p.type===type).value;return value('year')+'-'+value('month')+'-'+value('day');};
  const fmt=v=>v===null||v===undefined?'Não informado':Number(v).toLocaleString('pt-BR');
@@ -18,11 +18,12 @@
   if(kind==='profile'){const vocation=String(raw.vocation||'Sem vocação');if(!vocations.includes(vocation))throw Error('Escolha uma vocação clássica.');v={vocation,goalLevel:integer(raw.goalLevel,'Level desejado',1,10000),biography:text(raw.biography,1000,'Sobre o personagem')};}
   else if(kind==='note'){const title=text(raw.title,100,'Título');if(title.length<2)throw Error('Informe um título com pelo menos 2 caracteres.');const body=text(raw.body,3000,'Anotação');if(!body)throw Error('Escreva sua anotação.');const category=raw.category||'geral';if(!categories[category])throw Error('Escolha uma categoria válida.');v={title,body,category,pinned:raw.pinned===true||raw.pinned==='on',archived:raw.archived===true};}
   else if(kind==='progress'){const values={};for(const [id,[label,min,max]]of Object.entries(fields))values[id]=integer((raw.values||raw)[id],label,min,max);if(!Object.values(values).some(v=>v!==null))throw Error('Informe pelo menos um level, skill, magic level ou XP.');if(values.level!==null&&values.experience!==null&&(values.experience<xp(values.level)||values.experience>=xp(values.level+1)))throw Error('O XP total não corresponde ao level informado. Confira os dois valores ou deixe XP em branco.');v={date:validDate(String(raw.date||'')),values,note:text(raw.note,500,'Observação da evolução'),archived:raw.archived===true};}
+  else if(kind==='materialPlan')return window.MaterialPlans.validate(raw);
   else if(['levelPlan','runePlan'].includes(kind))return window.AdventurePlanning.validate(kind,raw);
   else throw Error('Tipo de registro inválido.');
   const record={schema:1,kind,...v};if(new TextEncoder().encode(JSON.stringify(record)).length>8500)throw Error('O texto ultrapassa o tamanho disponível. Divida em duas anotações.');return record;
  }
- function keyKind(key){if(key===prefixes.profile+'main')return 'profile';for(const kind of ['note','progress','levelPlan','runePlan'])if(new RegExp('^'+prefixes[kind]+'[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$','i').test(key))return kind;return null;}
+ function keyKind(key){if(key===prefixes.profile+'main')return 'profile';for(const kind of ['note','progress','levelPlan','runePlan','materialPlan'])if(new RegExp('^'+prefixes[kind]+'[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$','i').test(key))return kind;return null;}
  function importable(key,record){const kind=keyKind(key);if(!kind||record?.kind!==kind||record?.schema!==1)return false;try{validate(kind,record);return true;}catch{return false;}}
  function stamp(v){const n=Date.parse(v);return Number.isFinite(n)?new Date(n).toISOString():new Date().toISOString();}
  function restore(key,raw){if(!importable(key,raw))throw Error('Registro de personagem inválido no backup.');const record={...validate(keyKind(key),raw),createdAt:stamp(raw.createdAt),updatedAt:stamp(raw.updatedAt)};const all=window.JournalAccount.read();all[key]=record;window.JournalAccount.write(all);return true;}
