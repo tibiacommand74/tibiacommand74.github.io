@@ -12,7 +12,7 @@
   if(!allowed.includes(value))throw Error('Servidor não disponível.');
   const url=new URL(location.href);url.searchParams.set('servidor',value);if(section)url.hash=section;
   if(value!=='classic')return url;
-  for(const key of ['farming','mineracao','receita'])url.searchParams.delete(key);
+  for(const key of ['farming','mineracao','receita','treino'])url.searchParams.delete(key);
   if(url.searchParams.get('categoria')==='guide')url.searchParams.delete('categoria');
   const [kind,raw]=url.hash.slice(1).split('/');let name;try{name=decodeURIComponent(raw||'');}catch{name='';}
   const key=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
