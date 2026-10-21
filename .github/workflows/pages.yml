@@ -43,6 +43,7 @@ jobs:
           node scripts/test-adsense.cjs
           node scripts/test-quest-routes.cjs
           node scripts/test-quest-directory.cjs
+          node scripts/test-rook-guides.cjs
           node scripts/test-hunts.cjs
           node scripts/test-hunt-finder.cjs
           node scripts/test-classic-resources.cjs
