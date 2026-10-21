@@ -2,3 +2,7 @@
 
 .craft-recipe-detail{scroll-margin-top:115px}
 .mythera-wiki-body.craft-studio .craft-guide-nav a,.mythera-wiki-body.craft-studio a.craft-action-card,.mythera-wiki-body.craft-studio .craft-progression a{text-decoration:none;color:inherit}.mythera-wiki-body.craft-studio .craft-guide-nav a[aria-current=page]{color:#ffe7df}
+
+/* Long source labels and translated item names must stay inside the panel. */
+.craft-reference a,.craft-detail-head>div:last-child{overflow-wrap:anywhere;min-width:0}
+@media(max-width:480px){.craft-studio .world-filters label{min-width:0;flex-basis:100%}.craft-studio .craft-guide-nav a,.craft-studio .craft-guide-nav button{min-height:44px;box-sizing:border-box}}

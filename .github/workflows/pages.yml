@@ -56,6 +56,7 @@ jobs:
       - name: Verify Mythera integration
         run: |
           node scripts/test-mythera-production.cjs
+          node scripts/test-server-navigation.cjs
           node scripts/test-mythera-review.cjs
           node scripts/test-mythera-items.cjs
           node scripts/test-mythera-access.cjs
