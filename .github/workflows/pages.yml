@@ -66,6 +66,7 @@ jobs:
           node scripts/test-mythera-access.cjs
           node scripts/test-mythera-wiki.cjs
           node scripts/test-mythera-training.cjs
+          node scripts/test-mythera-dummies.cjs
           node scripts/test-mythera-professions.cjs
           node scripts/test-mythera-crafting.cjs
           node scripts/test-mythera-mining.cjs
