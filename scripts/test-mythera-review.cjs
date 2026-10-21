@@ -3,6 +3,7 @@ const fs=require('node:fs'), assert=require('node:assert/strict');
 const harness=fs.readFileSync('scripts/test-server-lab.cjs','utf8').split('(async()=>')[0];
 const setup=new Function('require',harness+'\nreturn setup;')(require);
 const e=setup('mythera').env, classic=setup('classic').env, api=e.MytheraWorkspace;
+require('node:vm').runInContext(fs.readFileSync('public/quest-version-policy.js','utf8'),e);
 const norm=s=>String(s).toLowerCase().replace(/[^a-z0-9]/g,'');
 assert.equal(api.items.length,780);
 assert.equal(api.creatureLibrary.length,129);
@@ -20,9 +21,9 @@ for(const row of e.MYTHERA_ITEMS){
 assert.deepEqual(JSON.parse(JSON.stringify(e.MYTHERA_ITEMS)),JSON.parse(JSON.stringify(classic.MYTHERA_ITEMS)),'Server table never mutated');
 assert.deepEqual(JSON.parse(JSON.stringify(e.DATA)),JSON.parse(JSON.stringify(classic.DATA)),'Classic creature/map data never mutated');
 assert.equal(api.huntRows().length,111);
-assert.equal(api.questLibrary().length,99);
+assert.equal(api.questLibrary().length,72);
 for(const h of e.CLASSIC_HUNTS)assert(api.huntRows().some(r=>r.id===h.id));
-for(const q of e.CLASSIC_QUEST_CATALOG)assert(api.questLibrary().some(r=>r.id===q.id));
+for(const q of require('node:vm').runInContext('QUESTS',e))assert(api.questLibrary().some(r=>r.id===q.id));
 assert.equal(api.questLibrary().filter(r=>norm(r.name)==='ironhammer').length,1,'Mythera override uses same quest');
 assert(api.huntRows().some(r=>r.origin==='mythera'&&r.name==='Crypt of the Vacant'));
 assert(api.recordSheet(api.huntRows().find(r=>r.origin==='classic')).includes('Ver referência no mapa 7.4'));
@@ -52,4 +53,4 @@ assert(!script.includes('<h3>${esc(r.name)}</h3><p>${esc(r.description)}</p>'),'
 assert(script.includes('world-reference-note'),'Long editorial notes are collapsible');
 assert(fs.readFileSync('public/library-design.css','utf8').includes('prefers-reduced-motion'));
 let sharedHomeCalls=0;e.renderHome=root=>{sharedHomeCalls++;root.innerHTML='<div class="home-new">Página inicial compartilhada</div>';};const home=new (e.document.body.constructor)();e.renderMytheraHome(home);assert.equal(sharedHomeCalls,1);assert(home.innerHTML.includes('home-new'));
-console.log('PASS: 780 items, 129 creatures, 111 hunts, 99 quests; complete classic ids, all official fields preserved; '+routes.length+' ficha routes and 677 legacy item links open without missing fields.');
+console.log('PASS: 780 items, 129 creatures, 111 hunts, 72 quests; complete classic ids, all official fields preserved; '+routes.length+' ficha routes and 677 legacy item links open without missing fields.');

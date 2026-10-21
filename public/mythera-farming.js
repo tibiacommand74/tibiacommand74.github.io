@@ -9,7 +9,7 @@ function calculate(trees,harvests,level){
  const [low,high]=yields[level],min=trees*harvests*low,max=trees*harvests*high;
  return {min,max,minSeconds:min*156,maxSeconds:max*156,treeCost:trees*50};
 }
-function duration(seconds){const minutes=Math.floor(seconds/60),hours=Math.floor(minutes/60);return hours?hours+' h '+minutes%60+' min':minutes+' min';}
+function duration(seconds){const minutes=Math.floor(seconds/60),hours=Math.floor(minutes/60),remainder=seconds%60;return (hours?hours+' h '+minutes%60+' min':minutes+' min')+(remainder?' '+remainder+' s':'');}
 const tree=()=>'<div class="farming-tree-visual"><img src="assets/mythera-guides/farming-tree.webp" width="64" height="64" alt="Orange Tree do Mythera"><div><p class="eyebrow">ÁRVORE PUBLICADA</p><h2>Orange Tree</h2><p>Produz Organic Oranges para alimentação.</p></div></div>';
 const table=()=>'<div class="mythera-wiki-table"><table><caption>Rendimento publicado por colheita</caption><thead><tr><th scope="col">Farming</th><th scope="col">Organic Oranges</th></tr></thead><tbody>'+Object.entries(yields).map(([level,range])=>'<tr><th scope="row">'+level+'</th><td>'+range[0]+'–'+range[1]+'</td></tr>').join('')+'</tbody></table></div><p class="farming-note">A wiki publica estes quatro níveis. Não há rendimento confirmado para os níveis intermediários.</p>';
 function render(root,id){

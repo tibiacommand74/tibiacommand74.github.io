@@ -61,6 +61,7 @@ jobs:
           node scripts/test-mythera-production.cjs
           node scripts/test-server-navigation.cjs
           node scripts/test-mythera-review.cjs
+          node scripts/test-mythera-quest-policy.cjs
           node scripts/test-mythera-items.cjs
           node scripts/test-mythera-access.cjs
           node scripts/test-mythera-wiki.cjs
