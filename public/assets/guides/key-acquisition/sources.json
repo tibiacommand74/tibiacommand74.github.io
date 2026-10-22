@@ -63,6 +63,71 @@
       "file": "outlaw-oven.svg",
       "source": "https://www.tibiawiki.com.br/wiki/The_Outlaw_Camp_Quest",
       "annotation": "Esquema de sequência escrito em SVG pelo Tibia Command, baseado no texto do mecanismo. Não representa uma planta em escala nem uma captura do jogo."
+    },
+    {
+      "file": "ghoul-route-0.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Mintwallin_Quest",
+      "note": "Imagem de referência do TibiaWiki; marcas originais preservadas."
+    },
+    {
+      "file": "ghoul-route-1.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Mintwallin_Quest",
+      "note": "Imagem de referência do TibiaWiki; marcas originais preservadas."
+    },
+    {
+      "file": "ghoul-route-2.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Mintwallin_Quest",
+      "note": "Imagem de referência do TibiaWiki; marcas originais preservadas."
+    },
+    {
+      "file": "ghoul-key.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Mintwallin_Quest",
+      "note": "Imagem de referência do TibiaWiki; marcas originais preservadas."
+    },
+    {
+      "file": "ghoul-well.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Mintwallin_Quest",
+      "note": "Imagem de referência do TibiaWiki; marcas originais preservadas."
+    },
+    {
+      "file": "ghoul-room.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Mintwallin_Quest",
+      "note": "Imagem de referência do TibiaWiki; marcas originais preservadas."
+    },
+    {
+      "file": "fanfare-map.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Fanfare_Quest",
+      "note": "Imagem de referência do TibiaWiki; marcas originais preservadas."
+    },
+    {
+      "file": "fanfare-key.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Fanfare_Quest",
+      "note": "Imagem de referência do TibiaWiki; marcas originais preservadas."
+    },
+    {
+      "file": "fanfare-box.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Fanfare_Quest",
+      "note": "Imagem de referência do TibiaWiki; marcas originais preservadas."
+    },
+    {
+      "file": "brooch-route-1.jpg",
+      "source": "https://www.tibiawiki.com.br/wiki/The_White_Raven_Monastery_Quest",
+      "note": "Imagem de referência do TibiaWiki; marcas originais preservadas."
+    },
+    {
+      "file": "brooch-route-2.jpg",
+      "source": "https://www.tibiawiki.com.br/wiki/The_White_Raven_Monastery_Quest",
+      "note": "Imagem de referência do TibiaWiki; marcas originais preservadas."
+    },
+    {
+      "file": "monastery-key.svg",
+      "source": "https://www.tibiawiki.com.br/wiki/The_White_Raven_Monastery_Quest",
+      "note": "Esquema original sem escala"
+    },
+    {
+      "file": "costello.gif",
+      "source": "https://www.tibiawiki.com.br/wiki/The_White_Raven_Monastery_Quest",
+      "note": "Imagem de referência do TibiaWiki; marcas originais preservadas."
     }
   ],
   "numberingConflict": "As fontes divergem sobre qual das duas árvores junto à torre contém 3301 ou 3302. Mostramos ambos os pontos e exigimos conferir o número com Look; não publicamos um marcador exato de coleta para 3301.",
