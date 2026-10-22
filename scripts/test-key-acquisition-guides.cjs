@@ -1,9 +1,9 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const env={window:{}};vm.createContext(env);vm.runInContext(fs.readFileSync('public/key-acquisition-guides.js','utf8'),env);
-for(const number of ['3001','3002','3003','3004','3005','3006','3007','3008','3012','3033','3142','3301','3302','3303','3304','3350','3520','3600']){
+for(const number of ['3001','3002','3003','3004','3005','3006','3007','3008','3012','3033','3142','3301','3302','3303','3304','3350','3520','3600','3610','3620','3650']){
  const html=env.window.KeyAcquisitionGuides.markup({number,name:'Key '+number});
  assert(html.includes('Como pegar a Key '+number));
- const paths=[...html.matchAll(/<img src="([^"]+)"/g)].map(x=>x[1]);assert(paths.length>=({3033:3,3142:6,3301:1,3302:2,3303:3,3304:4,3350:4,3520:3,3600:6}[number]||4));
+ const paths=[...html.matchAll(/<img src="([^"]+)"/g)].map(x=>x[1]);assert(paths.length>=({3033:3,3142:6,3301:1,3302:2,3303:3,3304:4,3350:4,3520:3,3600:6,3610:11,3620:8,3650:7}[number]||4));
  for(const p of paths){assert(fs.existsSync('public/'+p),p);assert(fs.statSync('public/'+p).size>1000,p);}
  if(Number(number)>=3004&&Number(number)<=3006){assert(html.includes('andar 6'));assert(html.includes('Destroy Field'));assert(!html.includes('As três coletas ficam no térreo'));}
  if(Number(number)<=3012)assert(html.includes('não estão documentadas'));if(Number(number)<=3007)assert(html.includes('respawn diário'));
@@ -11,7 +11,7 @@ for(const number of ['3001','3002','3003','3004','3005','3006','3007','3008','30
 assert.equal(env.window.KeyAcquisitionGuides.markup({number:'3009'}),'');
 for(const file of ['public/classic-resources.js','public/server-lab.js'])assert(fs.readFileSync(file,'utf8').includes('KeyAcquisitionGuides?.markup(k)'),file);
 const index=fs.readFileSync('public/index.html','utf8');assert(index.indexOf('key-acquisition-guides.js')<index.indexOf('classic-resources.js'));assert(index.includes('key-acquisition-guides.css'));
-console.log('Key acquisition guides: eighteen existing sheets, shared rendering and local images verified.');
+console.log('Key acquisition guides: twenty-one existing sheets, shared rendering and local images verified.');
 
 const render=n=>env.window.KeyAcquisitionGuides.markup({number:n,name:'Key '+n});
 const duo=render('3007');assert(duo.includes('Jogador 1'));assert(duo.includes('Jogador 2'));assert(duo.includes('andar 5'));assert(!duo.includes('etapa cooperativa fica depois'));
@@ -29,3 +29,5 @@ const golden=render('3304');assert(golden.includes('baú atrás do forno'));asse
 for(const asset of ['outlaw-trees.svg','outlaw-oven.svg']){const svg=fs.readFileSync('public/assets/guides/key-acquisition/'+asset,'utf8');assert(svg.includes('<title'));assert(!svg.includes('<script'));assert(!svg.includes('NaN'));}
 
 assert(render('3350').includes('Monastery Intruders'));assert(render('3350').includes('multa'));assert(render('3520').includes('canto nordeste'));assert(render('3600').includes('32505, 32176, 14'));assert(render('3600').includes('poço'));
+
+const lab=render('3610');assert(lab.includes('Destroy Field'));assert(lab.includes('3667'));assert(lab.includes('nível 30'));assert(!lab.includes('nível 40'));assert(lab.includes('prender'));assert(render('3620').includes('sete Red Apples'));assert(render('3620').includes('32411, 32155, 15'));assert(render('3650').includes('32414, 32147, 15'));assert(render('3650').includes('sem confirmação'));for(const n of ['3610','3620','3650'])assert(render(n).includes('<summary>Como chegar'));
