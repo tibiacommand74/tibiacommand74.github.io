@@ -37,6 +37,32 @@
     {
       "file": "outlaw-surface.png",
       "source": "https://www.tibiawiki.com.br/wiki/Arquivo:Bright_Sword_Quest_Map00.png"
+    },
+    {
+      "file": "outlaw-warriors-route.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Arquivo:Bright_Sword_Quest_Map01.png"
+    },
+    {
+      "file": "outlaw-level45.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Arquivo:Bright_Sword_Quest_Map05.png"
+    },
+    {
+      "file": "outlaw-two-doors.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Arquivo:Bright_Sword_Quest_Map06.png"
+    },
+    {
+      "file": "outlaw-final-chest.jpg",
+      "source": "https://www.tibiawiki.com.br/wiki/Arquivo:Brightsowrdquest8.jpg"
+    },
+    {
+      "file": "outlaw-trees.svg",
+      "source": "https://www.tibiawiki.com.br/wiki/Arquivo:Bright_Sword_Quest_Map00.png",
+      "annotation": "Letras A/B e etiqueta 3303 adicionadas pelo Tibia Command; pixels do mapa preservados."
+    },
+    {
+      "file": "outlaw-oven.svg",
+      "source": "https://www.tibiawiki.com.br/wiki/The_Outlaw_Camp_Quest",
+      "annotation": "Esquema de sequência escrito em SVG pelo Tibia Command, baseado no texto do mecanismo. Não representa uma planta em escala nem uma captura do jogo."
     }
   ],
   "numberingConflict": "As fontes divergem sobre qual das duas árvores junto à torre contém 3301 ou 3302. Mostramos ambos os pontos e exigimos conferir o número com Look; não publicamos um marcador exato de coleta para 3301.",

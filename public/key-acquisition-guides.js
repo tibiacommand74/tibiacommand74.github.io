@@ -73,14 +73,185 @@ const guides={
  ['Confira a árvore ao norte da torre','Examine a árvore morta do ponto de referência 32609, 32244, 7 e recolha a chave se estiver disponível. Use Look para ler o número. Se for 3302, guarde-a como a chave complementar e continue até a outra árvore.',null,null],
  ['Confira a segunda árvore junto à torre','Vá ao ponto de referência 32617, 32250, 7, próximo de um corpo e da torre, e examine a outra árvore morta. Confira o número com Look. O objetivo desta ficha é a 3301, não qualquer chave de aparência parecida.',null,null],
  ['Guarde 3301 para as portas da sequência','A 3301 abre uma das portas da área da Bright Sword Quest; a 3302 é complementar e não é substituída por ela. A coleta da 3301, sozinha, não dá acesso direto à recompensa. Consulte o guia completo antes de mexer nos mecanismos ou entrar na parte subterrânea sem retorno.',null,null]
- ],questId:'the-outlaw-camp',outro:'Se a árvore estiver vazia, confira se o personagem já fez a coleta e como o servidor trata esse recipiente; não há garantia de nova chave ao voltar depois. As posições são pontos de conferência das fontes, não rastreamento em tempo real nem validação do Mythera.',sources:['https://www.tibiawiki.com.br/wiki/The_Outlaw_Camp_Quest','https://www.tibiawiki.com.br/wiki/Key_3301','https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/docs/reference-74/quests.md']}
+ ],questId:'the-outlaw-camp',outro:'Se a árvore estiver vazia, confira se o personagem já fez a coleta e como o servidor trata esse recipiente; não há garantia de nova chave ao voltar depois. As posições são pontos de conferência das fontes, não rastreamento em tempo real nem validação do Mythera.',sources:['https://www.tibiawiki.com.br/wiki/The_Outlaw_Camp_Quest','https://www.tibiawiki.com.br/wiki/Key_3301','https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/docs/reference-74/quests.md']},
+
+ "3302": {
+  "kind": "reference",
+  "region": "OUTLAW CAMP · SEGUNDA PORTA",
+  "intro": "A Key 3302 é a chave complementar da 3301. As duas são recolhidas em árvores mortas junto à torre dos minotauros e usadas nas portas subterrâneas da sequência da Bright Sword.",
+  "facts": [
+   [
+    "Obtenção",
+    "Árvores A e B junto à torre · superfície"
+   ],
+   [
+    "Pontos a conferir · andar 7",
+    "32609, 32244 e 32617, 32250"
+   ],
+   [
+    "Uso confirmado",
+    "Segunda das duas portas · após a 3301"
+   ]
+  ],
+  "prepare": "Leve cura e equipamento para atravessar o acampamento. Se quiser apenas buscar a chave, não é necessário subir ao telhado da torre nem cair no Point of No Return.",
+  "notice": "As fontes invertem qual das árvores A e B contém 3301 ou 3302. Confira as duas e use Look para ler o número recebido. Não use só a cor do sprite para decidir: esta ficha mantém a 3302 como prata, conforme a referência da quest.",
+  "steps": [
+   [
+    "Encontre as duas árvores da torre",
+    "No mapa, procure as letras A e B, próximas da legenda Minotauros. A marcação 3303 do lado direito é outra árvore e não é o destino desta coleta.",
+    "outlaw-trees",
+    "Árvores A e B: posições de conferência da dupla 3301/3302. A árvore da 3303 está identificada separadamente."
+   ],
+   [
+    "Confira os números com Look",
+    "Examine as árvores próximas de 32609, 32244, 7 e 32617, 32250, 7. Recolha a chave quando estiver disponível e use Look. Guarde a que estiver marcada 3302; a 3301 também será necessária na continuação.",
+    null,
+    null
+   ],
+   [
+    "Saiba onde a 3302 é usada",
+    "Na etapa das duas portas, a entrada subterrânea fica perto da árvore da torre, na referência 32617, 32252, 7. Desça e siga norte: a primeira porta usa 3301 e a segunda usa 3302. O mapa mostra esse corredor.",
+    "outlaw-two-doors",
+    "Corredor das duas portas: primeiro 3301, depois 3302. A imagem pertence à etapa dos mecanismos; não é um caminho de coleta na superfície."
+   ],
+   [
+    "Prepare a quest antes de acionar a alavanca",
+    "A passagem dessas portas leva ao setor do moinho. Não acione o mecanismo final só porque conseguiu atravessá-las: a continuação depende do Power Ring e do barril preparados nas etapas anteriores. Consulte o guia completo.",
+    null,
+    null
+   ]
+  ],
+  "questId": "the-outlaw-camp",
+  "outro": "Se uma árvore estiver vazia, confira se o personagem já fez a coleta e as regras desse recipiente no servidor. Por causa da divergência de numeração, esta ficha não abre um marcador exato de coleta para a 3302. Alterações do Mythera ainda não estão documentadas.",
+  "sources": [
+   "https://www.tibiawiki.com.br/wiki/The_Outlaw_Camp_Quest",
+   "https://tibia.fandom.com/wiki/The_Outlaw_Camp_Quest/Spoiler",
+   "https://www.tibiawiki.com.br/wiki/Key_3302"
+  ]
+ },
+ "3303": {
+  "kind": "reference",
+  "region": "OUTLAW CAMP · ALAVANCA DO FORNO",
+  "intro": "A Key 3303 é recolhida em uma árvore morta no acampamento ao sul dos prédios principais. Ela abre a sala da alavanca que move o forno e libera o acesso à 3304.",
+  "facts": [
+   [
+    "Coleta · referência",
+    "32651, 32244, 7 · árvore morta"
+   ],
+   [
+    "O que abre",
+    "Porta da alavanca do forno"
+   ],
+   [
+    "Próxima chave",
+    "3304 · baú atrás do forno"
+   ]
+  ],
+  "prepare": "Leve Rope, Shovel, espaço na mochila e cura. Há Wild Warriors na caverna usada para chegar à alavanca. Power Ring e barril pertencem à continuação da Bright Sword; não são o item coletado nesta árvore.",
+  "notice": "A 3303 é a árvore do lado direito do mapa, separada das duas próximas à torre. Confira o número com Look. A alavanca do forno é um mecanismo diferente das alavancas posteriores do Power Ring e do moinho.",
+  "steps": [
+   [
+    "Examine a árvore marcada 3303",
+    "Na superfície de Outlaw Camp, vá ao acampamento ao sul dos prédios principais. Examine a árvore morta da referência 32651, 32244, 7, identificada como 3303 na imagem. Recolha a chave e confirme o número com Look.",
+    "outlaw-trees",
+    "A árvore da 3303 fica no lado direito. A e B são as árvores de conferência de 3301/3302."
+   ],
+   [
+    "Entre na caverna dos Wild Warriors",
+    "Se for usar a chave agora, procure o buraco escondido atrás de uma árvore em 32632, 32228, 7. Abra a entrada com Shovel, desça e siga a rota para norte.",
+    "outlaw-warriors-route",
+    "Rota do primeiro subsolo dos Wild Warriors: siga norte até o salão do final da caverna."
+   ],
+   [
+    "Use a escada noroeste",
+    "No salão com quatro escadas, desça pela do canto noroeste. Encontre a porta trancada, use 3303 para abri-la e acione a alavanca que fica atrás dela.",
+    "outlaw-oven",
+    "Esquema da sequência: escada noroeste → porta 3303 → alavanca → volte ao salão → escada ao sul → forno e baú. Não é uma planta em escala."
+   ],
+   [
+    "Volte ao salão e siga para o forno",
+    "Suba pela mesma escada e desça pela escada ao sul. Com o forno na posição que libera passagem, entre pelo espaço atrás dele e abra o baú da 3304. A 3303 abriu a porta do mecanismo; a chave dourada está no baú, não na alavanca.",
+    null,
+    null
+   ]
+  ],
+  "questId": "the-outlaw-camp",
+  "outro": "Se o forno ainda bloquear o baú, confira a posição do mecanismo antes de seguir. Não entre na parte sem retorno da torre para buscar 3303 ou 3304: essas coletas são anteriores. O percurso é uma referência clássica; alterações próprias do Mythera não estão documentadas.",
+  "sources": [
+   "https://www.tibiawiki.com.br/wiki/The_Outlaw_Camp_Quest",
+   "https://tibia.fandom.com/wiki/The_Outlaw_Camp_Quest/Spoiler",
+   "https://www.tibiawiki.com.br/wiki/Key_3303"
+  ]
+ },
+ "3304": {
+  "kind": "reference",
+  "region": "OUTLAW CAMP · CHAVE DOURADA",
+  "intro": "A Key 3304 fica em um baú atrás do forno na caverna dos Wild Warriors. Para alcançá-lo, primeiro use 3303 na porta da alavanca que desloca o forno.",
+  "facts": [
+   [
+    "Antes de buscar",
+    "Key 3303 · Rope · Shovel · cura"
+   ],
+   [
+    "Recipiente da chave",
+    "Baú atrás do forno · subsolo dos Wild Warriors"
+   ],
+   [
+    "O que abre",
+    "Porta final do tesouro da Bright Sword"
+   ]
+  ],
+  "prepare": "Leve a Key 3303, Rope, Shovel e espaço para a chave. Para obter apenas 3304, faça o mecanismo do forno. Para usar 3304 na recompensa final, ainda será preciso completar as etapas do barril, Power Ring e porta de nível 45.",
+  "notice": "3304 não fica em árvore, não é loot de criatura e não é a Bright Sword. O baú do forno entrega a chave; o baú final da quest fica em outro setor.",
+  "steps": [
+   [
+    "Chegue à caverna com a Key 3303",
+    "Se ainda não tiver 3303, consulte sua ficha antes de descer. A entrada dos Wild Warriors fica em 32632, 32228, 7, escondida atrás de uma árvore. Use Shovel e siga o corredor norte até a sala com quatro escadas.",
+    "outlaw-warriors-route",
+    "Do acesso subterrâneo ao salão final dos Wild Warriors. A entrada na superfície está no mapa geral de Outlaw Camp."
+   ],
+   [
+    "Abra a sala e mova o forno",
+    "Desça pela escada noroeste, abra a porta com 3303 e puxe a alavanca. Depois suba de volta ao salão e desça pela escada ao sul. O esquema abaixo separa o caminho até a alavanca da entrada na sala do forno.",
+    "outlaw-oven",
+    "Mecanismo do forno: o caminho passa pela alavanca e retorna ao salão antes da descida ao sul. Esquema de sequência, não mapa em escala."
+   ],
+   [
+    "Abra o baú atrás do forno",
+    "Na sala ao sul, passe pelo espaço liberado atrás do forno. Abra o baú e recolha a Key 3304. Use Look para confirmar o número e guarde-a na mochila. Se não houver espaço para passar, confira a posição da alavanca; não confunda forno bloqueando passagem com baú vazio.",
+    null,
+    null
+   ],
+   [
+    "Planeje a continuação antes de usar a chave",
+    "3304 abre a porta do tesouro final, depois dos outros mecanismos. A referência do mapa destaca a porta de nível 45 e o local onde o barril entra na preparação da passagem. Não tente resolver essa etapa apenas com a chave dourada.",
+    "outlaw-level45",
+    "Referência da etapa posterior: porta de nível 45 e posição do barril junto à parede. Este não é o baú que entrega 3304."
+   ],
+   [
+    "Abra a porta final quando o caminho estiver preparado",
+    "Com os mecanismos concluídos e a passagem liberada, enfrente os Demon Skeletons e use 3304 na porta final. O baú desse compartimento contém Bright Sword e Red Gem. A foto abaixo mostra o tesouro final, não o baú do forno.",
+    "outlaw-final-chest",
+    "Foto da sala do tesouro da Bright Sword. A Key 3304 é obtida antes, no baú atrás do forno; aqui ela é usada na porta."
+   ]
+  ],
+  "questId": "the-outlaw-camp",
+  "outro": "Consulte o guia completo antes de atravessar o Point of No Return ou acionar o mecanismo final do moinho. A chave dourada não elimina esses requisitos. Disponibilidade dos recipientes e alterações de acesso no Mythera ainda não foram documentadas para esta ficha.",
+  "sources": [
+   "https://www.tibiawiki.com.br/wiki/The_Outlaw_Camp_Quest",
+   "https://tibia.fandom.com/wiki/The_Outlaw_Camp_Quest/Spoiler",
+   "https://www.tibiawiki.com.br/wiki/Key_3304"
+  ]
+ }
 };
 const imageSizes={"3005":[500,500],"duo-portal":[500,500],"3002":[500,500],"exit-switches":[800,587],"upper-stairs":[500,500],"duo-stairs":[500,500],"duo-return":[500,500],"upper-corridor":[500,500],"island":[500,500],"underground":[500,500],"3006":[500,500],"3003":[500,500],"3008":[500,500],"3004":[500,500],"hellgate-descent":[140,140],"3001":[500,500],"upper-maze":[500,500],"stairs":[500,500],"exit-map":[500,500],"hellgate":[480,236],"duo-start":[500,500],"hellgate-door-npc":[280,240],"hellgate-surface":[260,260]};
 const referenceAssets={"shirith-location":"assets/guides/key-acquisition/shirith-location.png","skjaar-route-1":"assets/guides/key-acquisition/skjaar-route-1.png","skjaar-route-2":"assets/guides/key-acquisition/skjaar-route-2.png","skjaar-room-map":"assets/guides/key-acquisition/skjaar-room-map.png","skjaar-room":"assets/guides/key-acquisition/skjaar-room.png","skjaar-crypt":"assets/guides/key-acquisition/skjaar-crypt.png","outlaw-surface":"assets/guides/key-acquisition/outlaw-surface.png"};
 Object.assign(imageSizes,{"shirith-location":[545,489],"skjaar-route-1":[500,500],"skjaar-route-2":[500,500],"skjaar-room-map":[500,500],"skjaar-room":[800,587],"skjaar-crypt":[800,587],"outlaw-surface":[441,427]});
+Object.assign(referenceAssets,{"outlaw-warriors-route":"assets/guides/key-acquisition/outlaw-warriors-route.png","outlaw-level45":"assets/guides/key-acquisition/outlaw-level45.png","outlaw-two-doors":"assets/guides/key-acquisition/outlaw-two-doors.png","outlaw-final-chest":"assets/guides/key-acquisition/outlaw-final-chest.jpg","outlaw-trees":"assets/guides/key-acquisition/outlaw-trees.svg","outlaw-oven":"assets/guides/key-acquisition/outlaw-oven.svg"});
+Object.assign(imageSizes,{"outlaw-warriors-route":[140,240],"outlaw-level45":[250,250],"outlaw-two-doors":[160,160],"outlaw-final-chest":[244,268],"outlaw-trees":[441,481],"outlaw-oven":[680,490]});
 function figure(file,caption){const size=imageSizes[file]||[500,500],src=referenceAssets[file]||folder+file+'.png';return `<figure class="key-walkthrough-figure"><a href="${src}" target="_blank" rel="noopener" aria-label="Ampliar: ${escape(caption)}"><img src="${src}" alt="${escape(caption)}" loading="lazy" width="${size[0]}" height="${size[1]}"></a><figcaption>${escape(caption)} <span>Toque na imagem para ampliar.</span></figcaption></figure>`;}
 
-function referenceMarkup(k,g){return `<section class="key-walkthrough" aria-label="Guia ilustrado da ${escape(k.name)}"><header><p class="eyebrow">${escape(g.region)}</p><h3>Como pegar a ${escape(k.name)}</h3><p>${escape(g.intro)}</p></header><dl class="key-walkthrough-facts">${g.facts.map(([label,value])=>`<div><dt>${escape(label)}</dt><dd>${escape(value)}</dd></div>`).join('')}</dl><aside class="key-walkthrough-note"><strong>Antes de buscar</strong><p>${escape(g.prepare)}</p><p>${escape(g.notice)}</p></aside>${g.npc?`<section class="key-npc-guide" aria-label="NPC da chave"><img src="${escape(g.npc.image)}" alt="${escape(g.npc.name)}, NPC da ${escape(k.name)}" width="64" height="64"><div><h4>${escape(g.npc.name)}</h4><p>${escape(g.npc.location)}</p><p class="key-npc-dialogue" aria-label="Ordem das falas">${g.npc.commands.map(c=>`<code>${escape(c)}</code>`).join(' → ')}</p><p>${escape(g.npc.note)}</p></div></section>`:''}<ol class="key-walkthrough-steps">${g.steps.map(([title,text,file,caption],i)=>`<li><div class="key-step-title"><span aria-hidden="true">${i+1}</span><h4>${escape(title)}</h4></div><p>${escape(text)}</p>${file?figure(file,caption):''}</li>`).join('')}</ol><aside class="key-walkthrough-note"><strong>Antes de continuar</strong><p>${escape(g.outro)}</p>${g.questId?`<p><a class="action secondary" href="#quest/${escape(g.questId)}" target="_blank" rel="noopener">Abrir guia da quest ↗</a></p>`:''}</aside><p class="key-walkthrough-credit">Mapas e fotos: TibiaWiki${k.number==='3033'?' e FPoPP / TibiaQA':''} · jogo e imagens © CipSoft GmbH. Imagens de referência, não capturas do Mythera. Revisado em 22/10/2026.</p><details class="key-access-guide"><summary>Fontes do roteiro ilustrado</summary><div class="key-access-content">${g.sources.map((url,i)=>`<p><a href="${escape(url)}" target="_blank" rel="noopener">Referência ${i+1} · ${escape(url.split('/')[2])} ↗</a></p>`).join('')}</div></details></section>`;}
+function referenceMarkup(k,g){return `<section class="key-walkthrough" aria-label="Guia ilustrado da ${escape(k.name)}"><header><p class="eyebrow">${escape(g.region)}</p><h3>Como pegar a ${escape(k.name)}</h3><p>${escape(g.intro)}</p></header><dl class="key-walkthrough-facts">${g.facts.map(([label,value])=>`<div><dt>${escape(label)}</dt><dd>${escape(value)}</dd></div>`).join('')}</dl><aside class="key-walkthrough-note"><strong>Antes de buscar</strong><p>${escape(g.prepare)}</p><p>${escape(g.notice)}</p></aside>${g.npc?`<section class="key-npc-guide" aria-label="NPC da chave"><img src="${escape(g.npc.image)}" alt="${escape(g.npc.name)}, NPC da ${escape(k.name)}" width="64" height="64"><div><h4>${escape(g.npc.name)}</h4><p>${escape(g.npc.location)}</p><p class="key-npc-dialogue" aria-label="Ordem das falas">${g.npc.commands.map(c=>`<code>${escape(c)}</code>`).join(' → ')}</p><p>${escape(g.npc.note)}</p></div></section>`:''}<ol class="key-walkthrough-steps">${g.steps.map(([title,text,file,caption],i)=>`<li><div class="key-step-title"><span aria-hidden="true">${i+1}</span><h4>${escape(title)}</h4></div><p>${escape(text)}</p>${file?figure(file,caption):''}</li>`).join('')}</ol><aside class="key-walkthrough-note"><strong>Antes de continuar</strong><p>${escape(g.outro)}</p>${g.questId?`<p><a class="action secondary" href="#quest/${escape(g.questId)}" target="_blank" rel="noopener">Abrir guia da quest ↗</a></p>`:''}</aside><p class="key-walkthrough-credit">Mapas e fotos: TibiaWiki${['3302','3303','3304'].includes(k.number)?' · Esquemas e letras de referência: Tibia Command':''}${k.number==='3033'?' e FPoPP / TibiaQA':''} · jogo e imagens © CipSoft GmbH. Imagens de referência, não capturas do Mythera. Revisado em 22/10/2026.</p><details class="key-access-guide"><summary>Fontes do roteiro ilustrado</summary><div class="key-access-content">${g.sources.map((url,i)=>`<p><a href="${escape(url)}" target="_blank" rel="noopener">Referência ${i+1} · ${escape(url.split('/')[2])} ↗</a></p>`).join('')}</div></details></section>`;}
 
 function markup(k){const g=guides[k.number];if(!g)return '';if(g.kind==='reference')return referenceMarkup(k,g);const isNpc=Boolean(g.npc);return `<section class="key-walkthrough" aria-label="Guia ilustrado da ${escape(k.name)}"><header><p class="eyebrow">${isNpc?'HELLGATE · GUIA DE COMPRA':'DRACONIA · GUIA ILUSTRADO'}</p><h3>Como pegar a ${escape(k.name)}</h3><p>${g.intro?escape(g.intro):g.floor===6?'Continue a sequência: 3003 → 3004 → 3005 → 3006. Estas três coletas ficam no segundo piso da pirâmide, no andar 6.':'Siga a ordem: 3001 → 3002 → 3003. As três coletas ficam no térreo da pirâmide, no andar 7.'}</p></header><dl class="key-walkthrough-facts"><div><dt>Antes desta chave</dt><dd>${escape(g.previous)}</dd></div><div><dt>Próximo acesso</dt><dd>${escape(g.next)}</dd></div>${g.position?`<div><dt>${escape(g.positionLabel||'Coordenadas da coleta')}</dt><dd>${escape(g.position)} · x, y, z</dd></div>`:''}</dl><aside class="key-walkthrough-note"><strong>Prepare a viagem</strong><p>${g.prepare?escape(g.prepare):`Leve Rope, cura e suprimentos para Hellgate. A Key 3012 abre o acesso: Elathriel vende a referência clássica por 5.000 gp. ${g.floor===6?'Leve runas de Destroy Field: elas são usadas para descobrir 3004 e 3006 sob campos mágicos. Não vá a este piso sem elas.':'Destroy Field é necessário na continuação da quest.'} O nível 25 é da porta do prêmio final, não uma garantia de segurança neste trajeto.`}</p><p>${g.notice?escape(g.notice):'As chaves são descritas como respawn diário compartilhado: outro jogador pode já ter recolhido. Confira novamente após o server save ou consiga uma emprestada. Para concluir toda Draconia, vá em dupla; a etapa cooperativa fica depois destas três chaves.'}</p></aside>${isNpc?`<section class="key-npc-guide" aria-label="NPC vendedor"><img src="${folder}elathriel.gif" alt="Elathriel, vendedor da Key 3012" width="64" height="64"><div><h4>Elathriel</h4><p>Prisão de Ab’Dendriel · andar 9 · 5.000 gp</p><p class="key-npc-dialogue" aria-label="Ordem das falas para comprar"><code>hi</code> → <code>key</code> → <code>yes</code> → <code>bye</code></p><p>Espere a resposta entre cada mensagem.</p></div></section>`:''}${isNpc?'':`<details class="key-access-guide" ${k.number==='3001'?'open':''}><summary>Como chegar · Ab’Dendriel → Hellgate → pirâmide</summary><div class="key-access-content"><p>Em Ab’Dendriel, desça três pisos pelo acesso de 32654, 31674, 7. Siga sul e leste, use 3012 na entrada de Hellgate e atravesse o portal.</p>${figure('hellgate','Siga os quadros de 1 a 9, respeitando as mudanças de piso. Este mapa é resumido: alguns corredores intermediários não aparecem.')}<p>Acompanhe os túneis até a saída para Draconia. Na ilha, contorne o sul para o lado leste da pirâmide e desça no buraco marcado.</p>${figure('island','Na superfície: do ponto de chegada no sudoeste até o buraco no lado leste da ilha.')}${figure('underground','No subsolo: caminhe para norte até o ponto de subida para dentro da pirâmide.')}<p>Há Rotworms na ilha e no acesso. Em Hellgate, espere mortos-vivos e Beholders. Planeje a saída e não conte com voltar pelo portal de entrada.</p></div></details>`}${g.floor===6?`<details class="key-access-guide"><summary>Como subir ao segundo piso · acesso com a Key 3003</summary><div class="key-access-content"><p>Conclua a sequência 3001 → 3002 → 3003 no térreo. Com 3003, abra a porta da esquerda no sudeste da pirâmide, atravesse a sala e suba. As Keys 3004, 3005 e 3006 ficam no andar 6; não procure as coletas nos corredores do andar 7.</p>${figure('stairs','No térreo (andar 7): use 3003 na porta esquerda do sudeste e alcance a escada. Ao subir você chega ao andar 6.')}</div></details>`:''}<ol class="key-walkthrough-steps">${g.steps.map(([title,text,file,caption],i)=>`<li><div class="key-step-title"><span aria-hidden="true">${i+1}</span><h4>${escape(title)}</h4></div><p>${escape(text)}</p>${file?figure(file,caption):''}</li>`).join('')}</ol>${isNpc?`<aside class="key-walkthrough-note"><strong>Antes de entrar no portal</strong><p>A 3012 abre as portas de Hellgate; não abre todas as portas de Draconia. Não confunda esta compra com as chaves 3001–3008. Alterações específicas de obtenção, preço e acesso não estão documentadas para esta chave no Mythera.</p></aside>`:`<details class="key-access-guide"><summary>Antes de sair de Draconia</summary><div class="key-access-content"><p>${k.number==='3008'?'Depois de usar 3008, confira a posição final das quatro alavancas antes de entrar no teleport. Recolha os prêmios desejados antes de voltar à cidade.':'As chaves até esta etapa não liberam sozinhas o teleport do topo: ainda faltam as outras etapas de Draconia. Consulte o guia completo para planejar a continuação e a volta.'}</p><p><a class="action secondary" href="#quest/draconia" target="_blank" rel="noopener">Abrir guia completo de Draconia ↗</a></p><p>As marcações das imagens pertencem à referência do TibiaWiki, não a um rastreamento do personagem. Confira portas e mecanismos no cliente. No Mythera, o roteiro é herdado do 7.4; alterações específicas destas chaves ainda não estão documentadas.</p></div></details>`}<p class="key-walkthrough-credit">Mapas: TibiaWiki · jogo e imagens © CipSoft GmbH. Marcas originais preservadas; imagens de referência, não capturas do Mythera. <a href="${isNpc?'https://tibiawiki.com.br/wiki/Hellgate':'https://tibiawiki.com.br/index.php?title=Draconia_Quest&amp;oldid=401051'}" target="_blank" rel="noopener">Consultar fonte ilustrada ↗</a>${isNpc?' · <a href="https://www.tibiawiki.com.br/wiki/Elathriel" target="_blank" rel="noopener">Ficha e transcrição do Elathriel ↗</a>':''} · Revisado em 22/10/2026.</p></section>`;}
 window.KeyAcquisitionGuides={markup,guides};
