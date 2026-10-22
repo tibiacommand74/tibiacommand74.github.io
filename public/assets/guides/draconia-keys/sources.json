@@ -30,6 +30,22 @@
     {
       "file": "stairs.png",
       "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_1-6.png"
+    },
+    {
+      "file": "3004.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_2-1.png"
+    },
+    {
+      "file": "3005.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_2-2.png"
+    },
+    {
+      "file": "3006.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_2-3.png"
+    },
+    {
+      "file": "upper-stairs.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_2-4.png"
     }
   ]
 }
