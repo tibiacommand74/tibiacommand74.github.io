@@ -1,0 +1,10 @@
+{
+  "page": "https://www.tibiawiki.com.br/wiki/Present_Quest",
+  "revision": "https://www.tibiawiki.com.br/index.php?title=Present_Quest&oldid=301001",
+  "credit": "Tibia Wiki; game imagery copyright CipSoft GmbH",
+  "modifications": "None. Original pixels and markings preserved.",
+  "images": [
+    "https://www.tibiawiki.com.br/images/f/f0/Present_quest.png"
+  ],
+  "sharedMaps": "../bear-room/sources.json"
+}
