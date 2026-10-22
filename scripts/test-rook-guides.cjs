@@ -8,7 +8,7 @@ for(const mode of ['classic','mythera']){
  assert.equal(Object.keys(e.RookQuestGuides).length,13);
  for(const id of Object.keys(e.RookQuestGuides)){
   const q=rows.find(q=>q.id===id);assert(q,mode+': '+id);assert.equal(rows.filter(q=>q.id===id).length,1);
-  const html=e.mappedQuestMarkup(q);assert(html.includes('Como voltar'));assert(html.includes('Antes de sair'));assert(html.includes('tibiawiki.com.br'));assert(html.includes('qd-reward'));assert(!html.includes('href="#rook-'));assert(!html.includes('undefined'));
+  const html=e.mappedQuestMarkup(q);if(id==='bear-room'){assert.equal((html.match(/class="rook-route-figure/g)||[]).length,6);assert.equal(e.RookQuestGuides[id].steps.length,7);assert(html.includes('Tibia Wiki'));assert(html.includes('Key 4601'));}assert(html.includes('Como voltar'));assert(html.includes('Antes de sair'));assert(html.includes('tibiawiki.com.br'));assert(html.includes('qd-reward'));assert(!html.includes('href="#rook-'));assert(!html.includes('undefined'));
   for(const src of [...html.matchAll(/<img src="([^"]+)"/g)].map(m=>m[1]))assert(src.startsWith('data:image/')||fs.existsSync('public/'+src.replace(/^\//,'')),src);
  }
  assert(e.mappedQuestMarkup(quests.find(q=>q.id==='skull-of-ratha')).includes('filmed-guide'));
