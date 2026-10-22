@@ -1,0 +1,35 @@
+{
+  "reviewedAt": "2026-10-22",
+  "guide": "https://tibiawiki.com.br/index.php?title=Draconia_Quest&oldid=401051",
+  "credit": "Mapas: TibiaWiki. Jogo e imagens © CipSoft GmbH. Imagens originais, sem redesenhar o percurso. Referências atuais comparadas com o roteiro clássico; não são capturas do Mythera.",
+  "images": [
+    {
+      "file": "hellgate.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Hellgate_Draconia.png"
+    },
+    {
+      "file": "island.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_1-1.png"
+    },
+    {
+      "file": "underground.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_1-2.png"
+    },
+    {
+      "file": "3001.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_1-3.png"
+    },
+    {
+      "file": "3002.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_1-4.png"
+    },
+    {
+      "file": "3003.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_1-5.png"
+    },
+    {
+      "file": "stairs.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_1-6.png"
+    }
+  ]
+}

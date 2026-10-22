@@ -47,6 +47,7 @@ jobs:
           node scripts/test-hunts.cjs
           node scripts/test-hunt-finder.cjs
           node scripts/test-classic-resources.cjs
+          node scripts/test-key-acquisition-guides.cjs
           node scripts/test-library-search.cjs
           node scripts/test-account-page.cjs
           node scripts/test-character-tools.cjs

@@ -1,0 +1,13 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const env={window:{}};vm.createContext(env);vm.runInContext(fs.readFileSync('public/key-acquisition-guides.js','utf8'),env);
+for(const number of ['3001','3002','3003']){
+ const html=env.window.KeyAcquisitionGuides.markup({number,name:'Key '+number});
+ assert(html.includes('Como pegar a Key '+number));
+ const paths=[...html.matchAll(/<img src="([^"]+)"/g)].map(x=>x[1]);assert(paths.length>=4);
+ for(const p of paths){assert(fs.existsSync('public/'+p),p);assert(fs.statSync('public/'+p).size>1000,p);}
+ assert(html.includes('não estão documentadas'));assert(html.includes('respawn diário'));
+}
+assert.equal(env.window.KeyAcquisitionGuides.markup({number:'3004'}),'');
+for(const file of ['public/classic-resources.js','public/server-lab.js'])assert(fs.readFileSync(file,'utf8').includes('KeyAcquisitionGuides?.markup(k)'),file);
+const index=fs.readFileSync('public/index.html','utf8');assert(index.indexOf('key-acquisition-guides.js')<index.indexOf('classic-resources.js'));assert(index.includes('key-acquisition-guides.css'));
+console.log('Key acquisition guides: three existing sheets, shared rendering and local images verified.');
