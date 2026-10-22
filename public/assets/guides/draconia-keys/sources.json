@@ -46,6 +46,63 @@
     {
       "file": "upper-stairs.png",
       "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_2-4.png"
+    },
+    {
+      "file": "duo-start.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_3-1.png"
+    },
+    {
+      "file": "duo-portal.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_3-2.png"
+    },
+    {
+      "file": "duo-return.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_3-3.png"
+    },
+    {
+      "file": "duo-stairs.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_3-4.png"
+    },
+    {
+      "file": "upper-maze.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_4-1.png"
+    },
+    {
+      "file": "upper-corridor.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_4-2.png"
+    },
+    {
+      "file": "3008.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_4-3.png"
+    },
+    {
+      "file": "exit-map.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_4-4.png"
+    },
+    {
+      "file": "exit-switches.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Draconia_Quest_Switches.png"
+    },
+    {
+      "file": "hellgate-surface.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Way_to_Hellgate1.png"
+    },
+    {
+      "file": "hellgate-descent.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Way_to_Hellgate2.png"
+    },
+    {
+      "file": "hellgate-door-npc.png",
+      "source": "https://tibiawiki.com.br/wiki/Arquivo:Way_to_Hellgate3.png"
+    },
+    {
+      "file": "elathriel.gif",
+      "source": "https://www.tibiawiki.com.br/images/a/a7/Elathriel.gif"
     }
+  ],
+  "additionalGuides": [
+    "https://tibiawiki.com.br/wiki/Hellgate",
+    "https://www.tibiawiki.com.br/wiki/Elathriel",
+    "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/server/data/npc/scripts/elathriel.lua"
   ]
 }
