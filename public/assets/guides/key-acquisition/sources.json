@@ -1,0 +1,51 @@
+{
+  "reviewedAt": "2026-10-22",
+  "credit": "Mapas e fotos: TibiaWiki; mapa de Shirith: FPoPP / TibiaQA. Jogo e imagens © CipSoft GmbH. Referências visuais atuais; não são capturas do Mythera nem prova de aparência exata do cliente 7.4.",
+  "images": [
+    {
+      "file": "shirith-location.png",
+      "source": "https://www.tibiaqa.com/10802/what-is-the-best-place-to-finish-the-troll-bestiary"
+    },
+    {
+      "file": "shirith.gif",
+      "source": "https://www.tibiawiki.com.br/wiki/Shirith"
+    },
+    {
+      "file": "skjaar.gif",
+      "source": "https://www.tibiawiki.com.br/wiki/Skjaar"
+    },
+    {
+      "file": "skjaar-route-1.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Arquivo:Thais_Quest_Noble_Armor_Mapa_1-1.png"
+    },
+    {
+      "file": "skjaar-route-2.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Arquivo:Thais_Quest_Noble_Armor_Mapa_1-2.png"
+    },
+    {
+      "file": "skjaar-room-map.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Arquivo:Thais_Quest_Noble_Armor_Mapa_1-3.png"
+    },
+    {
+      "file": "skjaar-room.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Arquivo:Thais_Quest_Noble_Armor_1-1.png"
+    },
+    {
+      "file": "skjaar-crypt.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Arquivo:Thais_Quest_Noble_Armor_1-2.png"
+    },
+    {
+      "file": "outlaw-surface.png",
+      "source": "https://www.tibiawiki.com.br/wiki/Arquivo:Bright_Sword_Quest_Map00.png"
+    }
+  ],
+  "numberingConflict": "As fontes divergem sobre qual das duas árvores junto à torre contém 3301 ou 3302. Mostramos ambos os pontos e exigimos conferir o número com Look; não publicamos um marcador exato de coleta para 3301.",
+  "sources": [
+    "https://www.tibiawiki.com.br/wiki/Key_3033",
+    "https://www.tibiawiki.com.br/wiki/Shirith",
+    "https://www.tibiawiki.com.br/wiki/Key_3142",
+    "https://www.tibiawiki.com.br/wiki/Noble_Armor_Quest",
+    "https://www.tibiawiki.com.br/wiki/The_Outlaw_Camp_Quest",
+    "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/docs/reference-74/quests.md"
+  ]
+}
