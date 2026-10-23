@@ -1,8 +1,8 @@
 'use strict';
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
-const e={window:{}};vm.createContext(e);for(const f of ['data','catalog-data','hunt-data','classic-resources-data','city-guides'])vm.runInContext(fs.readFileSync('public/'+f+'.js','utf8'),e);
+const e={window:{}};vm.createContext(e);for(const f of ['data','catalog-data','hunt-data','classic-resources-data','mythera-domain','city-guides'])vm.runInContext(fs.readFileSync('public/'+f+'.js','utf8'),e);
 const api=e.window.CityGuides;assert.equal(api.render('unknown'),'');
-for(const name of ['Ancient Temple','Ankrahmun','Arredores de Venore','Arredores de Kazordoon',"Ashta'daramai",'Carlin','Cormaya','Darashia','Draconia','Drefia','Edron','Elvenbane',"Eremo's Island",'Fibula'])for(const mythera of [false,true]){
+for(const name of ['Ancient Temple','Ankrahmun','Arredores de Venore','Arredores de Kazordoon',"Ashta'daramai",'Carlin','Cormaya','Darashia','Draconia','Drefia','Edron','Elvenbane',"Eremo's Island",'Fibula','Fields of Glory','Folda'])for(const mythera of [false,true]){
  const html=api.render(name,mythera);assert(html.length>5000);assert(!html.includes('undefined'));assert.equal(html.includes('Você está no Mythera'),mythera);assert(html.includes('<img'));assert(html.includes('Checklist'));assert(html.includes('Fontes, versão'));
  for(const match of html.matchAll(/href="#([^/]+)\/([^\"]+)"/g)){const [,kind,id]=match;const value=decodeURIComponent(id);if(kind==='npc')assert(e.window.CATALOG.npcs.some(n=>n.name===value),value);if(kind==='hunt')assert(e.window.CLASSIC_HUNTS.some(h=>h.id===value),value);if(kind==='creature')assert(e.window.DATA.creatures.some(c=>c.name===value),value);}
  for(const match of html.matchAll(/href="\/chaves\/key-(\d+)\//g))assert(e.window.CLASSIC_RESOURCES.keys.some(k=>k.number===match[1]));
@@ -12,5 +12,7 @@ for(const name of ['Ancient Temple','Ankrahmun','Arredores de Venore','Arredores
  if(name==='Draconia'){for(let n=3001;n<=3008;n++)assert(html.includes('/chaves/key-'+n+'/'));assert(html.includes('3012'));assert(html.includes('retorno'));}if(name==='Drefia'){assert(html.includes('medusa-shield'));assert(!html.includes('href="#quest/stealth-ring"'));assert(e.window.CLASSIC_RESOURCES.regions.find(r=>r.name===name).questIds.includes('medusa-shield'));}if(name==='Edron'){assert(html.includes('Captain%20Seahorse'));assert(html.includes('6010'));assert(html.includes('edron-orcs'));}
  if(name.startsWith('Arredores')){const region=e.window.CLASSIC_RESOURCES.regions.find(r=>r.name===name);assert(region.overviewDisabled);assert(region.huntIds.length>=8);assert(!region.huntIds.includes('kazordoon-dwacatra'));for(const id of region.huntIds)assert(e.window.CLASSIC_HUNTS.some(h=>h.id===id));}
 }
+assert.equal(api.render('Frostveil',false),'');
+const frost=api.render('Frostveil',true);assert(frost.includes('#npc/Eirik'));assert(frost.includes('Gravepaw'));assert(frost.includes('Magic Plate Armor'));assert(frost.includes('90.000 gp'));assert(!frost.includes('undefined'));assert(!frost.includes('Você está no Mythera'));assert(!e.window.CLASSIC_RESOURCES.regions.some(r=>r.name==='Frostveil'));
 const index=fs.readFileSync('public/index.html','utf8');assert(index.indexOf('src="city-guides.js')<index.indexOf('src="classic-resources.js'));assert(fs.readFileSync('public/classic-resources.js','utf8').includes('window.CityGuides?.render(city)'));assert(fs.readFileSync('public/server-lab.js','utf8').includes('window.CityGuides?.render(city.name,true)'));
 console.log('PASS: detailed city guides, eight tombs, server-specific rotation, NPC/hunt/creature/key targets and shared page integration');
