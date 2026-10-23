@@ -1,9 +1,9 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const env={window:{}};vm.createContext(env);vm.runInContext(fs.readFileSync('public/key-acquisition-guides.js','utf8'),env);
-for(const number of ['3001','3002','3003','3004','3005','3006','3007','3008','3012','3033','3142','3301','3302','3303','3304','3350','3520','3600','3610','3620','3650','3666','3667','3701','3800','3801','3802','3899','3940','3980','4001','4009','4022','4023','4037','4055']){
+for(const number of ['3001','3002','3003','3004','3005','3006','3007','3008','3012','3033','3142','3301','3302','3303','3304','3350','3520','3600','3610','3620','3650','3666','3667','3701','3800','3801','3802','3899','3940','3980','4001','4009','4022','4023','4037','4055','4501','4502','4503','4601']){
  const html=env.window.KeyAcquisitionGuides.markup({number,name:'Key '+number});
  assert(html.includes('Como pegar a Key '+number));
- const paths=[...html.matchAll(/<img src="([^"]+)"/g)].map(x=>x[1]);assert(paths.length>=({3033:3,3142:6,3301:1,3302:2,3303:3,3304:4,3350:4,3520:3,3600:6,3610:11,3620:8,3650:7,3666:12,3667:12,3701:2,3800:9,3801:10,3802:10,3899:4,3940:4,3980:8,4001:6,4009:7,4022:13,4023:7,4037:8,4055:11}[number]||4));
+ const paths=[...html.matchAll(/<img src="([^"]+)"/g)].map(x=>x[1]);assert(paths.length>=({3033:3,3142:6,3301:1,3302:2,3303:3,3304:4,3350:4,3520:3,3600:6,3610:11,3620:8,3650:7,3666:12,3667:12,3701:2,3800:9,3801:10,3802:10,3899:4,3940:4,3980:8,4001:6,4009:7,4022:13,4023:7,4037:8,4055:11,4501:4,4502:5,4503:5,4601:6}[number]||4));
  for(const p of paths){assert(fs.existsSync('public/'+p),p);assert(fs.statSync('public/'+p).size>1000,p);}
  if(Number(number)>=3004&&Number(number)<=3006){assert(html.includes('andar 6'));assert(html.includes('Destroy Field'));assert(!html.includes('As três coletas ficam no térreo'));}
  if(Number(number)<=3012)assert(html.includes('não estão documentadas'));if(Number(number)<=3007)assert(html.includes('respawn diário'));
@@ -11,7 +11,7 @@ for(const number of ['3001','3002','3003','3004','3005','3006','3007','3008','30
 assert.equal(env.window.KeyAcquisitionGuides.markup({number:'3009'}),'');
 for(const file of ['public/classic-resources.js','public/server-lab.js'])assert(fs.readFileSync(file,'utf8').includes('KeyAcquisitionGuides?.markup(k)'),file);
 const index=fs.readFileSync('public/index.html','utf8');assert(index.indexOf('key-acquisition-guides.js')<index.indexOf('classic-resources.js'));assert(index.includes('key-acquisition-guides.css'));
-console.log('Key acquisition guides: thirty-six existing sheets, shared rendering and local images verified.');
+console.log('Key acquisition guides: forty existing sheets, shared rendering and local images verified.');
 
 const render=n=>env.window.KeyAcquisitionGuides.markup({number:n,name:'Key '+n});
 const duo=render('3007');assert(duo.includes('Jogador 1'));assert(duo.includes('Jogador 2'));assert(duo.includes('andar 5'));assert(!duo.includes('etapa cooperativa fica depois'));
@@ -37,3 +37,6 @@ const prisoner=render('3666');assert(prisoner.includes('PD-D-KS-P-PD'));assert(p
 for(const n of ['3800','3801','3802'])assert(render(n).includes('palácio'));assert(render('3800').includes('Knight Statue'));assert(render('3801').includes('32600, 31925, 6'));assert(render('3802').includes('Lightbearer'));assert(render('3899').includes('32497, 31887, 7'));assert(render('3940').includes('100 + 500 + 200'));assert(render('3940').includes('não repita help'));assert(render('3980').includes('32219, 32401, 10'));assert(render('3980').includes('não é uma instrução para descer'));
 
 assert(render('4001').includes('32661, 32141, 10'));assert(render('4001').includes('Pick'));assert(render('4009').includes('4022'));assert(render('4009').includes('32628, 32098, 11'));assert(render('4022').includes('Morrin'));assert(render('4023').includes('gadinius, 42, stepped in fire, 83 days'));assert(render('4023').includes('500 gp'));assert(render('4037').includes('Lump of Dough'));assert(render('4037').includes('Nalus Murtu'));assert(render('4055').includes('32652, 32107, 7'));assert(render('4055').includes('Não são necessários'));
+
+for(const n of ["4501","4502","4503"]){assert(render(n).includes("Destroy Field"));assert(render(n).includes("Pick"));assert(render(n).includes("4503"));}
+assert(render("4501").includes("divergência"));assert(render("4502").includes("32201, 31571, 10"));assert(render("4503").includes("32031, 31686, 8"));assert(render("4601").includes("alavanca"));assert(render("4601").includes("não este baú subterrâneo"));

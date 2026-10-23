@@ -512,5 +512,22 @@
     "https://www.tibiawiki.com.br/wiki/Noble_Armor_Quest",
     "https://www.tibiawiki.com.br/wiki/The_Outlaw_Camp_Quest",
     "https://github.com/Ethaan/mintwall/blob/263b5b0b01b689861ebe3c13a605e6badd1ed3ee/docs/reference-74/quests.md"
-  ]
+  ],
+  "foldaAndBearKeys": {
+    "reviewedAt": "22/10/2026",
+    "pages": [
+      "https://www.tibiawiki.com.br/wiki/Dark_Helmet_Quest",
+      "https://www.tibiawiki.com.br/wiki/Alawar's_Vault_Quest",
+      "https://www.tibiawiki.com.br/wiki/Bear_Room_Quest"
+    ],
+    "credit": "TibiaWiki; game imagery © CipSoft GmbH. Original route markings preserved. External reference, not field validation on Mythera.",
+    "maps": {
+      "folda-map-1.png": "https://www.tibiawiki.com.br/images/f/f6/Dark_Helmet_Quest_Mapa01.png",
+      "folda-map-2.png": "https://www.tibiawiki.com.br/images/5/53/Dark_Helmet_Quest_Mapa02.png",
+      "folda-map-3.png": "https://www.tibiawiki.com.br/images/e/ee/Dark_Helmet_Quest_Mapa03.png",
+      "folda-map-4.png": "https://www.tibiawiki.com.br/images/d/d6/Dark_Helmet_Quest_Mapa04.png",
+      "folda-map-5.png": "https://www.tibiawiki.com.br/images/a/a6/Dark_Helmet_Quest_Mapa05.png"
+    },
+    "bearImages": "Reused existing assets/guides/bear-room; source manifest in that directory."
+  }
 }
