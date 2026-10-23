@@ -2,11 +2,12 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const e={window:{}};vm.createContext(e);for(const f of ['data','catalog-data','hunt-data','classic-resources-data','city-guides'])vm.runInContext(fs.readFileSync('public/'+f+'.js','utf8'),e);
 const api=e.window.CityGuides;assert.equal(api.render('unknown'),'');
-for(const name of ['Ancient Temple','Ankrahmun'])for(const mythera of [false,true]){
+for(const name of ['Ancient Temple','Ankrahmun','Arredores de Venore','Arredores de Kazordoon'])for(const mythera of [false,true]){
  const html=api.render(name,mythera);assert(html.length>5000);assert(!html.includes('undefined'));assert.equal(html.includes('Você está no Mythera'),mythera);assert(html.includes('<img'));assert(html.includes('Checklist'));assert(html.includes('Fontes, versão'));
  for(const match of html.matchAll(/href="#([^/]+)\/([^\"]+)"/g)){const [,kind,id]=match;const value=decodeURIComponent(id);if(kind==='npc')assert(e.window.CATALOG.npcs.some(n=>n.name===value),value);if(kind==='hunt')assert(e.window.CLASSIC_HUNTS.some(h=>h.id===value),value);if(kind==='creature')assert(e.window.DATA.creatures.some(c=>c.name===value),value);}
  for(const match of html.matchAll(/href="\/chaves\/key-(\d+)\//g))assert(e.window.CLASSIC_RESOURCES.keys.some(k=>k.number===match[1]));
- if(name==='Ankrahmun'){assert.equal((html.match(/<tr><th scope="row">/g)||[]).length,8);assert.equal(html.includes('Consulte Tothdral antes de partir'),mythera);assert.equal(html.includes('systems--tomb-rotation-system'),mythera);}else assert(html.includes('Minotaur Mage')||html.includes('minotaur mage'));
+ if(name==='Ankrahmun'){assert.equal((html.match(/<tr><th scope="row">/g)||[]).length,8);assert.equal(html.includes('Consulte Tothdral antes de partir'),mythera);assert.equal(html.includes('systems--tomb-rotation-system'),mythera);}else if(name==='Ancient Temple')assert(html.includes('Minotaur Mage')||html.includes('minotaur mage'));
+ if(name.startsWith('Arredores')){const region=e.window.CLASSIC_RESOURCES.regions.find(r=>r.name===name);assert(region.overviewDisabled);assert(region.huntIds.length>=8);assert(!region.huntIds.includes('kazordoon-dwacatra'));for(const id of region.huntIds)assert(e.window.CLASSIC_HUNTS.some(h=>h.id===id));}
 }
 const index=fs.readFileSync('public/index.html','utf8');assert(index.indexOf('src="city-guides.js')<index.indexOf('src="classic-resources.js'));assert(fs.readFileSync('public/classic-resources.js','utf8').includes('window.CityGuides?.render(city)'));assert(fs.readFileSync('public/server-lab.js','utf8').includes('window.CityGuides?.render(city.name,true)'));
 console.log('PASS: detailed city guides, eight tombs, server-specific rotation, NPC/hunt/creature/key targets and shared page integration');
