@@ -529,5 +529,58 @@
       "folda-map-5.png": "https://www.tibiawiki.com.br/images/a/a6/Dark_Helmet_Quest_Mapa05.png"
     },
     "bearImages": "Reused existing assets/guides/bear-room; source manifest in that directory."
+  },
+  "lastFourKeys": {
+    "reviewedAt": "22/10/2026",
+    "pages": [
+      "https://www.tibiawiki.com.br/wiki/Key_4603",
+      "https://www.tibiawiki.com.br/wiki/Katana_Quest",
+      "https://www.tibiawiki.com.br/wiki/Key_5000",
+      "https://www.tibiawiki.com.br/wiki/Bibliotecas_de_Green_Claw_Swamp",
+      "https://tibia.fandom.com/wiki/Blood_Herb_Quest/Spoiler",
+      "https://exetares.wiki/Blood_Herb_Quest",
+      "https://www.tibiawiki.com.br/wiki/Wyda",
+      "https://www.tibiawiki.com.br/wiki/Key_5010",
+      "https://www.tibiawiki.com.br/wiki/Black_Knight_Quest",
+      "https://tibia.fandom.com/wiki/Key_5010",
+      "https://www.tibiawiki.com.br/wiki/Key_6010",
+      "https://www.tibiawiki.com.br/wiki/The_Demon_Helmet_Quest",
+      "https://www.tibiawiki.com.br/wiki/Parchment_Room_Quest",
+      "https://tibia.fandom.com/wiki/Key_6010"
+    ],
+    "credit": "TibiaWiki / TibiaWiki Fandom. Game imagery © CipSoft GmbH. Original markings preserved. External references, not field validation on Mythera.",
+    "katanaImages": "Reused assets/guides/katana; see its sources.json.",
+    "diagram": "final-black-trees.svg: original Tibia Command checklist of both source coordinate ranges; not a map.",
+    "images": {
+      "assets/guides/katana/Katana1.jpg": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/katana/Katana2.jpg": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/katana/Katana3.jpg": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/katana/Katana4.jpg": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/katana/Katana6.jpg": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/katana/Katana8.jpg": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/katana/Katana6.1.jpg": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-black-0.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-black-1.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-black-2.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-black-6.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-demon-0.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-demon-1.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-demon-2.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-demon-3.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-demon-4.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-demon-5.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-demon-6.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-demon-8.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-demon-9.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-demon-10.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-demon-12.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-demon-13.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-wyda-0.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-wyda-1.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-wyda-2.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-wyda-3.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-wyda-library.png": "See the linked quest source for the original file and unchanged markings.",
+      "assets/guides/key-acquisition/final-black-trees.svg": "See the linked quest source for the original file and unchanged markings."
+    }
   }
 }
