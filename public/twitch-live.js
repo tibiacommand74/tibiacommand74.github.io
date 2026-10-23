@@ -8,7 +8,7 @@
   const mobileLink = document.getElementById('twitch-mobile-link');
   const closeButton = document.getElementById('twitch-close-player');
   if (!section || !panel || !mount || !status || !mobileNote || !mobileLink || !closeButton) return;
-  const labels = {kingninhow: 'Kingninhow', kingstwv: 'Kingstwv'};
+  const labels = {kingninhow: 'Kingninhow', kingstwv: 'Kingstwv', galahaadttv: 'Galahaadttv'};
   const buttons = [...section.querySelectorAll('[data-watch-stream]')];
   let selected = null, player = null, generation = 0, sdkPromise = null;
   const states = Object.fromEntries(Object.keys(labels).map(channel => [channel, 'unknown']));
