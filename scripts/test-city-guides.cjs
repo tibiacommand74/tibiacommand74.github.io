@@ -2,7 +2,7 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const e={window:{}};vm.createContext(e);for(const f of ['data','catalog-data','hunt-data','classic-resources-data','mythera-domain','city-guides'])vm.runInContext(fs.readFileSync('public/'+f+'.js','utf8'),e);
 const api=e.window.CityGuides;assert.equal(api.render('unknown'),'');
-for(const name of ['Ancient Temple','Ankrahmun','Arredores de Venore','Arredores de Kazordoon',"Ashta'daramai",'Carlin','Cormaya','Darashia','Draconia','Drefia','Edron','Elvenbane',"Eremo's Island",'Fibula','Fields of Glory','Folda'])for(const mythera of [false,true]){
+for(const name of ['Ancient Temple','Ankrahmun','Arredores de Venore','Arredores de Kazordoon',"Ashta'daramai",'Carlin','Cormaya','Darashia','Draconia','Drefia','Edron','Elvenbane',"Eremo's Island",'Fibula','Fields of Glory','Folda','Ghostlands','Green Claw Swamp'])for(const mythera of [false,true]){
  const html=api.render(name,mythera);assert(html.length>5000);assert(!html.includes('undefined'));assert.equal(html.includes('Você está no Mythera'),mythera);assert(html.includes('<img'));assert(html.includes('Checklist'));assert(html.includes('Fontes, versão'));
  for(const match of html.matchAll(/href="#([^/]+)\/([^\"]+)"/g)){const [,kind,id]=match;const value=decodeURIComponent(id);if(kind==='npc')assert(e.window.CATALOG.npcs.some(n=>n.name===value),value);if(kind==='hunt')assert(e.window.CLASSIC_HUNTS.some(h=>h.id===value),value);if(kind==='creature')assert(e.window.DATA.creatures.some(c=>c.name===value),value);}
  for(const match of html.matchAll(/href="\/chaves\/key-(\d+)\//g))assert(e.window.CLASSIC_RESOURCES.keys.some(k=>k.number===match[1]));
@@ -14,5 +14,7 @@ for(const name of ['Ancient Temple','Ankrahmun','Arredores de Venore','Arredores
 }
 assert.equal(api.render('Frostveil',false),'');
 const frost=api.render('Frostveil',true);assert(frost.includes('#npc/Eirik'));assert(frost.includes('Gravepaw'));assert(frost.includes('Magic Plate Armor'));assert(frost.includes('90.000 gp'));assert(!frost.includes('undefined'));assert(!frost.includes('Você está no Mythera'));assert(!e.window.CLASSIC_RESOURCES.regions.some(r=>r.name==='Frostveil'));
+assert.equal(api.render('Ghostland',false),'');
+const event=api.render('Ghostland',true);assert(event.includes('#npc/Farmer'));assert(event.includes('125.000 Halloween Coins'));assert(event.includes('Halloween Coins, não gp'));assert(!event.includes('undefined'));assert(!e.window.CLASSIC_RESOURCES.regions.some(r=>r.name==='Ghostland'));
 const index=fs.readFileSync('public/index.html','utf8');assert(index.indexOf('src="city-guides.js')<index.indexOf('src="classic-resources.js'));assert(fs.readFileSync('public/classic-resources.js','utf8').includes('window.CityGuides?.render(city)'));assert(fs.readFileSync('public/server-lab.js','utf8').includes('window.CityGuides?.render(city.name,true)'));
 console.log('PASS: detailed city guides, eight tombs, server-specific rotation, NPC/hunt/creature/key targets and shared page integration');
