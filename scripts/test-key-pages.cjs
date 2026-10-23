@@ -1,0 +1,13 @@
+'use strict';
+const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),assert=require('node:assert/strict');
+const env={window:{}};vm.createContext(env);for(const f of ['classic-resources-data','key-acquisition-guides'])vm.runInContext(fs.readFileSync('public/'+f+'.js','utf8'),env);
+const keys=env.window.CLASSIC_RESOURCES.keys.filter(k=>k.availability==='classica'),map=fs.readFileSync('public/sitemap.xml','utf8'),dir=fs.readFileSync('public/chaves/index.html','utf8');assert.equal(keys.length,44);
+const canonicals=new Set();
+for(const k of keys){const url='/chaves/key-'+k.number+'/',html=fs.readFileSync(path.join('public',url,'index.html'),'utf8');assert.equal((html.match(/<h1(?:\s[^>]*)?>/g)||[]).length,1,url);assert(html.includes('<title>Key '+k.number+': como pegar'));assert(html.includes('name="description"'));assert(html.includes('rel="canonical" href="https://tibiacommand74.com'+url+'"'));assert(!html.includes('noindex'));assert(!html.includes('undefined'));assert(!html.includes('href="#'));assert(html.includes('Como pegar a Key '+k.number));assert(html.includes('O que a chave '+k.number+' abre'));assert(html.includes('Fontes'));assert(map.includes('<loc>https://tibiacommand74.com'+url+'</loc>'));assert(dir.includes('href="'+url+'"'));assert(dir.includes('key'+k.number));canonicals.add(url);
+ const linked=[...html.matchAll(/(?:src|href)="(\/assets\/[^"#]+)"/g)];assert(linked.length>1,url);for(const m of linked)assert(fs.existsSync('public'+m[1]),url+' '+m[1]);
+ for(const m of html.matchAll(/href="(\/(?:chaves|quests|npcs)\/[^"#]*)"/g))assert(fs.existsSync(path.join('public',m[1],'index.html')),url+' '+m[1]);
+ const schemas=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1]));assert.equal(schemas.length,1);assert.equal(schemas[0]['@graph'][0].mainEntityOfPage,'https://tibiacommand74.com'+url);assert.equal(schemas[0]['@graph'][1]['@type'],'BreadcrumbList');
+}
+for(const n of ['3702','3950','4600'])assert(!map.includes('/chaves/key-'+n+'/'));
+assert.equal(canonicals.size,44);assert(map.includes('<loc>https://tibiacommand74.com/chaves/</loc>'));assert(fs.readFileSync('public/robots.txt','utf8').includes('Sitemap: https://tibiacommand74.com/sitemap.xml'));assert(fs.readFileSync('public/index.html','utf8').includes('href="/chaves/"'));assert(fs.readFileSync('public/classic-resources.js','utf8').includes('/chaves/key-${e(k.number)}/'));assert(fs.readFileSync('public/server-lab.js','utf8').includes('/chaves/key-${esc(k.number)}/'));
+console.log('PASS: 44 complete static key articles, directory links, unique canonical metadata, JSON-LD, local images and sitemap; historical entries excluded.');

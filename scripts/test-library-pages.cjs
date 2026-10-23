@@ -5,7 +5,7 @@ const groups=[['criaturas','creature',e.window.DATA.creatures],['itens','item',e
 const sitemap=fs.readFileSync('public/sitemap.xml','utf8');
 function check(url){const html=fs.readFileSync(path.join('public',url,'index.html'),'utf8');assert.equal((html.match(/<h1(?:\s[^>]*)?>/g)||[]).length,1,url);assert(html.includes('rel="canonical" href="https://tibiacommand74.com'+url+'"'));assert(html.includes('name="description"'));assert(!html.includes('undefined'));assert(!html.includes('<canvas'));assert(!html.includes('href="#'));assert(sitemap.includes('<loc>https://tibiacommand74.com'+url+'</loc>'));for(const m of html.matchAll(/href="(\/(?:itens|magias|npcs|criaturas|quests|hunts)\/[^"#]*)"/g))assert(fs.existsSync(path.join('public',m[1],'index.html')),url+' broken '+m[1]);return html;}
 for(const [section,type,rows]of groups){const directory=check('/'+section+'/');for(const r of rows){const key=type==='item'?r.id:r.name,url=e.window.contentURL(type,key);assert(url);assert(!seen.has(url),url);seen.add(url);const html=check(url);assert(directory.includes('href="'+url+'"'));assert(html.includes('/#'+type+'/'+encodeURIComponent(key)));}}
-assert.equal(seen.size,1160);assert.equal(new Set([...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1])).size,1241+e.window.CLASSIC_HUNTS.length);
+assert.equal(seen.size,1160);assert.equal(new Set([...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1])).size,1286+e.window.CLASSIC_HUNTS.length);
 assert(check(e.window.contentURL('spell','Light')).includes('utevo lux'));
 assert(check(e.window.contentURL('npc','Dermot')).includes('/#npc-map/Dermot'));
 assert(check(e.window.contentURL('creature','troll')).includes('/#creature-map/troll'));
