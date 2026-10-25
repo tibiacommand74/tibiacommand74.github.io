@@ -39,3 +39,5 @@ const thais=api.render('Thais');assert(thais.includes('Sua base para comércio, 
 
 const vega=api.render('Vega');assert(vega.includes('Da balsa de Carlson aos Rotworms'));assert(vega.includes('#npc/Carlson'));assert(vega.includes('#hunt/carlin-vega-rotworms'));assert(!vega.includes('href="#npc/Ruprecht"'));
 const venore=api.render('Venore');assert(venore.includes('Prepare a cidade antes de cruzar o pântano'));for(const n of ['Asrak','Xed','Romella','Yanni','Digger'])assert(venore.includes('#npc/'+n));assert(venore.includes('/chaves/key-5010/'));assert(!venore.includes('href="#hunt/venore-dark-cathedral"'));
+
+assert(vega.includes('31969, 31696, 9'));assert(vega.toLowerCase().includes('#creature/slime'));assert(venore.includes('#npc/Frans'));assert(venore.includes('100 Bolts custam 300 gp'));assert(venore.includes('1.000 gp'));
