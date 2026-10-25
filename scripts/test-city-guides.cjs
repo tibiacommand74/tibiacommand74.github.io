@@ -41,3 +41,19 @@ const vega=api.render('Vega');assert(vega.includes('Da balsa de Carlson aos Rotw
 const venore=api.render('Venore');assert(venore.includes('Prepare a cidade antes de cruzar o pântano'));for(const n of ['Asrak','Xed','Romella','Yanni','Digger'])assert(venore.includes('#npc/'+n));assert(venore.includes('/chaves/key-5010/'));assert(!venore.includes('href="#hunt/venore-dark-cathedral"'));
 
 assert(vega.includes('31969, 31696, 9'));assert(vega.toLowerCase().includes('#creature/slime'));assert(venore.includes('#npc/Frans'));assert(venore.includes('100 Bolts custam 300 gp'));assert(venore.includes('1.000 gp'));
+
+// Atlas-wide integrity: 38 existing guides (Ab'Dendriel uses its own renderer).
+for(const region of e.window.CLASSIC_RESOURCES.regions){
+ assert(api.render(region.name)||region.name==="Ab'Dendriel",'Missing guide: '+region.name);
+ if(region.map&&!region.overviewDisabled)assert(region.map.length===3&&region.map.every(Number.isFinite)&&region.map[2]>=0&&region.map[2]<=15,region.name);
+ for(const id of region.huntIds||[])assert(e.window.CLASSIC_HUNTS.some(h=>h.id===id),'Hunt: '+id);
+ for(const name of region.npcNames||[])assert(e.window.CATALOG.npcs.some(n=>n.name===name),'NPC: '+name);
+ const html=api.renderHunts(region.name,true);assert(html.includes('Onde caçar'));assert(!html.includes('undefined'));
+ for(const hunt of api.cityHunts(region.name)){assert(hunt.xyz.length===3&&hunt.xyz[2]>=0&&hunt.xyz[2]<=15);assert(hunt.level>0);assert(hunt.vocations.length);assert(hunt.preparation.length);assert.notEqual(hunt.id,'venore-dark-cathedral');}
+}
+assert.equal(api.cityHunts('Vega').length,1);assert(api.renderHunts('Stonehome').includes('Edron'));assert.equal(api.renderHunts('Ghostland',true),'');
+const cards=[{dataset:{level:'8',vocations:'Knight|Paladin',goal:'Economia'}},{dataset:{level:'50',vocations:'Knight',goal:'Experiência'}}],fields={'[data-hunt-level]':{value:'20'},'[data-hunt-vocation]':{value:'Paladin'},'[data-hunt-goal]':{value:'Economia'},'[data-hunt-count]':{},'[data-hunt-empty]':{}};
+const root={querySelector:s=>fields[s],querySelectorAll:()=>cards};api.filterHunts(root);assert(!cards[0].hidden&&cards[1].hidden);assert.equal(fields['[data-hunt-count]'].textContent,'1 hunt disponível');fields['[data-hunt-level]'].value='1';api.filterHunts(root);assert(!fields['[data-hunt-empty]'].hidden);api.filterHunts(root,true);assert(cards.every(c=>!c.hidden));
+console.log('PASS: all atlas guides, NPC/hunt memberships, map coordinate structure, hunt selection and combined filters/reset');
+
+const adventureSource=fs.readFileSync('public/adventures.js','utf8');vm.runInContext(adventureSource.slice(0,adventureSource.indexOf('\n];')+3)+';window.QUESTS=QUESTS;',e);vm.runInContext(fs.readFileSync('public/quest-catalog.js','utf8'),e);for(const r of e.window.CLASSIC_RESOURCES.regions)for(const m of api.render(r.name).matchAll(/href="#quest\/([^"]+)"/g))assert(e.window.QUESTS.some(q=>q.id===decodeURIComponent(m[1])),'Quest link: '+m[1]);
