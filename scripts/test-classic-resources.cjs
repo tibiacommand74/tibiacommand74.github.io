@@ -105,3 +105,7 @@ env.render=originalRender;
 
 for(const k of data.keys){const html=api.keyCard(k);assert.equal((html.match(/<button/g)||[]).length,1);assert.equal((html.match(/<\/button>/g)||[]).length,1);}
 console.log('PASS: key/city historical review, safe map roles, city memberships, overview floors, summary navigation, scoped catalogs, cards, search and clear filters');
+
+assert(api.saveRecord('spell','Light Healing',{status:'done'}));assert.equal(api.getRecord('spell','Light Healing').status,'done');assert(api.journalRows().some(r=>r.type==='spell'&&r.name==='Light Healing'&&r.record.status==='done'));const noRouteQuest=run('QUESTS.find(q=>!window.QUEST_ROUTES[q.id])?.id');if(noRouteQuest){assert(api.saveRecord('quest',noRouteQuest,{status:'done'}));assert.equal(api.getRecord('quest',noRouteQuest).stage,0);}
+
+let accountRecords={};env.window.JournalAccount={context:()=>({id:'test',character:'Teste',server:'mythera'}),read:()=>accountRecords,write:r=>{accountRecords=r;},saveMessage:()=>'Salvo'};env.window.ServerContext={isMythera:true};env.window.MytheraSpellLibrary=[{name:'Magia teste Mythera',words:'ex teste',voc:['Druid']}];let opened='';env.window.MytheraWorkspace={openRoute:route=>{opened=route;}};assert(api.saveRecord('spell','Magia teste Mythera',{status:'done'}));assert.equal(api.getRecord('spell','Magia teste Mythera').status,'done');assert(api.journalRows().some(r=>r.name==='Magia teste Mythera'));api.open('spell','Magia teste Mythera');assert.equal(opened,'#spell/Magia%20teste%20Mythera');

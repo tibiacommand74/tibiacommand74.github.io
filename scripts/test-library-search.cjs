@@ -34,6 +34,8 @@ for(const server of ['classic','mythera']){
  api.render(root);assert.equal(root.querySelector('[data-creature-search-mode]').value,'loot');
  root.querySelector('[data-search-clear]').onclick();assert(!e.location.href.includes('criaturasPor='));
  if(server==='mythera')assert(api.search('mining','guide').length>0,'English guide names must also work');
+ assert(api.search('drag','creature').some(r=>r.name.toLowerCase()==='dragon'));assert(api.search('crown arm','item').some(r=>r.name.toLowerCase()==='crown armor'));assert(api.search('venor','city').some(r=>r.name==='Venore'));assert(api.search('exur','spell').length>0);
+ const initial=e.ServerContext.isMythera;e.ServerContext.isMythera=!initial;assert(api.rows().some(r=>r.type==='guide')===!initial,'Search cache must follow the current server');e.ServerContext.isMythera=initial;assert(api.rows().some(r=>r.type==='guide')===initial);
  assert(api.rows().some(r=>r.type==='guide')===(server==='mythera'),'Server-specific guides are isolated');
  console.log('PASS: '+server+' search ranking, loot, hunts, exact relationships, filters and URL restoration');
 }

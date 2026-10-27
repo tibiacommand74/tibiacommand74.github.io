@@ -5,9 +5,9 @@ const labels={creature:'Criaturas',item:'Itens',spell:'Magias',npc:'NPCs',hunt:'
 const norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const my=()=>Boolean(window.ServerContext?.isMythera);
-let cache;
+let cache,cacheServer;
 function rows(){
- if(cache)return cache;
+ const server=my()?'mythera':'classic';if(cache&&cacheServer===server)return cache;cacheServer=server;
  if(my())cache=window.MytheraWorkspace.globalSearchRows();
  else cache=window.ClassicExplorer.allEntries().map(r=>{
   const record=r.type==='item'?window.CATALOG.items.find(i=>String(i.id)===r.id):r.type==='creature'?window.DATA.creatures.find(i=>i.name===r.id):r.type==='spell'?window.CATALOG.spells.find(i=>i.name===r.id):r.type==='npc'?window.CATALOG.npcs.find(i=>i.name===r.id):r.type==='quest'?QUESTS.find(i=>i.id===r.id):r.type==='hunt'?window.CLASSIC_HUNTS.find(i=>i.id===r.id):r.type==='key'?window.CLASSIC_RESOURCES.keys.find(i=>i.number===r.id):window.CLASSIC_RESOURCES.regions.find(i=>i.name===r.id);
