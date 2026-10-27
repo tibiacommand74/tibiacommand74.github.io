@@ -34,6 +34,13 @@ env.window.bindGuideJournal({querySelectorAll:s=>s==='[data-journal-type]'?[box]
 select.onchange();assert.equal(progress.hidden,false);assert.equal(api.getRecord('quest','fibula').status,'in-progress');
 select.value='done';select.onchange();assert.equal(progress.hidden,true);assert.equal(api.getRecord('quest','fibula').status,'done');
 assert(env.window.guideJournalMarkup('quest','fibula').includes('data-journal-progress hidden'));
+const learnedControl={checked:true},spellStatus={textContent:''};
+const spellBox={dataset:{journalType:'spell',journalId:'Light Healing'},querySelector:s=>({'[data-journal-learned]':learnedControl,'.explorer-save-status':spellStatus}[s]||null)};
+env.window.bindGuideJournal({querySelectorAll:s=>s==='[data-journal-type]'?[spellBox]:[]});
+learnedControl.onchange();assert.equal(api.getRecord('spell','Light Healing').status,'done');
+assert(env.window.guideJournalMarkup('spell','Light Healing').includes('data-journal-learned checked'));
+learnedControl.checked=false;learnedControl.onchange();assert.equal(api.getRecord('spell','Light Healing').status,'not-started');
+blocked=true;learnedControl.checked=true;learnedControl.onchange();assert.equal(learnedControl.checked,false);blocked=false;
 blocked=true;assert.equal(api.saveRecord('quest','fibula',{note:'temporário'}),false);assert.equal(api.getRecord('quest','fibula').note,'temporário');
 vm.runInContext(fs.readFileSync('public/app.js','utf8').split("\ndocument.querySelectorAll('nav button[data-page]')")[0],env);
 run("detailQuest('fibula')");assert(node('#detail-body').innerHTML.includes('data-journal-status'));assert(node('#detail-body').innerHTML.includes('data-record-quest-stage'));
