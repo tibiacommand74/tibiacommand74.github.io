@@ -19,5 +19,6 @@ events.pointerdown();await flush();assert.equal(posts,1);clock+=61000;events.tic
 document.visibilityState='hidden';clock+=61000;const before=gets;events.tick();await flush();assert.equal(gets,before,'Background tab pauses');
 document.visibilityState='visible';fail=true;docEvents.visibilitychange();await flush();assert.equal(registered.textContent,'—');assert.equal(online.textContent,'—');
 const beforeLogout=posts;fail=false;token=null;clock+=61000;events.pointerdown();await flush();assert.equal(posts,beforeLogout,'Logged-out visitors never send presence');
+const css=fs.readFileSync('public/server-lab.css','utf8');assert(!css.includes('.program-download-counter,[data-members-count]'));assert(!css.includes('[data-members-count],[data-members-online]{display:none'));
 console.log('PASS: public totals; JWT/confirmation; no identity spoofing; throttle, inactivity, hidden tabs and failure state');
 })().catch(e=>{console.error(e);process.exit(1);});
