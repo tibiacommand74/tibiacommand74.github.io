@@ -40,7 +40,16 @@ env.window.bindGuideJournal({querySelectorAll:s=>s==='[data-journal-type]'?[spel
 learnedControl.onchange();assert.equal(api.getRecord('spell','Light Healing').status,'done');
 assert(env.window.guideJournalMarkup('spell','Light Healing').includes('data-journal-learned checked'));
 learnedControl.checked=false;learnedControl.onchange();assert.equal(api.getRecord('spell','Light Healing').status,'not-started');
-blocked=true;learnedControl.checked=true;learnedControl.onchange();assert.equal(learnedControl.checked,false);blocked=false;
+blocked=true;learnedControl.checked=true;learnedControl.onchange();assert.equal(learnedControl.checked,true);blocked=false;
+// Account storage rejection must not make controls claim a change was saved.
+const journalRecords={'spell:Light Healing':{status:'not-started'},'quest:fibula':{status:'not-started',favorite:false}};
+env.window.JournalAccount={context:()=>({character:'test',server:'classic'}),read:()=>({...journalRecords}),write:()=>{throw Error('blocked');},saveMessage:()=>''};
+learnedControl.checked=true;learnedControl.onchange();assert.equal(learnedControl.checked,false);assert(spellStatus.textContent.includes('Não foi possível salvar'));
+const favoriteButton={textContent:'',setAttribute(k,v){this[k]=v;}},questSelect={value:'in-progress'},questProgress={hidden:true},questStatus={textContent:''};
+const failureBox={dataset:{journalType:'quest',journalId:'fibula'},querySelector:s=>({'[data-journal-favorite]':favoriteButton,'[data-journal-status]':questSelect,'[data-journal-progress]':questProgress,'.explorer-save-status':questStatus}[s]||null)};
+env.window.bindGuideJournal({querySelectorAll:s=>s==='[data-journal-type]'?[failureBox]:[]});
+favoriteButton.onclick();assert.equal(favoriteButton['aria-pressed'],'false');questSelect.onchange();assert.equal(questSelect.value,'not-started');assert.equal(questProgress.hidden,true);
+delete env.window.JournalAccount;
 blocked=true;assert.equal(api.saveRecord('quest','fibula',{note:'temporário'}),false);assert.equal(api.getRecord('quest','fibula').note,'temporário');
 vm.runInContext(fs.readFileSync('public/app.js','utf8').split("\ndocument.querySelectorAll('nav button[data-page]')")[0],env);
 run("detailQuest('fibula')");assert(node('#detail-body').innerHTML.includes('data-journal-status'));assert(node('#detail-body').innerHTML.includes('data-record-quest-stage'));
