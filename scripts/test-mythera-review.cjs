@@ -54,3 +54,8 @@ assert(script.includes('world-reference-note'),'Long editorial notes are collaps
 assert(fs.readFileSync('public/library-design.css','utf8').includes('prefers-reduced-motion'));
 let sharedHomeCalls=0;e.renderHome=root=>{sharedHomeCalls++;root.innerHTML='<div class="home-new">Página inicial compartilhada</div>';};const home=new (e.document.body.constructor)();e.renderMytheraHome(home);assert.equal(sharedHomeCalls,1);assert(home.innerHTML.includes('home-new'));
 console.log('PASS: 780 items, 129 creatures, 111 hunts, 72 quests; complete classic ids, all official fields preserved; '+routes.length+' ficha routes and 677 legacy item links open without missing fields.');
+
+const baseHunt=api.huntRows().find(r=>r.origin==='classic'&&!r.mapUnavailable);
+const baseAudit=e.MytheraAdventureReview.huntAudit(baseHunt);assert(baseAudit.evidence.includes('não validada no Mythera'));assert(api.recordSheet(baseHunt).includes('Planeje a saída'));assert(api.recordSheet(baseHunt).includes('não indica a entrada'));
+const unavailable=api.huntRows().find(r=>r.mapUnavailable);assert(unavailable);assert(!api.recordSheet(unavailable).includes('href="#hunt-map/'));
+const ritual=api.huntRows().find(r=>r.name==='Crypt of the Vacant');const audit=e.MytheraAdventureReview.huntAudit(ritual);assert.equal(audit.reviewedAt,'28/10/2026');assert(audit.evidence.includes('não é validação em campo'));assert(audit.returnText.includes('consome os materiais'));assert(!api.recordSheet(ritual).includes('href="#hunt-map/'));
