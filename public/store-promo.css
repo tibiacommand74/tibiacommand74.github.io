@@ -1,0 +1,22 @@
+html.store-promo-open{overflow:hidden}
+dialog.store-promo{box-sizing:border-box;width:min(400px,calc(100vw - 28px));max-width:400px;max-height:calc(100dvh - 28px);margin:auto;padding:0;border:1px solid #b49a5d;border-radius:14px;background:#16291e;color:#eee2bd;box-shadow:0 28px 100px #0009;overflow:auto;overscroll-behavior:contain}
+dialog.store-promo::backdrop{background:#06100dd1;backdrop-filter:blur(4px)}
+.store-promo .store-promo-card{box-sizing:border-box;position:relative;isolation:isolate;padding:17px 30px 19px;text-align:center;background:radial-gradient(ellipse at 50% 0%,#354a3055,transparent 60%),linear-gradient(155deg,#243b29,#14271c 75%);box-shadow:inset 0 0 0 5px #182a1f,inset 0 0 0 6px #b59d4930;border-radius:13px}
+.store-promo .store-promo-close{position:absolute;right:11px;top:11px;display:grid;place-items:center;width:44px;height:44px;min-height:44px;padding:0;border:1px solid #64734d66;border-radius:50%;background:#1c3024;color:#e9ddbe;font:400 26px/1 Arial,sans-serif;cursor:pointer;z-index:1}
+.store-promo .store-promo-close:hover{background:#304833}
+.store-promo .store-promo-crest{display:block;width:164px;height:164px;max-width:100%;object-fit:contain;margin:0 auto 4px;border-radius:10px;mask-image:radial-gradient(ellipse,black 72%,transparent 100%)}
+.store-promo .store-promo-brand{font:400 24px/1.2 Georgia,serif;letter-spacing:.13em;color:#ecddb4;margin:0;text-shadow:0 2px 5px #0006}
+.store-promo .store-promo-brand span{display:block;font:400 10px/1.4 Arial,sans-serif;letter-spacing:.65em;color:#cbb577;margin:7px 0 0 6px}
+.store-promo .store-promo-divider{height:1px;max-width:150px;margin:20px auto;background:linear-gradient(90deg,transparent,#b89b4c88,transparent)}
+.store-promo .store-promo-eyebrow{font:400 10px/1.5 Arial,sans-serif;letter-spacing:.1em;color:#aebb9f;margin:0}
+.store-promo h2#store-promo-title{font:400 34px/1.12 Georgia,serif;letter-spacing:-.02em;color:#f0e3bf;margin:14px 0}
+.store-promo p#store-promo-description{font:400 14px/1.7 Arial,sans-serif;color:#bbc7af;margin:0 0 22px}
+.store-promo .store-promo-visit{box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:20px;width:100%;min-height:48px;padding:12px 18px;border:1px solid #e2c98b;border-radius:6px;background:linear-gradient(105deg,#d7bc7d,#e7ce93 40%,#c6a86b);box-shadow:inset 0 1px 0 #fff3,0 4px 12px #0003;color:#182b1f;font:600 14px/1.4 Arial,sans-serif;text-decoration:none}
+.store-promo .store-promo-visit span{font-size:21px;line-height:1}
+.store-promo .store-promo-visit:hover{filter:brightness(1.08)}
+.store-promo .store-promo-continue{display:block;width:100%;min-height:44px;margin:7px 0 0;padding:10px 5px;border:0;background:transparent;color:#c1cbb5;font:400 13px/1.4 Arial,sans-serif;cursor:pointer}
+.store-promo .store-promo-continue:hover{text-decoration:underline;text-underline-offset:4px}
+.store-promo .store-promo-label{display:block;font:400 9px/1.4 Arial,sans-serif;letter-spacing:.08em;color:#8fa181;margin-top:5px}
+.store-promo button:focus-visible,.store-promo a:focus-visible{outline:2px solid #f2df9f;outline-offset:3px}
+@media(max-width:420px),(max-height:700px){.store-promo .store-promo-card{padding:15px 24px}.store-promo .store-promo-crest{width:132px;height:132px}.store-promo .store-promo-brand{font-size:22px}.store-promo .store-promo-divider{margin:15px auto}.store-promo h2#store-promo-title{font-size:31px;margin:12px 0}.store-promo p#store-promo-description{margin-bottom:17px}}
+@media(max-height:540px){.store-promo .store-promo-crest{width:94px;height:94px}.store-promo .store-promo-divider{margin:10px auto}.store-promo .store-promo-card{padding-top:12px}}
